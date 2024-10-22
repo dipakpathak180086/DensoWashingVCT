@@ -1,0 +1,62 @@
+F:\Dipak\Projects\HMCL LATEST 25-02-2014\HMCL_GGN\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.exe
+F:\Dipak\Projects\HMCL LATEST 25-02-2014\HMCL_GGN\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.pdb
+F:\Dipak\Projects\HMCL LATEST 25-02-2014\HMCL_GGN\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\BcilScheduler.exe
+F:\Dipak\Projects\HMCL LATEST 25-02-2014\HMCL_GGN\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\BcilScheduler.pdb
+F:\Dipak\Projects\HMCL LATEST 25-02-2014\HMCL_GGN\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\BcilLib.dll
+F:\Dipak\Projects\HMCL LATEST 25-02-2014\HMCL_GGN\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\sapnco.dll
+F:\Dipak\Projects\HMCL LATEST 25-02-2014\HMCL_GGN\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\sapnco_utils.dll
+F:\Dipak\Projects\HMCL LATEST 25-02-2014\HMCL_GGN\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\VbPowerPack.dll
+F:\Dipak\Projects\HMCL LATEST 25-02-2014\HMCL_GGN\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\BcilLib.pdb
+F:\Dipak\Projects\HMCL LATEST 25-02-2014\HMCL_GGN\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Dipak\Projects\HMCL LATEST 25-02-2014\HMCL_GGN\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.frmGetSet.resources
+F:\Dipak\Projects\HMCL LATEST 25-02-2014\HMCL_GGN\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.frmPlan.resources
+F:\Dipak\Projects\HMCL LATEST 25-02-2014\HMCL_GGN\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.Properties.Resources.resources
+F:\Dipak\Projects\HMCL LATEST 25-02-2014\HMCL_GGN\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.SchedulerSetting.resources
+F:\Dipak\Projects\HMCL LATEST 25-02-2014\HMCL_GGN\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.csproj.GenerateResource.Cache
+C:\Users\Dipak.BCILDC\Desktop\UID CHEGES FILES\BcilSheduler\obj\x86\Debug\BcilScheduler.exe
+C:\Users\Dipak.BCILDC\Desktop\UID CHEGES FILES\BcilSheduler\obj\x86\Debug\BcilScheduler.pdb
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\BcilScheduler.exe
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\BcilScheduler.pdb
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\BcilLib.dll
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\sapnco.dll
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\sapnco_utils.dll
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\VbPowerPack.dll
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\BcilLib.pdb
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.frmGetSet.resources
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.frmPlan.resources
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.Properties.Resources.resources
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.SchedulerSetting.resources
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.csproj.GenerateResource.Cache
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.exe
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.pdb
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\BcilScheduler.exe
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\BcilScheduler.pdb
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\BcilLib.dll
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\sapnco.dll
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\sapnco_utils.dll
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\VbPowerPack.dll
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\BcilLib.pdb
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.frmGetSet.resources
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.frmPlan.resources
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.Properties.Resources.resources
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.SchedulerSetting.resources
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.csproj.GenerateResource.Cache
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.exe
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.pdb
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.exe
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.pdb
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\BcilScheduler.exe
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\BcilScheduler.pdb
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\BcilLib.dll
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\sapnco.dll
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\sapnco_utils.dll
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\VbPowerPack.dll
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\x86\Debug\BcilLib.pdb
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.frmGetSet.resources
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.frmPlan.resources
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.Properties.Resources.resources
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.SchedulerSetting.resources
+C:\Backup G Drive\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\x86\Debug\BcilScheduler.csproj.GenerateResource.Cache

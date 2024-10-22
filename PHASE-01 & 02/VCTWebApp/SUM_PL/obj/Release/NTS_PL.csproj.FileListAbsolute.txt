@@ -1,0 +1,4 @@
+D:\My Personal Proc\ADANI_WEB\NTS_PL\bin\Release\NTS_PL.dll
+D:\My Personal Proc\ADANI_WEB\NTS_PL\bin\Release\NTS_PL.pdb
+D:\My Personal Proc\ADANI_WEB\NTS_PL\obj\Release\NTS_PL.dll
+D:\My Personal Proc\ADANI_WEB\NTS_PL\obj\Release\NTS_PL.pdb

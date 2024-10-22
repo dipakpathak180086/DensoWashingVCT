@@ -1,0 +1,54 @@
+E:\DIPAK\Development\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\bin\Debug\TDSGScheduler.exe.config
+E:\DIPAK\Development\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\bin\Debug\TDSGScheduler.exe
+E:\DIPAK\Development\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\bin\Debug\TDSGScheduler.pdb
+E:\DIPAK\Development\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.frmGetSet.resources
+E:\DIPAK\Development\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.frmPlan.resources
+E:\DIPAK\Development\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.Properties.Resources.resources
+E:\DIPAK\Development\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.SchedulerSetting.resources
+E:\DIPAK\Development\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.csproj.GenerateResource.cache
+E:\DIPAK\Development\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.csproj.CoreCompileInputs.cache
+E:\DIPAK\Development\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.csproj.CopyComplete
+E:\DIPAK\Development\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.exe
+E:\DIPAK\Development\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.pdb
+D:\Akhilesh Kumar\Projects\TDSG\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\bin\Debug\TDSGScheduler.exe.config
+D:\Akhilesh Kumar\Projects\TDSG\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\bin\Debug\TDSGScheduler.exe
+D:\Akhilesh Kumar\Projects\TDSG\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\bin\Debug\TDSGScheduler.pdb
+D:\Akhilesh Kumar\Projects\TDSG\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.frmGetSet.resources
+D:\Akhilesh Kumar\Projects\TDSG\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.frmPlan.resources
+D:\Akhilesh Kumar\Projects\TDSG\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.Properties.Resources.resources
+D:\Akhilesh Kumar\Projects\TDSG\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.SchedulerSetting.resources
+D:\Akhilesh Kumar\Projects\TDSG\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.csproj.GenerateResource.cache
+D:\Akhilesh Kumar\Projects\TDSG\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.csproj.CoreCompileInputs.cache
+D:\Akhilesh Kumar\Projects\TDSG\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.csproj.CopyComplete
+D:\Akhilesh Kumar\Projects\TDSG\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.exe
+D:\Akhilesh Kumar\Projects\TDSG\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.pdb
+D:\Akhilesh Kumar\Projects\TDSG\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.csprojAssemblyReference.cache
+D:\Projects\Live Project\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\bin\Debug\TDSGScheduler.exe.config
+D:\Projects\Live Project\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\bin\Debug\TDSGScheduler.exe
+D:\Projects\Live Project\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\bin\Debug\TDSGScheduler.pdb
+D:\Projects\Live Project\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.frmGetSet.resources
+D:\Projects\Live Project\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.frmPlan.resources
+D:\Projects\Live Project\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.Properties.Resources.resources
+D:\Projects\Live Project\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.SchedulerSetting.resources
+D:\Projects\Live Project\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.csproj.GenerateResource.cache
+D:\Projects\Live Project\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.csproj.CoreCompileInputs.cache
+D:\Projects\Live Project\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.csproj.CopyComplete
+D:\Projects\Live Project\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.exe
+D:\Projects\Live Project\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.pdb
+C:\SATO\TDSGSheduler (2)\TDSGSheduler\obj\Debug\TDSGScheduler.csproj.AssemblyReference.cache
+C:\SATO\TDSGSheduler (2)\TDSGSheduler\obj\Debug\TDSGScheduler.csproj.SuggestedBindingRedirects.cache
+C:\SATO\TDSGSheduler (2)\TDSGSheduler\obj\Debug\TDSGScheduler.frmGetSet.resources
+C:\SATO\TDSGSheduler (2)\TDSGSheduler\obj\Debug\TDSGScheduler.frmPlan.resources
+C:\SATO\TDSGSheduler (2)\TDSGSheduler\obj\Debug\TDSGScheduler.Properties.Resources.resources
+C:\SATO\TDSGSheduler (2)\TDSGSheduler\obj\Debug\TDSGScheduler.SchedulerSetting.resources
+C:\SATO\TDSGSheduler (2)\TDSGSheduler\obj\Debug\TDSGScheduler.csproj.GenerateResource.cache
+C:\SATO\TDSGSheduler (2)\TDSGSheduler\obj\Debug\TDSGScheduler.csproj.CoreCompileInputs.cache
+C:\SATO\TDSGSheduler (2)\TDSGSheduler\obj\Debug\TDSGScheduler.exe
+C:\SATO\TDSGSheduler (2)\TDSGSheduler\obj\Debug\TDSGScheduler.pdb
+C:\SATO\TDSGSheduler (2)\TDSGSheduler\bin\Debug\WSDL\ZPP_WEBSERVICE_ZMN02.wsdl
+C:\SATO\TDSGSheduler (2)\TDSGSheduler\bin\Debug\TDSGScheduler.exe.config
+C:\SATO\TDSGSheduler (2)\TDSGSheduler\bin\Debug\TDSGScheduler.exe
+C:\SATO\TDSGSheduler (2)\TDSGSheduler\bin\Debug\TDSGScheduler.pdb
+C:\SATO\TDSGSheduler (2)\TDSGSheduler\obj\Debug\TDSGScheduler.csproj.CopyComplete
+D:\Projects\Live Project\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\bin\Debug\WSDL\ZPP_WEBSERVICE_ZMN02.wsdl
+D:\Projects\Live Project\New Project\TDSG Lithum Battery\TDSG\TDSG\SATO TDSG PRINTING APP\TDSGSheduler\obj\Debug\TDSGScheduler.csprojAssemblyReference.cache

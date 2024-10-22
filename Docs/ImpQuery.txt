@@ -1,0 +1,12 @@
+select  dbo.GetStopage('2023-10-25',right('3590',4),'2023-10-25 22:16:18')
+
+select * from TBL_VCT_PERFOMANCE_DATA where Model='3590' and CONVERT(varchar(10),FileNameDate,121)='2023-10-25'
+order by DateTime
+
+ select Line,Station,(FORMAT(DateTime,'yyyy-MM-dd HH:mm:ss'))DateTime,Serial,FileNameDate from dbo.get_perfomance_tbl() 
+ where Model=right('3590',4) and FileNameDate='2023-10-25' and FORMAT(DateTime,'yyyy-MM-dd HH:mm:ss')
+  between '2023-10-25 23:50:00' and '2023-10-26 17:58:00'
+  order by DateTime	
+
+ SELECT Line,station,DateTime Date,'2501ER' as Lot,Serial FROM [dbo].[get_suspected_lot_data_Series]('HA229800-3590','HA157570-700','110256','2023-10-26','2501ER',0) where Serial='110256'
+	order by Serial

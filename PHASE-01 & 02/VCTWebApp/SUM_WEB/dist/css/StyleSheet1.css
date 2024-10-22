@@ -1,0 +1,131 @@
+﻿
+
+.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.pace-inactive {
+    display: none;
+}
+
+.pace .pace-progress {
+    background: #29d;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 2px;
+}
+
+
+
+
+
+input[type='text'] {
+    /*width:200px;*/
+    /* Commented By Eshant*/
+}
+
+.mGrid {
+    width: 100%;
+    background-color: #fff;
+    border: solid 1px #525252;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin: 0;
+    margin-left: 1px;
+    margin-right: 1px;
+    text-shadow: none;
+}
+
+    .mGrid td a:link {
+        color: #4181bc;
+    }
+    input[type="radio"]{ margin-right:7px;}
+    .mGrid td {
+        border: solid 1px #c1c1c1;
+        /*color:#000; */
+        font-size: 13px;
+        padding: 5px !important;
+    }
+
+    .mGrid .header {
+        color: #fff;
+        background-color: #FF0000; /*Changed By Eshant from 3c8dbc to 000000*/
+        border-left: solid 1px #525252;
+        font-size: 14px;
+        padding: 4px 5px;
+    }
+
+    .mGrid th {
+        color: #fff;
+        background-color: #FF0000; /*Changed By Eshant from 3c8dbc to 000000*/
+        border-left: solid 1px #525252;
+        font-size: 14px;
+        padding: 4px 5px;
+    }
+
+    .mGrid .pgr {
+        background-color: #6085b6;
+        text-shadow: none;
+        color: White;
+    }
+
+        .mGrid .pgr table {
+            margin: 5px 0;
+            border-collapse: collapse;
+            height: 30px;
+        }
+
+        .mGrid .pgr td {
+            border-left: solid 2px #666;
+            font-weight: 700;
+            /*color:#fff; */
+            line-height: 12px;
+            border-width: 0;
+            padding: 0 6px;
+            font-size: 15px;
+        }
+
+    .mGrid .emptyrow td {
+        text-align: center;
+        color: Red;
+    }
+
+    .mGrid .pgr td a {
+        width: 12px;
+        color: White;
+        font-weight: bold;
+    }
+
+    .mGrid .pgr a:hover {
+        color: #000;
+        text-decoration: underline;
+        font-size: 20px;
+    }
+
+    .mGrid .rowhover td {
+        /* background-color:#e7f2f8; */
+        background-color: #2f6f95;
+        border: 1px solid #FF0000; /*Changed By Eshant from 3c8dbc to 000000*/
+        cursor: pointer;
+        color: White;
+    }
+
+        .mGrid .rowhover td a {
+            cursor: pointer;
+            color: White;
+        }
+
+    .mGrid .rowhover td {
+        color: White;
+    }
+
+    .mGrid .alt {
+        /* background:#f7f7f7 url(../images/grd_alt.png) repeat-x top; */
+    }

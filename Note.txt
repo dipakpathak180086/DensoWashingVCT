@@ -1,0 +1,2 @@
+***************22_05_24************
+1.During the hanged application,i did some query imporvment proc at live server but in my side database that all things not update.

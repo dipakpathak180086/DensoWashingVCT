@@ -1,0 +1,40 @@
+D:\Gautam\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_COMMON\bin\Debug\ADANI_COMMON.dll
+D:\Gautam\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_COMMON\bin\Debug\ADANI_COMMON.pdb
+D:\Gautam\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_COMMON\bin\Debug\ADANI_PL.dll
+D:\Gautam\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_COMMON\bin\Debug\BcilLib.dll
+D:\Gautam\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_COMMON\bin\Debug\ADANI_PL.pdb
+D:\Gautam\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_COMMON\obj\Debug\ADANI_COMMON.csprojResolveAssemblyReference.cache
+D:\Gautam\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_COMMON\obj\Debug\ADANI_COMMON.dll
+D:\Gautam\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_COMMON\obj\Debug\ADANI_COMMON.pdb
+C:\Gautam\Adani\ADANI_WEB\ADANI_COMMON\bin\Debug\ADANI_COMMON.dll
+C:\Gautam\Adani\ADANI_WEB\ADANI_COMMON\bin\Debug\ADANI_COMMON.pdb
+C:\Gautam\Adani\ADANI_WEB\ADANI_COMMON\bin\Debug\ADANI_PL.dll
+C:\Gautam\Adani\ADANI_WEB\ADANI_COMMON\bin\Debug\BcilLib.dll
+C:\Gautam\Adani\ADANI_WEB\ADANI_COMMON\bin\Debug\ADANI_PL.pdb
+C:\Gautam\Adani\ADANI_WEB\ADANI_COMMON\obj\Debug\ADANI_COMMON.csprojResolveAssemblyReference.cache
+C:\Gautam\Adani\ADANI_WEB\ADANI_COMMON\obj\Debug\ADANI_COMMON.dll
+C:\Gautam\Adani\ADANI_WEB\ADANI_COMMON\obj\Debug\ADANI_COMMON.pdb
+E:\Gautam\Running Projects\Adani\ADANI_WEB\ADANI_COMMON\bin\Debug\ADANI_COMMON.dll
+E:\Gautam\Running Projects\Adani\ADANI_WEB\ADANI_COMMON\bin\Debug\ADANI_COMMON.pdb
+E:\Gautam\Running Projects\Adani\ADANI_WEB\ADANI_COMMON\bin\Debug\ADANI_PL.dll
+E:\Gautam\Running Projects\Adani\ADANI_WEB\ADANI_COMMON\bin\Debug\BcilLib.dll
+E:\Gautam\Running Projects\Adani\ADANI_WEB\ADANI_COMMON\bin\Debug\ADANI_PL.pdb
+E:\Gautam\Running Projects\Adani\ADANI_WEB\ADANI_COMMON\obj\Debug\ADANI_COMMON.csprojResolveAssemblyReference.cache
+E:\Gautam\Running Projects\Adani\ADANI_WEB\ADANI_COMMON\obj\Debug\ADANI_COMMON.dll
+E:\Gautam\Running Projects\Adani\ADANI_WEB\ADANI_COMMON\obj\Debug\ADANI_COMMON.pdb
+D:\GAUTAM\ADANI\ADANI_WEB\ADANI_COMMON\bin\Debug\ADANI_COMMON.dll
+D:\GAUTAM\ADANI\ADANI_WEB\ADANI_COMMON\bin\Debug\ADANI_COMMON.pdb
+D:\GAUTAM\ADANI\ADANI_WEB\ADANI_COMMON\bin\Debug\ADANI_PL.dll
+D:\GAUTAM\ADANI\ADANI_WEB\ADANI_COMMON\bin\Debug\BcilLib.dll
+D:\GAUTAM\ADANI\ADANI_WEB\ADANI_COMMON\bin\Debug\ADANI_PL.pdb
+D:\GAUTAM\ADANI\ADANI_WEB\ADANI_COMMON\obj\Debug\ResolveAssemblyReference.cache
+D:\GAUTAM\ADANI\ADANI_WEB\ADANI_COMMON\obj\Debug\ADANI_COMMON.dll
+D:\GAUTAM\ADANI\ADANI_WEB\ADANI_COMMON\obj\Debug\ADANI_COMMON.pdb
+D:\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_COMMON\bin\Debug\ADANI_COMMON.dll
+D:\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_COMMON\bin\Debug\ADANI_COMMON.pdb
+D:\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_COMMON\bin\Debug\ADANI_PL.dll
+D:\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_COMMON\bin\Debug\BcilLib.dll
+D:\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_COMMON\bin\Debug\ADANI_PL.pdb
+D:\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_COMMON\obj\Debug\ADANI_COMMON.csprojResolveAssemblyReference.cache
+D:\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_COMMON\obj\Debug\ADANI_COMMON.dll
+D:\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_COMMON\obj\Debug\ADANI_COMMON.pdb

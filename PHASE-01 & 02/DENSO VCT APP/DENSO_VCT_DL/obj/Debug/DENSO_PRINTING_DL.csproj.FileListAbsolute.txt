@@ -1,0 +1,11 @@
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\DENSO PRINTING APP\DENSO_PRINTING_DL\bin\Debug\DENSO_PRINTING_DL.dll
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\DENSO PRINTING APP\DENSO_PRINTING_DL\bin\Debug\DENSO_PRINTING_DL.pdb
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\DENSO PRINTING APP\DENSO_PRINTING_DL\bin\Debug\DENSO_PRINTING_COMMON.dll
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\DENSO PRINTING APP\DENSO_PRINTING_DL\bin\Debug\DENSO_PRINTING_PL.dll
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\DENSO PRINTING APP\DENSO_PRINTING_DL\bin\Debug\DENSO_PRINTING_COMMON.pdb
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\DENSO PRINTING APP\DENSO_PRINTING_DL\bin\Debug\DENSO_PRINTING_PL.pdb
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\DENSO PRINTING APP\DENSO_PRINTING_DL\obj\Debug\DENSO_PRINTING_DL.csprojAssemblyReference.cache
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\DENSO PRINTING APP\DENSO_PRINTING_DL\obj\Debug\DENSO_PRINTING_DL.csproj.CoreCompileInputs.cache
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\DENSO PRINTING APP\DENSO_PRINTING_DL\obj\Debug\DENSO_PRINTING_DL.csproj.CopyComplete
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\DENSO PRINTING APP\DENSO_PRINTING_DL\obj\Debug\DENSO_PRINTING_DL.dll
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\DENSO PRINTING APP\DENSO_PRINTING_DL\obj\Debug\DENSO_PRINTING_DL.pdb

@@ -1,0 +1,41 @@
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\NTS_BL\obj\Debug\DNH_BL.csprojAssemblyReference.cache
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\NTS_BL\obj\Debug\DNH_BL.csproj.CoreCompileInputs.cache
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\NTS_BL\obj\Debug\NTS_BL.dll
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\NTS_BL\obj\Debug\NTS_BL.pdb
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\NTS_BL\bin\Debug\NTS_BL.dll
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\NTS_BL\bin\Debug\NTS_BL.pdb
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\NTS_BL\bin\Debug\NTS_COMMON.dll
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\NTS_BL\bin\Debug\NTS_DL.dll
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\NTS_BL\bin\Debug\NTS_PL.dll
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\NTS_BL\bin\Debug\NTS_COMMON.pdb
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\NTS_BL\bin\Debug\NTS_DL.pdb
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\NTS_BL\bin\Debug\NTS_DL.dll.config
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\NTS_BL\bin\Debug\NTS_PL.pdb
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\NTS_BL\obj\Debug\DNH_BL.csproj.CopyComplete
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\DNH_BL\obj\Debug\DNH_BL.csproj.CoreCompileInputs.cache
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\DNH_BL\bin\Debug\DNH_BL.dll
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\DNH_BL\bin\Debug\DNH_BL.pdb
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\DNH_BL\bin\Debug\DNH_COMMON.dll
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\DNH_BL\bin\Debug\DNH_DL.dll
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\DNH_BL\bin\Debug\DNH_PL.dll
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\DNH_BL\bin\Debug\DNH_COMMON.pdb
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\DNH_BL\bin\Debug\DNH_DL.pdb
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\DNH_BL\bin\Debug\DNH_DL.dll.config
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\DNH_BL\bin\Debug\DNH_PL.pdb
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\DNH_BL\obj\Debug\DNH_BL.csproj.CopyComplete
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\DNH_BL\obj\Debug\DNH_BL.dll
+E:\DIPAK\Development\Old Project\SRS Projects\DNH Web Report\DNH_BL\obj\Debug\DNH_BL.pdb
+E:\DIPAK\Development\New Project\DNH\DNH Web Report\DNH_BL\obj\Debug\DNH_BL.csproj.CoreCompileInputs.cache
+E:\DIPAK\Development\New Project\DNH\DNH Web Report\DNH_BL\bin\Debug\DNH_BL.dll
+E:\DIPAK\Development\New Project\DNH\DNH Web Report\DNH_BL\bin\Debug\DNH_BL.pdb
+E:\DIPAK\Development\New Project\DNH\DNH Web Report\DNH_BL\bin\Debug\DNH_COMMON.dll
+E:\DIPAK\Development\New Project\DNH\DNH Web Report\DNH_BL\bin\Debug\DNH_DL.dll
+E:\DIPAK\Development\New Project\DNH\DNH Web Report\DNH_BL\bin\Debug\DNH_PL.dll
+E:\DIPAK\Development\New Project\DNH\DNH Web Report\DNH_BL\bin\Debug\DNH_COMMON.pdb
+E:\DIPAK\Development\New Project\DNH\DNH Web Report\DNH_BL\bin\Debug\DNH_DL.pdb
+E:\DIPAK\Development\New Project\DNH\DNH Web Report\DNH_BL\bin\Debug\DNH_DL.dll.config
+E:\DIPAK\Development\New Project\DNH\DNH Web Report\DNH_BL\bin\Debug\DNH_PL.pdb
+E:\DIPAK\Development\New Project\DNH\DNH Web Report\DNH_BL\obj\Debug\DNH_BL.csproj.CopyComplete
+E:\DIPAK\Development\New Project\DNH\DNH Web Report\DNH_BL\obj\Debug\DNH_BL.dll
+E:\DIPAK\Development\New Project\DNH\DNH Web Report\DNH_BL\obj\Debug\DNH_BL.pdb
+E:\DIPAK\Development\New Project\DNH\DNH Web Report\DNH_BL\obj\Debug\DNH_BL.csprojAssemblyReference.cache

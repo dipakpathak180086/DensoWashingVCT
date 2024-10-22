@@ -1,0 +1,10 @@
+******************MOM (20_07_23)******************
+1.Lot Entry Menu will be left and Rest all (Admin, Model Entry) will be right side in the menu.--Done
+2.TM and TL Entry will be show by default last entry in Main Lot Entry Module.-Done
+3.TM and TL Enty data will be show in view in last right side.--DONE
+4.All close button caption will be change to Back Button text.--DONE
+5.Child Main Menu will be showing part no and part name simultaneously on the Top of the Menu.--Done
+6.Main Lot entry form, Child part name will be show in part name field.--DONE
+7.Date time picker will be added in lot entry module so that user can put the back date entry and it will be mange by admin password.
+8.One more Lot no filter will be added into report section.
+9.Font size revise so that complete lot entries can be seen in 1 page (no need to scroll left/right)--DONE

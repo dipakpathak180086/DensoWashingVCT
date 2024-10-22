@@ -1,0 +1,10 @@
+1.Master will be manage for Lot,QTY length entry.
+2.timming wise duplicate entry pop will be display.
+3.Model,Lot,Part will be unique.
+4.Id wise data will be edit/update.
+5.When user will click on export button then selected data will be construct and open new report form with selected part and data rang.
+6.All module selection will be dyamic and can take references from slide-3.
+7.Model entry and child entry will be dynamic.
+8.Shift Timing: A=6:00 to 14:30, B= 14:15 to 22:45, C=22:30 to 06:00
+9.Main entry form data will be show only shift wise transcation.
+10.Usb scanning allowed in main entry form.

@@ -1,0 +1,17 @@
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\Debug\BcilScheduler.exe
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\Debug\BcilScheduler.pdb
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\Debug\BcilLib.dll
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\Debug\sapnco.dll
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\Debug\sapnco_utils.dll
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\Debug\VbPowerPack.dll
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\bin\Debug\BcilLib.pdb
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\Debug\ResolveAssemblyReference.cache
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\Debug\BcilScheduler.frmGetSet.resources
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\Debug\BcilScheduler.frmPlan.resources
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\Debug\BcilScheduler.Properties.Resources.resources
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\Debug\BcilScheduler.SchedulerSetting.resources
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\Debug\BcilScheduler.csproj.GenerateResource.Cache
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\Debug\BcilScheduler.exe
+D:\Barcode Development\HHML_DEVELOPMENT\HMCL-30may2013\HMCL_SPD_V1__Dev_06_03-2013\BcilSheduler\obj\Debug\BcilScheduler.pdb
+F:\DIPAK PATHAK\Project\Existing Running Projects\HMCL LATEST 25-02-2014\BARCODE DEV\HMCL GGN\HMCL_SPD_V1_Dev_06_03-2013\BcilSheduler\obj\Debug\BcilScheduler.exe
+F:\DIPAK PATHAK\Project\Existing Running Projects\HMCL LATEST 25-02-2014\BARCODE DEV\HMCL GGN\HMCL_SPD_V1_Dev_06_03-2013\BcilSheduler\obj\Debug\BcilScheduler.pdb

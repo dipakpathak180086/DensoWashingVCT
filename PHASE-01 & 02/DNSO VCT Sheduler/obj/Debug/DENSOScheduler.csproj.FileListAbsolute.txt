@@ -1,0 +1,28 @@
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DNSO VCT Sheduler\bin\Debug\DENSOScheduler.exe.config
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DNSO VCT Sheduler\bin\Debug\DENSOScheduler.exe
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DNSO VCT Sheduler\bin\Debug\DENSOScheduler.pdb
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DNSO VCT Sheduler\obj\Debug\DENSOScheduler.frmGetSet.resources
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DNSO VCT Sheduler\obj\Debug\DENSOScheduler.frmPlan.resources
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DNSO VCT Sheduler\obj\Debug\DENSOScheduler.Properties.Resources.resources
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DNSO VCT Sheduler\obj\Debug\DENSOScheduler.SchedulerSetting.resources
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DNSO VCT Sheduler\obj\Debug\DENSOScheduler.csproj.GenerateResource.cache
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DNSO VCT Sheduler\obj\Debug\DENSOScheduler.csproj.CoreCompileInputs.cache
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DNSO VCT Sheduler\obj\Debug\DENSOScheduler.csproj.CopyComplete
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DNSO VCT Sheduler\obj\Debug\DENSOScheduler.exe
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DNSO VCT Sheduler\obj\Debug\DENSOScheduler.pdb
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DNSO VCT Sheduler\obj\Debug\DENSOScheduler.csprojAssemblyReference.cache
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DNSO VCT Sheduler\obj\Debug\DENSOScheduler.frmAccessPassword.resources
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DNSO VCT Sheduler\bin\Debug\DENSOScheduler.exe.config
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DNSO VCT Sheduler\bin\Debug\DENSOScheduler.exe
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DNSO VCT Sheduler\bin\Debug\DENSOScheduler.pdb
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DNSO VCT Sheduler\obj\Debug\DENSOScheduler.csprojAssemblyReference.cache
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DNSO VCT Sheduler\obj\Debug\DENSOScheduler.frmAccessPassword.resources
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DNSO VCT Sheduler\obj\Debug\DENSOScheduler.frmGetSet.resources
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DNSO VCT Sheduler\obj\Debug\DENSOScheduler.frmPlan.resources
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DNSO VCT Sheduler\obj\Debug\DENSOScheduler.Properties.Resources.resources
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DNSO VCT Sheduler\obj\Debug\DENSOScheduler.SchedulerSetting.resources
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DNSO VCT Sheduler\obj\Debug\DENSOScheduler.csproj.GenerateResource.cache
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DNSO VCT Sheduler\obj\Debug\DENSOScheduler.csproj.CoreCompileInputs.cache
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DNSO VCT Sheduler\obj\Debug\DENSOScheduler.csproj.CopyComplete
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DNSO VCT Sheduler\obj\Debug\DENSOScheduler.exe
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DNSO VCT Sheduler\obj\Debug\DENSOScheduler.pdb

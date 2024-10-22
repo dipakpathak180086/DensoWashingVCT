@@ -1,0 +1,13 @@
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_COMMON\bin\Debug\DENSO_VCT_COMMON.dll
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_COMMON\bin\Debug\DENSO_VCT_COMMON.pdb
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_COMMON\obj\Debug\DENSO_VCT_COMMON.csproj.CoreCompileInputs.cache
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_COMMON\obj\Debug\DENSO_VCT_COMMON.csproj.CopyComplete
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_COMMON\obj\Debug\DENSO_VCT_COMMON.dll
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_COMMON\obj\Debug\DENSO_VCT_COMMON.pdb
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_COMMON\bin\Debug\DENSO_VCT_COMMON.dll
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_COMMON\bin\Debug\DENSO_VCT_COMMON.pdb
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_COMMON\obj\Debug\DENSO_VCT_COMMON.csproj.CoreCompileInputs.cache
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_COMMON\obj\Debug\DENSO_VCT_COMMON.csproj.CopyComplete
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_COMMON\obj\Debug\DENSO_VCT_COMMON.dll
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_COMMON\obj\Debug\DENSO_VCT_COMMON.pdb
+D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_COMMON\obj\Debug\DENSO_VCT_COMMON.csprojAssemblyReference.cache

@@ -1,0 +1,60 @@
+D:\Gautam\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_BL.dll
+D:\Gautam\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_BL.pdb
+D:\Gautam\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_COMMON.dll
+D:\Gautam\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_DL.dll
+D:\Gautam\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_PL.dll
+D:\Gautam\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_COMMON.pdb
+D:\Gautam\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_DL.pdb
+D:\Gautam\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_PL.pdb
+D:\Gautam\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_BL\obj\Debug\ADANI_BL.csprojResolveAssemblyReference.cache
+D:\Gautam\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_BL\obj\Debug\ADANI_BL.dll
+D:\Gautam\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_BL\obj\Debug\ADANI_BL.pdb
+D:\Gautam\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\BcilLib.dll
+C:\Gautam\Adani\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_BL.dll
+C:\Gautam\Adani\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_BL.pdb
+C:\Gautam\Adani\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_COMMON.dll
+C:\Gautam\Adani\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_DL.dll
+C:\Gautam\Adani\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_PL.dll
+C:\Gautam\Adani\ADANI_WEB\ADANI_BL\bin\Debug\BcilLib.dll
+C:\Gautam\Adani\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_COMMON.pdb
+C:\Gautam\Adani\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_DL.pdb
+C:\Gautam\Adani\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_PL.pdb
+C:\Gautam\Adani\ADANI_WEB\ADANI_BL\obj\Debug\ADANI_BL.csprojResolveAssemblyReference.cache
+C:\Gautam\Adani\ADANI_WEB\ADANI_BL\obj\Debug\ADANI_BL.dll
+C:\Gautam\Adani\ADANI_WEB\ADANI_BL\obj\Debug\ADANI_BL.pdb
+E:\Gautam\Running Projects\Adani\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_BL.dll
+E:\Gautam\Running Projects\Adani\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_BL.pdb
+E:\Gautam\Running Projects\Adani\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_COMMON.dll
+E:\Gautam\Running Projects\Adani\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_DL.dll
+E:\Gautam\Running Projects\Adani\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_PL.dll
+E:\Gautam\Running Projects\Adani\ADANI_WEB\ADANI_BL\bin\Debug\BcilLib.dll
+E:\Gautam\Running Projects\Adani\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_COMMON.pdb
+E:\Gautam\Running Projects\Adani\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_DL.pdb
+E:\Gautam\Running Projects\Adani\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_PL.pdb
+E:\Gautam\Running Projects\Adani\ADANI_WEB\ADANI_BL\obj\Debug\ADANI_BL.csprojResolveAssemblyReference.cache
+E:\Gautam\Running Projects\Adani\ADANI_WEB\ADANI_BL\obj\Debug\ADANI_BL.dll
+E:\Gautam\Running Projects\Adani\ADANI_WEB\ADANI_BL\obj\Debug\ADANI_BL.pdb
+D:\GAUTAM\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_BL.dll
+D:\GAUTAM\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_BL.pdb
+D:\GAUTAM\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_COMMON.dll
+D:\GAUTAM\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_DL.dll
+D:\GAUTAM\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_PL.dll
+D:\GAUTAM\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\BcilLib.dll
+D:\GAUTAM\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_COMMON.pdb
+D:\GAUTAM\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_DL.pdb
+D:\GAUTAM\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_PL.pdb
+D:\GAUTAM\ADANI\ADANI_WEB\ADANI_BL\obj\Debug\ResolveAssemblyReference.cache
+D:\GAUTAM\ADANI\ADANI_WEB\ADANI_BL\obj\Debug\ADANI_BL.dll
+D:\GAUTAM\ADANI\ADANI_WEB\ADANI_BL\obj\Debug\ADANI_BL.pdb
+D:\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_BL.dll
+D:\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_BL.pdb
+D:\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_COMMON.dll
+D:\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_DL.dll
+D:\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_PL.dll
+D:\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\BcilLib.dll
+D:\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_COMMON.pdb
+D:\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_DL.pdb
+D:\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_BL\bin\Debug\ADANI_PL.pdb
+D:\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_BL\obj\Debug\ADANI_BL.csprojResolveAssemblyReference.cache
+D:\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_BL\obj\Debug\ADANI_BL.dll
+D:\BCIL WorkOut\ADANI\ADANI_WEB\ADANI_BL\obj\Debug\ADANI_BL.pdb
