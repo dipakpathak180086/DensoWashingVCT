@@ -1,72 +1,38 @@
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\Sound\Beep1.wav
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_APP.exe.config
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_APP.exe
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_APP.pdb
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_BL.dll
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_COMMON.dll
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_PL.dll
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DocumentFormat.OpenXml.dll
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\ExcelNumberFormat.dll
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\FastMember.dll
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\SatoLib.dll
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\System.IO.FileSystem.Primitives.dll
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\System.IO.Packaging.dll
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_DL.dll
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_BL.pdb
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_COMMON.pdb
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_PL.pdb
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DocumentFormat.OpenXml.xml
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\ExcelNumberFormat.xml
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_DL.pdb
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.csprojAssemblyReference.cache
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmModelMaster.resources
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmLotEntryReport.resources
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmAddChildMenu.resources
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmAddParentMenu.resources
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmLotEntry.resources
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmAccessPassword.resources
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmMenu.resources
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.Properties.Resources.resources
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmChangePassword.resources
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.csproj.GenerateResource.cache
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.csproj.CoreCompileInputs.cache
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.csproj.CopyComplete
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.exe
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.pdb
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\Sound\Beep1.wav
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_APP.exe.config
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_APP.exe
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_APP.pdb
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_BL.dll
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_COMMON.dll
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_PL.dll
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DocumentFormat.OpenXml.dll
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\ExcelNumberFormat.dll
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\FastMember.dll
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\SatoLib.dll
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\System.IO.FileSystem.Primitives.dll
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\System.IO.Packaging.dll
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_DL.dll
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_BL.pdb
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_COMMON.pdb
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_PL.pdb
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DocumentFormat.OpenXml.xml
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\ExcelNumberFormat.xml
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_DL.pdb
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.csprojAssemblyReference.cache
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmModelMaster.resources
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmLotEntryReport.resources
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmAddChildMenu.resources
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmAddParentMenu.resources
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmLotEntry.resources
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmAccessPassword.resources
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmMenu.resources
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.Properties.Resources.resources
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmChangePassword.resources
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.csproj.GenerateResource.cache
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.csproj.CoreCompileInputs.cache
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.csproj.CopyComplete
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.exe
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.pdb
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmNGMaster.resources
-D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmMsg.resources
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\Sound\Beep1.wav
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_APP.exe.config
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_APP.exe
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_APP.pdb
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_BL.dll
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_COMMON.dll
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_PL.dll
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DocumentFormat.OpenXml.dll
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\ExcelNumberFormat.dll
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\FastMember.dll
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\SatoLib.dll
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\System.IO.Packaging.dll
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_DL.dll
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_BL.pdb
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_COMMON.pdb
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_PL.pdb
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DocumentFormat.OpenXml.xml
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\ExcelNumberFormat.xml
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_DL.pdb
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.csprojAssemblyReference.cache
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmModelMaster.resources
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmStationMaster.resources
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmNGMaster.resources
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmMsg.resources
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmLotEntryReport.resources
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmAddChildMenu.resources
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmAddParentMenu.resources
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmLotEntry.resources
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmAccessPassword.resources
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmMenu.resources
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.Properties.Resources.resources
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmChangePassword.resources
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.csproj.GenerateResource.cache
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.csproj.CoreCompileInputs.cache
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.csproj.CopyComplete
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.exe
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.pdb

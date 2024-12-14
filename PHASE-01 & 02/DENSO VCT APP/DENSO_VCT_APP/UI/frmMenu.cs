@@ -276,5 +276,19 @@ namespace DENSO_VCT_APP
                 pnlMaster.Visible = false;
             }
         }
+
+        private void btnConveyorMaster_Click(object sender, EventArgs e)
+        {
+            ShowAccessScreen();
+            if (GlobalVariable.mAccessUser != "")
+            {
+                frmStationMaster frm = new frmStationMaster();
+                frm.Show();
+                frm.FormClosing += OFrm_FormClosing;
+                this.Hide();
+                GlobalVariable.mAccessUser = "";
+                pnlMaster.Visible = false;
+            }
+        }
     }
 }

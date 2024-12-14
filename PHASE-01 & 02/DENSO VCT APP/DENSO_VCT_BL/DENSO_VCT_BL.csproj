@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Master\BL_STATION_MASTER.cs" />
     <Compile Include="Master\BL_NG_MASTER.cs" />
     <Compile Include="Master\BL_PC_MENU.cs" />
     <Compile Include="Master\BL_MODEL_MASTER.cs" />

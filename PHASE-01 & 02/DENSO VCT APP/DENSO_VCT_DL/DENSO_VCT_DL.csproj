@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Master\DL_STATION_MASTER.cs" />
     <Compile Include="Master\DL_NG_MASTER.cs" />
     <Compile Include="Master\DL_PC_MENU.cs" />
     <Compile Include="Master\DL_MODEL_MASTER.cs" />

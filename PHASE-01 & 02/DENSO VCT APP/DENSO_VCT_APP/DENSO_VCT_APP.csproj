@@ -125,6 +125,12 @@
     <Compile Include="UI\Master\frmModelMaster.designer.cs">
       <DependentUpon>frmModelMaster.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Master\frmStationMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Master\frmStationMaster.designer.cs">
+      <DependentUpon>frmStationMaster.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Master\frmNGMaster.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -183,6 +189,9 @@
     </Compile>
     <EmbeddedResource Include="UI\Master\frmModelMaster.resx">
       <DependentUpon>frmModelMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Master\frmStationMaster.resx">
+      <DependentUpon>frmStationMaster.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Master\frmNGMaster.resx">
       <DependentUpon>frmNGMaster.cs</DependentUpon>
