@@ -119,17 +119,35 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="UI\clsODBC.cs" />
+    <Compile Include="UI\Master\frmConveyorCamMappingMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Master\frmConveyorCamMappingMaster.designer.cs">
+      <DependentUpon>frmConveyorCamMappingMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Master\frmCameraIPMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Master\frmCameraIPMaster.designer.cs">
+      <DependentUpon>frmCameraIPMaster.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Master\frmModelMaster.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UI\Master\frmModelMaster.designer.cs">
       <DependentUpon>frmModelMaster.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\Master\frmStationMaster.cs">
+    <Compile Include="UI\Master\frmTrayMaster.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\Master\frmStationMaster.designer.cs">
-      <DependentUpon>frmStationMaster.cs</DependentUpon>
+    <Compile Include="UI\Master\frmTrayMaster.designer.cs">
+      <DependentUpon>frmTrayMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Master\frmConveyorMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Master\frmConveyorMaster.designer.cs">
+      <DependentUpon>frmConveyorMaster.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\Master\frmNGMaster.cs">
       <SubType>Form</SubType>
@@ -187,11 +205,20 @@
     <Compile Include="UI\UserManagment\frmChangePassword.designer.cs">
       <DependentUpon>frmChangePassword.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UI\Master\frmConveyorCamMappingMaster.resx">
+      <DependentUpon>frmConveyorCamMappingMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Master\frmCameraIPMaster.resx">
+      <DependentUpon>frmCameraIPMaster.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Master\frmModelMaster.resx">
       <DependentUpon>frmModelMaster.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Master\frmStationMaster.resx">
-      <DependentUpon>frmStationMaster.cs</DependentUpon>
+    <EmbeddedResource Include="UI\Master\frmTrayMaster.resx">
+      <DependentUpon>frmTrayMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Master\frmConveyorMaster.resx">
+      <DependentUpon>frmConveyorMaster.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Master\frmNGMaster.resx">
       <DependentUpon>frmNGMaster.cs</DependentUpon>

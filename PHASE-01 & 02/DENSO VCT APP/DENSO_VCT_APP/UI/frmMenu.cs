@@ -282,7 +282,50 @@ namespace DENSO_VCT_APP
             ShowAccessScreen();
             if (GlobalVariable.mAccessUser != "")
             {
-                frmStationMaster frm = new frmStationMaster();
+                frmConveyorMaster frm = new frmConveyorMaster();
+                frm.Show();
+                frm.FormClosing += OFrm_FormClosing;
+                this.Hide();
+                GlobalVariable.mAccessUser = "";
+                pnlMaster.Visible = false;
+            }
+        }
+
+        private void btnTrayMaster_Click(object sender, EventArgs e)
+        {
+            ShowAccessScreen();
+            if (GlobalVariable.mAccessUser != "")
+            {
+                frmTrayMaster frm = new frmTrayMaster();
+                frm.Show();
+                frm.FormClosing += OFrm_FormClosing;
+                this.Hide();
+                GlobalVariable.mAccessUser = "";
+                pnlMaster.Visible = false;
+            }
+
+        }
+
+        private void btnCameraIPMaster_Click(object sender, EventArgs e)
+        {
+            ShowAccessScreen();
+            if (GlobalVariable.mAccessUser != "")
+            {
+                frmCameraIPMaster frm = new frmCameraIPMaster();
+                frm.Show();
+                frm.FormClosing += OFrm_FormClosing;
+                this.Hide();
+                GlobalVariable.mAccessUser = "";
+                pnlMaster.Visible = false;
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ShowAccessScreen();
+            if (GlobalVariable.mAccessUser != "")
+            {
+                frmConveyorCamMappingMaster frm = new frmConveyorCamMappingMaster();
                 frm.Show();
                 frm.FormClosing += OFrm_FormClosing;
                 this.Hide();

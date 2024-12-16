@@ -44,7 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Master\PL_STATION_MASTER.cs" />
+    <Compile Include="Master\PL_CONVEYOR_CAM_MAPPING_MASTER.cs" />
+    <Compile Include="Master\PL_CAMERA_IP_MASTER.cs" />
+    <Compile Include="Master\PL_TRAY_MASTER.cs" />
+    <Compile Include="Master\PL_CONVEYOR_MASTER.cs" />
     <Compile Include="Master\PL_NG_MASTER.cs" />
     <Compile Include="Master\PL_PC_MENU.cs" />
     <Compile Include="Master\PL_MODEL_MASTER.cs" />

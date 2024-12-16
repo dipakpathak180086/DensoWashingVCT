@@ -90,6 +90,21 @@ namespace DENSO_VCT_COMMON
                 throw;
             }
         }
+        public static void allowOnlyIP(object sender, KeyPressEventArgs e)
+        {
+            // Allow only digits, the dot (.), and control keys (like Backspace)
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != '.')
+            {
+                e.Handled = true; // Prevent the character from being entered
+            }
+
+            // Allow only one dot between numbers
+            TextBox textBox = sender as TextBox;
+            if (e.KeyChar == '.' && (textBox.Text.EndsWith(".") || textBox.Text.Count(c => c == '.') >= 3))
+            {
+                e.Handled = true; // Prevent extra dots
+            }
+        }
         public static string strRight(string strValue, int intLength)
         {
             string strRet = string.Empty;
