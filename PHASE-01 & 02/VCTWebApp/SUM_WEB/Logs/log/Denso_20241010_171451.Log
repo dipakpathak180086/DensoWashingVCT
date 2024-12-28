@@ -1,0 +1,4 @@
+
+[Log Startup at 17:14:51]
+(Ver:-10.0.25095.1000)2024-10-10 17:14:51.974 (Error) Denso  ::  DL_VCTDashobard AfterSubpectedLotDataDetails() [PRC_AFTER_SUP_LOT_DATA]: - Could not find stored procedure 'PRC_AFTER_SUP_LOT_DATA'.
+(Ver:-10.0.25095.1000)2024-10-10 17:14:52.217 (Error) Denso  ::  VCTDashboard _SHOWDETIALS()  -  User-  VCT Could not find stored procedure 'PRC_AFTER_SUP_LOT_DATA'.

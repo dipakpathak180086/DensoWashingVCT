@@ -56,6 +56,7 @@
     <Compile Include="Report\PL_LOT_ENTRY_REPORT.cs" />
     <Compile Include="Report\PL_REPORT_PERFORMANCE.cs" />
     <Compile Include="Report\PL_REPORT_LOG.cs" />
+    <Compile Include="Report\PL_VCT_SpecialReport.cs" />
     <Compile Include="Transcation\PL_VCTDashboard.cs" />
     <Compile Include="UserManagement\PL_GroupMaster.cs">
       <SubType>Code</SubType>

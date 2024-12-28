@@ -115,7 +115,7 @@
                                 <td style="text-align: left; width: 200px">
                                     <div class="form-group has-feedback">
 
-                                        <asp:DropDownList ID="ddlModel" ToolTip="Select Model" class="form-control" AutoPostBack="true" OnSelectedIndexChanged="ddlModel_SelectedIndexChanged" ValidationGroup="Submit" runat="server" TabIndex="3">
+                                        <asp:DropDownList ID="ddlModel" ToolTip="Select Model" class="form-control" AutoPostBack="true"  OnSelectedIndexChanged="ddlModel_SelectedIndexChanged" ValidationGroup="Submit" runat="server" TabIndex="3">
                                         </asp:DropDownList>
                                         <span class="glyphicon glyphicon-download form-control-feedback"></span>
                                     </div>
@@ -249,7 +249,7 @@
                                         <ItemStyle HorizontalAlign="Left" />
                                     </asp:BoundField>
 
-                                    <asp:BoundField HeaderText="Child PartNo" DataField="ChildPartNo" HeaderStyle-HorizontalAlign="Left"
+                                    <asp:BoundField HeaderText="Child Part No" DataField="ChildPartNo" HeaderStyle-HorizontalAlign="Left"
                                         ItemStyle-HorizontalAlign="Left">
 
                                         <HeaderStyle HorizontalAlign="Left" />
@@ -307,7 +307,7 @@
                                         <HeaderStyle HorizontalAlign="Left" />
                                         <ItemStyle HorizontalAlign="Left" />
                                     </asp:BoundField>
-                                    <asp:BoundField HeaderText="Serial No" DataField="SerialNo" HeaderStyle-HorizontalAlign="Left"
+                                    <asp:BoundField HeaderText="FG Serial No" DataField="SerialNo" HeaderStyle-HorizontalAlign="Left"
                                         ItemStyle-HorizontalAlign="Left">
                                         <HeaderStyle HorizontalAlign="Left" />
                                         <ItemStyle HorizontalAlign="Left" />
@@ -330,6 +330,7 @@
                     <asp:PostBackTrigger ControlID="ddlLine" />
                     <asp:PostBackTrigger ControlID="ddlModel" />
                     <asp:PostBackTrigger ControlID="ddlChildPart" />
+                    <asp:PostBackTrigger ControlID="btnExport" />
                 </Triggers>
 
             </asp:UpdatePanel>

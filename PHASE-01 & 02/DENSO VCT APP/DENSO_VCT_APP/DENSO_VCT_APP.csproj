@@ -137,6 +137,12 @@
     <Compile Include="UI\Master\frmModelMaster.designer.cs">
       <DependentUpon>frmModelMaster.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Master\frmRountingMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Master\frmRountingMaster.designer.cs">
+      <DependentUpon>frmRountingMaster.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Master\frmTrayMaster.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -185,6 +191,12 @@
     <Compile Include="UI\Transcation\frmLotEntry.designer.cs">
       <DependentUpon>frmLotEntry.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Transcation\frmScanTray.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Transcation\frmScanTray.Designer.cs">
+      <DependentUpon>frmScanTray.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\UserManagment\frmAccessPassword.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -214,6 +226,9 @@
     <EmbeddedResource Include="UI\Master\frmModelMaster.resx">
       <DependentUpon>frmModelMaster.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\Master\frmRountingMaster.resx">
+      <DependentUpon>frmRountingMaster.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Master\frmTrayMaster.resx">
       <DependentUpon>frmTrayMaster.cs</DependentUpon>
     </EmbeddedResource>
@@ -237,6 +252,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Transcation\frmLotEntry.resx">
       <DependentUpon>frmLotEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Transcation\frmScanTray.resx">
+      <DependentUpon>frmScanTray.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\UserManagment\frmAccessPassword.resx">
       <DependentUpon>frmAccessPassword.cs</DependentUpon>
@@ -302,6 +320,8 @@
     <Content Include="Resources\iconfinder_Profile01_928429.png" />
     <Content Include="Resources\iconfinder_Save_1493294.png" />
     <Content Include="Resources\iconfinder_WebInSquare_1.5EXTENDED-19_2557852.png" />
+    <Content Include="Resources\icons8-Close.png" />
+    <Content Include="Resources\icons8-delete.png" />
     <Content Include="Resources\images %281%29.jpg" />
     <Content Include="Resources\images.png" />
     <Content Include="Resources\images1.jpg" />
@@ -318,6 +338,7 @@
     <Content Include="Resources\Region.png" />
     <Content Include="Resources\salesforce-logo-122x86.png" />
     <Content Include="Resources\SalesTarget.png" />
+    <Content Include="Resources\Save.png" />
     <Content Include="Resources\Save24.jpg" />
     <Content Include="Resources\Search.jpg" />
     <Content Include="Resources\Searchb.bmp" />

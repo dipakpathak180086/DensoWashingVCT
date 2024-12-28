@@ -63,7 +63,7 @@ namespace VCTWebApp
                 plobj.Serai = lblSerial.Text.Trim();
                 plobj.Date = lblDate.Text;
                 plobj.LotNo = Request.QueryString["Lot"];
-                dt= blobj.ShowDetails(plobj);
+                dt = blobj.ShowDetails(plobj);
 
 
             }
@@ -82,14 +82,22 @@ namespace VCTWebApp
                 DataTable dtLine2 = new DataTable();
                 DataTable DTFinal = new DataTable();
                 string lastConstr = CommonHelper.connString;
-              
+
                 if (lblSerial.Text.Trim().StartsWith("1"))
                 {
                     CommonHelper.connString = ConfigurationManager.ConnectionStrings["CONN_LINE_01"].ConnectionString;
                     dtLine1 = GetSerialSummaryData();
                     CommonHelper.connString = ConfigurationManager.ConnectionStrings["CONN_LINE_02"].ConnectionString;
                     dtLine2 = GetSerialSummaryData();
-                    dtLine1.Merge(dtLine2);
+                    if (dtLine2 != null)
+                    {
+                        if (dtLine2.Rows.Count >0)
+                            dtLine1.Merge(dtLine2);
+                    }
+                    else
+                    {
+                        CommonHelper.connString = ConfigurationManager.ConnectionStrings["CONN_LINE_01"].ConnectionString;
+                    }
                     DTFinal = dtLine1;
                 }
                 else
@@ -98,7 +106,15 @@ namespace VCTWebApp
                     dtLine2 = GetSerialSummaryData();
                     CommonHelper.connString = ConfigurationManager.ConnectionStrings["CONN_LINE_01"].ConnectionString;
                     dtLine1 = GetSerialSummaryData();
-                    dtLine2.Merge(dtLine1);
+                    if (dtLine1 != null)
+                    {
+                        if (dtLine1.Rows.Count > 0)
+                            dtLine2.Merge(dtLine1);
+                    }
+                    else
+                    {
+                        CommonHelper.connString = ConfigurationManager.ConnectionStrings["CONN_LINE_02"].ConnectionString;
+                    }
                     DTFinal = dtLine2;
                 }
                 CommonHelper.connString = lastConstr;

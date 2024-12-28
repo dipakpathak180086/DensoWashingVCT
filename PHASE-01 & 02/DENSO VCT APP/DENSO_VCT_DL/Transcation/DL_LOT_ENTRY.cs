@@ -24,7 +24,7 @@ namespace DENSO_VCT_DL
             _SqlHelper = new SqlHelper();
             try
             {
-                SqlParameter[] param = new SqlParameter[20];
+                SqlParameter[] param = new SqlParameter[50];
 
                 param[0] = new SqlParameter("@TYPE", SqlDbType.VarChar, 100);
                 param[0].Value = obj.DbType;
@@ -60,8 +60,16 @@ namespace DENSO_VCT_DL
                 param[15].Value = obj.VendorCode;
                 param[16] = new SqlParameter("@BARCODE", SqlDbType.VarChar, 200);
                 param[16].Value = obj.Barcode;
-                param[17] = new SqlParameter("@CREATED_BY", SqlDbType.VarChar, 50);
-                param[17].Value = obj.CreatedBy;
+                param[17] = new SqlParameter("@TRAY01", SqlDbType.VarChar, 200);
+                param[17].Value = obj.Tray01;
+                param[18] = new SqlParameter("@TRAY02", SqlDbType.VarChar, 200);
+                param[18].Value = obj.Tray02;
+                param[19] = new SqlParameter("@TRAY03", SqlDbType.VarChar, 200);
+                param[19].Value = obj.Tray03;
+                param[20] = new SqlParameter("@TRAY04", SqlDbType.VarChar, 200);
+                param[20].Value = obj.Tray04;
+                param[21] = new SqlParameter("@CREATED_BY", SqlDbType.VarChar, 50);
+                param[21].Value = obj.CreatedBy;
                 return _SqlHelper.ExecuteDataset(GlobalVariable.mMainSqlConString, CommandType.StoredProcedure, "[PRC_LOT_ENTRY]", param).Tables[0];
             }
             catch (Exception ex)

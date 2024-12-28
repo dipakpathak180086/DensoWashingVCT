@@ -77,9 +77,9 @@ namespace DENSO_VCT_APP
                 if (ValidateInput())
                 {
                     _plObj = new PL_CONVEYOR_CAM_MAPPING_MASTER();
-                    _plObj.CamId = cmbCamera.Text.Trim();
+                    _plObj.CamId = cmbCamera.Text.ToString().Trim();
                     _plObj.CamIP = lblCameraIP.Text.Trim();
-                    _plObj.Conveyor = cmbConveyor.Text.Trim();
+                    _plObj.Conveyor = cmbConveyor.SelectedValue.ToString().Trim();
                     _plObj.CreatedBy = GlobalVariable.mSatoAppsLoginUser;
                     _plObj.Active = chkActive.Checked;
                     //If saving data
@@ -288,8 +288,8 @@ namespace DENSO_VCT_APP
                 }
                 Clear();
                 _iRowId = Convert.ToInt64(dgv.Rows[e.RowIndex].Cells["RowId"].Value.ToString());
-                cmbConveyor.Text = dgv.Rows[e.RowIndex].Cells["ConveyorCode"].Value.ToString();
-                cmbCamera.Text = _partNo = dgv.Rows[e.RowIndex].Cells["CamID"].Value.ToString();
+                cmbConveyor.SelectedValue= dgv.Rows[e.RowIndex].Cells["ConveyorCode"].Value.ToString();
+                cmbCamera.Text= _partNo = dgv.Rows[e.RowIndex].Cells["CamID"].Value.ToString();
                 lblCameraIP.Text = dgv.Rows[e.RowIndex].Cells["CamIP"].Value.ToString();
                 chkActive.Checked = Convert.ToBoolean(dgv.Rows[e.RowIndex].Cells["Active"].Value.ToString());
                 btnDelete.Enabled = true;

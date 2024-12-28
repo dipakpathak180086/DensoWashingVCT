@@ -202,3 +202,15 @@ D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 
 D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_DL\obj\Debug\SUM_DL.csproj.Up2Date
 D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_DL\obj\Debug\SUM_DL.dll
 D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_DL\obj\Debug\SUM_DL.pdb
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_DL\bin\Debug\SUM_DL.dll.config
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_DL\bin\Debug\SUM_DL.dll
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_DL\bin\Debug\SUM_DL.pdb
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_DL\bin\Debug\SUM_COMMON.dll
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_DL\bin\Debug\SUM_PL.dll
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_DL\bin\Debug\SUM_COMMON.pdb
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_DL\bin\Debug\SUM_PL.pdb
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_DL\obj\Debug\SUM_DL.csproj.AssemblyReference.cache
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_DL\obj\Debug\SUM_DL.csproj.CoreCompileInputs.cache
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_DL\obj\Debug\SUM_DL.csproj.CopyComplete
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_DL\obj\Debug\SUM_DL.dll
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_DL\obj\Debug\SUM_DL.pdb

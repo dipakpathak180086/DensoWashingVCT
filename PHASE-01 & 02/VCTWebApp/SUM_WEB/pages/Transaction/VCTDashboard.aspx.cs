@@ -152,7 +152,15 @@ namespace VCTWebApp
                             dtLine1 = _AfterGettingSuppectedLotData(DT.Rows[0]["LotNo"].ToString());
                             CommonHelper.connString = ConfigurationManager.ConnectionStrings["CONN_LINE_02"].ConnectionString;
                             dtLine2 = _AfterGettingSuppectedLotData(DT.Rows[0]["LotNo"].ToString());
-                            dtLine1.Merge(dtLine2);
+                            if (dtLine2!=null)
+                            {
+                                if (dtLine2.Rows.Count > 0)
+                                    dtLine1.Merge(dtLine2);
+                            }
+                            else
+                            {
+                                CommonHelper.connString = ConfigurationManager.ConnectionStrings["CONN_LINE_01"].ConnectionString;
+                            }
                             DTFinal = dtLine1;
                         }
                         else
@@ -161,7 +169,15 @@ namespace VCTWebApp
                             dtLine2 = _AfterGettingSuppectedLotData(DT.Rows[0]["LotNo"].ToString());
                             CommonHelper.connString = ConfigurationManager.ConnectionStrings["CONN_LINE_01"].ConnectionString;
                             dtLine1 = _AfterGettingSuppectedLotData(DT.Rows[0]["LotNo"].ToString());
-                            dtLine2.Merge(dtLine1);
+                            if (dtLine1!=null)
+                            {
+                                if (dtLine1.Rows.Count > 0)
+                                    dtLine2.Merge(dtLine1);
+                            }
+                            else
+                            {
+                                CommonHelper.connString = ConfigurationManager.ConnectionStrings["CONN_LINE_02"].ConnectionString;
+                            }
                              DTFinal = dtLine2;
                         }
                         CommonHelper.connString = lastConstr;
@@ -542,21 +558,24 @@ namespace VCTWebApp
         {
             if (ddlLine.SelectedIndex > 0)
             {
-                if (ddlLine.SelectedItem.Value.Equals("1"))
+                if (ddlLine.SelectedItem.Selected)
                 {
-                    CommonHelper.connString = ConfigurationManager.ConnectionStrings["CONN_LINE_01"].ConnectionString;
-                    CommonHelper.connStringLine01 = CommonHelper.connString;
-                    _PopulateModel();
+                    if (ddlLine.SelectedItem.Value.Equals("1"))
+                    {
+                        CommonHelper.connString = ConfigurationManager.ConnectionStrings["CONN_LINE_01"].ConnectionString;
+                        CommonHelper.connStringLine01 = CommonHelper.connString;
+                        _PopulateModel();
 
-                    UpdatePanel1.Update();
-                }
-                else
-                {
-                    CommonHelper.connString = ConfigurationManager.ConnectionStrings["CONN_LINE_02"].ConnectionString;
-                    CommonHelper.connStringLine02 = CommonHelper.connString;
-                    _PopulateModel();
+                        UpdatePanel1.Update();
+                    }
+                    else
+                    {
+                        CommonHelper.connString = ConfigurationManager.ConnectionStrings["CONN_LINE_02"].ConnectionString;
+                        CommonHelper.connStringLine02 = CommonHelper.connString;
+                        _PopulateModel();
 
-                    UpdatePanel1.Update();
+                        UpdatePanel1.Update();
+                    }
                 }
 
             }

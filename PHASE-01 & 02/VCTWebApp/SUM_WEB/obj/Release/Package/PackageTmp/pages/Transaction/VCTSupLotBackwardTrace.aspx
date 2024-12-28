@@ -128,8 +128,8 @@
         </div>--%>
                                 </td>
                                 <td style="text-align: left; width: 200px">
-                                    <asp:TextBox autocomplete="off" ID="txtEnterLot" onkeypress="return isNumber(event)" class="form-control" runat="server" ToolTip="Enter Lot" placeholder="Enter Lot"
-                                        ValidationGroup="Submit" TabIndex="1" MaxLength="6"></asp:TextBox>
+                                    <asp:TextBox autocomplete="off" ID="txtEnterLot"  class="form-control" runat="server" ToolTip="Enter Lot" placeholder="Enter Lot"
+                                        ValidationGroup="Submit" TabIndex="1" ></asp:TextBox>
                                 </td>
                                 <td style="text-align: right; width: 200px"><span style="color: Red;"></td>
                                 <td style="text-align: center; width: 10px">

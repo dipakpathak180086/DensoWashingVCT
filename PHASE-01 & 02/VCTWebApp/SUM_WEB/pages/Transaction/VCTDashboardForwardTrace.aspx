@@ -215,7 +215,6 @@
                 <Triggers>
 
                     <asp:PostBackTrigger ControlID="btnReset" />
-
                 </Triggers>
 
             </asp:UpdatePanel>

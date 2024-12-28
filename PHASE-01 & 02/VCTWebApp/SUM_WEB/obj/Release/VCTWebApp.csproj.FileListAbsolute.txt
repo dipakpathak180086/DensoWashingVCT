@@ -52,3 +52,27 @@ D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 
 D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_WEB\obj\Release\VCTWebApp.csproj.Up2Date
 D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_WEB\obj\Release\VCTWebApp.dll
 D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_WEB\obj\Release\VCTWebApp.pdb
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\bin\dll\SATOPrinterAPI.dll
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\bin\VCTWebApp.dll.config
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\bin\VCTWebApp.dll
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\bin\VCTWebApp.pdb
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\bin\SUM_BL.dll
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\bin\SUM_COMMON.dll
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\bin\SUM_PL.dll
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\bin\zxing.dll
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\bin\zxing.presentation.dll
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\bin\SUM_DL.dll
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\bin\SUM_BL.pdb
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\bin\SUM_COMMON.pdb
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\bin\SUM_PL.pdb
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\bin\zxing.xml
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\bin\zxing.presentation.xml
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\bin\SUM_DL.pdb
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\bin\SUM_DL.dll.config
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\obj\Release\VCTWebApp.csproj.AssemblyReference.cache
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\obj\Release\VCTWebApp.Properties.Resources.resources
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\obj\Release\VCTWebApp.csproj.GenerateResource.cache
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\obj\Release\VCTWebApp.csproj.CoreCompileInputs.cache
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\obj\Release\VCTWebApp.csproj.CopyComplete
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\obj\Release\VCTWebApp.dll
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\obj\Release\VCTWebApp.pdb

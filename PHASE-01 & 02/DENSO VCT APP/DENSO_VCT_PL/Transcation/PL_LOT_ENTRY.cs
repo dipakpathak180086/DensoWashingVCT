@@ -26,5 +26,9 @@ namespace DENSO_VCT_PL
         public bool Manual_Date { get; set; }
         public string Date { get; set; }
         public string Time { get; set; }
+        public string Tray01 { get; set; }
+        public string Tray02 { get; set; }
+        public string Tray03 { get; set; }
+        public string Tray04 { get; set; }
     }
 }

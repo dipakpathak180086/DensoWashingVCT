@@ -1,0 +1,8 @@
+
+[Log Startup at 11:50:31]
+(Ver:-10.0.25095.1000)2024-10-15 11:50:31.409 (Info) SatoAppsInitialize  ::  Main - Initializing Application.......on 005056ACA6A9
+[Log Shutdown at 11:50:31]
+
+
+[Log Startup at 11:50:31]
+(Ver:-10.0.25095.1000)2024-10-15 11:50:31.442 (Data) VCTWebApp, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null::Application_Start  005056ACA6A9 - AppInitialize

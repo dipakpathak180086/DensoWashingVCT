@@ -115,7 +115,7 @@
                                 <td style="text-align: left; width: 200px">
                                     <div class="form-group has-feedback">
 
-                                        <asp:DropDownList ID="ddlModel" ToolTip="Select Model" class="form-control" AutoPostBack="true" OnSelectedIndexChanged="ddlModel_SelectedIndexChanged" ValidationGroup="Submit" runat="server" TabIndex="3">
+                                        <asp:DropDownList ID="ddlModel" ToolTip="Select Model" class="form-control" AutoPostBack="true"  OnSelectedIndexChanged="ddlModel_SelectedIndexChanged" ValidationGroup="Submit" runat="server" TabIndex="3">
                                         </asp:DropDownList>
                                         <span class="glyphicon glyphicon-download form-control-feedback"></span>
                                     </div>

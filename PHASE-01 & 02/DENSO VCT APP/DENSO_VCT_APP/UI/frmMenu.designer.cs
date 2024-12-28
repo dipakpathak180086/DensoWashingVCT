@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMenu));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pnlMaster = new System.Windows.Forms.Panel();
+            this.btnRoutingMaster = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnCameraIPMaster = new System.Windows.Forms.Button();
             this.btnTrayMaster = new System.Windows.Forms.Button();
             this.btnStationMaster = new System.Windows.Forms.Button();
@@ -48,7 +50,6 @@
             this.btnMini = new System.Windows.Forms.Button();
             this.picMasterConfig = new System.Windows.Forms.PictureBox();
             this.picLogOut = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.pnlMaster.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -77,7 +78,9 @@
             // 
             this.pnlMaster.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
+            this.pnlMaster.AutoScroll = true;
             this.pnlMaster.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlMaster.Controls.Add(this.btnRoutingMaster);
             this.pnlMaster.Controls.Add(this.button1);
             this.pnlMaster.Controls.Add(this.btnCameraIPMaster);
             this.pnlMaster.Controls.Add(this.btnTrayMaster);
@@ -92,9 +95,29 @@
             this.pnlMaster.TabIndex = 141;
             this.pnlMaster.Visible = false;
             // 
+            // btnRoutingMaster
+            // 
+            this.btnRoutingMaster.Location = new System.Drawing.Point(25, 232);
+            this.btnRoutingMaster.Name = "btnRoutingMaster";
+            this.btnRoutingMaster.Size = new System.Drawing.Size(338, 66);
+            this.btnRoutingMaster.TabIndex = 8;
+            this.btnRoutingMaster.Text = "Routing Master";
+            this.btnRoutingMaster.UseVisualStyleBackColor = true;
+            this.btnRoutingMaster.Click += new System.EventHandler(this.btnRoutingMaster_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(25, 376);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(338, 66);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Conveyor Camera Mapping Master";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // btnCameraIPMaster
             // 
-            this.btnCameraIPMaster.Location = new System.Drawing.Point(25, 232);
+            this.btnCameraIPMaster.Location = new System.Drawing.Point(25, 304);
             this.btnCameraIPMaster.Name = "btnCameraIPMaster";
             this.btnCameraIPMaster.Size = new System.Drawing.Size(338, 66);
             this.btnCameraIPMaster.TabIndex = 6;
@@ -124,7 +147,7 @@
             // 
             // btnNGMaster
             // 
-            this.btnNGMaster.Location = new System.Drawing.Point(25, 496);
+            this.btnNGMaster.Location = new System.Drawing.Point(25, 448);
             this.btnNGMaster.Name = "btnNGMaster";
             this.btnNGMaster.Size = new System.Drawing.Size(338, 66);
             this.btnNGMaster.TabIndex = 3;
@@ -144,7 +167,7 @@
             // 
             // btnManagePassword
             // 
-            this.btnManagePassword.Location = new System.Drawing.Point(25, 568);
+            this.btnManagePassword.Location = new System.Drawing.Point(25, 520);
             this.btnManagePassword.Name = "btnManagePassword";
             this.btnManagePassword.Size = new System.Drawing.Size(338, 66);
             this.btnManagePassword.TabIndex = 2;
@@ -293,16 +316,6 @@
             this.picLogOut.TabStop = false;
             this.picLogOut.Click += new System.EventHandler(this.picLogOut_Click);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(25, 304);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(338, 66);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Conveyor Camera Mapping Master";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
@@ -358,5 +371,6 @@
         private System.Windows.Forms.Button btnTrayMaster;
         private System.Windows.Forms.Button btnCameraIPMaster;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnRoutingMaster;
     }
 }

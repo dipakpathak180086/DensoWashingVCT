@@ -72,3 +72,18 @@ D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 
 D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_BL\obj\Release\SUM_BL.csproj.Up2Date
 D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_BL\obj\Release\SUM_BL.dll
 D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_BL\obj\Release\SUM_BL.pdb
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_BL\bin\Release\SUM_BL.dll
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_BL\bin\Release\SUM_BL.pdb
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_BL\bin\Release\SatoLib.dll
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_BL\bin\Release\SUM_COMMON.dll
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_BL\bin\Release\SUM_DL.dll
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_BL\bin\Release\SUM_PL.dll
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_BL\bin\Release\SUM_COMMON.pdb
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_BL\bin\Release\SUM_DL.pdb
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_BL\bin\Release\SUM_DL.dll.config
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_BL\bin\Release\SUM_PL.pdb
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_BL\obj\Release\SUM_BL.csproj.AssemblyReference.cache
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_BL\obj\Release\SUM_BL.csproj.CoreCompileInputs.cache
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_BL\obj\Release\SUM_BL.csproj.CopyComplete
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_BL\obj\Release\SUM_BL.dll
+C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_BL\obj\Release\SUM_BL.pdb

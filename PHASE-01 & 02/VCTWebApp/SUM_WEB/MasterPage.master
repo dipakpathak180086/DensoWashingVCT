@@ -175,7 +175,7 @@
                         </li>
 
 
-                                                <li id="liReport" runat="server" class="treeview active">
+                        <li id="liReport" runat="server" class="treeview active">
                             <a href="#">
                                 <i class="fa fa-laptop"></i>
                                 <span>Child Part Lot Info.& Performance Data </span>
@@ -202,26 +202,33 @@ Performance OK FG Report</asp:HyperLink></li>
 
                     </ul>
 
-                        <li id="liTranscation" runat="server" class="treeview active">
-                            <a href="#">
-                                <i class="fa fa-laptop"></i>
-                                <span>Backward and Forward Search</span>
-                                <i class="fa fa-angle-left pull-right"></i>
-                            </a>
-                            <ul id="ulTranscation" class="treeview-menu menu-open" style="display: block;">
-                                <li>
-                                    <asp:HyperLink NavigateUrl="~/pages/Transaction/VCTDashboard.aspx" ID="hypVCDashboard" runat="server"> <i class="fa fa-angle-double-right"></i>
+                    <li id="liTranscation" runat="server" class="treeview active">
+                        <a href="#">
+                            <i class="fa fa-laptop"></i>
+                            <span>Backward and Forward Search</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul id="ulTranscation" class="treeview-menu menu-open" style="display: block;">
+                            <li>
+                                <asp:HyperLink NavigateUrl="~/pages/Transaction/VCTDashboard.aspx" ID="hypVCDashboard" runat="server"> <i class="fa fa-angle-double-right"></i>
                 Traceability</asp:HyperLink></li>
-                                <li>
-                                    <asp:HyperLink NavigateUrl="~/pages/Transaction/VCTSupLotBackwardTrace.aspx" ID="hySupLotInfo" runat="server"> <i class="fa fa-angle-double-right"></i>
+                            <li>
+                                <asp:HyperLink NavigateUrl="~/pages/Transaction/VCTSupLotBackwardTrace.aspx" ID="hySupLotInfo" runat="server"> <i class="fa fa-angle-double-right"></i>
                 Traceability From Direct Lot No.</asp:HyperLink></li>
 
-                            </ul>
+                            <li>
+                                <asp:HyperLink NavigateUrl="~/pages/Report/VCTSpecialReport.aspx" ID="HypVCTSpecialReport" runat="server"> <i class="fa fa-angle-double-right"></i>
+VCT Special Report</asp:HyperLink></li>
 
 
-                        </li>
 
-                    
+
+                        </ul>
+
+
+                    </li>
+
+
 
 
                     <li id="liSettings" runat="server" class="treeview" visible="false">

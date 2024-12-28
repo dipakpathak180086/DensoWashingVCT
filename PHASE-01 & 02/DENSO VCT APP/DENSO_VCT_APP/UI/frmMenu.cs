@@ -333,5 +333,20 @@ namespace DENSO_VCT_APP
                 pnlMaster.Visible = false;
             }
         }
+
+        private void btnRoutingMaster_Click(object sender, EventArgs e)
+        {
+            ShowAccessScreen();
+            if (GlobalVariable.mAccessUser != "")
+            {
+                frmRountingMaster frm = new frmRountingMaster();
+                frm.Show();
+                frm.FormClosing += OFrm_FormClosing;
+                this.Hide();
+                GlobalVariable.mAccessUser = "";
+                pnlMaster.Visible = false;
+            }
+
+        }
     }
 }

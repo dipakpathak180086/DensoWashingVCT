@@ -10,7 +10,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
-    <NameOfLastUsedPublishProfile>D:\Projects\Live Project\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 &amp; 02\VCTWebApp\SUM_WEB\Properties\PublishProfiles\CustomProfile.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\Properties\PublishProfiles\FolderProfile7.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

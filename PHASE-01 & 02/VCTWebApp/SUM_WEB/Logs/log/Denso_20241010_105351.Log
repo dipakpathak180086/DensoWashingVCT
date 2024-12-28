@@ -1,0 +1,7 @@
+
+[Log Startup at 10:53:51]
+(Ver:-10.0.25095.1000)2024-10-10 10:53:51.736 (Error) Denso  ::  DL_VCTDashobard AfterSubpectedLotDataDetails() [PRC_AFTER_SUP_LOT_DATA]: - Could not find stored procedure 'PRC_AFTER_SUP_LOT_DATA'.
+(Ver:-10.0.25095.1000)2024-10-10 10:53:52.091 (Error) Denso  ::  VCTDashboard _SHOWDETIALS()  -  User-  VCT Could not find stored procedure 'PRC_AFTER_SUP_LOT_DATA'.
+(Ver:-10.0.25095.1000)2024-10-10 10:54:41.482 (Error) Show NG Lot - Thread was being aborted.
+(Ver:-10.0.25095.1000)2024-10-10 10:54:45.368 (Error) Denso  ::  DL_VCTDashobard ShowDetails() []: - An insufficient number of arguments were supplied for the procedure or function dbo.get_perfomance_tbl.
+(Ver:-10.0.25095.1000)2024-10-10 10:54:45.549 (Error) Denso  ::  VCTDashboard _Page_Load()  -  User-  VCT An insufficient number of arguments were supplied for the procedure or function dbo.get_perfomance_tbl.

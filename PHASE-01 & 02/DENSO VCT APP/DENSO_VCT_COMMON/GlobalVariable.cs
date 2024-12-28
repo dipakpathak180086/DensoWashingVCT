@@ -48,6 +48,13 @@ namespace DENSO_VCT_COMMON
         public static int mWashingQty = 0;
         public static bool mWashingQtyAlert = false;
 
+        public static bool mIsTrayScanning = false;
+        public static string mTray01 = "";
+        public static string mTray02 = "";
+        public static string mTray03 = "";
+        public static string mTray04 = "";
+        public static bool mIsDelete = false;
+
         public static void MesseageInfo(Label label, string sMessage, int icnt)
         {
             if (icnt == 1)

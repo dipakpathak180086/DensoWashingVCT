@@ -73,6 +73,7 @@
     <Compile Include="Report\BL_LOT_ENTRY_REPORT.cs" />
     <Compile Include="Report\BL_REPORT_PERFORMANCE.cs" />
     <Compile Include="Report\BL_REPORT_LOG.cs" />
+    <Compile Include="Report\BL_VCT_SpecialReport.cs" />
     <Compile Include="Transcation\BL_VCTDashboard.cs" />
     <Compile Include="UserMangement\BL_GroupMaster.cs">
       <SubType>Code</SubType>

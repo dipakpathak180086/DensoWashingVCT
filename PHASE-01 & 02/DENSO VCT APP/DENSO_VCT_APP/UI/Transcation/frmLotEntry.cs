@@ -389,6 +389,9 @@ namespace DENSO_VCT_APP
                 _IsUpdate = false;
                 _IsFraction = false;
                 dpDateTime.Value = DateTime.Now;
+                GlobalVariable.mIsTrayScanning = false;
+                GlobalVariable.mIsDelete = false;
+                GlobalVariable.mTray01 = GlobalVariable.mTray02 = GlobalVariable.mTray03 = GlobalVariable.mTray04 = "";
             }
             catch (Exception ex)
             {
@@ -429,7 +432,7 @@ namespace DENSO_VCT_APP
                 DataTable dt = _blObj.BL_ExecuteTask(_plObj);
                 if (dt.Rows.Count > 0)
                 {
-                    GlobalVariable.mWashingQty =Convert.ToInt32( dt.Rows[0]["WashingQty"].ToString());
+                    GlobalVariable.mWashingQty = Convert.ToInt32(dt.Rows[0]["WashingQty"].ToString());
                 }
             }
             catch (Exception ex)
@@ -584,6 +587,7 @@ namespace DENSO_VCT_APP
         {
             try
             {
+
                 lblShowMessage();
                 //if (!txtLotNo.Text.Trim().Contains("|"))
                 //{
@@ -671,14 +675,17 @@ namespace DENSO_VCT_APP
                     return;
                 }
 
-                //if (Convert.ToInt32(txtLotQty.Text.Trim()) > GlobalVariable.mWashingQty)
-                //{
-                //    frmMsg frm = new frmMsg();
-                //    frm.ShowDialog();
-                //   // txtSerialNo.Text = "";
-                //    txtLotQty.Focus();
-                //    return;
-                //}
+                if (Convert.ToInt32(txtLotQty.Text.Trim()) > GlobalVariable.mWashingQty)
+                {
+                    frmScanTray frm = new frmScanTray(Convert.ToInt32(txtLotQty.Text.Trim()),"INSERT",0);
+                    frm.ShowDialog();
+                    if (!GlobalVariable.mIsTrayScanning)
+                    {
+                        GlobalVariable.MesseageInfo(lblMessage, "Tray Scanning is invalid try again!!!", 2);
+                        Clear();
+                        return;
+                    }
+                }
                 _blObj = new BL_LOT_ENTRY();
                 _plObj = new PL_LOT_ENTRY();
 
@@ -716,6 +723,10 @@ namespace DENSO_VCT_APP
                 _plObj.Manual_Date = chkManualDate.Checked;
                 _plObj.Date = dpDateTime.Value.ToString("yyyy-MM-dd");
                 _plObj.Time = dpDateTime.Value.ToString("HH:mm:ss.fff");
+                _plObj.Tray01 = GlobalVariable.mTray01;
+                _plObj.Tray02 = GlobalVariable.mTray02;
+                _plObj.Tray03 = GlobalVariable.mTray03;
+                _plObj.Tray04 = GlobalVariable.mTray04;
                 _plObj.CreatedBy = txtTMName.Text.Trim();
                 if (_IsFraction == true)
                 {
@@ -877,7 +888,7 @@ namespace DENSO_VCT_APP
                 try
                 {
                     lblShowMessage();
-                   
+
                     if (txtPartName.Text.Length == 0)
                     {
                         GlobalVariable.MesseageInfo(lblMessage, "Change Over Sheet can't be blank!!!", 2);
@@ -959,7 +970,7 @@ namespace DENSO_VCT_APP
                         lblVendorCode.Text = lotNoBarcode.Split('|')[2].ToString();
                         txtLotNo.Text = lotNoBarcode.Split('|')[3].ToString();
                         txtSerialNo.Text = lotNoBarcode.Split('|')[4].ToString();
-                        
+
                         FinalSave();
                     }
                     else
@@ -1348,7 +1359,7 @@ namespace DENSO_VCT_APP
                 {
                     txtSerialNo.Enabled = true;
                     txtSerialNo.Focus();
-                 
+
                 }
             }
             catch (Exception ex)
@@ -1612,7 +1623,7 @@ namespace DENSO_VCT_APP
                     }
 
 
-                  
+
 
 
                     GlobalVariable.mAccessUser = "";
@@ -1627,7 +1638,7 @@ namespace DENSO_VCT_APP
                     GlobalVariable.MesseageInfo(lblMessage, ex.Message, 2);
                 });
             }
-            
+
 
         }
 
@@ -1653,7 +1664,7 @@ namespace DENSO_VCT_APP
                         lblScanStatus.BackColor = Color.Green;
                     }
 
-                  
+
 
                     GlobalVariable.mAccessUser = "";
 
@@ -1682,6 +1693,45 @@ namespace DENSO_VCT_APP
 
                     txtLotQty.Enabled = true;
                     txtLotQty.Focus();
+                }
+            }
+        }
+
+        private void dgv_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.ColumnIndex == dgv.Columns["btnViewTrays"].Index)
+            {
+                try
+                {
+                    _plObj.DbType = "GET_TRAYS";
+                    _plObj.ModelNo = dgv.Rows[e.RowIndex].Cells["ModelNo"].Value.ToString();
+                    _plObj.ChildPartNo = dgv.Rows[e.RowIndex].Cells["ChildPartNo"].Value.ToString();
+                    _plObj.LotNo = dgv.Rows[e.RowIndex].Cells["LotNo"].Value.ToString();
+                    DataTable dt = _blObj.BL_ExecuteTask(_plObj);
+                    if (dt.Rows.Count > 0)
+                    {
+                        GlobalVariable.mTray01 = dt.Rows[0]["Tray01"].ToString();
+                        GlobalVariable.mTray02 = dt.Rows[0]["Tray02"].ToString();
+                        GlobalVariable.mTray03 = dt.Rows[0]["Tray03"].ToString();
+                        GlobalVariable.mTray04 = dt.Rows[0]["Tray04"].ToString();
+                        _rowId = dgv.Rows[e.RowIndex].Cells["RowId"].Value.ToString();
+                        frmScanTray frm = new frmScanTray(0, "DELETE",Convert.ToInt32( dgv.Rows[e.RowIndex].Cells["RowId"].Value.ToString()));
+                        frm.ShowDialog();
+                        if (GlobalVariable.mIsDelete)
+                        {
+                            btnDelete_Click(null, null);
+                            return;
+                        }
+                    }
+                    
+                }
+                catch (Exception ex)
+                {
+                    this.Invoke((MethodInvoker)delegate
+                    {
+                        GlobalVariable.MesseageInfo(lblMessage, ex.Message, 2);
+                    });
+
                 }
             }
         }

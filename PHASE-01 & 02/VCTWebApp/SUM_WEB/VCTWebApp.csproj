@@ -1086,6 +1086,7 @@
     <Content Include="pages\Report\VCTLotEntryReport.aspx" />
     <Content Include="pages\Report\VCTLogReport.aspx" />
     <Content Include="pages\Report\VCTPerformanceReport.aspx" />
+    <Content Include="pages\Report\VCTSpecialReport.aspx" />
     <Content Include="pages\Transaction\VCTDashboard.aspx" />
     <Content Include="pages\Transaction\VCTSupLotBackwardTrace.aspx" />
     <Content Include="pages\Transaction\VCTDashboardBackwardTrace.aspx" />
@@ -1680,6 +1681,13 @@
     </Compile>
     <Compile Include="pages\Report\VCTPerformanceReport.aspx.designer.cs">
       <DependentUpon>VCTPerformanceReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\Report\VCTSpecialReport.aspx.cs">
+      <DependentUpon>VCTSpecialReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\Report\VCTSpecialReport.aspx.designer.cs">
+      <DependentUpon>VCTSpecialReport.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\Transaction\VCTDashboard.aspx.cs">
       <DependentUpon>VCTDashboard.aspx</DependentUpon>

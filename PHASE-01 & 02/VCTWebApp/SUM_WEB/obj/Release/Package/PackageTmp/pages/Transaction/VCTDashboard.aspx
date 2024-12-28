@@ -291,6 +291,7 @@
                     <asp:PostBackTrigger ControlID="ddlChildPart" />
                     <asp:PostBackTrigger ControlID="txtDate" />
                     <asp:PostBackTrigger ControlID="txtSerial" />
+                    <asp:PostBackTrigger ControlID="btnExport" />
                 </Triggers>
 
             </asp:UpdatePanel>
