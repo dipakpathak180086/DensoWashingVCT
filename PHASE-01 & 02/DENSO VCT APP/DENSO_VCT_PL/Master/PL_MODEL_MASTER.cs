@@ -18,6 +18,6 @@ namespace DENSO_VCT_PL
         public int WashingQty { get; set; }
         public int RowId { get; set; }
         public bool Active { get; set; }
-
+        public bool IsTrayScanning { get; set; }
     }
 }

@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLotEntry));
             this.btnMinimize = new System.Windows.Forms.Button();
             this.lblHeader = new System.Windows.Forms.Label();
@@ -54,6 +54,25 @@
             this.label7 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.dgv = new System.Windows.Forms.DataGridView();
+            this.RowId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.RefNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Shift = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ModelName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ModelNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ChildPartName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ChildPartNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.LotNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SERIALNO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.LOTQty = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ScanQty = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Date = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Time = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TMName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TLName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.VENDORCODE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TRAYS = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnViewTrays = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.Barcode = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtLotQty = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.txtTLName = new System.Windows.Forms.TextBox();
@@ -87,22 +106,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnClose = new System.Windows.Forms.Button();
             this.btnMini = new System.Windows.Forms.Button();
-            this.RowId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Shift = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ModelName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ModelNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ChildPartName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ChildPartNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.LotNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SERIALNO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.LOTQty = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Date = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Time = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TMName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TLName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.VENDORCODE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TRAYS = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnViewTrays = new System.Windows.Forms.DataGridViewButtonColumn();
             this.panel1.SuspendLayout();
             this.gbPrintingParameter.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -397,16 +400,17 @@
             this.dgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dgv.BackgroundColor = System.Drawing.Color.AliceBlue;
             this.dgv.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Calibri", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Calibri", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.RowId,
+            this.RefNo,
             this.Shift,
             this.ModelName,
             this.ModelNo,
@@ -415,13 +419,15 @@
             this.LotNo,
             this.SERIALNO,
             this.LOTQty,
+            this.ScanQty,
             this.Date,
             this.Time,
             this.TMName,
             this.TLName,
             this.VENDORCODE,
             this.TRAYS,
-            this.btnViewTrays});
+            this.btnViewTrays,
+            this.Barcode});
             this.dgv.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgv.EnableHeadersVisualStyles = false;
             this.dgv.GridColor = System.Drawing.SystemColors.ControlText;
@@ -430,10 +436,10 @@
             this.dgv.Name = "dgv";
             this.dgv.ReadOnly = true;
             this.dgv.RowHeadersVisible = false;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.dgv.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.dgv.RowsDefaultCellStyle = dataGridViewCellStyle6;
             this.dgv.RowTemplate.Height = 45;
             this.dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv.Size = new System.Drawing.Size(1405, 399);
@@ -441,6 +447,166 @@
             this.dgv.TabIndex = 194;
             this.dgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_CellContentClick);
             this.dgv.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_CellContentDoubleClick);
+            // 
+            // RowId
+            // 
+            this.RowId.DataPropertyName = "RowId";
+            this.RowId.HeaderText = "";
+            this.RowId.Name = "RowId";
+            this.RowId.ReadOnly = true;
+            this.RowId.Visible = false;
+            this.RowId.Width = 19;
+            // 
+            // RefNo
+            // 
+            this.RefNo.DataPropertyName = "RefNo";
+            this.RefNo.HeaderText = "";
+            this.RefNo.Name = "RefNo";
+            this.RefNo.ReadOnly = true;
+            this.RefNo.Visible = false;
+            this.RefNo.Width = 19;
+            // 
+            // Shift
+            // 
+            this.Shift.DataPropertyName = "Shift";
+            this.Shift.HeaderText = "SHIFT";
+            this.Shift.Name = "Shift";
+            this.Shift.ReadOnly = true;
+            this.Shift.Width = 70;
+            // 
+            // ModelName
+            // 
+            this.ModelName.DataPropertyName = "ModelName";
+            this.ModelName.HeaderText = "MODEL NAME";
+            this.ModelName.Name = "ModelName";
+            this.ModelName.ReadOnly = true;
+            this.ModelName.Width = 131;
+            // 
+            // ModelNo
+            // 
+            this.ModelNo.DataPropertyName = "ModelNo";
+            this.ModelNo.HeaderText = "MODEL NO";
+            this.ModelNo.Name = "ModelNo";
+            this.ModelNo.ReadOnly = true;
+            this.ModelNo.Width = 110;
+            // 
+            // ChildPartName
+            // 
+            this.ChildPartName.DataPropertyName = "ChildPartName";
+            this.ChildPartName.HeaderText = "CHILD PART NAME";
+            this.ChildPartName.Name = "ChildPartName";
+            this.ChildPartName.ReadOnly = true;
+            this.ChildPartName.Width = 159;
+            // 
+            // ChildPartNo
+            // 
+            this.ChildPartNo.DataPropertyName = "ChildPartNo";
+            this.ChildPartNo.HeaderText = "CHILD PART NO";
+            this.ChildPartNo.Name = "ChildPartNo";
+            this.ChildPartNo.ReadOnly = true;
+            this.ChildPartNo.Width = 138;
+            // 
+            // LotNo
+            // 
+            this.LotNo.DataPropertyName = "LotNo";
+            this.LotNo.HeaderText = "LOT NO";
+            this.LotNo.Name = "LotNo";
+            this.LotNo.ReadOnly = true;
+            this.LotNo.Width = 86;
+            // 
+            // SERIALNO
+            // 
+            this.SERIALNO.DataPropertyName = "SerialNo";
+            this.SERIALNO.HeaderText = "SERIAL NO";
+            this.SERIALNO.Name = "SERIALNO";
+            this.SERIALNO.ReadOnly = true;
+            this.SERIALNO.Width = 105;
+            // 
+            // LOTQty
+            // 
+            this.LOTQty.DataPropertyName = "LotQty";
+            this.LOTQty.HeaderText = "LOT QTY";
+            this.LOTQty.Name = "LOTQty";
+            this.LOTQty.ReadOnly = true;
+            this.LOTQty.Width = 91;
+            // 
+            // ScanQty
+            // 
+            this.ScanQty.DataPropertyName = "ScanQty";
+            this.ScanQty.HeaderText = "WASHED QTY";
+            this.ScanQty.Name = "ScanQty";
+            this.ScanQty.ReadOnly = true;
+            this.ScanQty.Width = 124;
+            // 
+            // Date
+            // 
+            this.Date.DataPropertyName = "Date";
+            this.Date.HeaderText = "LOT ENTRY DATE";
+            this.Date.Name = "Date";
+            this.Date.ReadOnly = true;
+            this.Date.Width = 147;
+            // 
+            // Time
+            // 
+            this.Time.DataPropertyName = "Time";
+            this.Time.HeaderText = "LOT ENTRY TIME";
+            this.Time.Name = "Time";
+            this.Time.ReadOnly = true;
+            this.Time.Width = 146;
+            // 
+            // TMName
+            // 
+            this.TMName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.TMName.DataPropertyName = "TMName";
+            this.TMName.HeaderText = "TM NAME";
+            this.TMName.Name = "TMName";
+            this.TMName.ReadOnly = true;
+            this.TMName.Width = 200;
+            // 
+            // TLName
+            // 
+            this.TLName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.TLName.DataPropertyName = "TLName";
+            this.TLName.HeaderText = "TL NAME";
+            this.TLName.Name = "TLName";
+            this.TLName.ReadOnly = true;
+            this.TLName.Width = 180;
+            // 
+            // VENDORCODE
+            // 
+            this.VENDORCODE.DataPropertyName = "VendorCode";
+            this.VENDORCODE.HeaderText = "VENDOR CODE";
+            this.VENDORCODE.Name = "VENDORCODE";
+            this.VENDORCODE.ReadOnly = true;
+            this.VENDORCODE.Width = 133;
+            // 
+            // TRAYS
+            // 
+            this.TRAYS.DataPropertyName = "TRAYS";
+            this.TRAYS.HeaderText = "TRAYS";
+            this.TRAYS.Name = "TRAYS";
+            this.TRAYS.ReadOnly = true;
+            this.TRAYS.Width = 75;
+            // 
+            // btnViewTrays
+            // 
+            this.btnViewTrays.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.btnViewTrays.DataPropertyName = "ViewTrays";
+            this.btnViewTrays.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnViewTrays.HeaderText = "VIEW TRAYS";
+            this.btnViewTrays.Name = "btnViewTrays";
+            this.btnViewTrays.ReadOnly = true;
+            this.btnViewTrays.Text = "VIEW TRAYS";
+            this.btnViewTrays.Width = 150;
+            // 
+            // Barcode
+            // 
+            this.Barcode.DataPropertyName = "Barcode";
+            this.Barcode.HeaderText = "";
+            this.Barcode.Name = "Barcode";
+            this.Barcode.ReadOnly = true;
+            this.Barcode.Visible = false;
+            this.Barcode.Width = 19;
             // 
             // txtLotQty
             // 
@@ -624,12 +790,12 @@
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.deleteToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(108, 26);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(114, 26);
             // 
             // deleteToolStripMenuItem
             // 
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
             this.deleteToolStripMenuItem.Text = "Delete";
             // 
             // contextMenuStrip2
@@ -855,146 +1021,6 @@
             this.btnMini.UseVisualStyleBackColor = false;
             this.btnMini.Click += new System.EventHandler(this.btnMinimize_Click);
             // 
-            // RowId
-            // 
-            this.RowId.DataPropertyName = "RowId";
-            this.RowId.HeaderText = "";
-            this.RowId.Name = "RowId";
-            this.RowId.ReadOnly = true;
-            this.RowId.Visible = false;
-            this.RowId.Width = 19;
-            // 
-            // Shift
-            // 
-            this.Shift.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Shift.DataPropertyName = "Shift";
-            this.Shift.HeaderText = "SHIFT";
-            this.Shift.Name = "Shift";
-            this.Shift.ReadOnly = true;
-            this.Shift.Width = 101;
-            // 
-            // ModelName
-            // 
-            this.ModelName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.ModelName.DataPropertyName = "ModelName";
-            this.ModelName.HeaderText = "MODEL NAME";
-            this.ModelName.Name = "ModelName";
-            this.ModelName.ReadOnly = true;
-            this.ModelName.Width = 200;
-            // 
-            // ModelNo
-            // 
-            this.ModelNo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.ModelNo.DataPropertyName = "ModelNo";
-            this.ModelNo.HeaderText = "MODEL NO";
-            this.ModelNo.Name = "ModelNo";
-            this.ModelNo.ReadOnly = true;
-            this.ModelNo.Width = 180;
-            // 
-            // ChildPartName
-            // 
-            this.ChildPartName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.ChildPartName.DataPropertyName = "ChildPartName";
-            this.ChildPartName.HeaderText = "CHILD PART NAME";
-            this.ChildPartName.Name = "ChildPartName";
-            this.ChildPartName.ReadOnly = true;
-            this.ChildPartName.Width = 200;
-            // 
-            // ChildPartNo
-            // 
-            this.ChildPartNo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.ChildPartNo.DataPropertyName = "ChildPartNo";
-            this.ChildPartNo.HeaderText = "CHILD PART NO";
-            this.ChildPartNo.Name = "ChildPartNo";
-            this.ChildPartNo.ReadOnly = true;
-            this.ChildPartNo.Width = 200;
-            // 
-            // LotNo
-            // 
-            this.LotNo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.LotNo.DataPropertyName = "LotNo";
-            this.LotNo.HeaderText = "LOT NO";
-            this.LotNo.Name = "LotNo";
-            this.LotNo.ReadOnly = true;
-            this.LotNo.Width = 130;
-            // 
-            // SERIALNO
-            // 
-            this.SERIALNO.DataPropertyName = "SerialNo";
-            this.SERIALNO.HeaderText = "SERIAL NO";
-            this.SERIALNO.Name = "SERIALNO";
-            this.SERIALNO.ReadOnly = true;
-            this.SERIALNO.Width = 105;
-            // 
-            // LOTQty
-            // 
-            this.LOTQty.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.LOTQty.DataPropertyName = "LotQty";
-            this.LOTQty.HeaderText = "LOT QTY";
-            this.LOTQty.Name = "LOTQty";
-            this.LOTQty.ReadOnly = true;
-            // 
-            // Date
-            // 
-            this.Date.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Date.DataPropertyName = "Date";
-            this.Date.HeaderText = "LOT ENTRY DATE";
-            this.Date.Name = "Date";
-            this.Date.ReadOnly = true;
-            this.Date.Width = 200;
-            // 
-            // Time
-            // 
-            this.Time.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Time.DataPropertyName = "Time";
-            this.Time.HeaderText = "LOT ENTRY TIME";
-            this.Time.Name = "Time";
-            this.Time.ReadOnly = true;
-            this.Time.Width = 200;
-            // 
-            // TMName
-            // 
-            this.TMName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.TMName.DataPropertyName = "TMName";
-            this.TMName.HeaderText = "TM NAME";
-            this.TMName.Name = "TMName";
-            this.TMName.ReadOnly = true;
-            this.TMName.Width = 200;
-            // 
-            // TLName
-            // 
-            this.TLName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.TLName.DataPropertyName = "TLName";
-            this.TLName.HeaderText = "TL NAME";
-            this.TLName.Name = "TLName";
-            this.TLName.ReadOnly = true;
-            this.TLName.Width = 180;
-            // 
-            // VENDORCODE
-            // 
-            this.VENDORCODE.DataPropertyName = "VendorCode";
-            this.VENDORCODE.HeaderText = "VENDOR CODE";
-            this.VENDORCODE.Name = "VENDORCODE";
-            this.VENDORCODE.ReadOnly = true;
-            this.VENDORCODE.Width = 133;
-            // 
-            // TRAYS
-            // 
-            this.TRAYS.DataPropertyName = "TRAYS";
-            this.TRAYS.HeaderText = "TRAYS";
-            this.TRAYS.Name = "TRAYS";
-            this.TRAYS.ReadOnly = true;
-            this.TRAYS.Width = 75;
-            // 
-            // btnViewTrays
-            // 
-            this.btnViewTrays.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.btnViewTrays.DataPropertyName = "ViewTrays";
-            this.btnViewTrays.HeaderText = "View Trays";
-            this.btnViewTrays.Name = "btnViewTrays";
-            this.btnViewTrays.ReadOnly = true;
-            this.btnViewTrays.Text = "View Trays";
-            // 
             // frmLotEntry
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -1021,7 +1047,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmLotEntry";
-            this.Text = "Laser Scanning";
+            this.Text = "Lot Scanning";
             this.Load += new System.EventHandler(this.frmModelMaster_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmLotEntry_KeyDown);
             this.panel1.ResumeLayout(false);
@@ -1098,6 +1124,7 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.DataGridViewTextBoxColumn RowId;
+        private System.Windows.Forms.DataGridViewTextBoxColumn RefNo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Shift;
         private System.Windows.Forms.DataGridViewTextBoxColumn ModelName;
         private System.Windows.Forms.DataGridViewTextBoxColumn ModelNo;
@@ -1106,6 +1133,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn LotNo;
         private System.Windows.Forms.DataGridViewTextBoxColumn SERIALNO;
         private System.Windows.Forms.DataGridViewTextBoxColumn LOTQty;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ScanQty;
         private System.Windows.Forms.DataGridViewTextBoxColumn Date;
         private System.Windows.Forms.DataGridViewTextBoxColumn Time;
         private System.Windows.Forms.DataGridViewTextBoxColumn TMName;
@@ -1113,5 +1141,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn VENDORCODE;
         private System.Windows.Forms.DataGridViewTextBoxColumn TRAYS;
         private System.Windows.Forms.DataGridViewButtonColumn btnViewTrays;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Barcode;
     }
 }

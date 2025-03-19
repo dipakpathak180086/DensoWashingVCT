@@ -61,6 +61,7 @@ namespace DENSO_VCT_APP
             }
             else
             {
+                
                 Application.Run(new frmMenu());
             }
 
@@ -125,6 +126,15 @@ namespace DENSO_VCT_APP
                                 break;
                             case "KIT-STOP-BITS":
                                 GlobalVariable.mKitScannerStopBits = _strArr[1].ToString().Trim();
+                                break;
+                            case "DASHBOARD_MODE":
+                                GlobalVariable.mDashboardMode = _strArr[1].ToString().Trim();
+                                break;
+                            case "LINE_NO":
+                                GlobalVariable.mLineNo = _strArr[1].ToString().Trim();
+                                break;
+                            case "PC_NAME":
+                                GlobalVariable.mPCName = _strArr[1].ToString().Trim();
                                 break;
 
 

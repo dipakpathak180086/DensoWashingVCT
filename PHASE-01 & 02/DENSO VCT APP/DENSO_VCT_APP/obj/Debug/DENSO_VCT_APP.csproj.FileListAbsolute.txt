@@ -19,9 +19,11 @@ D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VC
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\ExcelNumberFormat.xml
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\bin\Debug\DENSO_VCT_DL.pdb
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.csprojAssemblyReference.cache
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmConveyorLinePCMappingMaster.resources
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmConveyorCamMappingMaster.resources
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmCameraIPMaster.resources
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmModelMaster.resources
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmRountingMaster.resources
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmTrayMaster.resources
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmConveyorMaster.resources
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmNGMaster.resources
@@ -30,6 +32,8 @@ D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VC
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmAddChildMenu.resources
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmAddParentMenu.resources
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmLotEntry.resources
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.UI.Transcation.frmMainDashboard.resources
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmScanTray.resources
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmAccessPassword.resources
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmMenu.resources
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.Properties.Resources.resources
@@ -39,5 +43,3 @@ D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VC
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.csproj.CopyComplete
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.exe
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.pdb
-D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmRountingMaster.resources
-D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_APP\obj\Debug\DENSO_VCT_APP.frmScanTray.resources

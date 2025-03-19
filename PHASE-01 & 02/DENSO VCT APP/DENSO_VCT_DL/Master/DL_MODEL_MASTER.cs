@@ -46,8 +46,10 @@ namespace DENSO_VCT_DL
                 param[7].Value = obj.Active;
                 param[8] = new SqlParameter("@ROW_ID", SqlDbType.VarChar, 50);
                 param[8].Value = obj.RowId;
-                param[9] = new SqlParameter("@CREATED_BY", SqlDbType.VarChar, 50);
-                param[9].Value = obj.CreatedBy;
+                param[9] = new SqlParameter("@IS_TRAY_SCANNING", SqlDbType.VarChar, 50);
+                param[9].Value = obj.IsTrayScanning;
+                param[10] = new SqlParameter("@CREATED_BY", SqlDbType.VarChar, 50);
+                param[10].Value = obj.CreatedBy;
                 return _SqlHelper.ExecuteDataset(GlobalVariable.mMainSqlConString, CommandType.StoredProcedure, "[PRC_MODEL_MASTER]", param).Tables[0];
             }
             catch (Exception ex)

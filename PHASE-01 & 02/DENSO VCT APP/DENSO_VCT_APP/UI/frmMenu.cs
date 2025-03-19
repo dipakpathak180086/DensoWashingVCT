@@ -21,7 +21,8 @@ namespace DENSO_VCT_APP
         #region Variables
 
         private bool isCancel = false;
-
+        private BL_ENABLE_DISABLE_ASSY _blObj = null;
+        private PL_ENABLE_DISABLE_ASSY _plObj = null;
 
         #endregion
 
@@ -110,8 +111,7 @@ namespace DENSO_VCT_APP
                 Width = Screen.PrimaryScreen.WorkingArea.Width;
                 Height = Screen.PrimaryScreen.WorkingArea.Height;
                 //AutoLogOut timer
-                
-
+                CheckEnabledDisableAssyProcess();
             }
             catch (Exception ex)
             {
@@ -139,6 +139,78 @@ namespace DENSO_VCT_APP
         #endregion
 
         #region Menu Click Events
+        private void chkDisableAssy_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void chkDisableAssy_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+
+                ShowAccessScreen();
+                if (GlobalVariable.mAccessUser != "")
+                {
+
+                    if (chkDisableAssy.Checked)
+                    {
+                        DialogResult result = MessageBox.Show(
+               $"Are you sure you want to disable the entire Assembly Scanning Process?",
+               "Confirmation",
+               MessageBoxButtons.YesNo,
+               MessageBoxIcon.Warning);
+                        if (result == DialogResult.No)
+                        {
+                            GlobalVariable.mAccessUser = "";
+                            return;
+                        }
+                    }
+                    else
+                    {
+                        DialogResult result = MessageBox.Show(
+                 $"Are you sure you want to enable the entire Assembly Scanning Process?",
+                 "Confirmation",
+                 MessageBoxButtons.YesNo,
+                 MessageBoxIcon.Warning);
+                        if (result == DialogResult.No)
+                        {
+                            GlobalVariable.mAccessUser = "";
+                            return;
+                        }
+
+                    }
+
+
+                    _blObj = new BL_ENABLE_DISABLE_ASSY();
+                    _plObj = new PL_ENABLE_DISABLE_ASSY();
+                    if (chkDisableAssy.Checked)
+                        _plObj.DbType = "DISABLE";
+                    else
+                        _plObj.DbType = "ENBALE";
+                    DataTable dt = _blObj.BL_ExecuteTask(_plObj);
+                    GlobalVariable.mAccessUser = "";
+                    if (chkDisableAssy.Checked)
+                    {
+                        GlobalVariable.mStoCustomFunction.setMessageBox(GlobalVariable.mSatoApps, "Entire Assembly Process Successfully Disabled.", 1);
+                    }
+                    else
+                    {
+                        GlobalVariable.mStoCustomFunction.setMessageBox(GlobalVariable.mSatoApps, "Entire Assembly Process Successfully Enabled.", 1);
+                    }
+                    CheckEnabledDisableAssyProcess();
+                    Application.DoEvents();
+                }
+            }
+            catch (Exception ex)
+            {
+                this.Invoke((MethodInvoker)delegate
+                {
+                    GlobalVariable.ShowCustomMessageBox(this, ex.Message);
+                });
+
+            }
+        }
         private void picMasterConfig_Click(object sender, EventArgs e)
         {
             ShowAccessScreen();
@@ -146,20 +218,50 @@ namespace DENSO_VCT_APP
             {
                 pnlMaster.Visible = true;
                 GlobalVariable.mAccessUser = "";
-               // pnlMaster.Visible = false;
+                // pnlMaster.Visible = false;
             }
-           
+
 
         }
-       
 
 
-      
+
+
         #endregion
 
         #region Method
 
-     
+        private void CheckEnabledDisableAssyProcess()
+        {
+            try
+            {
+                _blObj = new BL_ENABLE_DISABLE_ASSY();
+                _plObj = new PL_ENABLE_DISABLE_ASSY();
+                _plObj.DbType = "CHK_ENABLE_DISABLE";
+                DataTable dt = _blObj.BL_ExecuteTask(_plObj);
+                if (dt.Rows.Count > 0)
+                {
+                    if (dt.Rows[0]["Result"].Equals("DISABLED"))
+                    {
+                        chkDisableAssy.Text = "All Assembly Process Disabled";
+                        chkDisableAssy.Checked = true;
+                    }
+                    else
+                    {
+                        chkDisableAssy.Text = "All Assembly Process Enabled";
+                        chkDisableAssy.Checked = false;
+
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
 
         #endregion
 
@@ -217,7 +319,7 @@ namespace DENSO_VCT_APP
 
         private void btnAddLotEntry_Click(object sender, EventArgs e)
         {
-            
+
             frmAddParentMenu frm = new frmAddParentMenu();
             frm.Show();
             frm.FormClosing += OFrm_FormClosing;
@@ -228,7 +330,7 @@ namespace DENSO_VCT_APP
         private void btnAddModel_Click(object sender, EventArgs e)
         {
             ShowAccessScreen();
-            if (GlobalVariable.mAccessUser != "" )
+            if (GlobalVariable.mAccessUser != "")
             {
                 frmModelMaster frm = new frmModelMaster();
                 frm.Show();
@@ -237,7 +339,7 @@ namespace DENSO_VCT_APP
                 GlobalVariable.mAccessUser = "";
                 pnlMaster.Visible = false;
             }
-            
+
         }
         void ShowAccessScreen()
         {
@@ -245,7 +347,7 @@ namespace DENSO_VCT_APP
             oFrmLogin.ShowDialog();
             if (GlobalVariable.mAccessUser != "" && oFrmLogin.IsCancel == true)
             {
-               // lblShowMessage();
+                // lblShowMessage();
             }
         }
         private void btnManagePassword_Click(object sender, EventArgs e)
@@ -348,5 +450,21 @@ namespace DENSO_VCT_APP
             }
 
         }
+
+        private void btnLinePCConveyor_Click(object sender, EventArgs e)
+        {
+            ShowAccessScreen();
+            if (GlobalVariable.mAccessUser != "")
+            {
+                frmConveyorLinePCMappingMaster frm = new frmConveyorLinePCMappingMaster();
+                frm.Show();
+                frm.FormClosing += OFrm_FormClosing;
+                this.Hide();
+                GlobalVariable.mAccessUser = "";
+                pnlMaster.Visible = false;
+            }
+        }
+
+
     }
 }

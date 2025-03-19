@@ -89,6 +89,7 @@ namespace DENSO_VCT_APP
                     _plObj.WashingQty =Convert.ToInt32( txtWashingQty.Text.Trim());
                     _plObj.CreatedBy = "ADMIN";
                     _plObj.Active = chkActive.Checked;
+                    _plObj.IsTrayScanning = chkTrayScanning.Checked;
                     //If saving data
                     if (_IsUpdate == false)
                     {
@@ -347,6 +348,7 @@ namespace DENSO_VCT_APP
                 txtLotLen.Text  = dgv.Rows[e.RowIndex].Cells["LotNoLength"].Value.ToString();
                 txtWashingQty.Text = dgv.Rows[e.RowIndex].Cells["WashingQty"].Value.ToString();
                 chkActive.Checked = Convert.ToBoolean(dgv.Rows[e.RowIndex].Cells["Status"].Value.ToString());
+                chkTrayScanning.Checked = Convert.ToBoolean(dgv.Rows[e.RowIndex].Cells["IsTrayScanning"].Value.ToString());
                 btnDelete.Enabled = true;
                 //txtModelNo.Enabled = false;
                 //txtModelName.Enabled = false;

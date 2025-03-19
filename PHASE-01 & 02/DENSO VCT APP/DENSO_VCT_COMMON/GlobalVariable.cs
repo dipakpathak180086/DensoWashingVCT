@@ -27,8 +27,6 @@ namespace DENSO_VCT_COMMON
         public static string UserName = "";
         public static string UserGroup = "";
         public static string mAccessUser = "";
-        public static string mLine = "";
-        public static string mLineName = "";
         public static string mParentPart = "";
         public static string mParentPartName = "";
         public static string mChildPart = "";
@@ -54,7 +52,42 @@ namespace DENSO_VCT_COMMON
         public static string mTray03 = "";
         public static string mTray04 = "";
         public static bool mIsDelete = false;
+        public static bool mIsTrayEnable = false;
+        public static bool mIsTrayBarcode = false;
+        public static bool mIsLotBarcode = false;
+        public static string mScannedBarcode = "";
+        private static System.Timers.Timer _timer;
+        public static event Action Elapsed; // Simple event
+        public static string mLineNo = "";
+        public static string mPCName = "";
+        public static string mDashboardMode = "";
+        public static void Start(double interval)
+        {
+            if (_timer == null)
+            {
+                _timer = new System.Timers.Timer(interval);
+                // _timer.Elapsed += (sender, e) => Elapsed?.Invoke();
+                _timer.Elapsed += _timer_Elapsed;
+                _timer.AutoReset = true;
+            }
+            _timer.Start();
+        }
 
+        private static void _timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
+        {
+            if (GlobalVariable.mScannedBarcode.StartsWith("TR"))
+            {
+
+            }
+        }
+
+        public static void Stop()
+        {
+            if (_timer != null)
+            {
+                _timer.Stop();
+            }
+        }
         public static void MesseageInfo(Label label, string sMessage, int icnt)
         {
             if (icnt == 1)
@@ -389,6 +422,12 @@ namespace DENSO_VCT_COMMON
             {
                 GC.Collect();
             }
+        }
+        public static void ShowCustomMessageBox(Form parent, string message)
+        {
+            CustomMessageBox msgBox = new CustomMessageBox(message);
+           // parent.Focus();
+            msgBox.ShowDialog(parent);
         }
     }
 }

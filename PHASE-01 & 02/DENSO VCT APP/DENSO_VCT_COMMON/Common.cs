@@ -3,12 +3,68 @@ using SatoLib;
 using System;
 using System.Data;
 using System.Data.SqlClient;
+using System.Drawing;
 using System.IO;
 using System.Text;
 using System.Windows.Forms;
 
 namespace DENSO_VCT_COMMON
 {
+    public class CustomMessageBox : Form
+    {
+        private Button btnOK;
+        public CustomMessageBox(string message)
+        {
+            this.Text = "SatoApp";
+            this.Size = new Size(450, 250);
+            this.StartPosition = FormStartPosition.CenterParent;
+            this.FormBorderStyle = FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.BackColor = Color.AliceBlue; // Set background color
+
+            // RichTextBox for displaying the message
+            RichTextBox richTextBox = new RichTextBox();
+            richTextBox.Text = message;
+            richTextBox.Font = new Font("Arial", 12, FontStyle.Bold); // Bold text
+            richTextBox.ForeColor = Color.DarkBlue; // Attractive text color
+            richTextBox.Size = new Size(400, 120);
+            richTextBox.Location = new Point(20, 20);
+            richTextBox.ReadOnly = true;
+            richTextBox.BackColor = Color.AliceBlue; // Match background
+            richTextBox.BorderStyle = BorderStyle.None;
+            richTextBox.ScrollBars = RichTextBoxScrollBars.Vertical; // Enable scrolling
+
+            // OK Button
+             btnOK = new Button();
+            btnOK.Text = "OK";
+            btnOK.Size = new Size(80, 30);
+            btnOK.Location = new Point(180, 160);
+            btnOK.Font = new Font("Arial", 10, FontStyle.Bold);
+            btnOK.BackColor = Color.LightSteelBlue;
+            btnOK.ForeColor = Color.Black;
+            btnOK.FlatStyle = FlatStyle.Flat;
+            btnOK.Click += (s, e) => { this.Close(); };
+            btnOK.Focus();
+            // Add controls to the form
+            this.Controls.Add(richTextBox);
+            this.Controls.Add(btnOK);
+            this.Activated += (s, e) => btnOK.Focus();
+            this.Deactivate += (s, e) => btnOK.Focus();
+        }
+
+        protected override void OnActivated(EventArgs e)
+        {
+            base.OnActivated(e);
+            btnOK.Focus(); // Ensure focus stays on the button
+        }
+
+        protected override void OnLostFocus(EventArgs e)
+        {
+            base.OnLostFocus(e);
+            btnOK.Focus(); // Bring focus back to btnOK if lost
+        }
+    }
     public class Common : IDisposable
     {
 

@@ -60,6 +60,8 @@
             this.btnMinimize = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.chkTrayScanning = new System.Windows.Forms.CheckBox();
             this.RowId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ModelNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ModelName = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -67,6 +69,7 @@
             this.ChildPartName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.LotNoLength = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.WashingQty = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IsTrayScanning = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CreatedBy = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CreatedOn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -105,6 +108,7 @@
             this.ChildPartName,
             this.LotNoLength,
             this.WashingQty,
+            this.IsTrayScanning,
             this.Status,
             this.CreatedBy,
             this.CreatedOn,
@@ -112,7 +116,7 @@
             this.ModifiedOn});
             this.dgv.EnableHeadersVisualStyles = false;
             this.dgv.GridColor = System.Drawing.Color.AliceBlue;
-            this.dgv.Location = new System.Drawing.Point(5, 202);
+            this.dgv.Location = new System.Drawing.Point(5, 223);
             this.dgv.MultiSelect = false;
             this.dgv.Name = "dgv";
             this.dgv.ReadOnly = true;
@@ -121,7 +125,7 @@
             dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
             this.dgv.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv.Size = new System.Drawing.Size(1061, 211);
+            this.dgv.Size = new System.Drawing.Size(1061, 355);
             this.dgv.StandardTab = true;
             this.dgv.TabIndex = 187;
             this.dgv.TabStop = false;
@@ -132,7 +136,7 @@
             this.lblCount.AutoSize = true;
             this.lblCount.Font = new System.Drawing.Font("Calibri", 12F);
             this.lblCount.ForeColor = System.Drawing.Color.Maroon;
-            this.lblCount.Location = new System.Drawing.Point(5, 178);
+            this.lblCount.Location = new System.Drawing.Point(5, 196);
             this.lblCount.Name = "lblCount";
             this.lblCount.Size = new System.Drawing.Size(106, 19);
             this.lblCount.TabIndex = 182;
@@ -170,13 +174,13 @@
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Location = new System.Drawing.Point(6, 43);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1073, 480);
+            this.panel1.Size = new System.Drawing.Size(1073, 645);
             this.panel1.TabIndex = 213;
             // 
             // txtSearch
             // 
             this.txtSearch.Font = new System.Drawing.Font("Calibri", 12F);
-            this.txtSearch.Location = new System.Drawing.Point(292, 169);
+            this.txtSearch.Location = new System.Drawing.Point(292, 187);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(253, 27);
             this.txtSearch.TabIndex = 190;
@@ -187,7 +191,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label2.Location = new System.Drawing.Point(136, 172);
+            this.label2.Location = new System.Drawing.Point(136, 190);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(151, 19);
             this.label2.TabIndex = 191;
@@ -208,7 +212,7 @@
             this.btnClose.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(72)))), ((int)(((byte)(146)))));
             this.btnClose.Image = global::DENSO_VCT_APP.Properties.Resources.Delete;
             this.btnClose.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnClose.Location = new System.Drawing.Point(999, 419);
+            this.btnClose.Location = new System.Drawing.Point(999, 584);
             this.btnClose.Margin = new System.Windows.Forms.Padding(5);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(66, 55);
@@ -234,7 +238,7 @@
             this.btnSave.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(72)))), ((int)(((byte)(146)))));
             this.btnSave.Image = global::DENSO_VCT_APP.Properties.Resources.iconfinder_Save_1493294;
             this.btnSave.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSave.Location = new System.Drawing.Point(869, 419);
+            this.btnSave.Location = new System.Drawing.Point(869, 584);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(66, 55);
             this.btnSave.TabIndex = 0;
@@ -258,7 +262,7 @@
             this.btnReset.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(72)))), ((int)(((byte)(146)))));
             this.btnReset.Image = ((System.Drawing.Image)(resources.GetObject("btnReset.Image")));
             this.btnReset.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnReset.Location = new System.Drawing.Point(931, 419);
+            this.btnReset.Location = new System.Drawing.Point(931, 584);
             this.btnReset.Margin = new System.Windows.Forms.Padding(5);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(66, 55);
@@ -284,7 +288,7 @@
             this.btnExport.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(72)))), ((int)(((byte)(146)))));
             this.btnExport.Image = ((System.Drawing.Image)(resources.GetObject("btnExport.Image")));
             this.btnExport.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnExport.Location = new System.Drawing.Point(912, 305);
+            this.btnExport.Location = new System.Drawing.Point(912, 470);
             this.btnExport.Name = "btnExport";
             this.btnExport.Size = new System.Drawing.Size(66, 55);
             this.btnExport.TabIndex = 9;
@@ -309,7 +313,7 @@
             this.btnDelete.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(72)))), ((int)(((byte)(146)))));
             this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
             this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnDelete.Location = new System.Drawing.Point(844, 305);
+            this.btnDelete.Location = new System.Drawing.Point(844, 470);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(66, 55);
             this.btnDelete.TabIndex = 8;
@@ -320,6 +324,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label10);
+            this.groupBox1.Controls.Add(this.chkTrayScanning);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.txtWashingQty);
             this.groupBox1.Controls.Add(this.label8);
@@ -338,7 +344,7 @@
             this.groupBox1.ForeColor = System.Drawing.Color.MidnightBlue;
             this.groupBox1.Location = new System.Drawing.Point(5, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1060, 161);
+            this.groupBox1.Size = new System.Drawing.Size(1060, 179);
             this.groupBox1.TabIndex = 193;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Enter Details:";
@@ -348,7 +354,7 @@
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
-            this.label9.Location = new System.Drawing.Point(389, 111);
+            this.label9.Location = new System.Drawing.Point(425, 111);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(157, 26);
             this.label9.TabIndex = 197;
@@ -358,7 +364,7 @@
             // 
             this.txtWashingQty.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtWashingQty.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
-            this.txtWashingQty.Location = new System.Drawing.Point(548, 108);
+            this.txtWashingQty.Location = new System.Drawing.Point(584, 108);
             this.txtWashingQty.MaxLength = 5;
             this.txtWashingQty.Name = "txtWashingQty";
             this.txtWashingQty.Size = new System.Drawing.Size(186, 33);
@@ -370,7 +376,7 @@
             this.label8.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
-            this.label8.Location = new System.Drawing.Point(48, 111);
+            this.label8.Location = new System.Drawing.Point(73, 111);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(97, 26);
             this.label8.TabIndex = 195;
@@ -380,7 +386,7 @@
             // 
             this.txtLotLen.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtLotLen.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
-            this.txtLotLen.Location = new System.Drawing.Point(150, 108);
+            this.txtLotLen.Location = new System.Drawing.Point(176, 108);
             this.txtLotLen.MaxLength = 20;
             this.txtLotLen.Name = "txtLotLen";
             this.txtLotLen.Size = new System.Drawing.Size(218, 33);
@@ -392,7 +398,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(372, 69);
+            this.label1.Location = new System.Drawing.Point(408, 69);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(174, 26);
             this.label1.TabIndex = 193;
@@ -402,7 +408,7 @@
             // 
             this.txtChildPartName.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtChildPartName.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
-            this.txtChildPartName.Location = new System.Drawing.Point(548, 66);
+            this.txtChildPartName.Location = new System.Drawing.Point(584, 66);
             this.txtChildPartName.MaxLength = 150;
             this.txtChildPartName.Name = "txtChildPartName";
             this.txtChildPartName.Size = new System.Drawing.Size(381, 33);
@@ -413,7 +419,7 @@
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
-            this.label7.Location = new System.Drawing.Point(-2, 69);
+            this.label7.Location = new System.Drawing.Point(23, 69);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(147, 26);
             this.label7.TabIndex = 192;
@@ -423,7 +429,7 @@
             // 
             this.txtChildPartNo.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtChildPartNo.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
-            this.txtChildPartNo.Location = new System.Drawing.Point(150, 66);
+            this.txtChildPartNo.Location = new System.Drawing.Point(176, 66);
             this.txtChildPartNo.MaxLength = 20;
             this.txtChildPartNo.Name = "txtChildPartNo";
             this.txtChildPartNo.Size = new System.Drawing.Size(218, 33);
@@ -434,7 +440,7 @@
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(748, 111);
+            this.label4.Location = new System.Drawing.Point(784, 111);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(86, 26);
             this.label4.TabIndex = 188;
@@ -444,7 +450,7 @@
             // 
             this.chkActive.AutoSize = true;
             this.chkActive.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
-            this.chkActive.Location = new System.Drawing.Point(840, 109);
+            this.chkActive.Location = new System.Drawing.Point(876, 109);
             this.chkActive.Name = "chkActive";
             this.chkActive.Size = new System.Drawing.Size(86, 30);
             this.chkActive.TabIndex = 6;
@@ -456,7 +462,7 @@
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(399, 27);
+            this.label3.Location = new System.Drawing.Point(435, 27);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(147, 26);
             this.label3.TabIndex = 187;
@@ -466,7 +472,7 @@
             // 
             this.txtModelName.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtModelName.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
-            this.txtModelName.Location = new System.Drawing.Point(548, 24);
+            this.txtModelName.Location = new System.Drawing.Point(584, 24);
             this.txtModelName.MaxLength = 150;
             this.txtModelName.Name = "txtModelName";
             this.txtModelName.Size = new System.Drawing.Size(381, 33);
@@ -477,7 +483,7 @@
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(25, 27);
+            this.label5.Location = new System.Drawing.Point(50, 27);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(120, 26);
             this.label5.TabIndex = 185;
@@ -487,7 +493,7 @@
             // 
             this.txtModelNo.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtModelNo.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
-            this.txtModelNo.Location = new System.Drawing.Point(150, 24);
+            this.txtModelNo.Location = new System.Drawing.Point(176, 24);
             this.txtModelNo.MaxLength = 20;
             this.txtModelNo.Name = "txtModelNo";
             this.txtModelNo.Size = new System.Drawing.Size(218, 33);
@@ -539,6 +545,28 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 215;
             this.pictureBox1.TabStop = false;
+            // 
+            // label10
+            // 
+            this.label10.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
+            this.label10.Location = new System.Drawing.Point(19, 147);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(151, 26);
+            this.label10.TabIndex = 199;
+            this.label10.Text = "Tray Scanning *:";
+            // 
+            // chkTrayScanning
+            // 
+            this.chkTrayScanning.AutoSize = true;
+            this.chkTrayScanning.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
+            this.chkTrayScanning.Location = new System.Drawing.Point(176, 147);
+            this.chkTrayScanning.Name = "chkTrayScanning";
+            this.chkTrayScanning.Size = new System.Drawing.Size(89, 30);
+            this.chkTrayScanning.TabIndex = 198;
+            this.chkTrayScanning.Text = "Enable";
+            this.chkTrayScanning.UseVisualStyleBackColor = true;
             // 
             // RowId
             // 
@@ -604,6 +632,13 @@
             this.WashingQty.ReadOnly = true;
             this.WashingQty.Width = 160;
             // 
+            // IsTrayScanning
+            // 
+            this.IsTrayScanning.DataPropertyName = "IsTrayScanning";
+            this.IsTrayScanning.HeaderText = "IsTrayScanning";
+            this.IsTrayScanning.Name = "IsTrayScanning";
+            this.IsTrayScanning.ReadOnly = true;
+            // 
             // Status
             // 
             this.Status.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
@@ -653,7 +688,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(58)))), ((int)(((byte)(86)))));
-            this.ClientSize = new System.Drawing.Size(1085, 530);
+            this.ClientSize = new System.Drawing.Size(1085, 695);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btnMinimize);
@@ -715,10 +750,13 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ChildPartName;
         private System.Windows.Forms.DataGridViewTextBoxColumn LotNoLength;
         private System.Windows.Forms.DataGridViewTextBoxColumn WashingQty;
+        private System.Windows.Forms.DataGridViewTextBoxColumn IsTrayScanning;
         private System.Windows.Forms.DataGridViewTextBoxColumn Status;
         private System.Windows.Forms.DataGridViewTextBoxColumn CreatedBy;
         private System.Windows.Forms.DataGridViewTextBoxColumn CreatedOn;
         private System.Windows.Forms.DataGridViewTextBoxColumn ModifiedBy;
         private System.Windows.Forms.DataGridViewTextBoxColumn ModifiedOn;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.CheckBox chkTrayScanning;
     }
 }

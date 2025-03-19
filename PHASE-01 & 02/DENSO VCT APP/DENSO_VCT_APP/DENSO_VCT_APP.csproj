@@ -119,6 +119,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="UI\clsODBC.cs" />
+    <Compile Include="UI\Master\frmConveyorLinePCMappingMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Master\frmConveyorLinePCMappingMaster.designer.cs">
+      <DependentUpon>frmConveyorLinePCMappingMaster.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Master\frmConveyorCamMappingMaster.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -191,6 +197,12 @@
     <Compile Include="UI\Transcation\frmLotEntry.designer.cs">
       <DependentUpon>frmLotEntry.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Transcation\frmMainDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Transcation\frmMainDashboard.Designer.cs">
+      <DependentUpon>frmMainDashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Transcation\frmScanTray.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -217,6 +229,9 @@
     <Compile Include="UI\UserManagment\frmChangePassword.designer.cs">
       <DependentUpon>frmChangePassword.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UI\Master\frmConveyorLinePCMappingMaster.resx">
+      <DependentUpon>frmConveyorLinePCMappingMaster.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Master\frmConveyorCamMappingMaster.resx">
       <DependentUpon>frmConveyorCamMappingMaster.cs</DependentUpon>
     </EmbeddedResource>
@@ -252,6 +267,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Transcation\frmLotEntry.resx">
       <DependentUpon>frmLotEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Transcation\frmMainDashboard.resx">
+      <DependentUpon>frmMainDashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Transcation\frmScanTray.resx">
       <DependentUpon>frmScanTray.cs</DependentUpon>
@@ -327,6 +345,8 @@
     <Content Include="Resources\images1.jpg" />
     <Content Include="Resources\LocationMaster.png" />
     <Content Include="Resources\login.png" />
+    <Content Include="Resources\LOTSCANNING.gif" />
+    <Content Include="Resources\LOT_SCANNING_2.gif" />
     <Content Include="Resources\MinimizeNew.png" />
     <Content Include="Resources\Minus.jpg" />
     <Content Include="Resources\Next.png" />
@@ -340,10 +360,13 @@
     <Content Include="Resources\SalesTarget.png" />
     <Content Include="Resources\Save.png" />
     <Content Include="Resources\Save24.jpg" />
+    <Content Include="Resources\ScanningImage.gif" />
     <Content Include="Resources\Search.jpg" />
     <Content Include="Resources\Searchb.bmp" />
     <Content Include="Resources\Status.jpg" />
     <Content Include="Resources\Transparent Barckground Logo.png" />
+    <Content Include="Resources\TrayClosed.png" />
+    <Content Include="Resources\UnMapped.png" />
     <Content Include="Resources\Vertical.png" />
     <Content Include="Sound\Beep1.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
