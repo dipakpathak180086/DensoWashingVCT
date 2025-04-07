@@ -31,6 +31,12 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmConveyorLinePCMappingMaster));
             this.dgv = new System.Windows.Forms.DataGridView();
+            this.RowId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ConveryorCode = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.LinePC = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Active = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CreatedBy = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CreatedOn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblCount = new System.Windows.Forms.Label();
             this.lblHeader = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -50,13 +56,7 @@
             this.btnMinimize = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.txtLinePC = new System.Windows.Forms.TextBox();
-            this.RowId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ConveryorCode = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.LinePC = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Active = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CreatedBy = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CreatedOn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtLinePC = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -97,6 +97,58 @@
             this.dgv.TabIndex = 187;
             this.dgv.TabStop = false;
             this.dgv.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_CellDoubleClick);
+            // 
+            // RowId
+            // 
+            this.RowId.DataPropertyName = "RowId";
+            this.RowId.HeaderText = "";
+            this.RowId.Name = "RowId";
+            this.RowId.ReadOnly = true;
+            this.RowId.Visible = false;
+            // 
+            // ConveryorCode
+            // 
+            this.ConveryorCode.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.ConveryorCode.DataPropertyName = "ConveryorCode";
+            this.ConveryorCode.HeaderText = "Conveyor";
+            this.ConveryorCode.Name = "ConveryorCode";
+            this.ConveryorCode.ReadOnly = true;
+            this.ConveryorCode.Width = 190;
+            // 
+            // LinePC
+            // 
+            this.LinePC.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.LinePC.DataPropertyName = "LinePC";
+            this.LinePC.HeaderText = "Line PC";
+            this.LinePC.Name = "LinePC";
+            this.LinePC.ReadOnly = true;
+            this.LinePC.Width = 180;
+            // 
+            // Active
+            // 
+            this.Active.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Active.DataPropertyName = "Active";
+            this.Active.HeaderText = "Active";
+            this.Active.Name = "Active";
+            this.Active.ReadOnly = true;
+            this.Active.Width = 130;
+            // 
+            // CreatedBy
+            // 
+            this.CreatedBy.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.CreatedBy.DataPropertyName = "CreatedBy";
+            this.CreatedBy.HeaderText = "Created By";
+            this.CreatedBy.Name = "CreatedBy";
+            this.CreatedBy.ReadOnly = true;
+            this.CreatedBy.Width = 150;
+            // 
+            // CreatedOn
+            // 
+            this.CreatedOn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.CreatedOn.DataPropertyName = "CreatedOn";
+            this.CreatedOn.HeaderText = "Created On";
+            this.CreatedOn.Name = "CreatedOn";
+            this.CreatedOn.ReadOnly = true;
             // 
             // lblCount
             // 
@@ -407,62 +459,16 @@
             // txtLinePC
             // 
             this.txtLinePC.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
+            this.txtLinePC.FormattingEnabled = true;
+            this.txtLinePC.Items.AddRange(new object[] {
+            "--Select--",
+            "PC1",
+            "PC2",
+            "PC3"});
             this.txtLinePC.Location = new System.Drawing.Point(465, 30);
             this.txtLinePC.Name = "txtLinePC";
-            this.txtLinePC.Size = new System.Drawing.Size(275, 33);
-            this.txtLinePC.TabIndex = 194;
-            // 
-            // RowId
-            // 
-            this.RowId.DataPropertyName = "RowId";
-            this.RowId.HeaderText = "";
-            this.RowId.Name = "RowId";
-            this.RowId.ReadOnly = true;
-            this.RowId.Visible = false;
-            // 
-            // ConveryorCode
-            // 
-            this.ConveryorCode.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.ConveryorCode.DataPropertyName = "ConveryorCode";
-            this.ConveryorCode.HeaderText = "Conveyor";
-            this.ConveryorCode.Name = "ConveryorCode";
-            this.ConveryorCode.ReadOnly = true;
-            this.ConveryorCode.Width = 190;
-            // 
-            // LinePC
-            // 
-            this.LinePC.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.LinePC.DataPropertyName = "LinePC";
-            this.LinePC.HeaderText = "Line PC";
-            this.LinePC.Name = "LinePC";
-            this.LinePC.ReadOnly = true;
-            this.LinePC.Width = 180;
-            // 
-            // Active
-            // 
-            this.Active.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Active.DataPropertyName = "Active";
-            this.Active.HeaderText = "Active";
-            this.Active.Name = "Active";
-            this.Active.ReadOnly = true;
-            this.Active.Width = 130;
-            // 
-            // CreatedBy
-            // 
-            this.CreatedBy.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.CreatedBy.DataPropertyName = "CreatedBy";
-            this.CreatedBy.HeaderText = "Created By";
-            this.CreatedBy.Name = "CreatedBy";
-            this.CreatedBy.ReadOnly = true;
-            this.CreatedBy.Width = 150;
-            // 
-            // CreatedOn
-            // 
-            this.CreatedOn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.CreatedOn.DataPropertyName = "CreatedOn";
-            this.CreatedOn.HeaderText = "Created On";
-            this.CreatedOn.Name = "CreatedOn";
-            this.CreatedOn.ReadOnly = true;
+            this.txtLinePC.Size = new System.Drawing.Size(192, 34);
+            this.txtLinePC.TabIndex = 215;
             // 
             // frmConveyorLinePCMappingMaster
             // 
@@ -515,12 +521,12 @@
         private System.Windows.Forms.CheckBox chkActive;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox cmbConveyor;
-        private System.Windows.Forms.TextBox txtLinePC;
         private System.Windows.Forms.DataGridViewTextBoxColumn RowId;
         private System.Windows.Forms.DataGridViewTextBoxColumn ConveryorCode;
         private System.Windows.Forms.DataGridViewTextBoxColumn LinePC;
         private System.Windows.Forms.DataGridViewTextBoxColumn Active;
         private System.Windows.Forms.DataGridViewTextBoxColumn CreatedBy;
         private System.Windows.Forms.DataGridViewTextBoxColumn CreatedOn;
+        private System.Windows.Forms.ComboBox txtLinePC;
     }
 }

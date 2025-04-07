@@ -61,8 +61,14 @@ namespace DENSO_VCT_APP
             }
             else
             {
-                
-                Application.Run(new frmMenu());
+                //if (GlobalVariable.mDashboardMode == "0")
+                //{
+                //    Application.Run(new frmMainDashboard());
+                //}
+                //else
+                //{
+                    Application.Run(new frmMenu());
+                //}
             }
 
         }

@@ -96,3 +96,9 @@ C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_PL\obj\Debug\SUM_PL.csproj.AssemblyReferen
 C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_PL\obj\Debug\SUM_PL.csproj.CoreCompileInputs.cache
 C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_PL\obj\Debug\SUM_PL.dll
 C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_PL\obj\Debug\SUM_PL.pdb
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_PL\bin\Debug\SUM_PL.dll
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_PL\bin\Debug\SUM_PL.pdb
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_PL\obj\Debug\SUM_PL.csproj.CoreCompileInputs.cache
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_PL\obj\Debug\SUM_PL.dll
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_PL\obj\Debug\SUM_PL.pdb
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_PL\obj\Debug\SUM_PL.csprojAssemblyReference.cache

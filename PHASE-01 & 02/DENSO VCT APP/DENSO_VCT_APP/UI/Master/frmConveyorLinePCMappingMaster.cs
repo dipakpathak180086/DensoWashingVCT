@@ -237,6 +237,13 @@ namespace DENSO_VCT_APP
                     cmbConveyor.SelectAll();
                     return false;
                 }
+                if (txtLinePC.SelectedIndex <= 0)
+                {
+                    GlobalVariable.mStoCustomFunction.setMessageBox(GlobalVariable.mSatoApps, "Select Line PC !!", 3);
+                    txtLinePC.Focus();
+                    txtLinePC.SelectAll();
+                    return false;
+                }
                 if (string.IsNullOrEmpty(txtLinePC.Text.Trim()))
                 {
                     GlobalVariable.mStoCustomFunction.setMessageBox(GlobalVariable.mSatoApps, "Enter Line PC !!", 3);

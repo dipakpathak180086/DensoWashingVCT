@@ -77,6 +77,7 @@ namespace DENSO_VCT_APP
                 if (ValidateInput())
                 {
                     _plObj = new PL_CONVEYOR_CAM_MAPPING_MASTER();
+                    _plObj.RowId = Convert.ToInt64(_iRowId);
                     _plObj.CamId = cmbCamera.Text.ToString().Trim();
                     _plObj.CamIP = lblCameraIP.Text.Trim();
                     _plObj.Conveyor = cmbConveyor.SelectedValue.ToString().Trim();
@@ -257,7 +258,7 @@ namespace DENSO_VCT_APP
                 }
                 if (cmbCamera.SelectedIndex <= 0)
                 {
-                    GlobalVariable.mStoCustomFunction.setMessageBox(GlobalVariable.mSatoApps, "Select Camera !!", 3);
+                    GlobalVariable.mStoCustomFunction.setMessageBox(GlobalVariable.mSatoApps, "Select Scanner !!", 3);
                     cmbCamera.Focus();
                     cmbCamera.SelectAll();
                     return false;

@@ -192,15 +192,19 @@ namespace DENSO_VCT_APP
                     GlobalVariable.mAccessUser = "";
                     if (chkDisableAssy.Checked)
                     {
+                        
                         GlobalVariable.mStoCustomFunction.setMessageBox(GlobalVariable.mSatoApps, "Entire Assembly Process Successfully Disabled.", 1);
                     }
                     else
                     {
+                        
                         GlobalVariable.mStoCustomFunction.setMessageBox(GlobalVariable.mSatoApps, "Entire Assembly Process Successfully Enabled.", 1);
                     }
                     CheckEnabledDisableAssyProcess();
                     Application.DoEvents();
                 }
+                else
+                    chkDisableAssy.Checked = CheckEnabledDisableAssyProcess();
             }
             catch (Exception ex)
             {
@@ -217,6 +221,8 @@ namespace DENSO_VCT_APP
             if (GlobalVariable.mAccessUser != "")
             {
                 pnlMaster.Visible = true;
+                pnlStep03.Visible = true;
+
                 GlobalVariable.mAccessUser = "";
                 // pnlMaster.Visible = false;
             }
@@ -231,8 +237,9 @@ namespace DENSO_VCT_APP
 
         #region Method
 
-        private void CheckEnabledDisableAssyProcess()
+        private bool CheckEnabledDisableAssyProcess()
         {
+            bool _isFlag = false;
             try
             {
                 _blObj = new BL_ENABLE_DISABLE_ASSY();
@@ -243,18 +250,36 @@ namespace DENSO_VCT_APP
                 {
                     if (dt.Rows[0]["Result"].Equals("DISABLED"))
                     {
-                        chkDisableAssy.Text = "All Assembly Process Disabled";
+                        chkDisableAssy.Text = "Tray Scanning Traceability System Disabled";
                         chkDisableAssy.Checked = true;
+                        _isFlag = true;
+                        for (int i = 0; i < pnlStep03.Controls.Count; i++)
+                        {
+                            if (pnlStep03.Controls[i] is Button)
+                            {
+                                Button btn = pnlStep03.Controls[i] as Button;
+                                btn.Enabled = false;
+                            }
+                        }
                     }
                     else
                     {
-                        chkDisableAssy.Text = "All Assembly Process Enabled";
+                        chkDisableAssy.Text = "Tray Scanning Traceability System Enabled";
                         chkDisableAssy.Checked = false;
+                        _isFlag = false;
+                        for (int i = 0; i < pnlStep03.Controls.Count; i++)
+                        {
+                            if (pnlStep03.Controls[i] is Button)
+                            {
+                                Button btn = pnlStep03.Controls[i] as Button;
+                                btn.Enabled = true;
+                            }
+                        }
 
                     }
                 }
 
-
+                return _isFlag;
             }
             catch (Exception ex)
             {
@@ -465,6 +490,33 @@ namespace DENSO_VCT_APP
             }
         }
 
+        private void btnDashBoard_Click(object sender, EventArgs e)
+        {
+            ShowAccessScreen();
+            if (GlobalVariable.mAccessUser != "")
+            {
+                frmMainDashboard frm = new frmMainDashboard();
+                frm.Show();
+                frm.FormClosing += OFrm_FormClosing;
+                this.Hide();
+                GlobalVariable.mAccessUser = "";
+                pnlMaster.Visible = false;
+            }
+        }
 
+        private void btnScannerTriggerTimeMaster_Click(object sender, EventArgs e)
+        {
+            ShowAccessScreen();
+            if (GlobalVariable.mAccessUser != "")
+            {
+                frmScannerTiggerTImeMaster frm = new frmScannerTiggerTImeMaster();
+                frm.Show();
+                frm.FormClosing += OFrm_FormClosing;
+                this.Hide();
+                GlobalVariable.mAccessUser = "";
+                pnlMaster.Visible = false;
+            }
+
+        }
     }
 }

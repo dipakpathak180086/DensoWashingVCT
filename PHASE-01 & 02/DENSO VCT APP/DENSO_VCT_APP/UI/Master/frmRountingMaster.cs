@@ -321,6 +321,14 @@ namespace DENSO_VCT_APP
                     txtMax.SelectAll();
                     return false;
                 }
+
+                if (Convert.ToInt32(txtMax.Text.Trim()) <= Convert.ToInt32(txtMin.Text.Trim()))
+                {
+                    GlobalVariable.mStoCustomFunction.setMessageBox(GlobalVariable.mSatoApps, "Max can't be same or less than Min time !!", 3);
+                    txtMax.Focus();
+                    txtMax.SelectAll();
+                    return false;
+                }
                 if (txtAvg.Text.Trim().Length == 0)
                 {
                     GlobalVariable.mStoCustomFunction.setMessageBox(GlobalVariable.mSatoApps, "Avg can't be blank!!", 3);

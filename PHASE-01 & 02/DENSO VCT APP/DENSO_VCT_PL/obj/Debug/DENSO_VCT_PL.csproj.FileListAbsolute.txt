@@ -38,3 +38,4 @@ D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VC
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_PL\obj\Debug\DENSO_VCT_PL.csproj.CopyComplete
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_PL\obj\Debug\DENSO_VCT_PL.dll
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_PL\obj\Debug\DENSO_VCT_PL.pdb
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_PL\bin\Debug\Serilog.dll

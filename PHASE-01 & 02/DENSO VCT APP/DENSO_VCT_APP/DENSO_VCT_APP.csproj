@@ -98,6 +98,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>DLL\SatoLib.dll</HintPath>
     </Reference>
+    <Reference Include="Serilog, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -119,6 +120,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="UI\clsODBC.cs" />
+    <Compile Include="UI\Master\frmScannerTiggerTImeMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Master\frmScannerTiggerTImeMaster.designer.cs">
+      <DependentUpon>frmScannerTiggerTImeMaster.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Master\frmConveyorLinePCMappingMaster.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -172,6 +179,12 @@
     </Compile>
     <Compile Include="UI\Message\frmMsg.Designer.cs">
       <DependentUpon>frmMsg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Report\frmConveyorAssyReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Report\frmConveyorAssyReport.designer.cs">
+      <DependentUpon>frmConveyorAssyReport.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\Report\frmLotEntryReport.cs">
       <SubType>Form</SubType>
@@ -229,6 +242,9 @@
     <Compile Include="UI\UserManagment\frmChangePassword.designer.cs">
       <DependentUpon>frmChangePassword.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UI\Master\frmScannerTiggerTImeMaster.resx">
+      <DependentUpon>frmScannerTiggerTImeMaster.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Master\frmConveyorLinePCMappingMaster.resx">
       <DependentUpon>frmConveyorLinePCMappingMaster.cs</DependentUpon>
     </EmbeddedResource>
@@ -255,6 +271,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Message\frmMsg.resx">
       <DependentUpon>frmMsg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report\frmConveyorAssyReport.resx">
+      <DependentUpon>frmConveyorAssyReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Report\frmLotEntryReport.resx">
       <DependentUpon>frmLotEntryReport.cs</DependentUpon>
@@ -310,9 +329,10 @@
   <ItemGroup>
     <Content Include="DENSO.ico" />
     <Content Include="DLL\Microsoft.Office.Interop.Excel.dll" />
+    <Content Include="DLL\Newtonsoft.Json.dll" />
     <Content Include="DLL\SatoLib.dll" />
-    <Content Include="DLL\SATOPrinterAPI.dll" />
-    <Content Include="DLL\SATOPrinterInterface.dll" />
+    <Content Include="DLL\Serilog.dll" />
+    <Content Include="DLL\Serilog.Sinks.File.dll" />
     <Content Include="Resources\1336028501_001_39.png" />
     <Content Include="Resources\36983477-security-services-and-protection-concept-login-sign-in-concepts-businessman-offer-padlock-symbol-of-.jpg" />
     <Content Include="Resources\Category.png" />
@@ -360,6 +380,12 @@
     <Content Include="Resources\SalesTarget.png" />
     <Content Include="Resources\Save.png" />
     <Content Include="Resources\Save24.jpg" />
+    <Content Include="Resources\ScannerConnected.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\ScannerDisconnected.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\ScanningImage.gif" />
     <Content Include="Resources\Search.jpg" />
     <Content Include="Resources\Searchb.bmp" />

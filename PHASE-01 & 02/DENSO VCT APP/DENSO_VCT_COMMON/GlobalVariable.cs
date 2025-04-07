@@ -51,6 +51,7 @@ namespace DENSO_VCT_COMMON
         public static string mTray02 = "";
         public static string mTray03 = "";
         public static string mTray04 = "";
+        public static string mConveyor = "";
         public static bool mIsDelete = false;
         public static bool mIsTrayEnable = false;
         public static bool mIsTrayBarcode = false;
@@ -61,6 +62,12 @@ namespace DENSO_VCT_COMMON
         public static string mLineNo = "";
         public static string mPCName = "";
         public static string mDashboardMode = "";
+        public static string SC1ScannerIP = "";
+        public static int SC1ScannerPort = 1024;
+        public static string SC2ScannerIP = "";
+        public static int SC2ScannerPort = 1024;
+        public static string SC3ScannerIP = "";
+        public static int SC3ScannerPort = 1024;
         public static void Start(double interval)
         {
             if (_timer == null)

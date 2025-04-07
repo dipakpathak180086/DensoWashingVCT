@@ -214,14 +214,14 @@ namespace DENSO_VCT_APP
             {
                 if (string.IsNullOrEmpty(txtCamID.Text.Trim()))
                 {
-                    GlobalVariable.mStoCustomFunction.setMessageBox(GlobalVariable.mSatoApps, "Cam ID can't be blank!!", 3);
+                    GlobalVariable.mStoCustomFunction.setMessageBox(GlobalVariable.mSatoApps, "Scanner ID can't be blank!!", 3);
                     txtCamID.Focus();
                     txtCamID.SelectAll();
                     return false;
                 }
                 if (string.IsNullOrEmpty(txtCameraIP.Text.Trim()))
                 {
-                    GlobalVariable.mStoCustomFunction.setMessageBox(GlobalVariable.mSatoApps, "Cam IP can't be blank!!", 3);
+                    GlobalVariable.mStoCustomFunction.setMessageBox(GlobalVariable.mSatoApps, "Scanner IP can't be blank!!", 3);
                     txtCameraIP.Focus();
                     txtCameraIP.SelectAll();
                     return false;
@@ -229,7 +229,7 @@ namespace DENSO_VCT_APP
 
                 if (txtDesc.Text.Trim().Length == 0)
                 {
-                    GlobalVariable.mStoCustomFunction.setMessageBox(GlobalVariable.mSatoApps, "Cam Description. can't be blank!!", 3);
+                    GlobalVariable.mStoCustomFunction.setMessageBox(GlobalVariable.mSatoApps, "Scanner Description. can't be blank!!", 3);
                     txtDesc.Focus();
                     txtDesc.SelectAll();
                     return false;

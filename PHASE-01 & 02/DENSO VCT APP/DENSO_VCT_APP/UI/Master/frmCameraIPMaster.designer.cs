@@ -31,12 +31,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCameraIPMaster));
             this.dgv = new System.Windows.Forms.DataGridView();
-            this.CamId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CamIP = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CamDescription = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Active = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CreatedBy = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CreatedOn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblCount = new System.Windows.Forms.Label();
             this.lblHeader = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -59,6 +53,12 @@
             this.btnMinimize = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.CamId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CamIP = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CamDescription = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Active = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CreatedBy = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CreatedOn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -100,63 +100,6 @@
             this.dgv.TabStop = false;
             this.dgv.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_CellDoubleClick);
             // 
-            // CamId
-            // 
-            this.CamId.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.CamId.DataPropertyName = "CamId";
-            this.CamId.Frozen = true;
-            this.CamId.HeaderText = "Camera ID";
-            this.CamId.Name = "CamId";
-            this.CamId.ReadOnly = true;
-            this.CamId.Width = 160;
-            // 
-            // CamIP
-            // 
-            this.CamIP.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.CamIP.DataPropertyName = "CamIP";
-            this.CamIP.Frozen = true;
-            this.CamIP.HeaderText = "Camera IP";
-            this.CamIP.Name = "CamIP";
-            this.CamIP.ReadOnly = true;
-            this.CamIP.Width = 180;
-            // 
-            // CamDescription
-            // 
-            this.CamDescription.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.CamDescription.DataPropertyName = "CamDescription";
-            this.CamDescription.Frozen = true;
-            this.CamDescription.HeaderText = "Camera Desc";
-            this.CamDescription.Name = "CamDescription";
-            this.CamDescription.ReadOnly = true;
-            this.CamDescription.Width = 190;
-            // 
-            // Active
-            // 
-            this.Active.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Active.DataPropertyName = "Active";
-            this.Active.Frozen = true;
-            this.Active.HeaderText = "Active";
-            this.Active.Name = "Active";
-            this.Active.ReadOnly = true;
-            this.Active.Width = 130;
-            // 
-            // CreatedBy
-            // 
-            this.CreatedBy.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.CreatedBy.DataPropertyName = "CreatedBy";
-            this.CreatedBy.HeaderText = "Created By";
-            this.CreatedBy.Name = "CreatedBy";
-            this.CreatedBy.ReadOnly = true;
-            this.CreatedBy.Width = 150;
-            // 
-            // CreatedOn
-            // 
-            this.CreatedOn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.CreatedOn.DataPropertyName = "CreatedOn";
-            this.CreatedOn.HeaderText = "Created On";
-            this.CreatedOn.Name = "CreatedOn";
-            this.CreatedOn.ReadOnly = true;
-            // 
             // lblCount
             // 
             this.lblCount.AutoSize = true;
@@ -178,7 +121,7 @@
             this.lblHeader.Name = "lblHeader";
             this.lblHeader.Size = new System.Drawing.Size(1085, 41);
             this.lblHeader.TabIndex = 212;
-            this.lblHeader.Text = "CAMERA IP MASTER";
+            this.lblHeader.Text = "SCANNER IP MASTER";
             this.lblHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel1
@@ -271,9 +214,9 @@
             this.label1.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
             this.label1.Location = new System.Drawing.Point(555, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(116, 26);
+            this.label1.Size = new System.Drawing.Size(119, 26);
             this.label1.TabIndex = 191;
-            this.label1.Text = "Camera IP*:";
+            this.label1.Text = "Scanner IP*:";
             // 
             // label4
             // 
@@ -325,9 +268,9 @@
             this.label5.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
             this.label5.Location = new System.Drawing.Point(26, 24);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(118, 26);
+            this.label5.Size = new System.Drawing.Size(121, 26);
             this.label5.TabIndex = 185;
-            this.label5.Text = "Camera ID*:";
+            this.label5.Text = "Scanner ID*:";
             // 
             // btnClose
             // 
@@ -345,7 +288,7 @@
             this.btnClose.Image = global::DENSO_VCT_APP.Properties.Resources.Delete;
             this.btnClose.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnClose.Location = new System.Drawing.Point(999, 419);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(5);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(66, 55);
             this.btnClose.TabIndex = 2;
@@ -395,7 +338,7 @@
             this.btnReset.Image = ((System.Drawing.Image)(resources.GetObject("btnReset.Image")));
             this.btnReset.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnReset.Location = new System.Drawing.Point(931, 419);
-            this.btnReset.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnReset.Margin = new System.Windows.Forms.Padding(5);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(66, 55);
             this.btnReset.TabIndex = 1;
@@ -498,6 +441,63 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 215;
             this.pictureBox1.TabStop = false;
+            // 
+            // CamId
+            // 
+            this.CamId.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.CamId.DataPropertyName = "CamId";
+            this.CamId.Frozen = true;
+            this.CamId.HeaderText = "Scanner ID";
+            this.CamId.Name = "CamId";
+            this.CamId.ReadOnly = true;
+            this.CamId.Width = 160;
+            // 
+            // CamIP
+            // 
+            this.CamIP.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.CamIP.DataPropertyName = "CamIP";
+            this.CamIP.Frozen = true;
+            this.CamIP.HeaderText = "Scanner IP";
+            this.CamIP.Name = "CamIP";
+            this.CamIP.ReadOnly = true;
+            this.CamIP.Width = 180;
+            // 
+            // CamDescription
+            // 
+            this.CamDescription.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.CamDescription.DataPropertyName = "CamDescription";
+            this.CamDescription.Frozen = true;
+            this.CamDescription.HeaderText = "Scanner Desc";
+            this.CamDescription.Name = "CamDescription";
+            this.CamDescription.ReadOnly = true;
+            this.CamDescription.Width = 190;
+            // 
+            // Active
+            // 
+            this.Active.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Active.DataPropertyName = "Active";
+            this.Active.Frozen = true;
+            this.Active.HeaderText = "Active";
+            this.Active.Name = "Active";
+            this.Active.ReadOnly = true;
+            this.Active.Width = 130;
+            // 
+            // CreatedBy
+            // 
+            this.CreatedBy.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.CreatedBy.DataPropertyName = "CreatedBy";
+            this.CreatedBy.HeaderText = "Created By";
+            this.CreatedBy.Name = "CreatedBy";
+            this.CreatedBy.ReadOnly = true;
+            this.CreatedBy.Width = 150;
+            // 
+            // CreatedOn
+            // 
+            this.CreatedOn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.CreatedOn.DataPropertyName = "CreatedOn";
+            this.CreatedOn.HeaderText = "Created On";
+            this.CreatedOn.Name = "CreatedOn";
+            this.CreatedOn.ReadOnly = true;
             // 
             // frmCameraIPMaster
             // 

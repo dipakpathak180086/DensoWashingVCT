@@ -31,13 +31,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmConveyorCamMappingMaster));
             this.dgv = new System.Windows.Forms.DataGridView();
-            this.RowId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ConveyorCode = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CamId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CamIP = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Active = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CreatedBy = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CreatedOn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblCount = new System.Windows.Forms.Label();
             this.lblHeader = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -60,6 +53,13 @@
             this.btnMinimize = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.RowId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ConveyorCode = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CamId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CamIP = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Active = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CreatedBy = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CreatedOn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -102,67 +102,6 @@
             this.dgv.TabStop = false;
             this.dgv.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_CellDoubleClick);
             // 
-            // RowId
-            // 
-            this.RowId.DataPropertyName = "RowId";
-            this.RowId.HeaderText = "";
-            this.RowId.Name = "RowId";
-            this.RowId.ReadOnly = true;
-            this.RowId.Visible = false;
-            // 
-            // ConveyorCode
-            // 
-            this.ConveyorCode.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.ConveyorCode.DataPropertyName = "ConveyorCode";
-            this.ConveyorCode.HeaderText = "Conveyor";
-            this.ConveyorCode.Name = "ConveyorCode";
-            this.ConveyorCode.ReadOnly = true;
-            this.ConveyorCode.Width = 190;
-            // 
-            // CamId
-            // 
-            this.CamId.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.CamId.DataPropertyName = "CamId";
-            this.CamId.HeaderText = "Camera ID";
-            this.CamId.Name = "CamId";
-            this.CamId.ReadOnly = true;
-            this.CamId.Width = 160;
-            // 
-            // CamIP
-            // 
-            this.CamIP.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.CamIP.DataPropertyName = "CamIP";
-            this.CamIP.HeaderText = "Camera IP";
-            this.CamIP.Name = "CamIP";
-            this.CamIP.ReadOnly = true;
-            this.CamIP.Width = 180;
-            // 
-            // Active
-            // 
-            this.Active.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Active.DataPropertyName = "Active";
-            this.Active.HeaderText = "Active";
-            this.Active.Name = "Active";
-            this.Active.ReadOnly = true;
-            this.Active.Width = 130;
-            // 
-            // CreatedBy
-            // 
-            this.CreatedBy.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.CreatedBy.DataPropertyName = "CreatedBy";
-            this.CreatedBy.HeaderText = "Created By";
-            this.CreatedBy.Name = "CreatedBy";
-            this.CreatedBy.ReadOnly = true;
-            this.CreatedBy.Width = 150;
-            // 
-            // CreatedOn
-            // 
-            this.CreatedOn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.CreatedOn.DataPropertyName = "CreatedOn";
-            this.CreatedOn.HeaderText = "Created On";
-            this.CreatedOn.Name = "CreatedOn";
-            this.CreatedOn.ReadOnly = true;
-            // 
             // lblCount
             // 
             this.lblCount.AutoSize = true;
@@ -184,7 +123,7 @@
             this.lblHeader.Name = "lblHeader";
             this.lblHeader.Size = new System.Drawing.Size(1085, 41);
             this.lblHeader.TabIndex = 212;
-            this.lblHeader.Text = "CONVEYOR CAMERA MAPPING MASTER";
+            this.lblHeader.Text = "CONVEYOR SCANNER MAPPING MASTER";
             this.lblHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel1
@@ -267,9 +206,9 @@
             this.label7.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
             this.label7.Location = new System.Drawing.Point(695, 30);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(116, 26);
+            this.label7.Size = new System.Drawing.Size(119, 26);
             this.label7.TabIndex = 214;
-            this.label7.Text = "Camera IP*:";
+            this.label7.Text = "Scanner IP*:";
             // 
             // cmbCamera
             // 
@@ -294,11 +233,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(363, 27);
+            this.label1.Location = new System.Drawing.Point(348, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 26);
+            this.label1.Size = new System.Drawing.Size(112, 26);
             this.label1.TabIndex = 191;
-            this.label1.Text = "Camera*:";
+            this.label1.Text = "SCANNER*:";
             // 
             // label4
             // 
@@ -500,6 +439,67 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 215;
             this.pictureBox1.TabStop = false;
+            // 
+            // RowId
+            // 
+            this.RowId.DataPropertyName = "RowId";
+            this.RowId.HeaderText = "";
+            this.RowId.Name = "RowId";
+            this.RowId.ReadOnly = true;
+            this.RowId.Visible = false;
+            // 
+            // ConveyorCode
+            // 
+            this.ConveyorCode.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.ConveyorCode.DataPropertyName = "ConveyorCode";
+            this.ConveyorCode.HeaderText = "Conveyor";
+            this.ConveyorCode.Name = "ConveyorCode";
+            this.ConveyorCode.ReadOnly = true;
+            this.ConveyorCode.Width = 190;
+            // 
+            // CamId
+            // 
+            this.CamId.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.CamId.DataPropertyName = "CamId";
+            this.CamId.HeaderText = "Scanner ID";
+            this.CamId.Name = "CamId";
+            this.CamId.ReadOnly = true;
+            this.CamId.Width = 160;
+            // 
+            // CamIP
+            // 
+            this.CamIP.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.CamIP.DataPropertyName = "CamIP";
+            this.CamIP.HeaderText = "Scanner IP";
+            this.CamIP.Name = "CamIP";
+            this.CamIP.ReadOnly = true;
+            this.CamIP.Width = 180;
+            // 
+            // Active
+            // 
+            this.Active.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Active.DataPropertyName = "Active";
+            this.Active.HeaderText = "Active";
+            this.Active.Name = "Active";
+            this.Active.ReadOnly = true;
+            this.Active.Width = 130;
+            // 
+            // CreatedBy
+            // 
+            this.CreatedBy.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.CreatedBy.DataPropertyName = "CreatedBy";
+            this.CreatedBy.HeaderText = "Created By";
+            this.CreatedBy.Name = "CreatedBy";
+            this.CreatedBy.ReadOnly = true;
+            this.CreatedBy.Width = 150;
+            // 
+            // CreatedOn
+            // 
+            this.CreatedOn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.CreatedOn.DataPropertyName = "CreatedOn";
+            this.CreatedOn.HeaderText = "Created On";
+            this.CreatedOn.Name = "CreatedOn";
+            this.CreatedOn.ReadOnly = true;
             // 
             // frmConveyorCamMappingMaster
             // 

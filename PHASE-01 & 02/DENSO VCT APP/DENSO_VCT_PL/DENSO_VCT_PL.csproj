@@ -47,6 +47,7 @@
     <Compile Include="Master\PL_CONVEYOR_LINE_PC_MAPPING_MASTER.cs" />
     <Compile Include="Master\PL_CONVEYOR_CAM_MAPPING_MASTER.cs" />
     <Compile Include="Master\PL_CAMERA_IP_MASTER.cs" />
+    <Compile Include="Master\PL_SCANNER_TRIGGER_TIME_MASTER.cs" />
     <Compile Include="Master\PL_ROUTING_MASTER.cs" />
     <Compile Include="Master\PL_ENABLE_DISABLE_ASSY.cs" />
     <Compile Include="Master\PL_TRAY_MASTER.cs" />
@@ -55,8 +56,11 @@
     <Compile Include="Master\PL_PC_MENU.cs" />
     <Compile Include="Master\PL_MODEL_MASTER.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\PL_CONVEYOR_ASSY_REPORT.cs" />
     <Compile Include="Report\PL_LOT_ENTRY_REPORT.cs" />
     <Compile Include="Transcation\PL_LOT_ENTRY.cs" />
+    <Compile Include="Transcation\PL_LINE_ASSY_DASH.cs" />
+    <Compile Include="Transcation\PL_LINE_ASSY.cs" />
     <Compile Include="Transcation\PL_TRAY_SCANNING.cs" />
   </ItemGroup>
   <ItemGroup />
