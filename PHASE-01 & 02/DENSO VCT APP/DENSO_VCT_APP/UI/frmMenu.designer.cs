@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMenu));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pnlStep03 = new System.Windows.Forms.Panel();
+            this.btnTrayAttendanceLogReport = new System.Windows.Forms.Button();
+            this.btnScannerTriggerTimeMaster = new System.Windows.Forms.Button();
             this.chkDisableAssy = new System.Windows.Forms.CheckBox();
             this.btnStationMaster = new System.Windows.Forms.Button();
             this.btnLinePCConveyor = new System.Windows.Forms.Button();
@@ -54,7 +56,7 @@
             this.btnMini = new System.Windows.Forms.Button();
             this.picMasterConfig = new System.Windows.Forms.PictureBox();
             this.picLogOut = new System.Windows.Forms.PictureBox();
-            this.btnScannerTriggerTimeMaster = new System.Windows.Forms.Button();
+            this.lblVersion = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.pnlStep03.SuspendLayout();
             this.pnlMaster.SuspendLayout();
@@ -86,6 +88,7 @@
             this.pnlStep03.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.pnlStep03.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlStep03.Controls.Add(this.btnTrayAttendanceLogReport);
             this.pnlStep03.Controls.Add(this.btnScannerTriggerTimeMaster);
             this.pnlStep03.Controls.Add(this.chkDisableAssy);
             this.pnlStep03.Controls.Add(this.btnStationMaster);
@@ -100,6 +103,26 @@
             this.pnlStep03.Size = new System.Drawing.Size(422, 783);
             this.pnlStep03.TabIndex = 10;
             this.pnlStep03.Visible = false;
+            // 
+            // btnTrayAttendanceLogReport
+            // 
+            this.btnTrayAttendanceLogReport.Location = new System.Drawing.Point(36, 566);
+            this.btnTrayAttendanceLogReport.Name = "btnTrayAttendanceLogReport";
+            this.btnTrayAttendanceLogReport.Size = new System.Drawing.Size(338, 66);
+            this.btnTrayAttendanceLogReport.TabIndex = 265;
+            this.btnTrayAttendanceLogReport.Text = "Tray Attendance Log Report";
+            this.btnTrayAttendanceLogReport.UseVisualStyleBackColor = true;
+            this.btnTrayAttendanceLogReport.Click += new System.EventHandler(this.btnTrayAttendanceLogReport_Click);
+            // 
+            // btnScannerTriggerTimeMaster
+            // 
+            this.btnScannerTriggerTimeMaster.Location = new System.Drawing.Point(36, 494);
+            this.btnScannerTriggerTimeMaster.Name = "btnScannerTriggerTimeMaster";
+            this.btnScannerTriggerTimeMaster.Size = new System.Drawing.Size(338, 66);
+            this.btnScannerTriggerTimeMaster.TabIndex = 264;
+            this.btnScannerTriggerTimeMaster.Text = "Scanner Trigger Time Master";
+            this.btnScannerTriggerTimeMaster.UseVisualStyleBackColor = true;
+            this.btnScannerTriggerTimeMaster.Click += new System.EventHandler(this.btnScannerTriggerTimeMaster_Click);
             // 
             // chkDisableAssy
             // 
@@ -373,15 +396,16 @@
             this.picLogOut.TabStop = false;
             this.picLogOut.Click += new System.EventHandler(this.picLogOut_Click);
             // 
-            // btnScannerTriggerTimeMaster
+            // lblVersion
             // 
-            this.btnScannerTriggerTimeMaster.Location = new System.Drawing.Point(36, 494);
-            this.btnScannerTriggerTimeMaster.Name = "btnScannerTriggerTimeMaster";
-            this.btnScannerTriggerTimeMaster.Size = new System.Drawing.Size(338, 66);
-            this.btnScannerTriggerTimeMaster.TabIndex = 264;
-            this.btnScannerTriggerTimeMaster.Text = "Scanner Trigger Time Master";
-            this.btnScannerTriggerTimeMaster.UseVisualStyleBackColor = true;
-            this.btnScannerTriggerTimeMaster.Click += new System.EventHandler(this.btnScannerTriggerTimeMaster_Click);
+            this.lblVersion.AutoSize = true;
+            this.lblVersion.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVersion.ForeColor = System.Drawing.Color.White;
+            this.lblVersion.Location = new System.Drawing.Point(128, 40);
+            this.lblVersion.Name = "lblVersion";
+            this.lblVersion.Size = new System.Drawing.Size(100, 13);
+            this.lblVersion.TabIndex = 263;
+            this.lblVersion.Text = "Application Version:";
             // 
             // frmMenu
             // 
@@ -389,6 +413,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(58)))), ((int)(((byte)(86)))));
             this.ClientSize = new System.Drawing.Size(1555, 890);
+            this.Controls.Add(this.lblVersion);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -445,5 +470,7 @@
         private System.Windows.Forms.Panel pnlStep03;
         private System.Windows.Forms.Button btnDashBoard;
         private System.Windows.Forms.Button btnScannerTriggerTimeMaster;
+        private System.Windows.Forms.Button btnTrayAttendanceLogReport;
+        private System.Windows.Forms.Label lblVersion;
     }
 }

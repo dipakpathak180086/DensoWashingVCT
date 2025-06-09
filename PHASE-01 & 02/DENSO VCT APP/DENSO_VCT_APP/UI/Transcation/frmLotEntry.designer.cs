@@ -132,7 +132,7 @@
             this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimize.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMinimize.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(72)))), ((int)(((byte)(146)))));
-            this.btnMinimize.Location = new System.Drawing.Point(1383, -65);
+            this.btnMinimize.Location = new System.Drawing.Point(1334, -65);
             this.btnMinimize.Name = "btnMinimize";
             this.btnMinimize.Size = new System.Drawing.Size(28, 32);
             this.btnMinimize.TabIndex = 207;
@@ -147,7 +147,7 @@
             this.lblHeader.ForeColor = System.Drawing.Color.AliceBlue;
             this.lblHeader.Location = new System.Drawing.Point(0, 0);
             this.lblHeader.Name = "lblHeader";
-            this.lblHeader.Size = new System.Drawing.Size(1435, 43);
+            this.lblHeader.Size = new System.Drawing.Size(1386, 43);
             this.lblHeader.TabIndex = 208;
             this.lblHeader.Text = "LOT ENTRY APPLICATION";
             this.lblHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -164,7 +164,7 @@
             this.panel1.Font = new System.Drawing.Font("Calibri", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.panel1.Location = new System.Drawing.Point(6, 47);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1423, 739);
+            this.panel1.Size = new System.Drawing.Size(1374, 739);
             this.panel1.TabIndex = 209;
             // 
             // gbPrintingParameter
@@ -205,7 +205,7 @@
             this.gbPrintingParameter.ForeColor = System.Drawing.Color.MidnightBlue;
             this.gbPrintingParameter.Location = new System.Drawing.Point(3, 3);
             this.gbPrintingParameter.Name = "gbPrintingParameter";
-            this.gbPrintingParameter.Size = new System.Drawing.Size(1411, 644);
+            this.gbPrintingParameter.Size = new System.Drawing.Size(1362, 644);
             this.gbPrintingParameter.TabIndex = 0;
             this.gbPrintingParameter.TabStop = false;
             // 
@@ -388,7 +388,7 @@
             this.panel3.Controls.Add(this.dgv);
             this.panel3.Location = new System.Drawing.Point(3, 269);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1408, 372);
+            this.panel3.Size = new System.Drawing.Size(1359, 372);
             this.panel3.TabIndex = 196;
             // 
             // dgv
@@ -442,7 +442,7 @@
             this.dgv.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dgv.RowTemplate.Height = 45;
             this.dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv.Size = new System.Drawing.Size(1408, 372);
+            this.dgv.Size = new System.Drawing.Size(1359, 372);
             this.dgv.StandardTab = true;
             this.dgv.TabIndex = 194;
             this.dgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_CellContentClick);
@@ -744,7 +744,7 @@
             this.lblMessage.ForeColor = System.Drawing.Color.White;
             this.lblMessage.Location = new System.Drawing.Point(0, 664);
             this.lblMessage.Name = "lblMessage";
-            this.lblMessage.Size = new System.Drawing.Size(1421, 73);
+            this.lblMessage.Size = new System.Drawing.Size(1372, 73);
             this.lblMessage.TabIndex = 195;
             this.lblMessage.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -754,7 +754,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(1377, 28);
+            this.label8.Location = new System.Drawing.Point(1328, 28);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(51, 13);
             this.label8.TabIndex = 211;
@@ -766,7 +766,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold);
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(368, 32);
+            this.label10.Location = new System.Drawing.Point(344, 32);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(60, 15);
             this.label10.TabIndex = 216;
@@ -778,7 +778,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold);
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(437, 32);
+            this.label11.Location = new System.Drawing.Point(413, 32);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(35, 15);
             this.label11.TabIndex = 217;
@@ -820,7 +820,7 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold);
             this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(939, 31);
+            this.label16.Location = new System.Drawing.Point(915, 31);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(52, 15);
             this.label16.TabIndex = 238;
@@ -832,7 +832,7 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold);
             this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(1003, 31);
+            this.label17.Location = new System.Drawing.Point(979, 31);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(35, 15);
             this.label17.TabIndex = 239;
@@ -843,7 +843,7 @@
             this.btnAuto.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnAuto.BackColor = System.Drawing.Color.Transparent;
             this.btnAuto.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.btnAuto.Location = new System.Drawing.Point(1006, 6);
+            this.btnAuto.Location = new System.Drawing.Point(982, 6);
             this.btnAuto.Name = "btnAuto";
             this.btnAuto.Size = new System.Drawing.Size(26, 25);
             this.btnAuto.TabIndex = 237;
@@ -855,7 +855,7 @@
             this.btnManual.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnManual.BackColor = System.Drawing.Color.Transparent;
             this.btnManual.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.btnManual.Location = new System.Drawing.Point(952, 6);
+            this.btnManual.Location = new System.Drawing.Point(928, 6);
             this.btnManual.Name = "btnManual";
             this.btnManual.Size = new System.Drawing.Size(26, 25);
             this.btnManual.TabIndex = 223;
@@ -878,7 +878,7 @@
             this.btnFraction.ForeColor = System.Drawing.Color.White;
             this.btnFraction.Image = global::DENSO_VCT_APP.Properties.Resources.ExportFileFormat;
             this.btnFraction.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnFraction.Location = new System.Drawing.Point(1117, -7);
+            this.btnFraction.Location = new System.Drawing.Point(1068, -7);
             this.btnFraction.Name = "btnFraction";
             this.btnFraction.Size = new System.Drawing.Size(71, 55);
             this.btnFraction.TabIndex = 221;
@@ -903,7 +903,7 @@
             this.btnDelete.ForeColor = System.Drawing.Color.White;
             this.btnDelete.Image = global::DENSO_VCT_APP.Properties.Resources.Delete;
             this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnDelete.Location = new System.Drawing.Point(1193, 0);
+            this.btnDelete.Location = new System.Drawing.Point(1144, 0);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(57, 48);
             this.btnDelete.TabIndex = 220;
@@ -917,7 +917,7 @@
             this.btnNext.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnNext.BackColor = System.Drawing.Color.White;
             this.btnNext.Image = ((System.Drawing.Image)(resources.GetObject("btnNext.Image")));
-            this.btnNext.Location = new System.Drawing.Point(437, 4);
+            this.btnNext.Location = new System.Drawing.Point(413, 4);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(33, 27);
             this.btnNext.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -930,7 +930,7 @@
             this.btnPrevious.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnPrevious.BackColor = System.Drawing.Color.White;
             this.btnPrevious.Image = ((System.Drawing.Image)(resources.GetObject("btnPrevious.Image")));
-            this.btnPrevious.Location = new System.Drawing.Point(384, 5);
+            this.btnPrevious.Location = new System.Drawing.Point(360, 5);
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(33, 27);
             this.btnPrevious.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -954,7 +954,7 @@
             this.btnExport.ForeColor = System.Drawing.Color.White;
             this.btnExport.Image = ((System.Drawing.Image)(resources.GetObject("btnExport.Image")));
             this.btnExport.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnExport.Location = new System.Drawing.Point(1254, 0);
+            this.btnExport.Location = new System.Drawing.Point(1205, 0);
             this.btnExport.Name = "btnExport";
             this.btnExport.Size = new System.Drawing.Size(57, 47);
             this.btnExport.TabIndex = 213;
@@ -988,7 +988,7 @@
             this.btnClose.ForeColor = System.Drawing.Color.White;
             this.btnClose.Image = global::DENSO_VCT_APP.Properties.Resources._1336028501_001_39;
             this.btnClose.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnClose.Location = new System.Drawing.Point(1314, 1);
+            this.btnClose.Location = new System.Drawing.Point(1265, 1);
             this.btnClose.Margin = new System.Windows.Forms.Padding(5);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(54, 47);
@@ -1013,7 +1013,7 @@
             this.btnMini.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMini.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(72)))), ((int)(((byte)(146)))));
             this.btnMini.Image = ((System.Drawing.Image)(resources.GetObject("btnMini.Image")));
-            this.btnMini.Location = new System.Drawing.Point(1389, 5);
+            this.btnMini.Location = new System.Drawing.Point(1340, 5);
             this.btnMini.Name = "btnMini";
             this.btnMini.Size = new System.Drawing.Size(33, 24);
             this.btnMini.TabIndex = 0;
@@ -1025,7 +1025,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(58)))), ((int)(((byte)(86)))));
-            this.ClientSize = new System.Drawing.Size(1435, 788);
+            this.ClientSize = new System.Drawing.Size(1386, 788);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.btnAuto);

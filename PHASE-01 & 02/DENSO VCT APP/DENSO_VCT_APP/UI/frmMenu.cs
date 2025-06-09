@@ -112,6 +112,7 @@ namespace DENSO_VCT_APP
                 Height = Screen.PrimaryScreen.WorkingArea.Height;
                 //AutoLogOut timer
                 CheckEnabledDisableAssyProcess();
+                lblVersion.Text = "Application Version: " + Application.ProductVersion;
             }
             catch (Exception ex)
             {
@@ -492,16 +493,22 @@ namespace DENSO_VCT_APP
 
         private void btnDashBoard_Click(object sender, EventArgs e)
         {
-            ShowAccessScreen();
-            if (GlobalVariable.mAccessUser != "")
-            {
-                frmMainDashboard frm = new frmMainDashboard();
-                frm.Show();
-                frm.FormClosing += OFrm_FormClosing;
-                this.Hide();
-                GlobalVariable.mAccessUser = "";
-                pnlMaster.Visible = false;
-            }
+            frmMainDashboard frm = new frmMainDashboard();
+            frm.Show();
+            frm.FormClosing += OFrm_FormClosing;
+            this.Hide();
+            GlobalVariable.mAccessUser = "";
+            pnlMaster.Visible = false;
+            //ShowAccessScreen();
+            //if (GlobalVariable.mAccessUser != "")
+            //{
+            //    frmMainDashboard frm = new frmMainDashboard();
+            //    frm.Show();
+            //    frm.FormClosing += OFrm_FormClosing;
+            //    this.Hide();
+            //    GlobalVariable.mAccessUser = "";
+            //    pnlMaster.Visible = false;
+            //}
         }
 
         private void btnScannerTriggerTimeMaster_Click(object sender, EventArgs e)
@@ -518,5 +525,22 @@ namespace DENSO_VCT_APP
             }
 
         }
+
+        private void btnTrayAttendanceLogReport_Click(object sender, EventArgs e)
+        {
+            ShowAccessScreen();
+            if (GlobalVariable.mAccessUser != "")
+            {
+                frmTrayLogReport frm = new frmTrayLogReport();
+                frm.Show();
+                frm.FormClosing += OFrm_FormClosing;
+                this.Hide();
+                GlobalVariable.mAccessUser = "";
+                pnlMaster.Visible = false;
+            }
+
+        }
+
+       
     }
 }

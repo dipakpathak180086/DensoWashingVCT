@@ -50,6 +50,8 @@
     <Compile Include="Master\PL_SCANNER_TRIGGER_TIME_MASTER.cs" />
     <Compile Include="Master\PL_ROUTING_MASTER.cs" />
     <Compile Include="Master\PL_ENABLE_DISABLE_ASSY.cs" />
+    <Compile Include="Report\PL_TRAY_LOG_REPORT.cs" />
+    <Compile Include="Transcation\PL_ASYY_LOG_MSG.cs" />
     <Compile Include="Master\PL_TRAY_MASTER.cs" />
     <Compile Include="Master\PL_CONVEYOR_MASTER.cs" />
     <Compile Include="Master\PL_NG_MASTER.cs" />

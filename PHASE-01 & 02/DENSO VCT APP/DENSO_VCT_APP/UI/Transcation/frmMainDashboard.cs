@@ -22,6 +22,8 @@ namespace DENSO_VCT_APP
         #region Private Variables
         private BL_LINE_ASSY_DASH _blObj = null;
         private PL_LINE_ASSY_DASH _plObj = null;
+        private BL_ASYY_LOG_MSG _blObjLog = null;
+        private PL_ASYY_LOG_MSG _plObjLog = null;
         private BL_LINE_ASSY _blObjAssy = null;
         private PL_LINE_ASSY _plObjAssy = null;
         clsPLC_Update _tcpClientScanner1 = null, _tcpClientScanner2 = null, _tcpClientScanner3 = null;
@@ -40,6 +42,7 @@ namespace DENSO_VCT_APP
             InitializeComponent();
             _blObj = new BL_LINE_ASSY_DASH();
             _blObjAssy = new BL_LINE_ASSY();
+            _blObjLog = new BL_ASYY_LOG_MSG();
         }
 
 
@@ -137,6 +140,75 @@ namespace DENSO_VCT_APP
                 throw;
             }
         }
+        private void AssyLogStampScanner1(PL_LINE_ASSY plObj)
+        {
+            try
+            {
+                PL_ASYY_LOG_MSG plObjLog = new PL_ASYY_LOG_MSG();
+                plObjLog.Line = GlobalVariable.mLineNo;
+                plObjLog.PC = GlobalVariable.mPCName;
+                plObjLog.Conveyor = plObj.Conveyor;
+                plObjLog.ScannerIp = GlobalVariable.SC1ScannerIP;
+                plObjLog.ScannerData = plObj.TrayBarcode;
+                plObjLog.LogMsg = plObj.LogMSG;
+                DataTable dtGetData = _blObjLog.BL_ExecuteTask(plObjLog);
+                if (dtGetData.Rows.Count > 0)
+                {
+                    
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+        private void AssyLogStampScanner2(PL_LINE_ASSY plObj)
+        {
+            try
+            {
+                PL_ASYY_LOG_MSG plObjLog = new PL_ASYY_LOG_MSG();
+                plObjLog.Line = GlobalVariable.mLineNo;
+                plObjLog.PC = GlobalVariable.mPCName;
+                plObjLog.Conveyor = plObj.Conveyor;
+                plObjLog.ScannerIp = GlobalVariable.SC2ScannerIP;
+                plObjLog.ScannerData = plObj.TrayBarcode;
+                plObjLog.LogMsg = plObj.LogMSG;
+                DataTable dtGetData = _blObjLog.BL_ExecuteTask(plObjLog);
+                if (dtGetData.Rows.Count > 0)
+                {
+
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+        private void AssyLogStampScanner3(PL_LINE_ASSY plObj)
+        {
+            try
+            {
+                PL_ASYY_LOG_MSG plObjLog = new PL_ASYY_LOG_MSG();
+                plObjLog.Line = GlobalVariable.mLineNo;
+                plObjLog.PC = GlobalVariable.mPCName;
+                plObjLog.Conveyor = plObj.Conveyor;
+                plObjLog.ScannerIp = GlobalVariable.SC3ScannerIP;
+                plObjLog.ScannerData = plObj.TrayBarcode;
+                plObjLog.LogMsg = plObj.LogMSG;
+                DataTable dtGetData = _blObjLog.BL_ExecuteTask(plObjLog);
+                if (dtGetData.Rows.Count > 0)
+                {
+
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
         private void BindLabelConveyor3()
         {
             try
@@ -172,6 +244,18 @@ namespace DENSO_VCT_APP
                 _plObjAssy.PcName = GlobalVariable.mPCName;
                 DataTable dtBindView = _blObjAssy.BL_ExecuteTask(_plObjAssy);
                 dgvSC1.DataSource = dtBindView.DefaultView;
+                if (btnClose2.Visible == true)
+                {
+                    for (int i = 0; i < dgvSC1.ColumnCount; i++)
+                    {
+                        this.dgvSC1.Columns[i].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
+                        if (dgvSC1.ColumnCount - 1 == i)
+                        {
+                            this.dgvSC1.Columns[dgvSC1.ColumnCount - 1].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+                        }
+
+                    }
+                }
             }
             catch (Exception)
             {
@@ -189,6 +273,18 @@ namespace DENSO_VCT_APP
                 _plObjAssy.PcName = GlobalVariable.mPCName;
                 DataTable dtBindView = _blObjAssy.BL_ExecuteTask(_plObjAssy);
                 dgvSC2.DataSource = dtBindView.DefaultView;
+                if (btnClose2.Visible == true)
+                {
+                    for (int i = 0; i < dgvSC2.ColumnCount; i++)
+                    {
+                        this.dgvSC2.Columns[i].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
+                        if (dgvSC2.ColumnCount - 1 == i)
+                        {
+                            this.dgvSC2.Columns[dgvSC2.ColumnCount - 1].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+                        }
+
+                    }
+                }
             }
             catch (Exception)
             {
@@ -206,6 +302,18 @@ namespace DENSO_VCT_APP
                 _plObjAssy.PcName = GlobalVariable.mPCName;
                 DataTable dtBindView = _blObjAssy.BL_ExecuteTask(_plObjAssy);
                 dgvSC3.DataSource = dtBindView.DefaultView;
+                if (btnClose2.Visible == true)
+                {
+                    for (int i = 0; i < dgvSC3.ColumnCount; i++)
+                    {
+                        this.dgvSC3.Columns[i].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
+                        if (dgvSC3.ColumnCount - 1 == i)
+                        {
+                            this.dgvSC3.Columns[dgvSC3.ColumnCount - 1].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+                        }
+
+                    }
+                }
             }
             catch (Exception)
             {
@@ -282,6 +390,23 @@ namespace DENSO_VCT_APP
             {
                 // bool IsConnected = _tcpClient.GetServerStatus();
                 //SetStation1UpDown(IsConnected);
+                string isConnectedScanner1 = _tcpClientScanner1.GetPLCStatus();
+                string newImageScanner1 = isConnectedScanner1 == "Connected" ? @"Resources\ScannerConnected.png" : @"Resources\ScannerDisconnected.png";
+                GlobalVariable.AppLog.LogMessage(SatoLib.EventNotice.EventTypes.evtInfo, "Check isConnectedScanner1::", $"Scanner1 IsConnected :: {isConnectedScanner1}");
+                picSC1Img.Invoke(new Action(() =>
+                {
+
+                    if (picSC1Img.Tag == null || picSC1Img.Tag.ToString() != newImageScanner1)  // Prevent unnecessary updates
+                    {
+                        //if (picSC1Img.Image != null)
+                        //{
+                        //    picSC1Img.Image.Dispose();
+                        //}
+                        picSC1Img.Image = Image.FromFile(newImageScanner1);
+                        picSC1Img.SizeMode = PictureBoxSizeMode.Zoom;
+                        picSC1Img.Tag = newImageScanner1; // Store last assigned image
+                    }
+                }));
                 if (_IsScanner1Complete)
                 {
                     _IsScanner1Complete = false;
@@ -307,6 +432,7 @@ namespace DENSO_VCT_APP
                                 _plObjAssy.Conveyor = lblSC1Conveyor.Text.Trim();
                                 _plObjAssy.Line = GlobalVariable.mPCName;
                                 _plObjAssy.TrayBarcode = data.Trim();
+                                _plObjAssy.LogMSG = $"Before Check From DB Scanned Barcode {data}";
                                 DataTable dtGetData = _blObjAssy.BL_ExecuteTask(_plObjAssy);
                                 if (dtGetData.Rows.Count > 0)
                                 {
@@ -332,12 +458,16 @@ namespace DENSO_VCT_APP
                                         if (dt.Rows[0]["Result"].Equals("Y"))
                                         {
                                             lblShowMessage(lblSC1Message, $"Tray Scanned Successfully ({ data})", 1);
+                                            _plObjAssy.LogMSG = $"Tray Scanned Successfully ({ data})";
+                                            AssyLogStampScanner1(_plObjAssy);
                                             BindViewConveyor1();
-
+                                            
                                         }
                                         else
                                         {
                                             GlobalVariable.MesseageInfo(lblSC1Message, $"{dt.Rows[0]["Result"]}", 2);
+                                            _plObjAssy.LogMSG = $"Tray ({ data}) DB Response:: {dt.Rows[0]["Result"]}";
+                                            AssyLogStampScanner1(_plObjAssy);
                                             return;
                                         }
                                     }
@@ -349,6 +479,8 @@ namespace DENSO_VCT_APP
                                 {
 
                                     GlobalVariable.MesseageInfo(lblSC1Message, $"Invalid {data.Trim()} Tray or Not Scanned on the Washing Station.", 2);
+                                    _plObjAssy.LogMSG = $"Invalid {data.Trim()} Tray or Not Scanned on the Washing Station";
+                                    AssyLogStampScanner1(_plObjAssy);
                                     return;
                                 }
 
@@ -384,6 +516,23 @@ namespace DENSO_VCT_APP
             {
                 // bool IsConnected = _tcpClient.GetServerStatus();
                 //SetStation1UpDown(IsConnected);
+                string isConnectedScanner2 = _tcpClientScanner2.GetPLCStatus();
+                string newImageScanner2 = isConnectedScanner2 == "Connected" ? @"Resources\ScannerConnected.png" : @"Resources\ScannerDisconnected.png";
+                GlobalVariable.AppLog.LogMessage(SatoLib.EventNotice.EventTypes.evtInfo, "Check isConnectedScanner2::", $"Scanner2 IsConnected :: {isConnectedScanner2}");
+                picSC2Img.Invoke(new Action(() =>
+                {
+
+                    if (picSC2Img.Tag == null || picSC2Img.Tag.ToString() != newImageScanner2)
+                    {
+                        //if (picSC2Img.Image != null)
+                        //{
+                        //    picSC2Img.Image.Dispose();
+                        //}
+                        picSC2Img.Image = Image.FromFile(newImageScanner2);
+                        picSC2Img.SizeMode = PictureBoxSizeMode.Zoom;
+                        picSC2Img.Tag = newImageScanner2;
+                    }
+                }));
                 if (_IsScanner2Complete)
                 {
                     _IsScanner2Complete = false;
@@ -409,6 +558,7 @@ namespace DENSO_VCT_APP
                                 _plObjAssy.Conveyor = lblSC2Conveyor.Text.Trim();
                                 _plObjAssy.Line = GlobalVariable.mPCName;
                                 _plObjAssy.TrayBarcode = data.Trim();
+                                _plObjAssy.LogMSG = $"Before Check From DB Scanned Barcode {data}";
                                 DataTable dtGetData = _blObjAssy.BL_ExecuteTask(_plObjAssy);
                                 if (dtGetData.Rows.Count > 0)
                                 {
@@ -428,17 +578,23 @@ namespace DENSO_VCT_APP
                                     _plObjAssy.LotNo = lblSC2LotNo.Text.Trim();
                                     _plObjAssy.TrayBarcode = data.Trim();
                                     _plObjAssy.CreatedBy = "ADMIN";
+                                    
                                     DataTable dt = _blObjAssy.BL_ExecuteTask(_plObjAssy);
                                     if (dt.Rows.Count > 0)
                                     {
                                         if (dt.Rows[0]["Result"].Equals("Y"))
                                         {
                                             lblShowMessage(lblSC2Message, $"Tray Scanned Successfully ({ data})", 1);
+                                            _plObjAssy.LogMSG = $"Tray Scanned Successfully ({ data})";
+                                            AssyLogStampScanner2(_plObjAssy);
                                             BindViewConveyor2();
+
                                         }
                                         else
                                         {
                                             GlobalVariable.MesseageInfo(lblSC2Message, $"{dt.Rows[0]["Result"]}", 2);
+                                            _plObjAssy.LogMSG = $"Tray ({ data}) DB Response:: {dt.Rows[0]["Result"]}";
+                                            AssyLogStampScanner2(_plObjAssy);
                                             return;
                                         }
                                     }
@@ -450,6 +606,8 @@ namespace DENSO_VCT_APP
                                 {
 
                                     GlobalVariable.MesseageInfo(lblSC2Message, $"Invalid {data.Trim()} Tray or Not Scanned on the Washing Station", 2);
+                                    _plObjAssy.LogMSG = $"Invalid {data.Trim()} Tray or Not Scanned on the Washing Station";
+                                    AssyLogStampScanner2(_plObjAssy);
                                     return;
                                 }
 
@@ -486,6 +644,22 @@ namespace DENSO_VCT_APP
             {
                 // bool IsConnected = _tcpClient.GetServerStatus();
                 //SetStation1UpDown(IsConnected);
+                string isConnectedScanner3 = _tcpClientScanner3.GetPLCStatus();
+                string newImageScanner3 = isConnectedScanner3 == "Connected" ? @"Resources\ScannerConnected.png" : @"Resources\ScannerDisconnected.png";
+                GlobalVariable.AppLog.LogMessage(SatoLib.EventNotice.EventTypes.evtInfo, "Check isConnectedScanner3::", $"Scanner3 IsConnected :: {isConnectedScanner3}");
+                picSC3Img.Invoke(new Action(() =>
+                {
+                    if (picSC3Img.Tag == null || picSC3Img.Tag.ToString() != newImageScanner3)
+                    {
+                        //if (picSC3Img.Image != null)
+                        //{
+                        //    picSC3Img.Image.Dispose();
+                        //}
+                        picSC3Img.Image = Image.FromFile(newImageScanner3);
+                        picSC3Img.SizeMode = PictureBoxSizeMode.Zoom;
+                        picSC3Img.Tag = newImageScanner3;
+                    }
+                }));
                 if (_IsScanner3Complete)
                 {
                     _IsScanner3Complete = false;
@@ -509,6 +683,7 @@ namespace DENSO_VCT_APP
                                 _plObjAssy.Conveyor = lblSC3Conveyor.Text.Trim();
                                 _plObjAssy.Line = GlobalVariable.mPCName;
                                 _plObjAssy.TrayBarcode = data.Trim();
+                                _plObjAssy.LogMSG = $"Before Check From DB Scanned Barcode {data}";
                                 DataTable dtGetData = _blObjAssy.BL_ExecuteTask(_plObjAssy);
                                 if (dtGetData.Rows.Count > 0)
                                 {
@@ -534,12 +709,16 @@ namespace DENSO_VCT_APP
                                         if (dt.Rows[0]["Result"].Equals("Y"))
                                         {
                                             lblShowMessage(lblSC3Message, $"Tray Scanned Successfully ({ data})", 1);
+                                            _plObjAssy.LogMSG = $"Tray Scanned Successfully ({ data})";
+                                            AssyLogStampScanner3(_plObjAssy);
                                             BindViewConveyor3();
-
+                                          
                                         }
                                         else
                                         {
                                             GlobalVariable.MesseageInfo(lblSC3Message, $"{dt.Rows[0]["Result"]}", 2);
+                                            _plObjAssy.LogMSG = $"Tray ({ data}) DB Response:: {dt.Rows[0]["Result"]}";
+                                            AssyLogStampScanner3(_plObjAssy);
                                             return;
                                         }
                                     }
@@ -551,6 +730,8 @@ namespace DENSO_VCT_APP
                                 {
 
                                     GlobalVariable.MesseageInfo(lblSC3Message, $"Invalid {data.Trim()} Tray or Not Scanned on the Washing Station", 2);
+                                    _plObjAssy.LogMSG = $"Invalid {data.Trim()} Tray or Not Scanned on the Washing Station";
+                                    AssyLogStampScanner3(_plObjAssy);
                                     return;
                                 }
 
@@ -618,7 +799,7 @@ namespace DENSO_VCT_APP
         private void PingScanner(int scannerId, string ip, int port, PictureBox picScannerImg, Label lblScannerMessage, Label lblScannerConveyor)
         {
             clsPLC_Update tcpClientScanner = new clsPLC_Update(ip, port);
-            bool isConnected = tcpClientScanner.GetPLCStatus();
+            string isConnected = tcpClientScanner.GetPLCStatus();
 
             // Update UI on the main thread
             picScannerImg.Invoke(new Action(() =>
@@ -628,13 +809,13 @@ namespace DENSO_VCT_APP
                     picScannerImg.Image.Dispose(); // Properly dispose of previous image
                 }
 
-                picScannerImg.Image = Image.FromFile(isConnected ? @"Resources\ScannerConnected.png" : @"Resources\ScannerDisconnected.png");
+                picScannerImg.Image = Image.FromFile(isConnected== "Connected" ? @"Resources\ScannerConnected.png" : @"Resources\ScannerDisconnected.png");
                 picScannerImg.SizeMode = PictureBoxSizeMode.Zoom;
             }));
 
             lblScannerMessage.Invoke(new Action(() =>
             {
-                if (!isConnected)
+                if (isConnected== "Not Connected")
                 {
                     lblShowMessage(lblScannerMessage, $"Conveyor {lblScannerConveyor.Text.Trim()} Scanner Not Connected", 2);
                 }
@@ -664,33 +845,39 @@ namespace DENSO_VCT_APP
             try
             {
                 // Scanner 1
-                if (_tcpClientScanner1 != null)
+                //if (_tcpClientScanner1 != null)
+                //{
+                //    _tcpClientScanner1.Dispose();
+                //    _tcpClientScanner1 = null;
+                //}
+                if (_tcpClientScanner1 == null)
                 {
-                    _tcpClientScanner1.Dispose();
-                    _tcpClientScanner1 = null;
+                    _tcpClientScanner1 = new clsPLC_Update(GlobalVariable.SC1ScannerIP, GlobalVariable.SC1ScannerPort);
+                    GlobalVariable.AppLog.LogMessage(SatoLib.EventNotice.EventTypes.evtInfo, "_tcpClientScanner1 Object Initiated", $"Object Initilized");
                 }
-                _tcpClientScanner1 = new clsPLC_Update(GlobalVariable.SC1ScannerIP, GlobalVariable.SC1ScannerPort);
-                bool isConnectedScanner1 = _tcpClientScanner1.GetPLCStatus();
-
-                picSC1Img.Invoke(new Action(() =>
-                {
-                    string newImage = isConnectedScanner1 ? @"Resources\ScannerConnected.png" : @"Resources\ScannerDisconnected.png";
-                    if (picSC1Img.Tag == null || picSC1Img.Tag.ToString() != newImage)  // Prevent unnecessary updates
-                    {
-                        if (picSC1Img.Image != null)
-                        {
-                            picSC1Img.Image.Dispose();
-                        }
-                        picSC1Img.Image = Image.FromFile(newImage);
-                        picSC1Img.SizeMode = PictureBoxSizeMode.Zoom;
-                        picSC1Img.Tag = newImage; // Store last assigned image
-                    }
-                }));
+               
+                string isConnectedScanner1 = _tcpClientScanner1.GetPLCStatus();
+                //string newImageScanner1 = isConnectedScanner1== "Connected" ? @"Resources\ScannerConnected.png" : @"Resources\ScannerDisconnected.png";
+                //GlobalVariable.AppLog.LogMessage(SatoLib.EventNotice.EventTypes.evtInfo, "Check isConnectedScanner1::", $"Scanner1 IsConnected :: {isConnectedScanner1}");
+                //picSC1Img.Invoke(new Action(() =>
+                //{
+                   
+                //    if (picSC1Img.Tag == null || picSC1Img.Tag.ToString() != newImageScanner1)  // Prevent unnecessary updates
+                //    {
+                //        //if (picSC1Img.Image != null)
+                //        //{
+                //        //    picSC1Img.Image.Dispose();
+                //        //}
+                //        picSC1Img.Image = Image.FromFile(newImageScanner1);
+                //        picSC1Img.SizeMode = PictureBoxSizeMode.Zoom;
+                //        picSC1Img.Tag = newImageScanner1; // Store last assigned image
+                //    }
+                //}));
                 try
                 {
-                    if (isConnectedScanner1 && elapsedTime % SCANNER_1_TRIGGER_TIME == 0)
+                    if (isConnectedScanner1== "Connected" && elapsedTime % SCANNER_1_TRIGGER_TIME == 0)
                     {
-                        _tcpClientScanner1.WriteToPLC("TRG");
+                        _tcpClientScanner1.WriteToPLC("TRG\r");
                     }
 
                 }
@@ -713,33 +900,39 @@ namespace DENSO_VCT_APP
                 //}));
 
                 // Scanner 2
-                if (_tcpClientScanner2 != null)
+                //if (_tcpClientScanner2 != null)
+                //{
+                //    _tcpClientScanner2.Dispose();
+                //    _tcpClientScanner2 = null;
+                //}
+                if (_tcpClientScanner2 == null)
                 {
-                    _tcpClientScanner2.Dispose();
-                    _tcpClientScanner2 = null;
+                    _tcpClientScanner2 = new clsPLC_Update(GlobalVariable.SC2ScannerIP, GlobalVariable.SC2ScannerPort);
+                    GlobalVariable.AppLog.LogMessage(SatoLib.EventNotice.EventTypes.evtInfo, "_tcpClientScanner2 Object Initiated", $"Object Initilized");
                 }
-                _tcpClientScanner2 = new clsPLC_Update(GlobalVariable.SC2ScannerIP, GlobalVariable.SC2ScannerPort);
-                bool isConnectedScanner2 = _tcpClientScanner2.GetPLCStatus();
-
-                picSC2Img.Invoke(new Action(() =>
-                {
-                    string newImage = isConnectedScanner2 ? @"Resources\ScannerConnected.png" : @"Resources\ScannerDisconnected.png";
-                    if (picSC2Img.Tag == null || picSC2Img.Tag.ToString() != newImage)
-                    {
-                        if (picSC2Img.Image != null)
-                        {
-                            picSC2Img.Image.Dispose();
-                        }
-                        picSC2Img.Image = Image.FromFile(newImage);
-                        picSC2Img.SizeMode = PictureBoxSizeMode.Zoom;
-                        picSC2Img.Tag = newImage;
-                    }
-                }));
+              
+                string isConnectedScanner2 = _tcpClientScanner2.GetPLCStatus();
+                //string newImageScanner2 = isConnectedScanner2=="Connected" ? @"Resources\ScannerConnected.png" : @"Resources\ScannerDisconnected.png";
+                //GlobalVariable.AppLog.LogMessage(SatoLib.EventNotice.EventTypes.evtInfo, "Check isConnectedScanner2::", $"Scanner2 IsConnected :: {isConnectedScanner2}");
+                //picSC2Img.Invoke(new Action(() =>
+                //{
+                    
+                //    if (picSC2Img.Tag == null || picSC2Img.Tag.ToString() != newImageScanner2)
+                //    {
+                //        //if (picSC2Img.Image != null)
+                //        //{
+                //        //    picSC2Img.Image.Dispose();
+                //        //}
+                //        picSC2Img.Image = Image.FromFile(newImageScanner2);
+                //        picSC2Img.SizeMode = PictureBoxSizeMode.Zoom;
+                //        picSC2Img.Tag = newImageScanner2;
+                //    }
+                //}));
                 try
                 {
-                    if (isConnectedScanner2 && elapsedTime % SCANNER_2_TRIGGER_TIME == 0)
+                    if (isConnectedScanner2=="Connected" && elapsedTime % SCANNER_2_TRIGGER_TIME == 0)
                     {
-                        _tcpClientScanner2.WriteToPLC("TRG");
+                        _tcpClientScanner2.WriteToPLC("TRG\r");
                     }
                 }
                 catch
@@ -761,33 +954,38 @@ namespace DENSO_VCT_APP
                 //}));
 
                 // Scanner 3
-                if (_tcpClientScanner3 != null)
+                //if (_tcpClientScanner3 != null)
+                //{
+                //    _tcpClientScanner3.Dispose();
+                //    _tcpClientScanner3 = null;
+                //}
+                if (_tcpClientScanner3 == null)
                 {
-                    _tcpClientScanner3.Dispose();
-                    _tcpClientScanner3 = null;
+                    _tcpClientScanner3 = new clsPLC_Update(GlobalVariable.SC3ScannerIP, GlobalVariable.SC3ScannerPort);
+                    GlobalVariable.AppLog.LogMessage(SatoLib.EventNotice.EventTypes.evtInfo, "_tcpClientScanner3 Object Initiated", $"Object Initilized");
                 }
-                _tcpClientScanner3 = new clsPLC_Update(GlobalVariable.SC3ScannerIP, GlobalVariable.SC3ScannerPort);
-                bool isConnectedScanner3 = _tcpClientScanner3.GetPLCStatus();
-
-                picSC3Img.Invoke(new Action(() =>
-                {
-                    string newImage = isConnectedScanner3 ? @"Resources\ScannerConnected.png" : @"Resources\ScannerDisconnected.png";
-                    if (picSC3Img.Tag == null || picSC3Img.Tag.ToString() != newImage)
-                    {
-                        if (picSC3Img.Image != null)
-                        {
-                            picSC3Img.Image.Dispose();
-                        }
-                        picSC3Img.Image = Image.FromFile(newImage);
-                        picSC3Img.SizeMode = PictureBoxSizeMode.Zoom;
-                        picSC3Img.Tag = newImage;
-                    }
-                }));
+               
+                string isConnectedScanner3 = _tcpClientScanner3.GetPLCStatus();
+                //string newImageScanner3 = isConnectedScanner3=="Connected" ? @"Resources\ScannerConnected.png" : @"Resources\ScannerDisconnected.png";
+                //GlobalVariable.AppLog.LogMessage(SatoLib.EventNotice.EventTypes.evtInfo, "Check isConnectedScanner3::", $"Scanner3 IsConnected :: {isConnectedScanner3}");
+                //picSC3Img.Invoke(new Action(() =>
+                //{
+                //    if (picSC3Img.Tag == null || picSC3Img.Tag.ToString() != newImageScanner3)
+                //    {
+                //        //if (picSC3Img.Image != null)
+                //        //{
+                //        //    picSC3Img.Image.Dispose();
+                //        //}
+                //        picSC3Img.Image = Image.FromFile(newImageScanner3);
+                //        picSC3Img.SizeMode = PictureBoxSizeMode.Zoom;
+                //        picSC3Img.Tag = newImageScanner3;
+                //    }
+                //}));
                 try
                 {
-                    if (isConnectedScanner3 && elapsedTime % SCANNER_3_TRIGGER_TIME == 0)
+                    if (isConnectedScanner3=="Connected" && elapsedTime % SCANNER_3_TRIGGER_TIME == 0)
                     {
-                        _tcpClientScanner3.WriteToPLC("TRG");
+                        _tcpClientScanner3.WriteToPLC("TRG\r");
                     }
                 }
                 catch
@@ -870,6 +1068,7 @@ namespace DENSO_VCT_APP
                         lblSC3Conveyor.Text = dt.Rows[2]["ConveryorCode"].ToString();
                         GlobalVariable.SC3ScannerIP = dt.Rows[2]["CamIP"].ToString();
                         GlobalVariable.SC3ScannerPort = int.Parse(dt.Rows[2]["Port"].ToString());
+                        btnClose2.Visible = false;
                     }
                     else if (dt.Rows.Count == 2)
                     {
@@ -881,6 +1080,7 @@ namespace DENSO_VCT_APP
                         lblSC2Conveyor.Text = dt.Rows[1]["ConveryorCode"].ToString();
                         GlobalVariable.SC2ScannerIP = dt.Rows[1]["CamIP"].ToString();
                         GlobalVariable.SC2ScannerPort = int.Parse(dt.Rows[1]["Port"].ToString());
+                        btnClose2.Visible = true;
                     }
                     else
                     {
@@ -892,6 +1092,7 @@ namespace DENSO_VCT_APP
                         lblSC2Conveyor.Text = dt.Rows[1]["ConveryorCode"].ToString();
                         GlobalVariable.SC2ScannerIP = dt.Rows[1]["CamIP"].ToString();
                         GlobalVariable.SC2ScannerPort = int.Parse(dt.Rows[1]["Port"].ToString());
+                        btnClose2.Visible = true;
                     }
                 }
             }
@@ -972,6 +1173,11 @@ namespace DENSO_VCT_APP
             {
                 GlobalVariable.mStoCustomFunction.setMessageBox(GlobalVariable.mSatoApps, ex.Message, 3);
             }
+        }
+
+        private void btnClose2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
         private void frmMainDashboard_FormClosing(object sender, FormClosingEventArgs e)
@@ -1062,6 +1268,7 @@ namespace DENSO_VCT_APP
                 BindViewConveyor2TriggerTime();
                 BindViewConveyor3TriggerTime();
                 RESET_TIME = SCANNER_1_TRIGGER_TIME + SCANNER_2_TRIGGER_TIME + SCANNER_3_TRIGGER_TIME;
+              
                 /*
                 * ConnectSocketServer()-This will enable the socket server but we are not using currently socket server but we will keep commented,
                 * in case of future requirement.

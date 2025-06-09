@@ -15,6 +15,7 @@ namespace DENSO_VCT_PL
         public string TrayBarcode { get; set; } = null;
         public string Conveyor { get; set; }
         public string  PcName { get; set; }
+        public string LogMSG { get; set; }
 
     }
 }

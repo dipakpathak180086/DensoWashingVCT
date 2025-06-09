@@ -63,10 +63,12 @@
     <Compile Include="Master\DL_MODEL_MASTER.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Report\DL_CONVEYOR_ASSY_REPORT.cs" />
+    <Compile Include="Report\DL_TRAY_LOG_REPORT.cs" />
     <Compile Include="Report\DL_LOT_ENTRY_REPORT.cs" />
     <Compile Include="Transcation\DL_LINE_ASSY.cs" />
     <Compile Include="Transcation\DL_LOT_ENTRY.cs" />
     <Compile Include="Transcation\DL_LINE_ASSY_DASH.cs" />
+    <Compile Include="Transcation\DL_ASYY_LOG_MSG.cs" />
     <Compile Include="Transcation\DL_TRAY_SCANNING.cs" />
   </ItemGroup>
   <ItemGroup />

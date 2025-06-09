@@ -43,6 +43,7 @@
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtLinePC = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.cmbConveyor = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -56,7 +57,6 @@
             this.btnMinimize = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.txtLinePC = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -236,11 +236,25 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Enter Details:";
             // 
+            // txtLinePC
+            // 
+            this.txtLinePC.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
+            this.txtLinePC.FormattingEnabled = true;
+            this.txtLinePC.Items.AddRange(new object[] {
+            "--Select--",
+            "PC1",
+            "PC2",
+            "PC3"});
+            this.txtLinePC.Location = new System.Drawing.Point(465, 22);
+            this.txtLinePC.Name = "txtLinePC";
+            this.txtLinePC.Size = new System.Drawing.Size(192, 34);
+            this.txtLinePC.TabIndex = 215;
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
-            this.label7.Location = new System.Drawing.Point(368, 30);
+            this.label7.Location = new System.Drawing.Point(368, 24);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(91, 26);
             this.label7.TabIndex = 214;
@@ -455,20 +469,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 215;
             this.pictureBox1.TabStop = false;
-            // 
-            // txtLinePC
-            // 
-            this.txtLinePC.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
-            this.txtLinePC.FormattingEnabled = true;
-            this.txtLinePC.Items.AddRange(new object[] {
-            "--Select--",
-            "PC1",
-            "PC2",
-            "PC3"});
-            this.txtLinePC.Location = new System.Drawing.Point(465, 30);
-            this.txtLinePC.Name = "txtLinePC";
-            this.txtLinePC.Size = new System.Drawing.Size(192, 34);
-            this.txtLinePC.TabIndex = 215;
             // 
             // frmConveyorLinePCMappingMaster
             // 

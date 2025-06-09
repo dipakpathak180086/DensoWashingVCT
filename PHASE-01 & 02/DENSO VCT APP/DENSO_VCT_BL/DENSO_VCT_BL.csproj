@@ -60,7 +60,9 @@
     <Compile Include="Master\BL_MODEL_MASTER.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Report\BL_CONVEYOR_ASSY_REPORT.cs" />
+    <Compile Include="Report\BL_TRAY_LOG_REPORT.cs" />
     <Compile Include="Report\BL_LOT_ENTRY_REPORT.cs" />
+    <Compile Include="Transcation\BL_ASYY_LOG_MSG.cs" />
     <Compile Include="Transcation\BL_LINE_ASSY.cs" />
     <Compile Include="Transcation\BL_LOT_ENTRY.cs" />
     <Compile Include="Transcation\BL_LINE_ASSY_DASH.cs" />

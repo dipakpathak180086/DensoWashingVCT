@@ -186,6 +186,12 @@
     <Compile Include="UI\Report\frmConveyorAssyReport.designer.cs">
       <DependentUpon>frmConveyorAssyReport.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Report\frmTrayLogReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Report\frmTrayLogReport.designer.cs">
+      <DependentUpon>frmTrayLogReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Report\frmLotEntryReport.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -274,6 +280,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Report\frmConveyorAssyReport.resx">
       <DependentUpon>frmConveyorAssyReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report\frmTrayLogReport.resx">
+      <DependentUpon>frmTrayLogReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Report\frmLotEntryReport.resx">
       <DependentUpon>frmLotEntryReport.cs</DependentUpon>

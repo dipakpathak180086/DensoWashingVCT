@@ -31,6 +31,16 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRountingMaster));
             this.dgv = new System.Windows.Forms.DataGridView();
+            this.RowId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ModelNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ChildPartNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ConveyorNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Min = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Max = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Avg = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Active = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CreatedBy = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CreatedOn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblCount = new System.Windows.Forms.Label();
             this.lblHeader = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -59,16 +69,6 @@
             this.btnMinimize = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.RowId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ModelNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ChildPartNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ConveyorNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Min = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Max = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Avg = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Active = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CreatedBy = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CreatedOn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -113,6 +113,84 @@
             this.dgv.TabIndex = 187;
             this.dgv.TabStop = false;
             this.dgv.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_CellDoubleClick);
+            // 
+            // RowId
+            // 
+            this.RowId.DataPropertyName = "RowId";
+            this.RowId.HeaderText = "";
+            this.RowId.Name = "RowId";
+            this.RowId.ReadOnly = true;
+            this.RowId.Visible = false;
+            // 
+            // ModelNo
+            // 
+            this.ModelNo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.ModelNo.DataPropertyName = "ModelNo";
+            this.ModelNo.HeaderText = "Mode lNo";
+            this.ModelNo.Name = "ModelNo";
+            this.ModelNo.ReadOnly = true;
+            this.ModelNo.Width = 140;
+            // 
+            // ChildPartNo
+            // 
+            this.ChildPartNo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.ChildPartNo.DataPropertyName = "ChildPartNo";
+            this.ChildPartNo.HeaderText = "Child Part No";
+            this.ChildPartNo.Name = "ChildPartNo";
+            this.ChildPartNo.ReadOnly = true;
+            this.ChildPartNo.Width = 180;
+            // 
+            // ConveyorNo
+            // 
+            this.ConveyorNo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.ConveyorNo.DataPropertyName = "ConveyorNo";
+            this.ConveyorNo.HeaderText = "Conveyor No";
+            this.ConveyorNo.Name = "ConveyorNo";
+            this.ConveyorNo.ReadOnly = true;
+            this.ConveyorNo.Width = 190;
+            // 
+            // Min
+            // 
+            this.Min.DataPropertyName = "Min";
+            this.Min.HeaderText = "Min";
+            this.Min.Name = "Min";
+            this.Min.ReadOnly = true;
+            // 
+            // Max
+            // 
+            this.Max.DataPropertyName = "Max";
+            this.Max.HeaderText = "Max";
+            this.Max.Name = "Max";
+            this.Max.ReadOnly = true;
+            // 
+            // Avg
+            // 
+            this.Avg.DataPropertyName = "Avg";
+            this.Avg.HeaderText = "Avg";
+            this.Avg.Name = "Avg";
+            this.Avg.ReadOnly = true;
+            // 
+            // Active
+            // 
+            this.Active.DataPropertyName = "Active";
+            this.Active.HeaderText = "Active";
+            this.Active.Name = "Active";
+            this.Active.ReadOnly = true;
+            // 
+            // CreatedBy
+            // 
+            this.CreatedBy.DataPropertyName = "CreatedBy";
+            this.CreatedBy.HeaderText = "Created By";
+            this.CreatedBy.Name = "CreatedBy";
+            this.CreatedBy.ReadOnly = true;
+            // 
+            // CreatedOn
+            // 
+            this.CreatedOn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.CreatedOn.DataPropertyName = "CreatedOn";
+            this.CreatedOn.HeaderText = "Created On";
+            this.CreatedOn.Name = "CreatedOn";
+            this.CreatedOn.ReadOnly = true;
             // 
             // lblCount
             // 
@@ -524,84 +602,6 @@
             this.pictureBox1.TabIndex = 215;
             this.pictureBox1.TabStop = false;
             // 
-            // RowId
-            // 
-            this.RowId.DataPropertyName = "RowId";
-            this.RowId.HeaderText = "";
-            this.RowId.Name = "RowId";
-            this.RowId.ReadOnly = true;
-            this.RowId.Visible = false;
-            // 
-            // ModelNo
-            // 
-            this.ModelNo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.ModelNo.DataPropertyName = "ModelNo";
-            this.ModelNo.HeaderText = "Mode lNo";
-            this.ModelNo.Name = "ModelNo";
-            this.ModelNo.ReadOnly = true;
-            this.ModelNo.Width = 140;
-            // 
-            // ChildPartNo
-            // 
-            this.ChildPartNo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.ChildPartNo.DataPropertyName = "ChildPartNo";
-            this.ChildPartNo.HeaderText = "Child Part No";
-            this.ChildPartNo.Name = "ChildPartNo";
-            this.ChildPartNo.ReadOnly = true;
-            this.ChildPartNo.Width = 180;
-            // 
-            // ConveyorNo
-            // 
-            this.ConveyorNo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.ConveyorNo.DataPropertyName = "ConveyorNo";
-            this.ConveyorNo.HeaderText = "Conveyor No";
-            this.ConveyorNo.Name = "ConveyorNo";
-            this.ConveyorNo.ReadOnly = true;
-            this.ConveyorNo.Width = 190;
-            // 
-            // Min
-            // 
-            this.Min.DataPropertyName = "Min";
-            this.Min.HeaderText = "Min";
-            this.Min.Name = "Min";
-            this.Min.ReadOnly = true;
-            // 
-            // Max
-            // 
-            this.Max.DataPropertyName = "Max";
-            this.Max.HeaderText = "Max";
-            this.Max.Name = "Max";
-            this.Max.ReadOnly = true;
-            // 
-            // Avg
-            // 
-            this.Avg.DataPropertyName = "Avg";
-            this.Avg.HeaderText = "Avg";
-            this.Avg.Name = "Avg";
-            this.Avg.ReadOnly = true;
-            // 
-            // Active
-            // 
-            this.Active.DataPropertyName = "Active";
-            this.Active.HeaderText = "Active";
-            this.Active.Name = "Active";
-            this.Active.ReadOnly = true;
-            // 
-            // CreatedBy
-            // 
-            this.CreatedBy.DataPropertyName = "CreatedBy";
-            this.CreatedBy.HeaderText = "Created By";
-            this.CreatedBy.Name = "CreatedBy";
-            this.CreatedBy.ReadOnly = true;
-            // 
-            // CreatedOn
-            // 
-            this.CreatedOn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.CreatedOn.DataPropertyName = "CreatedOn";
-            this.CreatedOn.HeaderText = "Created On";
-            this.CreatedOn.Name = "CreatedOn";
-            this.CreatedOn.ReadOnly = true;
-            // 
             // frmRountingMaster
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -619,7 +619,7 @@
             this.KeyPreview = true;
             this.Name = "frmRountingMaster";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Line Master";
+            this.Text = "Routing Master";
             this.Load += new System.EventHandler(this.frmModelMaster_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             this.panel1.ResumeLayout(false);

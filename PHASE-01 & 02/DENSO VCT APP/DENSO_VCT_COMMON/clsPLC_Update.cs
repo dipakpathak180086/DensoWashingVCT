@@ -6,6 +6,8 @@ using System.Net.Sockets;
 using System.Net;
 using System.Net.NetworkInformation;
 using System.Threading.Tasks;
+using DENSO_VCT_COMMON;
+using SatoLib;
 
 public class clsPLC_Update : IDisposable
 {
@@ -61,23 +63,23 @@ public class clsPLC_Update : IDisposable
         }
     }
 
-    public bool GetPLCStatus()
+    public string GetPLCStatus()
     {
         try
         {
             if (client.Connected)
             {
-                return true;
+                return "Connected";
             }
             else
             {
-                return  false;
+                return "Not Connected";
             }
         }
         catch (Exception ex)
         {
-            //GlobalVar.Logger.LogMessage(EventNotice.EventTypes.evtError, $"clsPCL-GetPLCStatus():{_IP}:{_Port}", $"Error:{ex.ToString()}");
-            return false;
+            GlobalVariable.AppLog.LogMessage(EventNotice.EventTypes.evtError, $"clsPCL-GetPLCStatus() Exception:{_IP}:{_Port}", $"Error:{ex.ToString()}");
+            return "Error";
         }
     }
 
@@ -158,7 +160,7 @@ public class clsPLC_Update : IDisposable
         }
         catch (Exception ex)
         {
-            //GlobalVar.Logger.LogMessage(EventNotice.EventTypes.evtError, $"clsPCL-GetPLCInput():{_IP}:{_Port}", $"Error:{ex.ToString()}");
+            GlobalVariable.AppLog.LogMessage(EventNotice.EventTypes.evtError, $"clsPCL-GetPLCInput():{_IP}:{_Port}", $"Error:{ex.ToString()}");
             try
             {
                 client.Close();

@@ -193,6 +193,24 @@ namespace DENSO_VCT_APP
             }
 
         }
+        void DeleteJunkTryas()
+        {
+            try
+            {
+              
+
+                PL_TRAY_SCANNING _plObj = new PL_TRAY_SCANNING();
+                _plObj.DbType = "DELETE_JUNK_TRAYS";
+                DataTable dt = _blObj.BL_ExecuteTask(_plObj);
+
+            }
+            catch (Exception ex)
+            {
+
+                lblShowMessage(ex.Message, 2);
+            }
+
+        }
         private void frmScanTray_Load(object sender, EventArgs e)
         {
             try
@@ -207,6 +225,7 @@ namespace DENSO_VCT_APP
                 txtScanTray.Text = "";
                 BindView();
                 BindLabelData();
+                DeleteJunkTryas();
                 lblShowMessage("Please Scan Tray!!!", 1);
                 if (!serialPort1.IsOpen)
                 {

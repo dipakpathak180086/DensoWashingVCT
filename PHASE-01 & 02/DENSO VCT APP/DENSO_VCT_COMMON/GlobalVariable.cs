@@ -68,6 +68,9 @@ namespace DENSO_VCT_COMMON
         public static int SC2ScannerPort = 1024;
         public static string SC3ScannerIP = "";
         public static int SC3ScannerPort = 1024;
+
+       
+
         public static void Start(double interval)
         {
             if (_timer == null)
