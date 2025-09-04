@@ -7,13 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace VCTWebApp
-{
-
-
-    public partial class VCTDashboardBackwardTrace
-    {
-
+namespace VCTWebApp {
+    
+    
+    public partial class VCTDashboardBackwardTrace {
+        
         /// <summary>
         /// HyperLink1 control.
         /// </summary>
@@ -22,7 +20,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
-
+        
         /// <summary>
         /// UpdatePanel1 control.
         /// </summary>
@@ -31,7 +29,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.UpdatePanel UpdatePanel1;
-
+        
         /// <summary>
         /// DivEntry control.
         /// </summary>
@@ -40,7 +38,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl DivEntry;
-
+        
         /// <summary>
         /// tblentry control.
         /// </summary>
@@ -49,7 +47,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTable tblentry;
-
+        
         /// <summary>
         /// lblModel control.
         /// </summary>
@@ -58,7 +56,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblModel;
-
+        
         /// <summary>
         /// lblModelName control.
         /// </summary>
@@ -67,7 +65,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblModelName;
-
+        
         /// <summary>
         /// lblChildPart control.
         /// </summary>
@@ -76,7 +74,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblChildPart;
-
+        
         /// <summary>
         /// lblChildPartName control.
         /// </summary>
@@ -85,7 +83,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblChildPartName;
-
+        
         /// <summary>
         /// lblDate control.
         /// </summary>
@@ -94,7 +92,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblDate;
-
+        
         /// <summary>
         /// lblSerial control.
         /// </summary>
@@ -103,7 +101,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblSerial;
-
+        
         /// <summary>
         /// BtnBack control.
         /// </summary>
@@ -112,7 +110,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BtnBack;
-
+        
         /// <summary>
         /// hidID control.
         /// </summary>
@@ -121,7 +119,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField hidID;
-
+        
         /// <summary>
         /// btnExport control.
         /// </summary>
@@ -130,7 +128,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnExport;
-
+        
         /// <summary>
         /// DivShow control.
         /// </summary>
@@ -139,7 +137,16 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl DivShow;
-
+        
+        /// <summary>
+        /// lblRecords control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblRecords;
+        
         /// <summary>
         /// divLotSummary control.
         /// </summary>
@@ -148,7 +155,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl divLotSummary;
-
+        
         /// <summary>
         /// dgvDtl control.
         /// </summary>

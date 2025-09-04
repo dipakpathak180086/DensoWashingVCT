@@ -55,7 +55,7 @@
 
                                  <td style="text-align: left; width: 200px">
                                     <asp:TextBox onkeyup="this.value=this.value.toUpperCase();javascript:RemoveSpecialChar(this);"
-                                        ID="txtFromDate" runat="server" ValidationGroup="Submit" TabIndex="6" MaxLength="50" Style="text-transform: uppercase; display: inline"
+                                        ID="txtFromDate" runat="server" ValidationGroup="Submit" TabIndex="6" MaxLength="50" Style="text-transform: uppercase; display: inline" autocomplete="off"
                                         placeholder="Select From Date" class="form-control"></asp:TextBox>
 
                                 </td>
@@ -68,7 +68,7 @@
                                 </td>
                                 <td style="text-align: left; width: 200px">
                                     <asp:TextBox onkeyup="this.value=this.value.toUpperCase();javascript:RemoveSpecialChar(this);"
-                                        ID="txtToDate" runat="server" ValidationGroup="Submit" TabIndex="6" MaxLength="50" Style="text-transform: uppercase; display: inline"
+                                        ID="txtToDate" runat="server" ValidationGroup="Submit" TabIndex="6" MaxLength="50" Style="text-transform: uppercase; display: inline" autocomplete="off"
                                         placeholder="Select To Date" class="form-control"></asp:TextBox>
 
                                 </td>

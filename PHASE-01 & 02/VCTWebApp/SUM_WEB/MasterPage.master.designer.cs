@@ -9,9 +9,8 @@
 
 
 
-public partial class MasterPage
-{
-
+public partial class MasterPage {
+    
     /// <summary>
     /// Head1 control.
     /// </summary>
@@ -20,7 +19,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlHead Head1;
-
+    
     /// <summary>
     /// head control.
     /// </summary>
@@ -29,7 +28,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
-
+    
     /// <summary>
     /// form1 control.
     /// </summary>
@@ -38,7 +37,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
+    
     /// <summary>
     /// scm control.
     /// </summary>
@@ -47,7 +46,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.ScriptManager scm;
-
+    
     /// <summary>
     /// hyphome control.
     /// </summary>
@@ -56,7 +55,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.HyperLink hyphome;
-
+    
     /// <summary>
     /// img control.
     /// </summary>
@@ -65,7 +64,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Image img;
-
+    
     /// <summary>
     /// aAvtar control.
     /// </summary>
@@ -74,7 +73,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.LinkButton aAvtar;
-
+    
     /// <summary>
     /// imguser5 control.
     /// </summary>
@@ -83,7 +82,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Image imguser5;
-
+    
     /// <summary>
     /// lblUserName control.
     /// </summary>
@@ -92,7 +91,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Label lblUserName;
-
+    
     /// <summary>
     /// imguser6 control.
     /// </summary>
@@ -101,7 +100,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Image imguser6;
-
+    
     /// <summary>
     /// btnChangePassword control.
     /// </summary>
@@ -110,7 +109,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.LinkButton btnChangePassword;
-
+    
     /// <summary>
     /// btnLogout control.
     /// </summary>
@@ -119,7 +118,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.LinkButton btnLogout;
-
+    
     /// <summary>
     /// liMaster control.
     /// </summary>
@@ -128,7 +127,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl liMaster;
-
+    
     /// <summary>
     /// hpyGroupMaster control.
     /// </summary>
@@ -137,7 +136,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.HyperLink hpyGroupMaster;
-
+    
     /// <summary>
     /// hpyUserMaster control.
     /// </summary>
@@ -146,7 +145,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.HyperLink hpyUserMaster;
-
+    
     /// <summary>
     /// hpyGroupRights control.
     /// </summary>
@@ -155,7 +154,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.HyperLink hpyGroupRights;
-
+    
     /// <summary>
     /// liReport control.
     /// </summary>
@@ -164,7 +163,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl liReport;
-
+    
     /// <summary>
     /// HyperLink3 control.
     /// </summary>
@@ -173,7 +172,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.HyperLink HyperLink3;
-
+    
     /// <summary>
     /// HyperLink2 control.
     /// </summary>
@@ -182,7 +181,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.HyperLink HyperLink2;
-
+    
     /// <summary>
     /// HyperLink1 control.
     /// </summary>
@@ -191,7 +190,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
-
+    
     /// <summary>
     /// hypLogReport control.
     /// </summary>
@@ -200,7 +199,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.HyperLink hypLogReport;
-
+    
     /// <summary>
     /// liTranscation control.
     /// </summary>
@@ -209,34 +208,106 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl liTranscation;
-
+    
     /// <summary>
-    /// hypVCDashboard control.
+    /// li1 control.
     /// </summary>
     /// <remarks>
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::System.Web.UI.WebControls.HyperLink hypVCDashboard;
-
+    protected global::System.Web.UI.HtmlControls.HtmlGenericControl li1;
+    
     /// <summary>
-    /// hySupLotInfo control.
+    /// HyperLink4 control.
     /// </summary>
     /// <remarks>
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::System.Web.UI.WebControls.HyperLink hySupLotInfo;
-
+    protected global::System.Web.UI.WebControls.HyperLink HyperLink4;
+    
     /// <summary>
-    /// HypVCTSpecialReport control.
+    /// HyperLink5 control.
     /// </summary>
     /// <remarks>
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::System.Web.UI.WebControls.HyperLink HypVCTSpecialReport;
-
+    protected global::System.Web.UI.WebControls.HyperLink HyperLink5;
+    
+    /// <summary>
+    /// HyperLink6 control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.HyperLink HyperLink6;
+    
+    /// <summary>
+    /// li2 control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.HtmlControls.HtmlGenericControl li2;
+    
+    /// <summary>
+    /// HyperLink7 control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.HyperLink HyperLink7;
+    
+    /// <summary>
+    /// HyperLink8 control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.HyperLink HyperLink8;
+    
+    /// <summary>
+    /// HyperLink9 control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.HyperLink HyperLink9;
+    
+    /// <summary>
+    /// HyperLink10 control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.HyperLink HyperLink10;
+    
+    /// <summary>
+    /// HyperLink11 control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.HyperLink HyperLink11;
+    
+    /// <summary>
+    /// HyperLink12 control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.HyperLink HyperLink12;
+    
     /// <summary>
     /// liSettings control.
     /// </summary>
@@ -245,7 +316,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl liSettings;
-
+    
     /// <summary>
     /// hypUserMaster control.
     /// </summary>
@@ -254,7 +325,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.HyperLink hypUserMaster;
-
+    
     /// <summary>
     /// msgdiv control.
     /// </summary>
@@ -263,7 +334,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl msgdiv;
-
+    
     /// <summary>
     /// msgerror control.
     /// </summary>
@@ -272,7 +343,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl msgerror;
-
+    
     /// <summary>
     /// msgwarning control.
     /// </summary>
@@ -281,7 +352,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl msgwarning;
-
+    
     /// <summary>
     /// msginfo control.
     /// </summary>
@@ -290,7 +361,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl msginfo;
-
+    
     /// <summary>
     /// msgsuccess control.
     /// </summary>
@@ -299,7 +370,7 @@ public partial class MasterPage
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl msgsuccess;
-
+    
     /// <summary>
     /// ContentPlaceHolder1 control.
     /// </summary>

@@ -1,0 +1,17 @@
+
+[Log Startup at 11.50.06]
+(Ver:-2.0.0.5)2025-08-20 11.50.06.196 (Info) SatoAppsInitialize  ::  Main - Initializing Application.......
+(Ver:-2.0.0.5)2025-08-20 11.51.07.839 (Info) Tray Scanner Data::  - 02-001
+(Ver:-2.0.0.5)2025-08-20 11.51.17.085 (Info) Tray Scanner Data::  - 02-002
+(Ver:-2.0.0.5)2025-08-20 11.51.18.568 (Info) Tray Scanner Data::  - 02-003
+(Ver:-2.0.0.5)2025-08-20 11.51.20.975 (Info) Tray Scanner Data::  - 02-004
+(Ver:-2.0.0.5)2025-08-20 11.52.06.411 (Info) Tray Scanner Data::  - 02-005
+(Ver:-2.0.0.5)2025-08-20 11.52.08.551 (Info) Tray Scanner Data::  - 02-006
+(Ver:-2.0.0.5)2025-08-20 11.52.09.991 (Info) Tray Scanner Data::  - 02-007
+(Ver:-2.0.0.5)2025-08-20 11.52.11.421 (Info) Tray Scanner Data::  - 02-008
+(Ver:-2.0.0.5)2025-08-20 11.52.45.861 (Info) _tcpClientScanner1 Object Initiated - Object Initilized
+(Ver:-2.0.0.5)2025-08-20 11.52.45.892 (Info) _tcpClientScanner2 Object Initiated - Object Initilized
+(Ver:-2.0.0.5)2025-08-20 11.52.46.400 (Info) _tcpClientScanner3 Object Initiated - Object Initilized
+(Ver:-2.0.0.5)2025-08-20 11.52.46.525 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.52.46.525 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.52.46.525 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected

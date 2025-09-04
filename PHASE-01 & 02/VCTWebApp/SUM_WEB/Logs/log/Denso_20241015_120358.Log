@@ -1,5 +1,0 @@
-
-[Log Startup at 12:03:58]
-(Ver:-10.0.25095.1000)2024-10-15 12:03:58.358 (Error) PRC_VCT_SPECIAL_REPORT_Blank - Invalid object name 'ttTemp'.
-(Ver:-10.0.25095.1000)2024-10-15 12:03:58.606 (Error) Denso  ::  Default _SHOWDETIALS()  -  User-  VCT Invalid object name 'ttTemp'.
-(Ver:-10.0.25095.1000)2024-10-15 12:03:58.737 (Error) Denso  ::  Default btnReset_Click()  -  User-  VCT There is no row at position 0.

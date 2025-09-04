@@ -1,0 +1,8 @@
+
+[Log Startup at 11.11.01]
+(Ver:-10.0.26013.1000)2025-08-21 11.11.01.627 (Error) Denso  ::  VCTDashboard gvVCTDashboard_RowCommand  -  User-  VCT Thread was being aborted.
+(Ver:-10.0.26013.1000)2025-08-21 11.11.05.415 (Error) Denso  ::  VCTDashboard gvVCTDashboard_RowCommand  -  User-  VCT Thread was being aborted.
+(Ver:-10.0.26013.1000)2025-08-21 11.15.57.626 (Error) Denso  ::  DL_VCTDashobard ShowDetails() []: - Conversion failed when converting the varchar value 'Not Found' to data type int.
+(Ver:-10.0.26013.1000)2025-08-21 11.15.57.653 (Error) Denso  ::  VCTDashboard _Page_Load()  -  User-  VCT Conversion failed when converting the varchar value 'Not Found' to data type int.
+(Ver:-10.0.26013.1000)2025-08-21 11.19.58.985 (Error) Denso  ::  GroupRights _BtnBack_Click()  -  User-  VCT Thread was being aborted.
+(Ver:-10.0.26013.1000)2025-08-21 11.20.35.521 (Error) Denso  ::  VCTDashboard gvVCTDashboard_RowCommand  -  User-  VCT Thread was being aborted.

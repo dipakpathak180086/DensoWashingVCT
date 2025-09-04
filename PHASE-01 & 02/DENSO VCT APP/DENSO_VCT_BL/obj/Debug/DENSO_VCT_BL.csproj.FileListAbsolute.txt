@@ -46,12 +46,12 @@ D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VC
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_BL\bin\Debug\DENSO_VCT_PL.dll
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_BL\bin\Debug\SatoLib.dll
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_BL\bin\Debug\DENSO_VCT_COMMON.dll
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_BL\bin\Debug\Serilog.dll
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_BL\bin\Debug\DENSO_VCT_DL.pdb
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_BL\bin\Debug\DENSO_VCT_PL.pdb
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_BL\bin\Debug\DENSO_VCT_COMMON.pdb
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_BL\obj\Debug\DENSO_VCT_BL.csproj.AssemblyReference.cache
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_BL\obj\Debug\DENSO_VCT_BL.csproj.CoreCompileInputs.cache
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_BL\obj\Debug\DENSO_VC.645BB77F.Up2Date
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_BL\obj\Debug\DENSO_VCT_BL.dll
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_BL\obj\Debug\DENSO_VCT_BL.pdb
-D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_BL\bin\Debug\Serilog.dll
-D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_BL\obj\Debug\DENSO_VCT_BL.csprojAssemblyReference.cache
-D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\DENSO VCT APP\DENSO_VCT_BL\obj\Debug\DENSO_VCT_BL.csproj.CopyComplete

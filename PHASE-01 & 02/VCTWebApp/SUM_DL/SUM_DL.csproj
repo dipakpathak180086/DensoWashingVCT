@@ -70,6 +70,9 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="Report\DL_LOT_INFO_CONVEYOR_ASSY_REPORT.cs" />
+    <Compile Include="Report\DL_LOT_INFO_CHILD_ASSY_REPORT.cs" />
+    <Compile Include="Report\DL_CHILD_PART_ASSY_REPORT.cs" />
     <Compile Include="Report\DL_REPORT_ALL_PERFORMANCE.cs" />
     <Compile Include="Report\DL_LOT_ENTRY_REPORT.cs" />
     <Compile Include="Report\DL_REPORT_PERFORMANCE.cs" />

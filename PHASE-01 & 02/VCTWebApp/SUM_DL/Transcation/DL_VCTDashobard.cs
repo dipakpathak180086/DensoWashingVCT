@@ -25,7 +25,7 @@ namespace SUM_DL
                                         new SqlParameter("@PART",obj.Part),
                                         new SqlParameter("@DATE",obj.Date),
                                         new SqlParameter("@LOT",obj.LotNo),
-                                        new SqlParameter("@REJECTION",obj.Rejection),
+                                        new SqlParameter("@LOT_DATE",obj.LotDate),
                                          new SqlParameter("@SERIAL",obj.Serai),
                                    };
                     DT = DU.GetDataUsingProcedure("[PRC_DASHBOARD_SERIAL_SERIES]", parma);
@@ -63,6 +63,26 @@ namespace SUM_DL
                                         new SqlParameter("@LOT",obj.LotNo),
                                    };
                 DT = DU.GetDataUsingProcedure("[PRC_AFTER_SUP_LOT_DATA]", parma);
+
+            }
+            catch (Exception ex)
+            {
+                CommonHelper.mSatoLogger.LogMessage(SatoLib.EventNotice.EventTypes.evtError, "Denso" + "  ::  DL_VCTDashobard AfterSubpectedLotDataDetails() [PRC_AFTER_SUP_LOT_DATA]:", ex.Message);
+                throw ex;
+            }
+
+            return DT;
+        }
+        public DataTable AfterSubpectedLotDataDetailsForStep03(PL_VCTDashboard obj)
+        {
+            try
+            {
+                SqlParameter[] parma = {
+                                        new SqlParameter("@MODEL",obj.Model),
+                                        new SqlParameter("@PART",obj.Part),
+                                        new SqlParameter("@LOT",obj.LotNo),
+                                   };
+                DT = DU.GetDataUsingProcedure("[PRC_AFTER_SUP_LOT_DATA_STEP3]", parma);
 
             }
             catch (Exception ex)

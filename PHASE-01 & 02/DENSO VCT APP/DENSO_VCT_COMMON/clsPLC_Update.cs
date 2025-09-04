@@ -121,6 +121,8 @@ public class clsPLC_Update : IDisposable
         string strData = "";
         try
         {
+            //if (stream is null && client !=null) { stream = client.GetStream(); }
+
             byte[] data = new byte[1024];
             int size = stream.Read(data, 0, data.Length);
             if (size == 0)
@@ -134,7 +136,10 @@ public class clsPLC_Update : IDisposable
             //GlobalVar.Logger.LogMessage(EventNotice.EventTypes.evtError, $"clsPCL-GetPLCInput():{_IP}:{_Port}", $"Error:{ex.ToString()}");
             try
             {
-                client.Close();
+                if (client != null)
+                {
+                    client.Close();
+                }
                 Connect();
             }
             catch (NullReferenceException e)

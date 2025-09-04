@@ -1,0 +1,8 @@
+
+[Log Startup at 10.24.53]
+(Ver:-10.0.26013.1000)2025-08-26 10.24.53.096 (Info) SatoAppsInitialize  ::  Main - Initializing Application.......on F4A80DB56D43
+[Log Shutdown at 10.24.53]
+
+
+[Log Startup at 10.24.53]
+(Ver:-10.0.26013.1000)2025-08-26 10.24.53.217 (Data) VCTWebApp, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null::Application_Start  F4A80DB56D43 - AppInitialize

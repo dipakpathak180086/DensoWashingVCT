@@ -149,7 +149,7 @@
 
                     </div>
                     <div id="DivShow" runat="server" visible="false" autopostback="true">
-
+                        <asp:Label ID="lblRecords" runat="server" Text="No. of Records: "></asp:Label>
                         <div id="divLotSummary" runat="server" style="overflow: auto; width: 100%;">
 
                             <asp:GridView ID="dgvDtl" runat="server" FooterStyle-Wrap="false" HeaderStyle-HorizontalAlign="Center"

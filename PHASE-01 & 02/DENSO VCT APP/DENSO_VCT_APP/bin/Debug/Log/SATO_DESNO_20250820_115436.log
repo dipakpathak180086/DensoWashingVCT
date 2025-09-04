@@ -1,0 +1,1305 @@
+
+[Log Startup at 11.54.36]
+(Ver:-2.0.0.5)2025-08-20 11.54.36.225 (Info) SatoAppsInitialize  ::  Main - Initializing Application.......
+(Ver:-2.0.0.5)2025-08-20 11.54.38.891 (Info) _tcpClientScanner3 Object Initiated - Object Initilized
+(Ver:-2.0.0.5)2025-08-20 11.54.39.001 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.39.001 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.39.001 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.39.394 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.39.394 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.39.394 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.39.394 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.39.441 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.39.441 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.39.897 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.39.897 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.39.897 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.39.897 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.39.991 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.39.991 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.40.006 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.40.006 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.40.101 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.40.399 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.40.399 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.40.399 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.40.399 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.40.430 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.40.430 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.40.885 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.40.885 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.40.885 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.40.885 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.40.964 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.40.964 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.41.105 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.41.105 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.41.184 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.41.388 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.41.388 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.41.388 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.41.388 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.41.403 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.41.403 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.41.890 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.41.890 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.41.890 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.41.890 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.41.953 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.41.953 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.42.188 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.42.188 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.42.282 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.42.392 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.42.392 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.42.392 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.42.392 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.42.392 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.42.392 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.42.894 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.42.894 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.42.894 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.42.894 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.42.942 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.42.942 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.43.287 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.43.287 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.43.381 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.43.396 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.43.396 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.43.396 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.43.396 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.43.491 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.43.491 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.43.899 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.43.899 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.43.899 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.43.899 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.43.930 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.43.930 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.44.386 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.44.386 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.44.386 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.44.386 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.44.386 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.44.386 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.44.464 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.44.464 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.44.464 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.44.888 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.44.888 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.44.888 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.44.888 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.44.904 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.44.904 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.45.391 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.45.391 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.45.391 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.45.391 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.45.454 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.45.454 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.45.470 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.45.470 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.45.564 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.45.894 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.45.894 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.45.894 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.45.894 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.46.003 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.46.003 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.46.395 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.46.395 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.46.395 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.46.395 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.46.442 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.46.442 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.46.569 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.46.569 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.46.662 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.46.898 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.46.898 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.46.898 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.46.898 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.46.992 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.46.992 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.47.385 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.47.385 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.47.385 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.47.385 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.47.416 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.47.416 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.47.668 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.47.668 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.47.746 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.47.887 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.47.887 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.47.887 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.47.887 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.47.966 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.47.966 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.48.389 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.48.389 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.48.389 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.48.389 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.48.405 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.48.405 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.48.751 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.48.751 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.48.844 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.48.892 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.48.892 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.48.892 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.48.892 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.48.954 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.48.954 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.49.394 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.49.394 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.49.394 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.49.394 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.49.504 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.49.504 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.49.848 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.49.848 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.49.896 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.49.896 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.49.896 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.49.896 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.49.942 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.49.942 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.49.942 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.50.398 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.50.398 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.50.398 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.50.398 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.50.492 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.50.492 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.50.885 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.50.885 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.50.885 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.50.885 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.50.932 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.50.932 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.50.948 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.50.948 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.51.042 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.51.386 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.51.386 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.51.402 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.51.402 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.51.481 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.51.481 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.51.889 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.51.889 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.51.889 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.51.889 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.51.920 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.51.920 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.52.045 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.52.045 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.52.139 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.52.391 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.52.391 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.52.391 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.52.391 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.52.469 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.52.469 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.52.893 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.52.893 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.52.893 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.52.893 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.52.909 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.52.909 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.53.145 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.53.145 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.53.257 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.53.396 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.53.396 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.53.396 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.53.396 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.53.458 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.53.458 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.53.897 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.53.897 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.53.897 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.53.897 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.54.007 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.54.007 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.54.259 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.54.259 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.54.337 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.54.399 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.54.399 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.54.399 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.54.399 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.54.446 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.54.446 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.54.887 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.54.887 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.54.887 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.54.887 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.54.981 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.54.981 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.55.341 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.55.341 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.55.389 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.55.389 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.55.389 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.55.389 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.55.420 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.55.420 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.55.420 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.55.892 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.55.892 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.55.892 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.55.892 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.55.971 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.55.971 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.56.394 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.56.394 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.56.394 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.56.394 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.56.409 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.56.409 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.56.425 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.56.425 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.56.519 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.56.897 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.56.897 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.56.897 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.56.897 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.56.959 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.56.959 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.57.399 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.57.399 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.57.399 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.57.399 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.57.494 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.57.494 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.57.525 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.57.525 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.57.604 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.57.887 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.57.887 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.57.887 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.57.887 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.57.934 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.57.934 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.58.389 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.58.389 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.58.389 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.58.389 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.58.483 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.58.483 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.58.608 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.58.608 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.58.703 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.58.892 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.58.892 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.58.892 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.58.892 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.58.923 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.58.923 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.59.393 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.59.393 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.59.393 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.59.393 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.59.472 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.59.472 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.59.707 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.59.707 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.59.801 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.59.895 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.59.895 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.54.59.895 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.54.59.895 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.54.59.911 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.54.59.911 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.00.398 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.00.398 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.00.398 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.00.398 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.00.461 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.00.461 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.00.806 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.00.806 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.00.885 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.00.885 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.00.885 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.00.885 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.00.885 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.00.885 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.00.994 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.01.387 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.01.387 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.01.387 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.01.387 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.01.434 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.01.434 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.01.889 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.01.889 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.01.889 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.01.889 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.01.889 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.01.889 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.01.984 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.01.984 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.01.984 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.02.392 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.02.392 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.02.392 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.02.392 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.02.423 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.02.423 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.02.894 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.02.894 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.02.894 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.02.894 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.02.973 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.02.973 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.02.989 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.02.989 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.03.083 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.03.397 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.03.397 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.03.397 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.03.397 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.03.412 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.03.412 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.03.886 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.03.886 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.03.886 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.03.886 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.03.949 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.03.949 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.04.091 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.04.091 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.04.169 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.04.389 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.04.389 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.04.389 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.04.389 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.04.499 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.04.499 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.04.889 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.04.889 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.04.889 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.04.889 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.04.936 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.04.936 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.05.172 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.05.172 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.05.266 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.05.391 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.05.391 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.05.391 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.05.391 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.05.485 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.05.485 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.05.894 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.05.894 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.05.894 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.05.894 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.05.925 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.05.925 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.06.004 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 02-001
+(Ver:-2.0.0.5)2025-08-20 11.55.06.004 (Info) Acutal Data From Scanner-1 - 02-001
+(Ver:-2.0.0.5)2025-08-20 11.55.06.020 (Info) Acutal OK Data From Scanner-1 - 02-001
+(Ver:-2.0.0.5)2025-08-20 11.55.06.098 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.06.396 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.06.396 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.06.396 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.06.396 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.06.474 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.06.474 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.06.897 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.06.897 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.06.897 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.06.897 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.06.913 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.06.913 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.07.102 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.07.102 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.07.133 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.07.400 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.07.400 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.07.400 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.07.400 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.07.463 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.07.463 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.07.887 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.07.887 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.07.903 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.07.903 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.07.995 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.07.995 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.08.145 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.08.145 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.08.224 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.08.396 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.08.396 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.08.396 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.08.396 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.08.443 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.08.443 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.08.899 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.08.899 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.08.899 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.08.899 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.08.994 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.08.994 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.09.229 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.09.229 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.09.307 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.09.385 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.09.385 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.09.385 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.09.385 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.09.417 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.09.417 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.09.890 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.09.890 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.09.890 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.09.890 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.09.968 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.09.968 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.10.329 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.10.329 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.10.392 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.10.392 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.10.392 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.10.392 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.10.407 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.10.407 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.10.407 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.10.894 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.10.894 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.10.894 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.10.894 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.10.957 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.10.957 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.11.397 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.11.397 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.11.397 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.11.397 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.11.413 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.11.413 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.11.507 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.11.507 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.11.507 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.11.899 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.11.899 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.11.899 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.11.899 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.11.946 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.11.946 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.12.385 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.12.385 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.12.385 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.12.385 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.12.480 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.12.480 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.12.511 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.12.511 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.12.590 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.12.887 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.12.887 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.12.887 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.12.887 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.12.918 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.12.918 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.13.388 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.13.388 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.13.388 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.13.388 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.13.467 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.13.467 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.13.608 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.13.608 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.13.687 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.13.891 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.13.891 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.13.891 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.13.891 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.13.907 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.13.907 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.14.393 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.14.393 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.14.393 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.14.393 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.14.456 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.14.456 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.14.691 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.14.691 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.14.785 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.14.895 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.14.895 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.14.895 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.14.895 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.15.005 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.15.005 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.15.397 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.15.397 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.15.397 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.15.397 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.15.444 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.15.444 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.15.698 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 02-002
+(Ver:-2.0.0.5)2025-08-20 11.55.15.698 (Info) Acutal Data From Scanner-1 - 02-002
+(Ver:-2.0.0.5)2025-08-20 11.55.15.698 (Info) Acutal OK Data From Scanner-1 - 02-002
+(Ver:-2.0.0.5)2025-08-20 11.55.15.774 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.15.900 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.15.900 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.15.900 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.15.900 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.15.994 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.15.994 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.16.418 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.16.418 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.16.418 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.16.418 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.16.527 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.16.527 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.16.778 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.16.778 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.16.857 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.16.888 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.16.888 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.16.888 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.16.888 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.16.966 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.16.966 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.17.401 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.17.401 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.17.401 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.17.401 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.17.406 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.17.406 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.17.861 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.17.861 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.17.892 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.17.892 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.17.892 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.17.892 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.17.955 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.17.955 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.17.955 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.18.395 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.18.395 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.18.395 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.18.395 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.18.505 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.18.505 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.18.897 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.18.897 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.18.897 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.18.897 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.18.944 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.18.944 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.18.959 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.18.959 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.19.053 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.19.399 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.19.399 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.19.399 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.19.399 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.19.493 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.19.493 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.19.886 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.19.886 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.19.886 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.19.886 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.19.933 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.19.933 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.20.058 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.20.058 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.20.153 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.20.388 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.20.388 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.20.388 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.20.388 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.20.482 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.20.482 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.20.891 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.20.891 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.20.891 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.20.891 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.20.938 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.20.938 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.21.158 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.21.158 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.21.252 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.21.393 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.21.393 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.21.393 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.21.393 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.21.472 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.21.472 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.21.898 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.21.898 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.21.898 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.21.898 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.21.906 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.21.906 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.22.260 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.22.260 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.22.339 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.22.385 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.22.385 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.22.385 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.22.385 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.22.449 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.22.449 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.22.888 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.22.888 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.22.888 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.22.888 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.22.998 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.22.998 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.23.202 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 02-003
+(Ver:-2.0.0.5)2025-08-20 11.55.23.202 (Info) Acutal Data From Scanner-1 - 02-003
+(Ver:-2.0.0.5)2025-08-20 11.55.23.202 (Info) Acutal OK Data From Scanner-1 - 02-003
+(Ver:-2.0.0.5)2025-08-20 11.55.23.265 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.23.390 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.23.390 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.23.390 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.23.390 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.23.438 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.23.438 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.23.894 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.23.894 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.23.894 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.23.894 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.23.988 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.23.988 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.24.271 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.24.271 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.24.309 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.24.396 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.24.396 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.24.396 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.24.396 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.24.428 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.24.428 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.24.900 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.24.900 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.24.900 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.24.900 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.24.963 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.24.963 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.25.324 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.25.324 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.25.387 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.25.387 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.25.387 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.25.387 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.25.402 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.25.402 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.25.402 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.25.907 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.25.907 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.25.907 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.25.907 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.25.954 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.25.954 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.26.394 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.26.394 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.26.394 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.26.394 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.26.409 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.26.409 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.26.504 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.26.504 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.26.504 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.26.895 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.26.895 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.26.895 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.26.895 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.26.942 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.26.942 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.27.397 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.27.397 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.27.397 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.27.397 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.27.460 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 02-004
+(Ver:-2.0.0.5)2025-08-20 11.55.27.460 (Info) Acutal Data From Scanner-1 - 02-004
+(Ver:-2.0.0.5)2025-08-20 11.55.27.460 (Info) Acutal OK Data From Scanner-1 - 02-004
+(Ver:-2.0.0.5)2025-08-20 11.55.27.570 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.27.570 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.27.570 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.27.900 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.27.900 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.27.900 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.27.900 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.27.930 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.27.930 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.28.386 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.28.386 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.28.386 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.28.386 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.28.464 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.28.464 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.28.574 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.28.574 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.28.684 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.28.887 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.28.887 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.28.887 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.28.887 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.28.903 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.28.903 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.29.389 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.29.389 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.29.389 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.29.389 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.29.452 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.29.452 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.29.687 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.29.687 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.29.781 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.29.891 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.29.891 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.29.891 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.29.891 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.30.001 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.30.001 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.30.393 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.30.393 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.30.393 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.30.393 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.30.441 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.30.441 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.30.786 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.30.786 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.30.880 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.30.895 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.30.895 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.30.895 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.30.895 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.30.990 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.30.990 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.31.350 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 02-005
+(Ver:-2.0.0.5)2025-08-20 11.55.31.350 (Info) Acutal Data From Scanner-1 - 02-005
+(Ver:-2.0.0.5)2025-08-20 11.55.31.350 (Info) Acutal OK Data From Scanner-1 - 02-005
+(Ver:-2.0.0.5)2025-08-20 11.55.31.397 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.31.397 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.31.397 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.31.397 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.31.460 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.31.460 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.31.460 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.31.899 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.31.899 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.31.899 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.31.899 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.31.978 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.31.978 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.32.386 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.32.386 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.32.386 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.32.386 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.32.402 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.32.402 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.32.465 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.32.465 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.32.511 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.32.888 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.32.888 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.32.888 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.32.888 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.32.951 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.32.951 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.33.390 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.33.390 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.33.390 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.33.390 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.33.500 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.33.500 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.33.515 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.33.515 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.33.610 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.33.892 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.33.892 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.33.892 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.33.892 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.33.940 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.33.940 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.34.394 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.34.394 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.34.394 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.34.394 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.34.489 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.34.489 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.34.614 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.34.614 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.34.708 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.34.896 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.34.896 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.34.896 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.34.896 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.34.927 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.34.927 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.35.399 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.35.399 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.35.399 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.35.399 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.35.477 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.35.477 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.35.712 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.35.712 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.35.801 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.35.895 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.35.895 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.35.895 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.35.895 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.35.911 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.35.911 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.36.398 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.36.398 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.36.398 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.36.398 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.36.433 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 02-006
+(Ver:-2.0.0.5)2025-08-20 11.55.36.433 (Info) Acutal Data From Scanner-1 - 02-006
+(Ver:-2.0.0.5)2025-08-20 11.55.36.433 (Info) Acutal OK Data From Scanner-1 - 02-006
+(Ver:-2.0.0.5)2025-08-20 11.55.36.539 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.36.539 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.36.539 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.36.900 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.36.900 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.36.900 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.36.900 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.36.994 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.36.994 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.37.387 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.37.387 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.37.387 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.37.387 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.37.433 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.37.433 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.37.544 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.37.544 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.37.654 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.37.889 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.37.889 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.37.889 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.37.889 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.37.983 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.37.983 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.38.391 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.38.391 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.38.391 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.38.391 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.38.422 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.38.422 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.38.658 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.38.658 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.38.752 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.38.893 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.38.893 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.38.893 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.38.893 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.38.972 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.38.972 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.39.395 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.39.395 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.39.395 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.39.395 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.39.411 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.39.411 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.39.756 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.39.756 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.39.839 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.39.898 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.39.898 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.39.898 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.39.898 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.39.960 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.39.960 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.40.400 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.40.400 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.40.400 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.40.400 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.40.509 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.40.509 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.40.556 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 02-007
+(Ver:-2.0.0.5)2025-08-20 11.55.40.556 (Info) Acutal Data From Scanner-1 - 02-007
+(Ver:-2.0.0.5)2025-08-20 11.55.40.556 (Info) Acutal OK Data From Scanner-1 - 02-007
+(Ver:-2.0.0.5)2025-08-20 11.55.40.697 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.40.886 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.40.886 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.40.886 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.40.886 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.40.949 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.40.949 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.41.388 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.41.388 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.41.388 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.41.388 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.41.498 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.41.498 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.41.702 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.41.702 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.41.718 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.41.892 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.41.892 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.41.892 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.41.892 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.41.939 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.41.939 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.42.394 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.42.394 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.42.394 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.42.394 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.42.488 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.42.488 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.42.723 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.42.723 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.42.817 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.42.896 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.42.896 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.42.896 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.42.896 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.42.927 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.42.927 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.43.398 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.43.398 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.43.398 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.43.398 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.43.477 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.43.477 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.43.822 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.43.822 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.43.885 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.43.885 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.43.885 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.43.885 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.43.901 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.43.901 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.43.901 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.44.388 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.44.388 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.44.388 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.44.388 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.44.388 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 02-008
+(Ver:-2.0.0.5)2025-08-20 11.55.44.388 (Info) Acutal Data From Scanner-1 - 02-008
+(Ver:-2.0.0.5)2025-08-20 11.55.44.388 (Info) Acutal OK Data From Scanner-1 - 02-008
+(Ver:-2.0.0.5)2025-08-20 11.55.44.513 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.44.513 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.44.513 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.44.890 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.44.890 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.44.890 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.44.890 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.45.015 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.45.015 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.45.392 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.45.392 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.45.392 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.45.392 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.45.439 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.45.439 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.45.518 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.45.518 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.45.549 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.45.895 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.45.895 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.45.895 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.45.895 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.45.989 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.45.989 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.46.397 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.46.397 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.46.397 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.46.397 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.46.429 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.46.429 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.46.554 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.46.554 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.46.648 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.46.899 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.46.899 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.46.899 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.46.899 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.46.977 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.46.977 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.47.385 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.47.385 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.47.385 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.47.385 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.47.401 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.47.401 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.47.652 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.47.652 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.47.730 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.47.888 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.47.888 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.47.888 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.47.888 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.47.950 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.47.950 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.48.391 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.48.391 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.48.391 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.48.391 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.48.500 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.48.500 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.48.736 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.48.736 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.48.831 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.48.893 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.48.893 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.48.893 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.48.893 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.48.940 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.48.940 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.49.396 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.49.396 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.49.396 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.49.396 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.49.490 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.49.490 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.49.836 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.49.836 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.49.899 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.49.899 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.49.899 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.49.899 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.49.930 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.49.930 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.49.930 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.50.385 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.50.385 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.50.385 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.50.385 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.50.464 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.50.464 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.50.889 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.50.889 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.50.889 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.50.889 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.50.904 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.50.904 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.50.936 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.50.936 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.51.014 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.51.390 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.51.390 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.51.390 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.51.390 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.51.453 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.51.453 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.51.893 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.51.893 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.51.893 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.51.893 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.52.003 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.52.003 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.52.018 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.52.018 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.52.112 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.52.395 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.52.395 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.52.395 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.52.395 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.52.442 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.52.442 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.52.897 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.52.897 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.52.897 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.52.897 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.52.992 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.52.992 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.53.117 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.53.117 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.53.211 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.53.400 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.53.400 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.53.400 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.53.400 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.53.431 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.53.431 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.53.886 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.53.886 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.53.886 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.53.886 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.53.965 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.53.965 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.54.215 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.54.215 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.54.294 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.54.388 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.54.388 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.54.404 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.54.404 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.54.404 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.54.514 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.54.890 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.54.890 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.54.890 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.54.890 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.54.953 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.54.953 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.55.298 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.55.298 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.55.393 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.55.393 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.55.393 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.55.393 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.55.393 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.55.502 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.55.502 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.55.895 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.55.895 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.55.911 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.55.911 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.55.942 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.55.942 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.56.397 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.56.397 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.56.397 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.56.397 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.56.397 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.56.397 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.56.491 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.56.491 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.56.491 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.56.900 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.56.900 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.56.900 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.56.900 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.56.931 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.56.931 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.57.386 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.57.386 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.57.386 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.57.386 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.57.464 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.57.464 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.57.496 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.57.496 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.57.574 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.57.888 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.57.888 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.57.888 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.57.888 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.57.904 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.57.904 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.58.391 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.58.391 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.58.391 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.58.391 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.58.454 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.58.454 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.58.580 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.58.580 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.58.674 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.58.894 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.58.894 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.58.894 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.58.894 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.59.004 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.59.004 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.59.396 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.59.396 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.59.396 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.59.396 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.59.443 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.59.443 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.59.679 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.59.679 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.59.772 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.59.898 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.59.898 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.55.59.898 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.55.59.898 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.55.59.992 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.55.59.992 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.00.400 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.00.400 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.56.00.400 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.00.400 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.56.00.416 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.00.416 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.00.777 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.00.777 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.56.00.855 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.00.887 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.00.887 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.56.00.887 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.00.887 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.56.00.965 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.00.965 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.01.389 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.01.389 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.01.389 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.56.01.389 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.56.01.405 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.01.405 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.01.860 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.01.860 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.56.01.892 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.01.892 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.56.01.892 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.01.892 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.56.01.954 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.01.954 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.01.954 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.02.410 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.02.410 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.56.02.410 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.02.410 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.56.02.504 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.02.504 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.02.896 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.02.896 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.56.02.896 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.02.896 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.56.02.943 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.02.943 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.02.959 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.02.959 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.56.03.053 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.03.398 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.03.398 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.56.03.398 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.03.398 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.56.03.479 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.03.479 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.03.885 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.03.885 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.03.885 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.56.03.885 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.56.03.932 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.03.932 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.04.388 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.04.388 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.56.04.388 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.04.388 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.56.04.483 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.04.483 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.04.891 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.04.891 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.56.04.891 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.04.891 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.56.04.922 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.04.922 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.05.393 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.05.393 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.56.05.393 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.05.393 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.56.05.471 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.05.471 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.05.675 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.05.675 (Message) Acutal NG Data From Scanner-1 - 
+(Ver:-2.0.0.5)2025-08-20 11.56.05.691 (Info) Check isConnectedScanner1:: - Scanner1 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.05.895 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.05.895 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.56.05.895 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.05.895 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.56.05.911 (Info) Check isConnectedScanner2:: - Scanner2 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.05.911 (Info) Check isConnectedScanner3:: - Scanner3 IsConnected :: Not Connected
+(Ver:-2.0.0.5)2025-08-20 11.56.06.398 (Info) Acutal Data From Scanner-2 - Scanner Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.06.398 (Message) Acutal NG Data From Scanner-2 - 
+(Ver:-2.0.0.5)2025-08-20 11.56.06.398 (Info) Acutal Data From Scanner-3 - Scanner-3 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.06.398 (Message) Acutal NG Data From PLC - 
+(Ver:-2.0.0.5)2025-08-20 11.56.07.716 (Info) Acutal Data From Scanner-1 - Scanner-1 Input data received 
+(Ver:-2.0.0.5)2025-08-20 11.56.07.716 (Message) Acutal NG Data From Scanner-1 - 

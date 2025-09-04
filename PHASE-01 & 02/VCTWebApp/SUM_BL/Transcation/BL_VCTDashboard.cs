@@ -76,6 +76,11 @@ namespace SUM_BL
             DL_VCTDashobard dlobj = new DL_VCTDashobard();
             return dlobj.AfterSubpectedLotDataDetails(obj);
         }
+        public DataTable AfterSubpectedLotDataDetailsForStep3(PL_VCTDashboard obj)
+        {
+            DL_VCTDashobard dlobj = new DL_VCTDashobard();
+            return dlobj.AfterSubpectedLotDataDetailsForStep03(obj);
+        }
 
     }
 }

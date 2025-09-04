@@ -31,6 +31,9 @@
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLotEntry));
             this.btnMinimize = new System.Windows.Forms.Button();
             this.lblHeader = new System.Windows.Forms.Label();
@@ -70,7 +73,7 @@
             this.TMName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TLName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.VENDORCODE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TRAYS = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TRAYS1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnViewTrays = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Barcode = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtLotQty = new System.Windows.Forms.TextBox();
@@ -96,6 +99,41 @@
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+            this.pnlScantray = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.dgvTray = new System.Windows.Forms.DataGridView();
+            this.chkSelect = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.TRAYS = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Qty = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SCANNEDON = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.txtScanTray = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.lblTrayScanTotalQty = new System.Windows.Forms.Label();
+            this.lblModelNo = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.lblChildPartNo = new System.Windows.Forms.Label();
+            this.lblScanQty = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.lblTotalQty = new System.Windows.Forms.Label();
+            this.lblTrayMessage = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.lblTrayScanStatus = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.btnTrayAuto = new System.Windows.Forms.PictureBox();
+            this.btnTrayManual = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.btnTrayClose = new System.Windows.Forms.PictureBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.btnTrayUnmapped = new System.Windows.Forms.PictureBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.lblScannedTrayBarcode = new System.Windows.Forms.Label();
             this.btnAuto = new System.Windows.Forms.PictureBox();
             this.btnManual = new System.Windows.Forms.PictureBox();
             this.btnFraction = new System.Windows.Forms.Button();
@@ -111,6 +149,17 @@
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
+            this.pnlScantray.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTray)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTrayAuto)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTrayManual)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTrayClose)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTrayUnmapped)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnAuto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnManual)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnNext)).BeginInit();
@@ -151,6 +200,7 @@
             this.lblHeader.TabIndex = 208;
             this.lblHeader.Text = "LOT ENTRY APPLICATION";
             this.lblHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblHeader.Click += new System.EventHandler(this.lblHeader_Click);
             // 
             // panel1
             // 
@@ -425,7 +475,7 @@
             this.TMName,
             this.TLName,
             this.VENDORCODE,
-            this.TRAYS,
+            this.TRAYS1,
             this.btnViewTrays,
             this.Barcode});
             this.dgv.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -580,13 +630,13 @@
             this.VENDORCODE.ReadOnly = true;
             this.VENDORCODE.Width = 133;
             // 
-            // TRAYS
+            // TRAYS1
             // 
-            this.TRAYS.DataPropertyName = "TRAYS";
-            this.TRAYS.HeaderText = "TRAYS";
-            this.TRAYS.Name = "TRAYS";
-            this.TRAYS.ReadOnly = true;
-            this.TRAYS.Width = 75;
+            this.TRAYS1.DataPropertyName = "TRAYS";
+            this.TRAYS1.HeaderText = "TRAYS";
+            this.TRAYS1.Name = "TRAYS1";
+            this.TRAYS1.ReadOnly = true;
+            this.TRAYS1.Width = 75;
             // 
             // btnViewTrays
             // 
@@ -838,6 +888,481 @@
             this.label17.TabIndex = 239;
             this.label17.Text = "Auto";
             // 
+            // pnlScantray
+            // 
+            this.pnlScantray.BackColor = System.Drawing.SystemColors.Control;
+            this.pnlScantray.Controls.Add(this.tableLayoutPanel1);
+            this.pnlScantray.Controls.Add(this.panel4);
+            this.pnlScantray.Controls.Add(this.lblTrayMessage);
+            this.pnlScantray.Controls.Add(this.panel5);
+            this.pnlScantray.Controls.Add(this.lblScannedTrayBarcode);
+            this.pnlScantray.Location = new System.Drawing.Point(113, 12);
+            this.pnlScantray.Name = "pnlScantray";
+            this.pnlScantray.Size = new System.Drawing.Size(1180, 619);
+            this.pnlScantray.TabIndex = 241;
+            this.pnlScantray.Visible = false;
+            this.pnlScantray.VisibleChanged += new System.EventHandler(this.pnlScantray_VisibleChanged);
+            this.pnlScantray.Enter += new System.EventHandler(this.pnlScantray_Enter);
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.Control;
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.4585F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 71.5415F));
+            this.tableLayoutPanel1.Controls.Add(this.dgvTray, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.pictureBox3, 0, 0);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 223);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 8F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1180, 320);
+            this.tableLayoutPanel1.TabIndex = 253;
+            // 
+            // dgvTray
+            // 
+            this.dgvTray.AllowUserToAddRows = false;
+            this.dgvTray.AllowUserToDeleteRows = false;
+            this.dgvTray.AllowUserToResizeRows = false;
+            this.dgvTray.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvTray.BackgroundColor = System.Drawing.Color.AliceBlue;
+            this.dgvTray.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(58)))), ((int)(((byte)(86)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Calibri", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvTray.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvTray.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvTray.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.chkSelect,
+            this.TRAYS,
+            this.Qty,
+            this.SCANNEDON});
+            this.dgvTray.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvTray.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
+            this.dgvTray.EnableHeadersVisualStyles = false;
+            this.dgvTray.GridColor = System.Drawing.SystemColors.ControlText;
+            this.dgvTray.Location = new System.Drawing.Point(338, 3);
+            this.dgvTray.MultiSelect = false;
+            this.dgvTray.Name = "dgvTray";
+            this.dgvTray.RowHeadersVisible = false;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Cambria", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.dgvTray.RowsDefaultCellStyle = dataGridViewCellStyle5;
+            this.dgvTray.RowTemplate.Height = 45;
+            this.dgvTray.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvTray.Size = new System.Drawing.Size(839, 306);
+            this.dgvTray.StandardTab = true;
+            this.dgvTray.TabIndex = 238;
+            this.dgvTray.TabStop = false;
+            this.dgvTray.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTray_CellContentClick);
+            this.dgvTray.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTray_CellValueChanged);
+            // 
+            // chkSelect
+            // 
+            this.chkSelect.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Cambria", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.NullValue = false;
+            this.chkSelect.DefaultCellStyle = dataGridViewCellStyle4;
+            this.chkSelect.FalseValue = "False";
+            this.chkSelect.HeaderText = "SELECT";
+            this.chkSelect.IndeterminateValue = "False";
+            this.chkSelect.MinimumWidth = 100;
+            this.chkSelect.Name = "chkSelect";
+            this.chkSelect.TrueValue = "True";
+            // 
+            // TRAYS
+            // 
+            this.TRAYS.DataPropertyName = "TRAYS";
+            this.TRAYS.HeaderText = "TRAYS ID";
+            this.TRAYS.MinimumWidth = 150;
+            this.TRAYS.Name = "TRAYS";
+            // 
+            // Qty
+            // 
+            this.Qty.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Qty.DataPropertyName = "Qty";
+            this.Qty.HeaderText = "QTY";
+            this.Qty.MinimumWidth = 80;
+            this.Qty.Name = "Qty";
+            this.Qty.Width = 80;
+            // 
+            // SCANNEDON
+            // 
+            this.SCANNEDON.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.SCANNEDON.DataPropertyName = "SCANNEDON";
+            this.SCANNEDON.HeaderText = "WASHING DATE TIME";
+            this.SCANNEDON.Name = "SCANNEDON";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(329, 306);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 241;
+            this.pictureBox3.TabStop = false;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.SystemColors.Control;
+            this.panel4.Controls.Add(this.txtScanTray);
+            this.panel4.Controls.Add(this.label18);
+            this.panel4.Controls.Add(this.label19);
+            this.panel4.Controls.Add(this.lblTrayScanTotalQty);
+            this.panel4.Controls.Add(this.lblModelNo);
+            this.panel4.Controls.Add(this.label20);
+            this.panel4.Controls.Add(this.label21);
+            this.panel4.Controls.Add(this.lblChildPartNo);
+            this.panel4.Controls.Add(this.lblScanQty);
+            this.panel4.Controls.Add(this.label22);
+            this.panel4.Controls.Add(this.label23);
+            this.panel4.Controls.Add(this.lblTotalQty);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(0, 52);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(1180, 171);
+            this.panel4.TabIndex = 252;
+            // 
+            // txtScanTray
+            // 
+            this.txtScanTray.BackColor = System.Drawing.Color.White;
+            this.txtScanTray.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtScanTray.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtScanTray.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtScanTray.Location = new System.Drawing.Point(262, 59);
+            this.txtScanTray.Name = "txtScanTray";
+            this.txtScanTray.ReadOnly = true;
+            this.txtScanTray.Size = new System.Drawing.Size(400, 53);
+            this.txtScanTray.TabIndex = 1000;
+            this.txtScanTray.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtScanTray_KeyDown);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label18.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label18.Location = new System.Drawing.Point(4, 59);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(191, 47);
+            this.label18.TabIndex = 217;
+            this.label18.Text = "Scan Tray*:";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label19.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label19.Location = new System.Drawing.Point(3, 3);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(202, 47);
+            this.label19.TabIndex = 230;
+            this.label19.Text = "Model No. :";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // lblTrayScanTotalQty
+            // 
+            this.lblTrayScanTotalQty.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblTrayScanTotalQty.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTrayScanTotalQty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblTrayScanTotalQty.Location = new System.Drawing.Point(262, 115);
+            this.lblTrayScanTotalQty.Name = "lblTrayScanTotalQty";
+            this.lblTrayScanTotalQty.Size = new System.Drawing.Size(402, 48);
+            this.lblTrayScanTotalQty.TabIndex = 240;
+            this.lblTrayScanTotalQty.Text = "XXXXXXXXXXXXX";
+            // 
+            // lblModelNo
+            // 
+            this.lblModelNo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblModelNo.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblModelNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblModelNo.Location = new System.Drawing.Point(262, 3);
+            this.lblModelNo.Name = "lblModelNo";
+            this.lblModelNo.Size = new System.Drawing.Size(400, 53);
+            this.lblModelNo.TabIndex = 231;
+            this.lblModelNo.Text = "XXXXXXXXXXXXX";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label20.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label20.Location = new System.Drawing.Point(4, 115);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(252, 47);
+            this.label20.TabIndex = 239;
+            this.label20.Text = "T.Washed Qty :";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label21.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label21.Location = new System.Drawing.Point(668, 3);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(251, 47);
+            this.label21.TabIndex = 232;
+            this.label21.Text = "Child Part No. :";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // lblChildPartNo
+            // 
+            this.lblChildPartNo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblChildPartNo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblChildPartNo.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblChildPartNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblChildPartNo.Location = new System.Drawing.Point(925, 3);
+            this.lblChildPartNo.Name = "lblChildPartNo";
+            this.lblChildPartNo.Size = new System.Drawing.Size(1115, 48);
+            this.lblChildPartNo.TabIndex = 233;
+            this.lblChildPartNo.Text = "XXXXXXXXXXXXX";
+            // 
+            // lblScanQty
+            // 
+            this.lblScanQty.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblScanQty.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblScanQty.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScanQty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblScanQty.Location = new System.Drawing.Point(925, 111);
+            this.lblScanQty.Name = "lblScanQty";
+            this.lblScanQty.Size = new System.Drawing.Size(1115, 48);
+            this.lblScanQty.TabIndex = 237;
+            this.lblScanQty.Text = "XXXXXXXXXXXXX";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label22.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label22.Location = new System.Drawing.Point(668, 59);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(179, 47);
+            this.label22.TabIndex = 234;
+            this.label22.Text = "Total Qty :";
+            this.label22.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label23.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label23.Location = new System.Drawing.Point(670, 115);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(229, 47);
+            this.label23.TabIndex = 236;
+            this.label23.Text = "Washed Qty :";
+            this.label23.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // lblTotalQty
+            // 
+            this.lblTotalQty.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTotalQty.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblTotalQty.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalQty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblTotalQty.Location = new System.Drawing.Point(925, 57);
+            this.lblTotalQty.Name = "lblTotalQty";
+            this.lblTotalQty.Size = new System.Drawing.Size(1115, 48);
+            this.lblTotalQty.TabIndex = 235;
+            this.lblTotalQty.Text = "XXXXXXXXXXXXX";
+            // 
+            // lblTrayMessage
+            // 
+            this.lblTrayMessage.BackColor = System.Drawing.Color.Transparent;
+            this.lblTrayMessage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblTrayMessage.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.lblTrayMessage.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTrayMessage.ForeColor = System.Drawing.Color.White;
+            this.lblTrayMessage.Location = new System.Drawing.Point(0, 543);
+            this.lblTrayMessage.Name = "lblTrayMessage";
+            this.lblTrayMessage.Size = new System.Drawing.Size(1180, 76);
+            this.lblTrayMessage.TabIndex = 251;
+            this.lblTrayMessage.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Controls.Add(this.lblTrayScanStatus);
+            this.panel5.Controls.Add(this.label26);
+            this.panel5.Controls.Add(this.label27);
+            this.panel5.Controls.Add(this.btnTrayAuto);
+            this.panel5.Controls.Add(this.btnTrayManual);
+            this.panel5.Controls.Add(this.pictureBox7);
+            this.panel5.Controls.Add(this.label28);
+            this.panel5.Controls.Add(this.btnTrayClose);
+            this.panel5.Controls.Add(this.label29);
+            this.panel5.Controls.Add(this.btnTrayUnmapped);
+            this.panel5.Controls.Add(this.label30);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(1180, 52);
+            this.panel5.TabIndex = 250;
+            // 
+            // lblTrayScanStatus
+            // 
+            this.lblTrayScanStatus.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblTrayScanStatus.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTrayScanStatus.Location = new System.Drawing.Point(127, 12);
+            this.lblTrayScanStatus.Name = "lblTrayScanStatus";
+            this.lblTrayScanStatus.Size = new System.Drawing.Size(267, 28);
+            this.lblTrayScanStatus.TabIndex = 268;
+            // 
+            // label26
+            // 
+            this.label26.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold);
+            this.label26.ForeColor = System.Drawing.Color.White;
+            this.label26.Location = new System.Drawing.Point(968, 32);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(35, 15);
+            this.label26.TabIndex = 267;
+            this.label26.Text = "Auto";
+            // 
+            // label27
+            // 
+            this.label27.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold);
+            this.label27.ForeColor = System.Drawing.Color.White;
+            this.label27.Location = new System.Drawing.Point(904, 32);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(52, 15);
+            this.label27.TabIndex = 266;
+            this.label27.Text = "Manual";
+            // 
+            // btnTrayAuto
+            // 
+            this.btnTrayAuto.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnTrayAuto.BackColor = System.Drawing.Color.Transparent;
+            this.btnTrayAuto.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btnTrayAuto.Location = new System.Drawing.Point(971, 7);
+            this.btnTrayAuto.Name = "btnTrayAuto";
+            this.btnTrayAuto.Size = new System.Drawing.Size(26, 25);
+            this.btnTrayAuto.TabIndex = 265;
+            this.btnTrayAuto.TabStop = false;
+            this.btnTrayAuto.Click += new System.EventHandler(this.btnTrayAuto_Click);
+            // 
+            // btnTrayManual
+            // 
+            this.btnTrayManual.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnTrayManual.BackColor = System.Drawing.Color.Transparent;
+            this.btnTrayManual.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btnTrayManual.Location = new System.Drawing.Point(917, 7);
+            this.btnTrayManual.Name = "btnTrayManual";
+            this.btnTrayManual.Size = new System.Drawing.Size(26, 25);
+            this.btnTrayManual.TabIndex = 264;
+            this.btnTrayManual.TabStop = false;
+            this.btnTrayManual.Click += new System.EventHandler(this.btnTrayManual_Click);
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(109, 44);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 263;
+            this.pictureBox7.TabStop = false;
+            // 
+            // label28
+            // 
+            this.label28.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold);
+            this.label28.ForeColor = System.Drawing.Color.White;
+            this.label28.Location = new System.Drawing.Point(1134, 34);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(38, 15);
+            this.label28.TabIndex = 241;
+            this.label28.Text = "Close";
+            // 
+            // btnTrayClose
+            // 
+            this.btnTrayClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnTrayClose.BackColor = System.Drawing.Color.White;
+            this.btnTrayClose.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.btnTrayClose.Image = ((System.Drawing.Image)(resources.GetObject("btnTrayClose.Image")));
+            this.btnTrayClose.Location = new System.Drawing.Point(1134, 1);
+            this.btnTrayClose.Name = "btnTrayClose";
+            this.btnTrayClose.Size = new System.Drawing.Size(38, 32);
+            this.btnTrayClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnTrayClose.TabIndex = 224;
+            this.btnTrayClose.TabStop = false;
+            this.btnTrayClose.Click += new System.EventHandler(this.btnTrayClose_Click);
+            // 
+            // label29
+            // 
+            this.label29.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold);
+            this.label29.ForeColor = System.Drawing.Color.White;
+            this.label29.Location = new System.Drawing.Point(1053, 34);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(77, 15);
+            this.label29.TabIndex = 240;
+            this.label29.Text = "Un-Mapped";
+            // 
+            // btnTrayUnmapped
+            // 
+            this.btnTrayUnmapped.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnTrayUnmapped.BackColor = System.Drawing.Color.White;
+            this.btnTrayUnmapped.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.btnTrayUnmapped.Image = ((System.Drawing.Image)(resources.GetObject("btnTrayUnmapped.Image")));
+            this.btnTrayUnmapped.Location = new System.Drawing.Point(1068, 1);
+            this.btnTrayUnmapped.Name = "btnTrayUnmapped";
+            this.btnTrayUnmapped.Size = new System.Drawing.Size(38, 32);
+            this.btnTrayUnmapped.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnTrayUnmapped.TabIndex = 228;
+            this.btnTrayUnmapped.TabStop = false;
+            this.btnTrayUnmapped.Click += new System.EventHandler(this.btnTrayUnmapped_Click);
+            // 
+            // label30
+            // 
+            this.label30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(58)))), ((int)(((byte)(86)))));
+            this.label30.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label30.Font = new System.Drawing.Font("Cambria", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label30.Location = new System.Drawing.Point(0, 0);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(1178, 52);
+            this.label30.TabIndex = 217;
+            this.label30.Text = "SCAN TRAY";
+            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblScannedTrayBarcode
+            // 
+            this.lblScannedTrayBarcode.AutoSize = true;
+            this.lblScannedTrayBarcode.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScannedTrayBarcode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblScannedTrayBarcode.Location = new System.Drawing.Point(161, 446);
+            this.lblScannedTrayBarcode.Name = "lblScannedTrayBarcode";
+            this.lblScannedTrayBarcode.Size = new System.Drawing.Size(0, 45);
+            this.lblScannedTrayBarcode.TabIndex = 243;
+            this.lblScannedTrayBarcode.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lblScannedTrayBarcode.Visible = false;
+            // 
             // btnAuto
             // 
             this.btnAuto.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -1026,6 +1551,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(58)))), ((int)(((byte)(86)))));
             this.ClientSize = new System.Drawing.Size(1386, 788);
+            this.Controls.Add(this.pnlScantray);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.btnAuto);
@@ -1048,6 +1574,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmLotEntry";
             this.Text = "Lot Scanning";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmLotEntry_FormClosing);
             this.Load += new System.EventHandler(this.frmModelMaster_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmLotEntry_KeyDown);
             this.panel1.ResumeLayout(false);
@@ -1056,6 +1583,20 @@
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             this.contextMenuStrip1.ResumeLayout(false);
+            this.pnlScantray.ResumeLayout(false);
+            this.pnlScantray.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTray)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTrayAuto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTrayManual)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTrayClose)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTrayUnmapped)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnAuto)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnManual)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnNext)).EndInit();
@@ -1123,6 +1664,37 @@
         private System.Windows.Forms.PictureBox btnAuto;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Panel pnlScantray;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.DataGridView dgvTray;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label lblTrayScanTotalQty;
+        private System.Windows.Forms.Label lblModelNo;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label lblChildPartNo;
+        private System.Windows.Forms.Label lblScanQty;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label lblTotalQty;
+        private System.Windows.Forms.Label lblTrayMessage;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Label lblTrayScanStatus;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.PictureBox btnTrayAuto;
+        private System.Windows.Forms.PictureBox btnTrayManual;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.PictureBox btnTrayClose;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.PictureBox btnTrayUnmapped;
+        private System.Windows.Forms.Label label30;
+        public System.Windows.Forms.Label lblScannedTrayBarcode;
+        private System.Windows.Forms.TextBox txtScanTray;
         private System.Windows.Forms.DataGridViewTextBoxColumn RowId;
         private System.Windows.Forms.DataGridViewTextBoxColumn RefNo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Shift;
@@ -1139,8 +1711,12 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn TMName;
         private System.Windows.Forms.DataGridViewTextBoxColumn TLName;
         private System.Windows.Forms.DataGridViewTextBoxColumn VENDORCODE;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TRAYS;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TRAYS1;
         private System.Windows.Forms.DataGridViewButtonColumn btnViewTrays;
         private System.Windows.Forms.DataGridViewTextBoxColumn Barcode;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn chkSelect;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TRAYS;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Qty;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SCANNEDON;
     }
 }

@@ -76,6 +76,33 @@ C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\obj\Debug\VCTWebApp.csproj.CoreCompile
 C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\obj\Debug\VCTWebApp.csproj.CopyComplete
 C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\obj\Debug\VCTWebApp.dll
 C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_WEB\obj\Debug\VCTWebApp.pdb
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\bin\dll\SATOPrinterAPI.dll
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\bin\VCTWebApp.dll.config
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\bin\VCTWebApp.dll
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\bin\VCTWebApp.pdb
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\bin\Microsoft.ReportViewer.WebForms.dll
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\bin\SUM_BL.dll
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\bin\SUM_COMMON.dll
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\bin\SUM_PL.dll
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\bin\zxing.dll
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\bin\zxing.presentation.dll
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\bin\Microsoft.ReportViewer.Common.dll
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\bin\SUM_DL.dll
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\bin\Microsoft.ReportViewer.WebForms.xml
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\bin\SUM_BL.pdb
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\bin\SUM_COMMON.pdb
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\bin\SUM_PL.pdb
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\bin\zxing.xml
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\bin\zxing.presentation.xml
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\bin\SUM_DL.pdb
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\bin\SUM_DL.dll.config
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\obj\Debug\VCTWebApp.csproj.AssemblyReference.cache
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\obj\Debug\VCTWebApp.Properties.Resources.resources
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\obj\Debug\VCTWebApp.csproj.GenerateResource.cache
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\obj\Debug\VCTWebApp.csproj.CoreCompileInputs.cache
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\obj\Debug\VCTWebApp.csproj.Up2Date
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\obj\Debug\VCTWebApp.dll
+D:\VCTWebApp 1\VCTWebApp\SUM_WEB\obj\Debug\VCTWebApp.pdb
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_WEB\bin\dll\SATOPrinterAPI.dll
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_WEB\bin\VCTWebApp.dll.config
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_WEB\bin\VCTWebApp.dll
@@ -96,10 +123,10 @@ D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebAp
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_WEB\bin\zxing.presentation.xml
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_WEB\bin\SUM_DL.pdb
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_WEB\bin\SUM_DL.dll.config
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_WEB\obj\Debug\VCTWebApp.csprojAssemblyReference.cache
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_WEB\obj\Debug\VCTWebApp.Properties.Resources.resources
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_WEB\obj\Debug\VCTWebApp.csproj.GenerateResource.cache
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_WEB\obj\Debug\VCTWebApp.csproj.CoreCompileInputs.cache
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_WEB\obj\Debug\VCTWebApp.csproj.CopyComplete
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_WEB\obj\Debug\VCTWebApp.dll
 D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_WEB\obj\Debug\VCTWebApp.pdb
-D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_WEB\obj\Debug\VCTWebApp.csprojAssemblyReference.cache
-D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_WEB\obj\Debug\VCTWebApp.csproj.CopyComplete

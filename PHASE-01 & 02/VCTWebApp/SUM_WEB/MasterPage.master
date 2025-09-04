@@ -19,7 +19,20 @@
     <title>Denso VCT Traceability</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'
         name='viewport'>
-    <script src="dist/js/pace.min.js" type="text/javascript"></script>
+    
+    <!-- jQuery must come first -->
+    <script src='<%= this.ResolveClientUrl("~/dist/js/jquery.min.js")%>' type="text/javascript"></script>
+
+
+
+    <!-- Bootstrap Bundle (JS + Popper) -->
+    <script src='<%= this.ResolveClientUrl("~/dist/js/bootstrap.bundle.min.js")%>' type="text/javascript"></script>
+
+    <!-- Pace loader (optional, independent) -->
+    <script src='<%= this.ResolveClientUrl("~/dist/js/pace.min.js")%>' type="text/javascript"></script>
+
+
+
     <!-- Bootstrap 3.3.1 -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- FontAwesome 4.2.0 -->
@@ -46,6 +59,11 @@
     <link href="plugins/iCheck/flat/blue.css" rel="stylesheet" type="text/css" />
     <link href="dist/css/StyleSheet1.css" rel="stylesheet" type="text/css" />
     <link href="dist/css/jquery.datetimepicker.css" rel="stylesheet" type="text/css" />
+        <!-- Styles -->
+<link href="dist/css/select2.min.css" rel="stylesheet" type="text/css" />
+<link href="dist/css/bootstrap-multiselect.css" rel="stylesheet" type="text/css" />
+<link href="dist/css/bootstrap-multiselect.min.css" rel="stylesheet" type="text/css" />
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -63,6 +81,10 @@
             <Scripts>
                 <asp:ScriptReference Path="~/dist/js/jquery.js" />
                 <asp:ScriptReference Path="~/dist/js/jquery.datetimepicker.js" />
+                <asp:ScriptReference Path="~/dist/js/select2-custom.js" />
+                <asp:ScriptReference Path="~/dist/js/select2.min.js" />
+                <asp:ScriptReference Path="~/dist/js/bootstrap-multiselect.js" />
+                <asp:ScriptReference Path="~/dist/js/bootstrap-multiselect.min.js" />
             </Scripts>
         </asp:ScriptManager>
         <div class="wrapper">
@@ -184,51 +206,102 @@
                             <ul id="ulReport" class="treeview-menu menu-open" style="display: block;">
                                 <li>
                                     <asp:HyperLink NavigateUrl="~/pages/Report/VCTLotEntryReport.aspx" ID="HyperLink3" runat="server"> <i class="fa fa-angle-double-right"></i>
-   Child Part Lot Data Report</asp:HyperLink></li>
+                                        Child Part Lot Data Report At washing station</asp:HyperLink></li>
                                 <li>
                                     <asp:HyperLink NavigateUrl="~/pages/Report/VCTAllPerformanceDataReport.aspx" ID="HyperLink2" runat="server"> <i class="fa fa-angle-double-right"></i>
-            Performance Full Report</asp:HyperLink></li>
+                                        Performance Full Report</asp:HyperLink></li>
                         </li>
                         <li>
                             <asp:HyperLink NavigateUrl="~/pages/Report/VCTPerformanceReport.aspx" ID="HyperLink1" runat="server"> <i class="fa fa-angle-double-right"></i>
-Performance OK FG Report</asp:HyperLink></li>
+                                Performance OK FG Report</asp:HyperLink></li>
 
                         <li>
                             <asp:HyperLink NavigateUrl="~/pages/Report/VCTLogReport.aspx" ID="hypLogReport" runat="server"> <i class="fa fa-angle-double-right"></i>
-                Data Error Log Report</asp:HyperLink></li>
+                                Data Error Log Report</asp:HyperLink></li>
 
 
 
 
                     </ul>
 
-                    <li id="liTranscation" runat="server" class="treeview active">
+                 <li id="liTranscation" runat="server" class="treeview">
                         <a href="#">
                             <i class="fa fa-laptop"></i>
-                            <span>Backward and Forward Search</span>
+                            <span>Traceability</span>
                             <i class="fa fa-angle-left pull-right"></i>
                         </a>
-                        <ul id="ulTranscation" class="treeview-menu menu-open" style="display: block;">
-                            <li>
-                                <asp:HyperLink NavigateUrl="~/pages/Transaction/VCTDashboard.aspx" ID="hypVCDashboard" runat="server"> <i class="fa fa-angle-double-right"></i>
-                Traceability</asp:HyperLink></li>
-                            <li>
-                                <asp:HyperLink NavigateUrl="~/pages/Transaction/VCTSupLotBackwardTrace.aspx" ID="hySupLotInfo" runat="server"> <i class="fa fa-angle-double-right"></i>
-                Traceability From Direct Lot No.</asp:HyperLink></li>
-
-                            <li>
-                                <asp:HyperLink NavigateUrl="~/pages/Report/VCTSpecialReport.aspx" ID="HypVCTSpecialReport" runat="server"> <i class="fa fa-angle-double-right"></i>
-VCT Special Report</asp:HyperLink></li>
-
-
-
-
+                        <ul class="treeview-menu">
+                            <li id="li1" runat="server" class="treeview">
+                                <a href="#">
+                                    <i class="fa fa-keyboard-o"></i>
+                                    <span>Step1 & 2 (from Washing to FG linkage</span>
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </a>
+                                <ul id="ulTranscation" class="treeview-menu">
+                                    <li>
+                                        <asp:HyperLink NavigateUrl="~/pages/Transaction/VCTDashboard.aspx" ID="HyperLink4" runat="server">
+                                            <i class="fa fa-angle-double-right"></i> Traceability
+                                        </asp:HyperLink>
+                                    </li>
+                                    <li>
+                                        <asp:HyperLink NavigateUrl="~/pages/Transaction/VCTSupLotBackwardTrace.aspx" ID="HyperLink5" runat="server">
+                                            <i class="fa fa-angle-double-right"></i> Traceability From Direct Lot No.
+                                        </asp:HyperLink>
+                                    </li>
+                                    <li>
+                                        <asp:HyperLink NavigateUrl="~/pages/Report/VCTSpecialReport.aspx" ID="HyperLink6" runat="server">
+                                            <i class="fa fa-angle-double-right"></i> VCT Special Report
+                                        </asp:HyperLink>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                     <ul class="treeview-menu">
+                            <li id="li2" runat="server" class="treeview">
+                                <a href="#">
+                                    <i class="fa fa-keyboard-o"></i>
+                                    <span>Step 3 (FG linkage to Child Part lot info)</span>
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </a>
+                                <ul id="ulTranscation2" class="treeview-menu">
+                                    <li>
+                                        <asp:HyperLink  ID="HyperLink7" NavigateUrl="~/pages/Report/VCTLotInfoChildReport.aspx" runat="server">
+                                            <i class="fa fa-angle-double-right"></i> Lot info –Model Child part wise 
+                                        </asp:HyperLink>
+                                    </li>
+                                    <li>
+                                        <asp:HyperLink NavigateUrl="~/pages/Report/VCTLotInfoConveyorReport.aspx" ID="HyperLink8" runat="server">
+                                            <i class="fa fa-angle-double-right"></i> Lot info -Conveyor wise
+                                        </asp:HyperLink>
+                                    </li>
+                                    <li>
+                                        <asp:HyperLink NavigateUrl="" ID="HyperLink9" runat="server">
+                                            <i class="fa fa-angle-double-right"></i> Direct Lot No. search
+                                        </asp:HyperLink>
+                                    </li>
+                                    <li>
+                                        <asp:HyperLink NavigateUrl="" ID="HyperLink10" runat="server">
+                                            <i class="fa fa-angle-double-right"></i> Line Washing Tray records
+                                        </asp:HyperLink>
+                                    </li>
+                                    <li>
+                                        <asp:HyperLink NavigateUrl="~/pages/Report/VCTUsedChildPartAssyReport.aspx" ID="HyperLink11" runat="server">
+                                            <i class="fa fa-angle-double-right"></i> Used Child part assy time 
+                                        </asp:HyperLink>
+                                    </li>
+                                    <li>
+                                        <asp:HyperLink NavigateUrl="~/pages/Transaction/VCTDashboardStep3.aspx" ID="HyperLink12" runat="server">
+                                            <i class="fa fa-angle-double-right"></i> Traceback & Trace forward
+                                        </asp:HyperLink>
+                                    </li>
+                                </ul>
+                            </li>
                         </ul>
 
 
                     </li>
 
-
+                     
 
 
                     <li id="liSettings" runat="server" class="treeview" visible="false">
@@ -325,7 +398,7 @@ VCT Special Report</asp:HyperLink></li>
             </footer>
         </div>
         <!-- ./wrapper -->
-        <script src='<%= this.ResolveClientUrl("~/dist/js/jquery.min.js")%>' type="text/javascript"></script>
+       
         <script src='<%= this.ResolveClientUrl("~/dist/js/bootstrap.min.js")%>' type="text/javascript"></script>
         <script src='<%= this.ResolveClientUrl("~/dist/js/jquery-ui.min.js")%>' type="text/javascript"></script>
         <!-- Morris.js charts -->

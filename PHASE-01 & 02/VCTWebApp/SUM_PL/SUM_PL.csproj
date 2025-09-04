@@ -52,6 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\PL_LOT_INFO_CONVEYOR_ASSY_REPORT.cs" />
+    <Compile Include="Report\PL_LOT_INFO_CHILD_ASSY_REPORT.cs" />
+    <Compile Include="Report\PL_CHILD_PART_ASSY_REPORT.cs" />
     <Compile Include="Report\PL_REPORT_ALL_PERFORMANCE_DATA.cs" />
     <Compile Include="Report\PL_LOT_ENTRY_REPORT.cs" />
     <Compile Include="Report\PL_REPORT_PERFORMANCE.cs" />

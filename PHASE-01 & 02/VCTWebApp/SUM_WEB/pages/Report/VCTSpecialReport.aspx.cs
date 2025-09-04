@@ -331,10 +331,13 @@ namespace VCTWebApp
 
         protected void btnShow_Click(object sender, EventArgs e)
         {
+        //repeat:
+           // CommonHelper.mSatoLogger.LogMessage(SatoLib.EventNotice.EventTypes.evtError, "Ex-", "ROW BOUND ERROR");
             try
             {
                 if (_ValidateInputLotWise())
                 {
+
 
                     int gmaxvalue = 0;
                     DataTable dt0 = new DataTable();
@@ -355,7 +358,7 @@ namespace VCTWebApp
                     dt = dt0.Copy();
                     dt0.Rows.RemoveAt(0);
 
-                    
+
 
                     // Set the new column's position before the first 3 columns (i.e., at index 0)
                     //newColumn.SetOrdinal(2);
@@ -409,6 +412,7 @@ namespace VCTWebApp
                             //}
                         }
                         UpdateMaxValue(gmaxvalue, dt);
+
                         //LoadData();
                     }
 
@@ -451,7 +455,7 @@ namespace VCTWebApp
 
                     //}
 
-                   DataTable dtFinal= ChangeColumnIndex(dt0, "SerialNo", 2);
+                    DataTable dtFinal = ChangeColumnIndex(dt0, "SerialNo", 2);
 
                     Session["VCTSpecialReport"] = dtFinal;
                     lblRecords.Text = "Total Records : " + dtFinal.Rows.Count;
@@ -463,6 +467,7 @@ namespace VCTWebApp
             }
             catch (Exception ex)
             {
+
                 ShowMessageWithUpdatePanel(ex.ToString(), MessageType.Error);
                 CommonHelper.mSatoLogger.LogMessage(SatoLib.EventNotice.EventTypes.evtError, "Denso" + "  ::  Default btnReset_Click() ", " User-  " + Session["UserName"].ToString() + " " + ex.Message);
             }
@@ -649,54 +654,64 @@ namespace VCTWebApp
 
         private static void InsertUpdateRowColumnValue(DataTable table, int row, int index, string InsertUpdate, string ChildPart, string LotValue, string sDate, string sModel, int lotQty)
         {
-           // var serialGeneratorLine2MC1 = new SerialNumberGenerator(21001);
             RunningNumberGenerator generator = new RunningNumberGenerator();
 
             for (int i = 0; i < lotQty; i++)
             {
-                // Create a new row
-                if (InsertUpdate == "Insert")
+                try
                 {
-                    DataRow newRow = table.NewRow();
+                    // var serialGeneratorLine2MC1 = new SerialNumberGenerator(21001);
 
-                    foreach (DataColumn column in table.Columns)
+                    // Create a new row
+                    if (InsertUpdate == "Insert")
                     {
-                        newRow[column] = DBNull.Value;
-                    }
-                    // Add the new row to the DataTable
-                    table.Rows.Add(newRow);
-                    DataRow rowToUpdates = null;
-                    if (i == 0)
-                    {
-                        rowToUpdates = table.Rows[row];
-                    }
-                    else
-                    {
-                        rowToUpdates = table.Rows[row + i];
-                    }
-                    //DataRow rowToUpdates = table.Rows[row+i];
-                    rowToUpdates[ChildPart] = LotValue;
-                    rowToUpdates["Date"] = sDate;
-                    rowToUpdates["Model"] = sModel;
+                        DataRow newRow = table.NewRow();
 
-                    string serial1 = generator.GetNextNumber(sModel, Convert.ToDateTime(sDate), LotValue);// serialGeneratorLine2MC1.GenerateSerialNumber(sModel, Convert.ToDateTime(sDate), 21, 1, LotValue);
-                    rowToUpdates["SerialNo"] = serial1;
+                        foreach (DataColumn column in table.Columns)
+                        {
+                            newRow[column] = DBNull.Value;
+                        }
+                        // Add the new row to the DataTable
+                        table.Rows.Add(newRow);
+                        DataRow rowToUpdates = null;
+                        if (i == 0)
+                        {
+                            rowToUpdates = table.Rows[row];
+                        }
+                        else
+                        {
+                            rowToUpdates = table.Rows[row + i];
+                        }
+                        //DataRow rowToUpdates = table.Rows[row+i];
+                        rowToUpdates[ChildPart] = LotValue;
+                        rowToUpdates["Date"] = sDate;
+                        rowToUpdates["Model"] = sModel;
+
+                        string serial1 = generator.GetNextNumber(sModel, Convert.ToDateTime(sDate), LotValue);// serialGeneratorLine2MC1.GenerateSerialNumber(sModel, Convert.ToDateTime(sDate), 21, 1, LotValue);
+                        rowToUpdates["SerialNo"] = serial1;
+
+                    }
+                    else if (InsertUpdate == "Update")
+                    {
+                        DataRow rowToUpdates = null;
+                        if (i == 0)
+                        {
+                            rowToUpdates = table.Rows[row];
+                        }
+                        else
+                        {
+                            rowToUpdates = table.Rows[row + i];
+                        }
+                        rowToUpdates[ChildPart] = LotValue;
+                        // rowToUpdates["Date"] = "12-10-2024";
+                        //rowToUpdates["Model"] = "XXX";
+                    }
 
                 }
-                else if (InsertUpdate == "Update")
+                catch
                 {
-                    DataRow rowToUpdates = null;
-                    if (i == 0)
-                    {
-                        rowToUpdates = table.Rows[row];
-                    }
-                    else
-                    {
-                        rowToUpdates = table.Rows[row + i];
-                    }
-                    rowToUpdates[ChildPart] = LotValue;
-                    // rowToUpdates["Date"] = "12-10-2024";
-                    //rowToUpdates["Model"] = "XXX";
+                    continue;
+
                 }
             }
         }

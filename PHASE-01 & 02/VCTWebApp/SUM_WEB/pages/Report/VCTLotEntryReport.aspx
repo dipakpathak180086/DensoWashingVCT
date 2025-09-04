@@ -56,14 +56,14 @@
     </div>
     <!-- Content Header (Page header) -->
     <section class="content-header">
-        <h1>Child Part Lot Data Report
+        <h1>Child Part Lot Data Report At washing station
         </h1>
         <ol class="breadcrumb">
             <li>
                 <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Default.aspx"> <i class="fa fa-dashboard"></i> Home
                 </asp:HyperLink>
             </li>
-            <li><a href="#">Child Part Lot Data Report</a></li>
+            <li><a href="#">Child Part Lot Data Report At washing station</a></li>
         </ol>
     </section>
     <div class="col-xs-12">
@@ -158,7 +158,7 @@
                                 </td>
                                 <td style="text-align: left; width: 200px">
                                     <asp:TextBox onkeyup="this.value=this.value.toUpperCase();javascript:RemoveSpecialChar(this);"
-                                        ID="txtFromDate" runat="server" ValidationGroup="Submit" TabIndex="6" MaxLength="50" Style="text-transform: uppercase; display: inline"
+                                        ID="txtFromDate" runat="server" ValidationGroup="Submit" TabIndex="6" MaxLength="50" Style="text-transform: uppercase; display: inline" autocomplete="off"
                                         placeholder="Select From Date" class="form-control"></asp:TextBox>
 
                                 </td>
@@ -171,7 +171,7 @@
                                 </td>
                                 <td style="text-align: left; width: 200px">
                                     <asp:TextBox onkeyup="this.value=this.value.toUpperCase();javascript:RemoveSpecialChar(this);"
-                                        ID="txtToDate" runat="server" ValidationGroup="Submit" TabIndex="6" MaxLength="50" Style="text-transform: uppercase; display: inline"
+                                        ID="txtToDate" runat="server" ValidationGroup="Submit" TabIndex="6" MaxLength="50" Style="text-transform: uppercase; display: inline;"  autocomplete="off"
                                         placeholder="Select To Date" class="form-control"></asp:TextBox>
 
                                 </td>

@@ -1,0 +1,5 @@
+
+[Log Startup at 11.15.36]
+(Ver:-10.0.26013.1000)2025-08-22 11.15.36.569 (Error) Denso  ::  VCTDashboard _SHOWDETIALS()  -  User-  VCT DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'ModelNo'.
+(Ver:-10.0.26013.1000)2025-08-22 11.16.09.381 (Error) Denso  ::  VCTDashboard _SHOWDETIALS()  -  User-  VCT DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'ModelNo'.
+(Ver:-10.0.26013.1000)2025-08-22 11.17.02.759 (Error) Denso  ::  VCTDashboard _SHOWDETIALS()  -  User-  VCT DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'ModelNo'.

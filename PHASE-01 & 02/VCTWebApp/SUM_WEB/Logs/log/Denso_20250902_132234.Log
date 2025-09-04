@@ -1,0 +1,5 @@
+
+[Log Startup at 13.22.34]
+(Ver:-10.0.26013.1000)2025-09-02 13.22.34.679 (Error) Denso  ::  DL_VCTDashobard AfterSubpectedLotDataDetails() [PRC_AFTER_SUP_LOT_DATA]: - Procedure or function 'PRC_AFTER_SUP_LOT_DATA_STEP3' expects parameter '@LOT', which was not supplied.
+(Ver:-10.0.26013.1000)2025-09-02 13.22.34.715 (Error) Denso  ::  VCTDashboard _SHOWDETIALS()  -  User-  VCT Procedure or function 'PRC_AFTER_SUP_LOT_DATA_STEP3' expects parameter '@LOT', which was not supplied.
+(Ver:-10.0.26013.1000)2025-09-02 13.28.58.677 (Error) Denso  ::  VCTDashboard _SHOWDETIALS()  -  User-  VCT Column 'LotNo' does not belong to table .

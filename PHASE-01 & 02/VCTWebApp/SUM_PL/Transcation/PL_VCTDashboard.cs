@@ -30,5 +30,6 @@ namespace SUM_PL
             get;
             set;
         }
+        public string LotDate { get; set; }
     }
 }

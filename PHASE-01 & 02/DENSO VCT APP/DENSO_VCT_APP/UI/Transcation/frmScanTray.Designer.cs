@@ -30,25 +30,25 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmScanTray));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblScanStatus = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.btnAuto = new System.Windows.Forms.PictureBox();
-            this.btnManual = new System.Windows.Forms.PictureBox();
+            this.btnTrayAuto = new System.Windows.Forms.PictureBox();
+            this.btnTrayManual = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.btnClose = new System.Windows.Forms.PictureBox();
+            this.btnTrayClose = new System.Windows.Forms.PictureBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.btnDelete = new System.Windows.Forms.PictureBox();
+            this.btnTrayUnmapped = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtScanTray = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.lblMessage = new System.Windows.Forms.Label();
+            this.lblTrayMessage = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lblModelNo = new System.Windows.Forms.Label();
             this.lblChildPartNo = new System.Windows.Forms.Label();
@@ -59,24 +59,23 @@
             this.label13 = new System.Windows.Forms.Label();
             this.lblTrayScanTotalQty = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.dgv = new System.Windows.Forms.DataGridView();
+            this.dgvTray = new System.Windows.Forms.DataGridView();
             this.chkSelect = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.TRAYS = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Qty = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SCANNEDON = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
+            this.serialTrayPort1 = new System.IO.Ports.SerialPort(this.components);
             this.lblScannedBarcode = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnAuto)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnManual)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTrayAuto)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTrayManual)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnClose)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnDelete)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTrayClose)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTrayUnmapped)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTray)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -89,18 +88,18 @@
             this.panel1.Controls.Add(this.lblScanStatus);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label16);
-            this.panel1.Controls.Add(this.btnAuto);
-            this.panel1.Controls.Add(this.btnManual);
+            this.panel1.Controls.Add(this.btnTrayAuto);
+            this.panel1.Controls.Add(this.btnTrayManual);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.btnClose);
+            this.panel1.Controls.Add(this.btnTrayClose);
             this.panel1.Controls.Add(this.label17);
-            this.panel1.Controls.Add(this.btnDelete);
+            this.panel1.Controls.Add(this.btnTrayUnmapped);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1380, 52);
+            this.panel1.Size = new System.Drawing.Size(1348, 52);
             this.panel1.TabIndex = 0;
             // 
             // lblScanStatus
@@ -118,7 +117,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(1068, 32);
+            this.label5.Location = new System.Drawing.Point(1052, 32);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(35, 15);
             this.label5.TabIndex = 267;
@@ -130,35 +129,35 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold);
             this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(1004, 32);
+            this.label16.Location = new System.Drawing.Point(988, 32);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(52, 15);
             this.label16.TabIndex = 266;
             this.label16.Text = "Manual";
             // 
-            // btnAuto
+            // btnTrayAuto
             // 
-            this.btnAuto.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnAuto.BackColor = System.Drawing.Color.Transparent;
-            this.btnAuto.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.btnAuto.Location = new System.Drawing.Point(1071, 7);
-            this.btnAuto.Name = "btnAuto";
-            this.btnAuto.Size = new System.Drawing.Size(26, 25);
-            this.btnAuto.TabIndex = 265;
-            this.btnAuto.TabStop = false;
-            this.btnAuto.Click += new System.EventHandler(this.btnAuto_Click);
+            this.btnTrayAuto.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnTrayAuto.BackColor = System.Drawing.Color.Transparent;
+            this.btnTrayAuto.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btnTrayAuto.Location = new System.Drawing.Point(1055, 7);
+            this.btnTrayAuto.Name = "btnTrayAuto";
+            this.btnTrayAuto.Size = new System.Drawing.Size(26, 25);
+            this.btnTrayAuto.TabIndex = 265;
+            this.btnTrayAuto.TabStop = false;
+            this.btnTrayAuto.Click += new System.EventHandler(this.btnTrayAuto_Click);
             // 
-            // btnManual
+            // btnTrayManual
             // 
-            this.btnManual.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnManual.BackColor = System.Drawing.Color.Transparent;
-            this.btnManual.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.btnManual.Location = new System.Drawing.Point(1017, 7);
-            this.btnManual.Name = "btnManual";
-            this.btnManual.Size = new System.Drawing.Size(26, 25);
-            this.btnManual.TabIndex = 264;
-            this.btnManual.TabStop = false;
-            this.btnManual.Click += new System.EventHandler(this.btnManual_Click);
+            this.btnTrayManual.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnTrayManual.BackColor = System.Drawing.Color.Transparent;
+            this.btnTrayManual.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btnTrayManual.Location = new System.Drawing.Point(1001, 7);
+            this.btnTrayManual.Name = "btnTrayManual";
+            this.btnTrayManual.Size = new System.Drawing.Size(26, 25);
+            this.btnTrayManual.TabIndex = 264;
+            this.btnTrayManual.TabStop = false;
+            this.btnTrayManual.Click += new System.EventHandler(this.btnTrayManual_Click);
             // 
             // pictureBox2
             // 
@@ -176,25 +175,25 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(1334, 34);
+            this.label3.Location = new System.Drawing.Point(1302, 34);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(38, 15);
             this.label3.TabIndex = 241;
             this.label3.Text = "Close";
             // 
-            // btnClose
+            // btnTrayClose
             // 
-            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnClose.BackColor = System.Drawing.Color.White;
-            this.btnClose.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
-            this.btnClose.Location = new System.Drawing.Point(1334, 1);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(38, 32);
-            this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnClose.TabIndex = 224;
-            this.btnClose.TabStop = false;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            this.btnTrayClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnTrayClose.BackColor = System.Drawing.Color.White;
+            this.btnTrayClose.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.btnTrayClose.Image = ((System.Drawing.Image)(resources.GetObject("btnTrayClose.Image")));
+            this.btnTrayClose.Location = new System.Drawing.Point(1302, 1);
+            this.btnTrayClose.Name = "btnTrayClose";
+            this.btnTrayClose.Size = new System.Drawing.Size(38, 32);
+            this.btnTrayClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnTrayClose.TabIndex = 224;
+            this.btnTrayClose.TabStop = false;
+            this.btnTrayClose.Click += new System.EventHandler(this.btnTrayClose_Click);
             // 
             // label17
             // 
@@ -202,25 +201,25 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold);
             this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(1253, 34);
+            this.label17.Location = new System.Drawing.Point(1221, 34);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(77, 15);
             this.label17.TabIndex = 240;
             this.label17.Text = "Un-Mapped";
             // 
-            // btnDelete
+            // btnTrayUnmapped
             // 
-            this.btnDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnDelete.BackColor = System.Drawing.Color.White;
-            this.btnDelete.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
-            this.btnDelete.Location = new System.Drawing.Point(1268, 1);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(38, 32);
-            this.btnDelete.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnDelete.TabIndex = 228;
-            this.btnDelete.TabStop = false;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            this.btnTrayUnmapped.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnTrayUnmapped.BackColor = System.Drawing.Color.White;
+            this.btnTrayUnmapped.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.btnTrayUnmapped.Image = ((System.Drawing.Image)(resources.GetObject("btnTrayUnmapped.Image")));
+            this.btnTrayUnmapped.Location = new System.Drawing.Point(1236, 1);
+            this.btnTrayUnmapped.Name = "btnTrayUnmapped";
+            this.btnTrayUnmapped.Size = new System.Drawing.Size(38, 32);
+            this.btnTrayUnmapped.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnTrayUnmapped.TabIndex = 228;
+            this.btnTrayUnmapped.TabStop = false;
+            this.btnTrayUnmapped.Click += new System.EventHandler(this.btnTrayUnmapped_Click);
             // 
             // label2
             // 
@@ -230,7 +229,7 @@
             this.label2.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label2.Location = new System.Drawing.Point(0, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(1378, 52);
+            this.label2.Size = new System.Drawing.Size(1346, 52);
             this.label2.TabIndex = 217;
             this.label2.Text = "SCAN TRAY";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -261,19 +260,19 @@
             this.label4.Text = "Scan Tray*:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // lblMessage
+            // lblTrayMessage
             // 
-            this.lblMessage.BackColor = System.Drawing.Color.Transparent;
-            this.lblMessage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblMessage.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.lblMessage.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMessage.ForeColor = System.Drawing.Color.White;
-            this.lblMessage.Location = new System.Drawing.Point(0, 706);
-            this.lblMessage.Name = "lblMessage";
-            this.lblMessage.Size = new System.Drawing.Size(1380, 76);
-            this.lblMessage.TabIndex = 227;
-            this.lblMessage.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblMessage.Click += new System.EventHandler(this.lblMessage_Click);
+            this.lblTrayMessage.BackColor = System.Drawing.Color.Transparent;
+            this.lblTrayMessage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblTrayMessage.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.lblTrayMessage.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTrayMessage.ForeColor = System.Drawing.Color.White;
+            this.lblTrayMessage.Location = new System.Drawing.Point(0, 674);
+            this.lblTrayMessage.Name = "lblTrayMessage";
+            this.lblTrayMessage.Size = new System.Drawing.Size(1348, 76);
+            this.lblTrayMessage.TabIndex = 227;
+            this.lblTrayMessage.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTrayMessage.Click += new System.EventHandler(this.lblTrayMessage_Click);
             // 
             // label1
             // 
@@ -308,7 +307,7 @@
             this.lblChildPartNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblChildPartNo.Location = new System.Drawing.Point(925, 3);
             this.lblChildPartNo.Name = "lblChildPartNo";
-            this.lblChildPartNo.Size = new System.Drawing.Size(443, 48);
+            this.lblChildPartNo.Size = new System.Drawing.Size(411, 48);
             this.lblChildPartNo.TabIndex = 233;
             this.lblChildPartNo.Text = "XXXXXXXXXXXXX";
             // 
@@ -347,7 +346,7 @@
             this.lblTotalQty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblTotalQty.Location = new System.Drawing.Point(925, 57);
             this.lblTotalQty.Name = "lblTotalQty";
-            this.lblTotalQty.Size = new System.Drawing.Size(443, 48);
+            this.lblTotalQty.Size = new System.Drawing.Size(411, 48);
             this.lblTotalQty.TabIndex = 235;
             this.lblTotalQty.Text = "XXXXXXXXXXXXX";
             // 
@@ -360,7 +359,7 @@
             this.lblScanQty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblScanQty.Location = new System.Drawing.Point(925, 111);
             this.lblScanQty.Name = "lblScanQty";
-            this.lblScanQty.Size = new System.Drawing.Size(443, 48);
+            this.lblScanQty.Size = new System.Drawing.Size(411, 48);
             this.lblScanQty.TabIndex = 237;
             this.lblScanQty.Text = "XXXXXXXXXXXXX";
             // 
@@ -401,64 +400,64 @@
             this.label14.Text = "T.Washed Qty :";
             this.label14.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // dgv
+            // dgvTray
             // 
-            this.dgv.AllowUserToAddRows = false;
-            this.dgv.AllowUserToDeleteRows = false;
-            this.dgv.AllowUserToResizeRows = false;
-            this.dgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgv.BackgroundColor = System.Drawing.Color.AliceBlue;
-            this.dgv.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(58)))), ((int)(((byte)(86)))));
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Calibri", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
-            this.dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvTray.AllowUserToAddRows = false;
+            this.dgvTray.AllowUserToDeleteRows = false;
+            this.dgvTray.AllowUserToResizeRows = false;
+            this.dgvTray.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvTray.BackgroundColor = System.Drawing.Color.AliceBlue;
+            this.dgvTray.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(58)))), ((int)(((byte)(86)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Calibri", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvTray.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvTray.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvTray.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.chkSelect,
             this.TRAYS,
             this.Qty,
             this.SCANNEDON});
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle15.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle15.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv.DefaultCellStyle = dataGridViewCellStyle15;
-            this.dgv.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgv.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
-            this.dgv.EnableHeadersVisualStyles = false;
-            this.dgv.GridColor = System.Drawing.SystemColors.ControlText;
-            this.dgv.Location = new System.Drawing.Point(395, 3);
-            this.dgv.MultiSelect = false;
-            this.dgv.Name = "dgv";
-            this.dgv.RowHeadersVisible = false;
-            dataGridViewCellStyle16.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle16.Font = new System.Drawing.Font("Cambria", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle16.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.dgv.RowsDefaultCellStyle = dataGridViewCellStyle16;
-            this.dgv.RowTemplate.Height = 45;
-            this.dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv.Size = new System.Drawing.Size(982, 468);
-            this.dgv.StandardTab = true;
-            this.dgv.TabIndex = 238;
-            this.dgv.TabStop = false;
-            this.dgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_CellContentClick);
-            this.dgv.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_CellValueChanged);
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvTray.DefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvTray.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvTray.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
+            this.dgvTray.EnableHeadersVisualStyles = false;
+            this.dgvTray.GridColor = System.Drawing.SystemColors.ControlText;
+            this.dgvTray.Location = new System.Drawing.Point(395, 3);
+            this.dgvTray.MultiSelect = false;
+            this.dgvTray.Name = "dgvTray";
+            this.dgvTray.RowHeadersVisible = false;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Cambria", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.dgvTray.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.dgvTray.RowTemplate.Height = 45;
+            this.dgvTray.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvTray.Size = new System.Drawing.Size(982, 468);
+            this.dgvTray.StandardTab = true;
+            this.dgvTray.TabIndex = 238;
+            this.dgvTray.TabStop = false;
+            this.dgvTray.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTray_CellContentClick);
+            this.dgvTray.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTray_CellValueChanged);
             // 
             // chkSelect
             // 
             this.chkSelect.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Cambria", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle14.NullValue = false;
-            this.chkSelect.DefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Cambria", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.NullValue = false;
+            this.chkSelect.DefaultCellStyle = dataGridViewCellStyle2;
             this.chkSelect.FalseValue = "False";
             this.chkSelect.HeaderText = "SELECT";
             this.chkSelect.IndeterminateValue = "False";
@@ -489,14 +488,10 @@
             this.SCANNEDON.HeaderText = "WASHING DATE TIME";
             this.SCANNEDON.Name = "SCANNEDON";
             // 
-            // timer1
+            // serialTrayPort1
             // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // serialPort1
-            // 
-            this.serialPort1.ReceivedBytesThreshold = 2;
-            this.serialPort1.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.serialPort1_DataReceived);
+            this.serialTrayPort1.ReceivedBytesThreshold = 2;
+            this.serialTrayPort1.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.serialTrayPort1_DataReceived);
             // 
             // lblScannedBarcode
             // 
@@ -539,7 +534,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 52);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1380, 171);
+            this.panel2.Size = new System.Drawing.Size(1348, 171);
             this.panel2.TabIndex = 243;
             // 
             // tableLayoutPanel1
@@ -551,7 +546,7 @@
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.4585F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 71.5415F));
-            this.tableLayoutPanel1.Controls.Add(this.dgv, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.dgvTray, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.pictureBox1, 0, 0);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 229);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -566,12 +561,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1380, 782);
+            this.ClientSize = new System.Drawing.Size(1348, 750);
             this.ControlBox = false;
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.lblScannedBarcode);
-            this.Controls.Add(this.lblMessage);
+            this.Controls.Add(this.lblTrayMessage);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -586,12 +581,12 @@
             this.GiveFeedback += new System.Windows.Forms.GiveFeedbackEventHandler(this.frmScanTray_GiveFeedback);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnAuto)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnManual)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTrayAuto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTrayManual)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnClose)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnDelete)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTrayClose)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTrayUnmapped)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTray)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -605,9 +600,9 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.PictureBox btnClose;
-        private System.Windows.Forms.Label lblMessage;
-        private System.Windows.Forms.PictureBox btnDelete;
+        private System.Windows.Forms.PictureBox btnTrayClose;
+        private System.Windows.Forms.Label lblTrayMessage;
+        private System.Windows.Forms.PictureBox btnTrayUnmapped;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblModelNo;
         private System.Windows.Forms.Label lblChildPartNo;
@@ -619,9 +614,8 @@
         private System.Windows.Forms.Label lblTrayScanTotalQty;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.DataGridView dgv;
-        private System.Windows.Forms.Timer timer1;
-        private System.IO.Ports.SerialPort serialPort1;
+        private System.Windows.Forms.DataGridView dgvTray;
+        private System.IO.Ports.SerialPort serialTrayPort1;
         public System.Windows.Forms.TextBox txtScanTray;
         public System.Windows.Forms.Label lblScannedBarcode;
         private System.Windows.Forms.Label label17;
@@ -636,8 +630,8 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.PictureBox btnAuto;
-        private System.Windows.Forms.PictureBox btnManual;
+        private System.Windows.Forms.PictureBox btnTrayAuto;
+        private System.Windows.Forms.PictureBox btnTrayManual;
         private System.Windows.Forms.Label lblScanStatus;
     }
 }

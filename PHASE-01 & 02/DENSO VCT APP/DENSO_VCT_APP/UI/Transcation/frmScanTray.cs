@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DENSO_VCT_BL;
@@ -19,21 +20,22 @@ namespace DENSO_VCT_APP
         private string _barcode = string.Empty;
         private long _iRowId = 0;
         private long _iRefNo = 0;
-        private BL_TRAY_SCANNING _blObj = null;
-        private PL_TRAY_SCANNING _plObj = null;
+        private BL_TRAY_SCANNING _blTrayObj = null;
+        private PL_TRAY_SCANNING _plTrayObj = null;
         private int _iRemainderQty = 0;
         private int _iTotalTrays = 0;
         private int _iTrayScan = 0;
-        public bool _isClose = false;
+        private volatile bool _isTrayClosing = false;
+        public bool _isTrayClose = false;
         public frmScanTray(long iRowid, long iRefNo = 0)
         {
             InitializeComponent();
             _iRowId = iRowid;
             _iRefNo = iRefNo;
-            _blObj = new BL_TRAY_SCANNING();
+            _blTrayObj = new BL_TRAY_SCANNING();
         }
-        #region Private Method
-        void ShowAccessScreen()
+        #region Tray Scanning Private Method
+        void ShowTrayAccessScreen()
         {
             frmAccessPassword oFrmLogin = new frmAccessPassword();
             oFrmLogin.ShowDialog();
@@ -42,74 +44,115 @@ namespace DENSO_VCT_APP
                 // lblShowMessage();
             }
         }
-        void lblShowMessage(string msg = "", int ictr = -1)
+        void lblShowTrayMessage(string msg = "", int ictr = -1)
         {
             if (ictr == 1)
             {
-                lblMessage.BackColor = Color.DarkGreen;
-                lblMessage.Text = msg;
+                lblTrayMessage.BackColor = Color.DarkGreen;
+                lblTrayMessage.Text = msg;
             }
             else if (ictr == 2)
             {
-                lblMessage.BackColor = Color.Red;
-                lblMessage.Text = msg;
+                lblTrayMessage.BackColor = Color.Red;
+                lblTrayMessage.Text = msg;
 
             }
             else
             {
-                lblMessage.BackColor = Color.Transparent;
-                lblMessage.Text = msg;
+                lblTrayMessage.BackColor = Color.Transparent;
+                lblTrayMessage.Text = msg;
             }
         }
-        #endregion
+       
 
 
 
-        private void btnClose_Click(object sender, EventArgs e)
+        private void btnTrayClose_Click(object sender, EventArgs e)
         {
             GlobalVariable.mIsDelete = false;
             lblScannedBarcode.Text = "";
-            _isClose = true;
+            this._isTrayClose = true;
             this.Close();
         }
-        void Clear()
-        {
-
-        }
-        private void ScannerDisConnected()
+       
+        private void ScannerTrayDisConnected()
         {
             try
             {
-                if (serialPort1.IsOpen)
-                {
-                    serialPort1.DataReceived -= serialPort1_DataReceived;
-                    serialPort1.Close();
-                    lblScanStatus.Text = "Scanner Dis-Connected";
-                    lblScanStatus.BackColor = Color.Red;
-                }
+                //if (serialPort1.IsOpen)
+                //{
+                //    serialPort1.DataReceived -= serialPort1_DataReceived;
+                //    // Give time for any pending DataReceived event to complete
+                //    Thread.Sleep(100); // small delay (optional but helps)
+
+                //    // Discard any remaining buffers to prevent blocking
+                //    serialPort1.DiscardInBuffer();
+                //    serialPort1.DiscardOutBuffer();
+                //    if (serialPort1 != null && serialPort1.IsOpen)
+                //    {
+                //        serialPort1.DataReceived -= serialPort1_DataReceived; // Unsubscribe
+                //        serialPort1.Close();
+                //        serialPort1.Dispose();
+                //        Thread.Sleep(200); // Allow time to release port
+                //        GC.Collect();
+                //        GC.WaitForPendingFinalizers();
+                //    }
+
+                //    lblScanStatus.Text = "Scanner Dis-Connected";
+                //    lblScanStatus.BackColor = Color.Red;
+                //}
+                SerialPortManager.DetachHandler(serialTrayPort1_DataReceived);
+                SerialPortManager.Close();
+
+                lblScanStatus.Text = "Scanner Dis-Connected";
+                lblScanStatus.BackColor = Color.Red;
 
             }
             catch (Exception ex)
             {
-                lblShowMessage(ex.Message, 2);
+                lblShowTrayMessage(ex.Message, 2);
             }
         }
-        private void ScannerConnected()
+        private void ScannerTrayConnected()
         {
             try
             {
-                if (!serialPort1.IsOpen)
+                // if (!serialPort1.IsOpen)
+                //{
+                //    serialPort1.PortName = GlobalVariable.mKitScannerPort;
+                //    serialPort1.DataReceived += serialPort1_DataReceived;
+                //    serialPort1.Open();
+                //    lblScanStatus.Text = "Scanner Connected";
+                //    lblScanStatus.BackColor = Color.Green;
+                //    GC.Collect();
+                //    GC.WaitForPendingFinalizers();
+                //}
+                //else
+                //{
+                //    lblScanStatus.Text = "Scanner Dis-Connected";
+                //    lblScanStatus.BackColor = Color.Red;
+                //}
+              
+                try
                 {
-                    serialPort1.DataReceived += serialPort1_DataReceived;
-                    serialPort1.Open();
+                    SerialPortManager.AttachHandler(serialTrayPort1_DataReceived);
+                    SerialPortManager.Open();
+
                     lblScanStatus.Text = "Scanner Connected";
                     lblScanStatus.BackColor = Color.Green;
                 }
+                catch (Exception ex)
+                {
+                    lblScanStatus.Text = "Scanner Dis-Connected";
+                    lblScanStatus.BackColor = Color.Red;
+                    lblShowTrayMessage("Error: " + ex.Message, 2);
+                }
+                
 
             }
             catch (Exception ex)
             {
-                lblShowMessage(ex.Message, 2);
+                lblShowTrayMessage(ex.Message, 2);
             }
         }
         void BindLabelData()
@@ -120,7 +163,7 @@ namespace DENSO_VCT_APP
                 _plObj.DbType = "BIND_TRAY_LABEL_DATA";
                 _plObj.RowId = _iRowId;
                 _plObj.RefNo = _iRefNo.ToString();
-                DataTable dt = _blObj.BL_ExecuteTask(_plObj);
+                DataTable dt = _blTrayObj.BL_ExecuteTask(_plObj);
                 if (dt.Rows.Count > 0)
                 {
                     lblModelNo.Text = dt.Rows[0]["ModelNo"].ToString();
@@ -142,6 +185,7 @@ namespace DENSO_VCT_APP
                     if (iRemainder > 0)
                     {
                         _iTotalTrays = iDevisible + 1;
+                        _iTrayScan = dgvTray.RowCount;
                     }
                     lblTrayScanTotalQty.Text = _iTrayScan + "/" + _iTotalTrays;
                 }
@@ -157,27 +201,27 @@ namespace DENSO_VCT_APP
             catch (Exception ex)
             {
 
-                lblShowMessage(ex.Message, 2);
+                lblShowTrayMessage(ex.Message, 2);
             }
 
         }
-        void BindView()
+        void BindTrayView()
         {
             try
             {
-                for (int i = dgv.Rows.Count - 1; i >= 0; i--)
+                for (int i = dgvTray.Rows.Count - 1; i >= 0; i--)
                 {
-                    dgv.Rows.RemoveAt(i);
+                    dgvTray.Rows.RemoveAt(i);
                 }
 
                 PL_TRAY_SCANNING _plObj = new PL_TRAY_SCANNING();
                 _plObj.DbType = "BIND_VIEW";
                 _plObj.RowId = _iRowId;
                 _plObj.RefNo = _iRefNo.ToString();
-                DataTable dt = _blObj.BL_ExecuteTask(_plObj);
+                DataTable dt = _blTrayObj.BL_ExecuteTask(_plObj);
                 if (dt.Rows.Count > 0)
                 {
-                    dgv.DataSource = dt.DefaultView;
+                    dgvTray.DataSource = dt.DefaultView;
 
 
                 }
@@ -189,7 +233,7 @@ namespace DENSO_VCT_APP
             catch (Exception ex)
             {
 
-                lblShowMessage(ex.Message, 2);
+                lblShowTrayMessage(ex.Message, 2);
             }
 
         }
@@ -201,13 +245,13 @@ namespace DENSO_VCT_APP
 
                 PL_TRAY_SCANNING _plObj = new PL_TRAY_SCANNING();
                 _plObj.DbType = "DELETE_JUNK_TRAYS";
-                DataTable dt = _blObj.BL_ExecuteTask(_plObj);
+                DataTable dt = _blTrayObj.BL_ExecuteTask(_plObj);
 
             }
             catch (Exception ex)
             {
 
-                lblShowMessage(ex.Message, 2);
+                lblShowTrayMessage(ex.Message, 2);
             }
 
         }
@@ -217,47 +261,35 @@ namespace DENSO_VCT_APP
             {
                 this.FormBorderStyle = FormBorderStyle.None;
                 this.WindowState = FormWindowState.Maximized;
-                btnAuto.BackColor = Color.Yellow;
-                btnManual.BackColor = Color.Transparent;
-                timer1.Stop();
-                timer1.Start();
+                btnTrayAuto.BackColor = Color.Yellow;
+                btnTrayManual.BackColor = Color.Transparent;
+               
                 lblModelNo.Text = lblChildPartNo.Text = lblTotalQty.Text = lblScanQty.Text = lblTrayScanTotalQty.Text = "XXXXXXXXXXXXX";
                 txtScanTray.Text = "";
-                BindView();
+                BindTrayView();
                 BindLabelData();
                 DeleteJunkTryas();
-                lblShowMessage("Please Scan Tray!!!", 1);
-                if (!serialPort1.IsOpen)
-                {
-                    serialPort1.PortName = GlobalVariable.mKitScannerPort;
-                    serialPort1.Open();     // open port
-                    lblScanStatus.Text = "Scanner Connected";
-                    lblScanStatus.BackColor = Color.Green;
-                }
-                else
-                {
-                    lblScanStatus.Text = "Scanner Dis-Connected";
-                    lblScanStatus.BackColor = Color.Red;
-                }
+                lblShowTrayMessage("Please Scan Tray!!!", 1);
+                ScannerTrayConnected();
             }
             catch (Exception ex)
             {
 
-                lblShowMessage(ex.Message, 2);
+                lblShowTrayMessage(ex.Message, 2);
             }
         }
 
-        private void lblMessage_Click(object sender, EventArgs e)
+        private void lblTrayMessage_Click(object sender, EventArgs e)
         {
 
         }
 
 
-        private void btnDelete_Click(object sender, EventArgs e)
+        private void btnTrayUnmapped_Click(object sender, EventArgs e)
         {
             try
             {
-                ShowAccessScreen();
+                ShowTrayAccessScreen();
                 if (GlobalVariable.mAccessUser == "")
                 {
                     goto SameForm;
@@ -268,7 +300,7 @@ namespace DENSO_VCT_APP
                 bool IsChecked = false;
 
 
-                foreach (DataGridViewRow row in dgv.Rows)
+                foreach (DataGridViewRow row in dgvTray.Rows)
                 {
 
                     if (Convert.ToBoolean(row.Cells["chkSelect"].Value) == true)
@@ -290,7 +322,7 @@ namespace DENSO_VCT_APP
                     goto SameForm;
                 }
                 DataTable dt = null;
-                foreach (DataGridViewRow row in dgv.Rows)
+                foreach (DataGridViewRow row in dgvTray.Rows)
                 {
 
                     if (Convert.ToBoolean(row.Cells["chkSelect"].Value) == true)
@@ -303,21 +335,21 @@ namespace DENSO_VCT_APP
                         _plObj.ChildPartNo = lblChildPartNo.Text.Trim();
                         _plObj.TrayBarcode = strTray;
                         _plObj.CreatedBy = GlobalVariable.UserName;
-                        dt = _blObj.BL_ExecuteTask(_plObj);
+                        dt = _blTrayObj.BL_ExecuteTask(_plObj);
                     }
                 }
                 if (dt.Rows.Count > 0)
                 {
                     if (dt.Rows[0]["RESULT"].Equals("Y"))
                     {
-                        lblShowMessage($" Trays Unmapped Successfully!!!!", 1);
-                        BindView();
+                        lblShowTrayMessage($" Trays Unmapped Successfully!!!!", 1);
+                        BindTrayView();
                         BindLabelData();
                         txtScanTray.Text = "";
                     }
                     else
                     {
-                        lblShowMessage($" {dt.Rows[0]["RESULT"].ToString()}", 2);
+                        lblShowTrayMessage($" {dt.Rows[0]["RESULT"].ToString()}", 2);
                         txtScanTray.Text = "";
                     }
                 }
@@ -326,21 +358,21 @@ namespace DENSO_VCT_APP
             catch (Exception ex)
             {
 
-                lblShowMessage(ex.Message, 2);
+                lblShowTrayMessage(ex.Message, 2);
             }
         SameForm:
             this.Focus();
         }
-        private void FinalSave()
+        private void FinalTraySave()
         {
-            this.Invoke(new Action(() =>
+            this.BeginInvoke(new Action(() =>
             {
                 try
                 {
                     lblScannedBarcode.Text = txtScanTray.Text.Trim();
                     if (_iTotalTrays == _iTrayScan)
                     {
-                        lblShowMessage("Please scan Lot card First!!!", 2);
+                        lblShowTrayMessage("Please scan Lot card First!!!", 2);
                         txtScanTray.Text = "";
                         txtScanTray.Focus();
                         goto SameForm;
@@ -364,29 +396,29 @@ namespace DENSO_VCT_APP
                         _plObj.Qty = 6;
                     }
                     _plObj.CreatedBy = GlobalVariable.UserName;
-                    DataTable dt = _blObj.BL_ExecuteTask(_plObj);
+                    DataTable dt = _blTrayObj.BL_ExecuteTask(_plObj);
                     if (dt.Rows.Count > 0)
                     {
                         if (dt.Rows[0]["RESULT"].Equals("Y"))
                         {
-                            lblShowMessage($" Tray {txtScanTray.Text.Trim()} Scanned,Please Scan Next Tray!!!!", 1);
-                            BindView();
+                            lblShowTrayMessage($" Tray {txtScanTray.Text.Trim()} Scanned,Please Scan Next Tray!!!!", 1);
+                            BindTrayView();
                             BindLabelData();
                             txtScanTray.Text = "";
                             //if (dgv.Rows.Count == 4)
                             if (dt.Rows[0]["TRY_COUNT"].ToString().Equals("4"))
                             {
-                                btnClose_Click(null, null);
+                                btnTrayClose_Click(null, null);
                             }
                             if (_iTotalTrays == _iTrayScan)
                             {
-                                lblShowMessage("This Lot card all child parts used,Scan new Lot card", 1);
+                                lblShowTrayMessage("This Lot card all child parts used,Scan new Lot card", 1);
                                 goto SameForm;
                             }
                         }
                         else
                         {
-                            lblShowMessage($" {dt.Rows[0]["RESULT"].ToString()}", 2);
+                            lblShowTrayMessage($" {dt.Rows[0]["RESULT"].ToString()}", 2);
                             txtScanTray.Text = "";
                         }
                     }
@@ -395,7 +427,7 @@ namespace DENSO_VCT_APP
                 {
 
 
-                    lblShowMessage(ex.Message, 2);
+                    lblShowTrayMessage(ex.Message, 2);
                 }
                 finally
                 {
@@ -416,45 +448,46 @@ namespace DENSO_VCT_APP
                     {
 
                         GlobalVariable.mIsTrayBarcode = false;
+                        lblScannedBarcode.Text = txtScanTray.Text.Trim();
                         GlobalVariable.mScannedBarcode = txtScanTray.Text.Trim();
                         GlobalVariable.mIsLotBarcode = true;
                         this.Close();
                     }
 
-                    FinalSave();
+                    FinalTraySave();
 
 
                 }
                 catch (Exception ex)
                 {
 
-                    lblShowMessage(ex.Message, 2);
+                    lblShowTrayMessage(ex.Message, 2);
                 }
 
             }
         }
 
-        private void dgv_CellValueChanged(object sender, DataGridViewCellEventArgs e)
+        private void dgvTray_CellValueChanged(object sender, DataGridViewCellEventArgs e)
         {
 
         }
 
-        private void dgv_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void dgvTray_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             try
             {
-                if (e.ColumnIndex == dgv.Columns["chkSelect"].Index && e.RowIndex >= 0)
+                if (e.ColumnIndex == dgvTray.Columns["chkSelect"].Index && e.RowIndex >= 0)
                 {
-                    object value = dgv.Rows[e.RowIndex].Cells["chkSelect"].Value;
+                    object value = dgvTray.Rows[e.RowIndex].Cells["chkSelect"].Value;
 
                     if (value == null || value == DBNull.Value) // Handle null values
                     {
-                        dgv.Rows[e.RowIndex].Cells["chkSelect"].Value = true; // Set to true if null
+                        dgvTray.Rows[e.RowIndex].Cells["chkSelect"].Value = true; // Set to true if null
                     }
                     else
                     {
                         bool currentValue = Convert.ToBoolean(value);
-                        dgv.Rows[e.RowIndex].Cells["chkSelect"].Value = !currentValue;
+                        dgvTray.Rows[e.RowIndex].Cells["chkSelect"].Value = !currentValue;
                     }
                 }
 
@@ -467,15 +500,7 @@ namespace DENSO_VCT_APP
 
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            //this.Invoke(new Action(() => 
-            //{
-            //    GlobalVariable.mScannedBarcode = txtScanTray.Text.Trim();
-            //    GlobalVariable.mIsLotBarcode = true;
-            //}
-            //));
-        }
+        
 
         private void frmScanTray_GiveFeedback(object sender, GiveFeedbackEventArgs e)
         {
@@ -484,16 +509,19 @@ namespace DENSO_VCT_APP
 
         private void frmScanTray_FormClosing(object sender, FormClosingEventArgs e)
         {
-            timer1.Stop();
-            ScannerDisConnected();
+            _isTrayClosing = true;
+            ScannerTrayDisConnected();
         }
-        private volatile bool _keepReading = true;
-        private void serialPort1_DataReceived(object sender, System.IO.Ports.SerialDataReceivedEventArgs e)
+        private volatile bool _keepTrayReading = true;
+        private void serialTrayPort1_DataReceived(object sender, System.IO.Ports.SerialDataReceivedEventArgs e)
         {
+            if (_isTrayClosing) return;
             try
             {
+              
 
-                string PLCdata = serialPort1.ReadExisting();
+                // string PLCdata = serialPort1.ReadExisting();
+                string PLCdata = SerialPortManager.Port.ReadExisting();
                 GlobalVariable.AppLog.LogMessage(SatoLib.EventNotice.EventTypes.evtInfo, "Tray Scanner Data:: ", PLCdata);
                 //SerialPort port = (SerialPort)sender;
                 //byte[] data = new byte[port.BytesToRead];
@@ -502,21 +530,27 @@ namespace DENSO_VCT_APP
                 //serialPort1.DiscardInBuffer();
                 //serialPort1.DiscardOutBuffer();
                 // Thread.Sleep(2000);
-                this.Invoke((MethodInvoker)delegate
+                this.BeginInvoke((MethodInvoker)delegate
                 {
-                    timer1.Start();
+                  
+                  
+                    string _ScannerMsg = PLCdata.ToString().Replace("\r", "").Replace(",", "|").TrimEnd('|').Trim();
+                    if (string.IsNullOrWhiteSpace(_ScannerMsg)) { return; }
+                    txtScanTray.Text = _ScannerMsg;
+                    Application.DoEvents();
+                    
                     if (txtScanTray.Text.Trim().Length != 6 && txtScanTray.Text.Trim().Length > 12)
                     {
 
                         GlobalVariable.mIsTrayBarcode = false;
+                        lblScannedBarcode.Text = txtScanTray.Text.Trim();
                         GlobalVariable.mScannedBarcode = txtScanTray.Text.Trim();
                         GlobalVariable.mIsLotBarcode = true;
                         this.Close();
                     }
-
-                    string _ScannerMsg = PLCdata.ToString().Replace("\r", "").Replace(",", "|").TrimEnd('|').Trim();
-                    txtScanTray.Text = _ScannerMsg;
-                    Task.Run(() => { FinalSave(); });
+                    
+                    Task.Run(() => { FinalTraySave(); });
+                    
                     //  _ScannerMsg = _ScannerMsg.Trim().Replace("*", "").Replace("@", "").Replace(",", "|").Trim();
 
                     //if (_ScannerMsg.Contains('|'))
@@ -536,9 +570,9 @@ namespace DENSO_VCT_APP
             }
             catch (Exception ex)
             {
-                this.Invoke((MethodInvoker)delegate
+                this.BeginInvoke((MethodInvoker)delegate
                 {
-                    GlobalVariable.MesseageInfo(lblMessage, ex.Message, 2);
+                    GlobalVariable.MesseageInfo(lblTrayMessage, ex.Message, 2);
                 });
             }
         }
@@ -553,26 +587,24 @@ namespace DENSO_VCT_APP
 
         }
 
-        private void btnAuto_Click(object sender, EventArgs e)
+        private void btnTrayAuto_Click(object sender, EventArgs e)
         {
             try
             {
-                ShowAccessScreen();
+                ShowTrayAccessScreen();
                 if (GlobalVariable.mAccessUser != "")
                 {
 
-                    btnAuto.BackColor = Color.Yellow;
-                    btnManual.BackColor = Color.Transparent;
+                    btnTrayAuto.BackColor = Color.Yellow;
+                    btnTrayManual.BackColor = Color.Transparent;
                     txtScanTray.ReadOnly = true;
                     txtScanTray.Focus();
-                    if (serialPort1.IsOpen)
-                    {
-                        serialPort1.Close();
-                        lblScanStatus.Text = "Scanner Dis-Connected";
-                        lblScanStatus.BackColor = Color.Red;
-                    }
+                    //if (!serialPort1.IsOpen)
+                    //{
+                    //    ScannerConnected();
+                    //}
 
-
+                    ScannerTrayConnected();
 
 
 
@@ -585,33 +617,30 @@ namespace DENSO_VCT_APP
 
                 this.Invoke((MethodInvoker)delegate
                 {
-                    GlobalVariable.MesseageInfo(lblMessage, ex.Message, 2);
+                    GlobalVariable.MesseageInfo(lblTrayMessage, ex.Message, 2);
                 });
             }
         }
 
-        private void btnManual_Click(object sender, EventArgs e)
+        private void btnTrayManual_Click(object sender, EventArgs e)
         {
             try
             {
 
 
-                ShowAccessScreen();
+                ShowTrayAccessScreen();
                 if (GlobalVariable.mAccessUser != "")
                 {
                     txtScanTray.Text = "";
-                    btnAuto.BackColor = Color.Transparent;
-                    btnManual.BackColor = Color.Yellow;
+                    btnTrayAuto.BackColor = Color.Transparent;
+                    btnTrayManual.BackColor = Color.Yellow;
                     txtScanTray.ReadOnly = false;
                     txtScanTray.Focus();
-                    if (!serialPort1.IsOpen)
-                    {
-                        serialPort1.PortName = GlobalVariable.mKitScannerPort;
-                        serialPort1.Open();     // open port
-                        lblScanStatus.Text = "Scanner Connected";
-                        lblScanStatus.BackColor = Color.Green;
-                    }
-
+                    //if (serialPort1.IsOpen)
+                    //{
+                    //    ScannerDisConnected();
+                    //}
+                    ScannerTrayDisConnected();
 
 
                     GlobalVariable.mAccessUser = "";
@@ -622,10 +651,11 @@ namespace DENSO_VCT_APP
             {
                 this.Invoke((MethodInvoker)delegate
                 {
-                    GlobalVariable.MesseageInfo(lblMessage, ex.Message, 2);
+                    GlobalVariable.MesseageInfo(lblTrayMessage, ex.Message, 2);
                 });
 
             }
         }
+        #endregion
     }
 }

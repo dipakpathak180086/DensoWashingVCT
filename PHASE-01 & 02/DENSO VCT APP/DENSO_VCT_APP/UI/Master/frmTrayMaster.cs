@@ -278,7 +278,7 @@ namespace DENSO_VCT_APP
 
         private void txtSearch_TextChanged(object sender, EventArgs e)
         {
-            (dgv.DataSource as DataTable).DefaultView.RowFilter = string.Format("LotNo LIKE '%{0}%'", txtSearch.Text);
+            (dgv.DataSource as DataTable).DefaultView.RowFilter = string.Format("TrayCode LIKE '%{0}%'", txtSearch.Text);
         }
 
 

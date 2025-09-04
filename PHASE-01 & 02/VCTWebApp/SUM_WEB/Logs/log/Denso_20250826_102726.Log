@@ -1,0 +1,6 @@
+
+[Log Startup at 10.27.26]
+(Ver:-10.0.26013.1000)2025-08-26 10.27.26.840 (Error) Denso  ::  VCTDashboard _SHOWDETIALS()  -  User-  VCT A field or property with the name 'FGSerial' was not found on the selected data source.
+(Ver:-10.0.26013.1000)2025-08-26 11.02.06.243 (Error) Show NG Lot - Thread was being aborted.
+(Ver:-10.0.26013.1000)2025-08-26 11.02.54.249 (Error) Denso  ::  GroupRights _BtnBack_Click()  -  User-  VCT Thread was being aborted.
+(Ver:-10.0.26013.1000)2025-08-26 11.07.41.700 (Error) Denso  ::  VCTDashboard _Page_Load()  -  User-  VCT Object reference not set to an instance of an object.

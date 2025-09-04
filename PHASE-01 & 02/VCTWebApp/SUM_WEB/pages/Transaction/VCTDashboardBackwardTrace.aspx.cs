@@ -8,7 +8,7 @@ using System.Data;
 using System.Text.RegularExpressions;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-
+using System.Linq; // Needed for Contains()
 namespace VCTWebApp
 {
     public partial class VCTDashboardBackwardTrace : System.Web.UI.Page
@@ -63,6 +63,7 @@ namespace VCTWebApp
                 plobj.Serai = lblSerial.Text.Trim();
                 plobj.Date = lblDate.Text;
                 plobj.LotNo = Request.QueryString["Lot"];
+                plobj.LotDate = Request.QueryString["LotDate"];
                 dt = blobj.ShowDetails(plobj);
 
 
@@ -124,6 +125,7 @@ namespace VCTWebApp
                     DivShow.Visible = true;
                     //  Session["LotNo"] = lblSuspectedLot.Text.Trim();
                     CommonHelper.BindGrid(dgvDtl, DTFinal);
+                    lblRecords.Text = "No. of Records: " + DTFinal.Rows.Count.ToString();
                     Session["VCTDashboard2"] = DTFinal;
 
                 }
@@ -299,7 +301,14 @@ namespace VCTWebApp
         {
             try
             {
-                Response.Redirect("~/pages/Transaction/VCTDashboard.aspx");
+                if (Request.QueryString.AllKeys.Contains("LotDate"))
+                {
+                    Response.Redirect("~/pages/Transaction/VCTDashboardStep3.aspx");
+                }
+                else
+                {
+                    Response.Redirect("~/pages/Transaction/VCTDashboard.aspx");
+                }
             }
             catch (Exception ex)
             {
