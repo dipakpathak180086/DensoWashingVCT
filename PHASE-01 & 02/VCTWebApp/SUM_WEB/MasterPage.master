@@ -3,7 +3,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
-
+    <link rel="icon" type="image/x-icon" href="Images/Denso-logo.png" />
+<link rel="shortcut icon" type="image/x-icon" href="Images/Denso-logo.png" />
     <script type="text/javascript" language="javascript">
 
         function DisableBackButton() {
@@ -63,6 +64,7 @@
 <link href="dist/css/select2.min.css" rel="stylesheet" type="text/css" />
 <link href="dist/css/bootstrap-multiselect.css" rel="stylesheet" type="text/css" />
 <link href="dist/css/bootstrap-multiselect.min.css" rel="stylesheet" type="text/css" />
+<link href="dist/css/loader.css" rel="stylesheet" type="text/css" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -275,12 +277,12 @@
                                         </asp:HyperLink>
                                     </li>
                                     <li>
-                                        <asp:HyperLink NavigateUrl="" ID="HyperLink9" runat="server">
+                                        <asp:HyperLink NavigateUrl="~/pages/Report/VCTDirectLotInfoReport.aspx" ID="HyperLink9" runat="server">
                                             <i class="fa fa-angle-double-right"></i> Direct Lot No. search
                                         </asp:HyperLink>
                                     </li>
                                     <li>
-                                        <asp:HyperLink NavigateUrl="" ID="HyperLink10" runat="server">
+                                        <asp:HyperLink NavigateUrl="~/pages/Report/VCTTrayReport.aspx" ID="HyperLink10" runat="server">
                                             <i class="fa fa-angle-double-right"></i> Line Washing Tray records
                                         </asp:HyperLink>
                                     </li>

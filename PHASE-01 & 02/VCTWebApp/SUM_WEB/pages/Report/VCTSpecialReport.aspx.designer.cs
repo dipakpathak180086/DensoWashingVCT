@@ -7,13 +7,20 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace VCTWebApp
-{
-
-
-    public partial class VCTSpecialReport
-    {
-
+namespace VCTWebApp {
+    
+    
+    public partial class VCTSpecialReport {
+        
+        /// <summary>
+        /// loadingOverlay control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl loadingOverlay;
+        
         /// <summary>
         /// HyperLink1 control.
         /// </summary>
@@ -22,7 +29,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
-
+        
         /// <summary>
         /// UpdatePanel1 control.
         /// </summary>
@@ -31,7 +38,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.UpdatePanel UpdatePanel1;
-
+        
         /// <summary>
         /// DivEntry control.
         /// </summary>
@@ -40,7 +47,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl DivEntry;
-
+        
         /// <summary>
         /// tblentry control.
         /// </summary>
@@ -49,7 +56,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTable tblentry;
-
+        
         /// <summary>
         /// ddlLine control.
         /// </summary>
@@ -58,7 +65,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlLine;
-
+        
         /// <summary>
         /// RequiredFieldValidator2 control.
         /// </summary>
@@ -67,7 +74,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
-
+        
         /// <summary>
         /// ddlModel control.
         /// </summary>
@@ -76,7 +83,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlModel;
-
+        
         /// <summary>
         /// RFV_GrpCode control.
         /// </summary>
@@ -85,7 +92,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RFV_GrpCode;
-
+        
         /// <summary>
         /// txtFromDate control.
         /// </summary>
@@ -94,7 +101,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtFromDate;
-
+        
         /// <summary>
         /// txtToDate control.
         /// </summary>
@@ -103,7 +110,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtToDate;
-
+        
         /// <summary>
         /// loadingImg control.
         /// </summary>
@@ -112,7 +119,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl loadingImg;
-
+        
         /// <summary>
         /// btnShow control.
         /// </summary>
@@ -121,7 +128,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnShow;
-
+        
         /// <summary>
         /// btnReset control.
         /// </summary>
@@ -130,7 +137,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnReset;
-
+        
         /// <summary>
         /// btnExport control.
         /// </summary>
@@ -139,7 +146,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnExport;
-
+        
         /// <summary>
         /// DivShow control.
         /// </summary>
@@ -148,7 +155,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl DivShow;
-
+        
         /// <summary>
         /// lblRecords control.
         /// </summary>
@@ -157,7 +164,7 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblRecords;
-
+        
         /// <summary>
         /// DivGrid control.
         /// </summary>
@@ -166,14 +173,14 @@ namespace VCTWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl DivGrid;
-
+        
         /// <summary>
-        /// GridView1 control.
+        /// gvUserMaster control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
+        protected global::System.Web.UI.WebControls.GridView gvUserMaster;
     }
 }

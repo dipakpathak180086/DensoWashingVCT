@@ -18,16 +18,7 @@
             height: 60px;
         }
 
-        .loader {
-            border: 16px solid #f3f3f3;
-            border-radius: 50%;
-            border-top: 16px solid blue;
-            border-bottom: 16px solid blue;
-            width: 120px;
-            height: 120px;
-            -webkit-animation: spin 2s linear infinite;
-            animation: spin 2s linear infinite;
-        }
+        
 
         @-webkit-keyframes spin {
             0% {
@@ -39,6 +30,31 @@
             }
         }
 
+        /* ---------- FULLSCREEN LOADER ---------- */
+        .overlay-loader {
+            display: none; /* hidden by default */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 9999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .loader {
+            border: 16px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 16px solid #FF0000;
+            border-bottom: 16px solid #FF0000;
+            width: 120px;
+            height: 120px;
+            animation: spin 2s linear infinite;
+        }
+
         @keyframes spin {
             0% {
                 transform: rotate(0deg);
@@ -47,10 +63,14 @@
             100% {
                 transform: rotate(360deg);
             }
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+    <!-- 🔹 FULLSCREEN LOADER OVERLAY -->
+    <div id="loadingOverlay" runat="server" class="overlay-loader">
+        <div class="loader"></div>
+    </div>
     <div class="col-xs-12">
         <div class="messagealert col-md-6" id="alert_container"></div>
     </div>
@@ -147,7 +167,7 @@
                                 </td>
 
                             </tr>
-                            
+
                             <tr>
                                 <td style="text-align: right; width: 200px">Select Date <span style="color: Red;">*
                                 </td>
@@ -182,11 +202,11 @@
                                 <td colspan="6" align="center">
                                     <div id="loadingImg" class="loader" runat="server"></div>
                                     <asp:Button ID="btnShow" runat="server" CssClass="btn-lg"
-                                        TabIndex="8" Text="Backward Trace(Used Lot)" OnClientClick="return ValidEntry();" ValidationGroup="Save" OnClick="btnShow_Click" />&nbsp;
+                                        TabIndex="8" Text="Backward Trace(Used Lot)" OnClientClick="return ShowLoader();" ValidationGroup="Save" OnClick="btnShow_Click" />&nbsp;
                                     <asp:Button ID="btnShowNG" runat="server" CssClass="btn-lg"
-                                        TabIndex="8" Text="Foward Trace(FG Serial No. Data)" OnClientClick="return ValidEntry();" ValidationGroup="Save" OnClick="btnShowNG_Click" />&nbsp;
+                                        TabIndex="8" Text="Foward Trace(FG Serial No. Data)" OnClientClick="return ShowLoader();" ValidationGroup="Save" OnClick="btnShowNG_Click" />&nbsp;
                             <asp:Button ID="btnReset" runat="server" CausesValidation="False" CssClass="btn-lg"
-                                OnClientClick="ClearFields();" TabIndex="8" ToolTip="Reset/Clear group master fields"
+                                OnClientClick="if(ClearFields()){ return return true; } else { return true; }" TabIndex="8" ToolTip="Reset/Clear group master fields"
                                 Text="Reset" OnClick="btnReset_Click" />&nbsp;
                                     <asp:Button ID="btnExport" runat="server" CssClass="btn-lg"
                                         TabIndex="8" Text="Export" ValidationGroup="Save" OnClick="btnExport_Click" />&nbsp;
@@ -346,5 +366,42 @@
             }
             return true;
         }
+        function ShowLoader() {
+
+            document.getElementById("<%=loadingOverlay.ClientID%>").style.display = "flex";
+            return true;
+        }
+        // 🔹 Hide loader when UpdatePanel completes
+        Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function () {
+            document.getElementById("<%=loadingOverlay.ClientID%>").style.display = "none";
+        });
+        window.onload = function () {
+            document.getElementById("<%=loadingOverlay.ClientID%>").style.display = "none";
+        };
+        function ValidateAndShowLoader() {
+            ShowLoader();        // always show
+            return ValidEntry(); // only allow postback if valid
+        }
     </script>
+    <script type="text/javascript">
+    function pageLoad(sender, args) {
+        if (args.get_isPartialLoad()) {
+            initCalendar(); // your datepicker init function
+        }
+    }
+
+    function initCalendar() {
+       $('#ContentPlaceHolder1_txtDate').datetimepicker({
+            format: 'Y-m-d',
+            formatTime: 'H:i',
+            timepicker: false,
+            step: 30
+        });
+       
+    }
+
+    $(document).ready(function () {
+        initCalendar();
+    });
+</script>
 </asp:Content>

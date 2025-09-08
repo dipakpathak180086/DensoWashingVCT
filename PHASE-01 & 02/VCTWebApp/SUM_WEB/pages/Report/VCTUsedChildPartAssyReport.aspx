@@ -24,16 +24,7 @@
             align-items: center;
         }
 
-        .loader {
-            border: 16px solid #f3f3f3;
-            border-radius: 50%;
-            border-top: 16px solid blue;
-            border-bottom: 16px solid blue;
-            width: 120px;
-            height: 120px;
-            -webkit-animation: spin 2s linear infinite;
-            animation: spin 2s linear infinite;
-        }
+
 
         @-webkit-keyframes spin {
             0% {
@@ -56,7 +47,9 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+    <div id="loadingOverlay" runat="server" class="overlay-loader">
+        <div class="loader"></div>
+    </div>
     <div class="col-xs-12">
         <div class="messagealert col-md-6" id="alert_container"></div>
     </div>
@@ -183,7 +176,7 @@
                                         <HeaderStyle HorizontalAlign="Left" />
                                         <ItemStyle HorizontalAlign="Left" />
                                     </asp:BoundField>
-                              
+
 
                                     <asp:BoundField HeaderText="Model No" DataField="ModelNo" HeaderStyle-HorizontalAlign="Left"
                                         ItemStyle-HorizontalAlign="Left">
@@ -217,7 +210,7 @@
                                         <HeaderStyle HorizontalAlign="Left" />
                                         <ItemStyle HorizontalAlign="Left" />
                                     </asp:BoundField>
-                                          <asp:BoundField HeaderText="Child Used Time" DataField="UsedTime" HeaderStyle-HorizontalAlign="Left"
+                                    <asp:BoundField HeaderText="Child Used Time" DataField="UsedTime" HeaderStyle-HorizontalAlign="Left"
                                         ItemStyle-HorizontalAlign="Left">
                                         <HeaderStyle HorizontalAlign="Left" />
                                         <ItemStyle HorizontalAlign="Left" />
@@ -227,7 +220,7 @@
                                         <HeaderStyle HorizontalAlign="Left" />
                                         <ItemStyle HorizontalAlign="Left" />
                                     </asp:BoundField>
-                                   
+
                                 </Columns>
                                 <FooterStyle Wrap="False" />
                                 <HeaderStyle HorizontalAlign="Center" />
@@ -295,5 +288,42 @@
             }
             return true;
         }
+        function ShowLoader() {
+
+            document.getElementById("<%=loadingOverlay.ClientID%>").style.display = "flex";
+            return true;
+        }
+        // 🔹 Hide loader when UpdatePanel completes
+        Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function () {
+            document.getElementById("<%=loadingOverlay.ClientID%>").style.display = "none";
+        });
+        window.onload = function () {
+            document.getElementById("<%=loadingOverlay.ClientID%>").style.display = "none";
+        };
+        function ValidateAndShowLoader() {
+            ShowLoader();        // always show
+            return ValidEntry(); // only allow postback if valid
+        }
+    </script>
+    <script type="text/javascript">
+        function pageLoad(sender, args) {
+            if (args.get_isPartialLoad()) {
+                initCalendar(); // your datepicker init function
+            }
+        }
+
+        function initCalendar() {
+            $('#ContentPlaceHolder1_txtDate').datetimepicker({
+                format: 'Y-m-d',
+                formatTime: 'H:i',
+                timepicker: false,
+                step: 30
+            });
+
+        }
+
+        $(document).ready(function () {
+            initCalendar();
+        });
     </script>
 </asp:Content>

@@ -24,16 +24,7 @@
             align-items: center;
         }
 
-        .loader {
-            border: 16px solid #f3f3f3;
-            border-radius: 50%;
-            border-top: 16px solid #FF0000;
-            border-bottom: 16px solid #FF0000;
-            width: 120px;
-            height: 120px;
-            -webkit-animation: spin 2s linear infinite;
-            animation: spin 2s linear infinite;
-        }
+        
 
         @-webkit-keyframes spin {
             0% {
@@ -298,10 +289,10 @@
                                         <ItemStyle HorizontalAlign="Left" />
                                     </asp:BoundField>
                                    
-                                    <asp:TemplateField HeaderText="Show">
+                                    <asp:TemplateField HeaderText="Forward Trace">
                                         <ItemStyle HorizontalAlign="Center" CssClass="icon-cell" />
                                         <ItemTemplate>
-                                            <asp:LinkButton ID="lnkShow" runat="server"
+                                            <asp:LinkButton ID="lnkShow" runat="server" OnClientClick="return ShowLoader();"
                                                 CommandName="ShowRow"
                                                 CommandArgument='<%# Container.DataItemIndex %>'
                                                 CssClass="fa fa-eye fa-lg"
@@ -401,4 +392,25 @@
 }
 
     </script>
+    <script type="text/javascript">
+    function pageLoad(sender, args) {
+        if (args.get_isPartialLoad()) {
+            initCalendar(); // your datepicker init function
+        }
+    }
+
+    function initCalendar() {
+       $('#ContentPlaceHolder1_txtDate').datetimepicker({
+            format: 'Y-m-d',
+            formatTime: 'H:i',
+            timepicker: false,
+            step: 30
+        });
+       
+    }
+
+    $(document).ready(function () {
+        initCalendar();
+    });
+</script>
 </asp:Content>

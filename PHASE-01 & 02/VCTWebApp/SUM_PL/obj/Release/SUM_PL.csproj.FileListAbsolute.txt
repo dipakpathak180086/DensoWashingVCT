@@ -34,3 +34,8 @@ C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_PL\obj\Release\SUM_PL.csproj.AssemblyRefer
 C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_PL\obj\Release\SUM_PL.csproj.CoreCompileInputs.cache
 C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_PL\obj\Release\SUM_PL.dll
 C:\Common\VCT\VCTWebApp\VCTWebApp\SUM_PL\obj\Release\SUM_PL.pdb
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_PL\bin\Release\SUM_PL.dll
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_PL\bin\Release\SUM_PL.pdb
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_PL\obj\Release\SUM_PL.csproj.CoreCompileInputs.cache
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_PL\obj\Release\SUM_PL.dll
+D:\Projects\New Project\Denso-IMT\NEW\WashingTraceability\PHASE-01 & 02\VCTWebApp\SUM_PL\obj\Release\SUM_PL.pdb

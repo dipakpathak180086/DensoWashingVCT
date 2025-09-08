@@ -123,7 +123,7 @@ namespace VCTWebApp
 
                     DivShow.Visible = true;
                     CommonHelper.BindGrid(gvUserMaster, DT);
-                    Session["VCTChildPartAssy"] = DT;
+                    Session["VCTUsedChildPartAssy"] = DT;
                     lblRecords.Text = "No. of Records: " + DT.Rows.Count.ToString();
                     UpdatePanel1.Update();
                 }
@@ -162,6 +162,7 @@ namespace VCTWebApp
                 ddlModel.SelectedIndex = 0;
                 txtSerial.Text = string.Empty;
                 txtDate.Text = "";
+                CommonHelper.BindGrid(gvUserMaster, null);
                 UpdatePanel1.Update();
             }
             catch (Exception ex)
@@ -263,9 +264,9 @@ namespace VCTWebApp
                 if (gvUserMaster.Rows.Count > 0)
                 {
                     Response.Clear();
-                    DataTable dt = (DataTable)Session["VCTChildPartAssy"];
+                    DataTable dt = (DataTable)Session["VCTUsedChildPartAssy"];
 
-                    objclsExportToCSV.ExportTOCSV(dt, "VCTChildPartAssyStep3.csv");
+                    objclsExportToCSV.ExportTOCSV(dt, "VCTUsedChildPartAssy.csv");
                 }
                 else
                 {

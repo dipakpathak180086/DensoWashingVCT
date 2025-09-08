@@ -143,6 +143,7 @@ namespace VCTWebApp
                 ddlLine.SelectedIndex = 0;
                 ddlModel.SelectedIndex = 0;
                 txtFromDate.Text = txtToDate.Text = string.Empty;
+                CommonHelper.BindGrid(gvUserMaster, null);
                 UpdatePanel1.Update();
             }
             catch (Exception ex)
@@ -243,14 +244,14 @@ namespace VCTWebApp
             StringBuilder sb = new StringBuilder();
 
             // Loop through GridView columns for header row
-            for (int i = 0; i < GridView1.Columns.Count; i++)
+            for (int i = 0; i < gvUserMaster.Columns.Count; i++)
             {
-                sb.Append(GridView1.Columns[i].HeaderText + ',');
+                sb.Append(gvUserMaster.Columns[i].HeaderText + ',');
             }
             sb.AppendLine();
 
             // Loop through each row of the GridView
-            foreach (GridViewRow row in GridView1.Rows)
+            foreach (GridViewRow row in gvUserMaster.Rows)
             {
                 for (int i = 0; i < row.Cells.Count; i++)
                 {
@@ -270,7 +271,7 @@ namespace VCTWebApp
         {
             try
             {
-                if (GridView1.Rows.Count > 0)
+                if (gvUserMaster.Rows.Count > 0)
                 {
                     Response.Clear();
                     DataTable dt = (DataTable)Session["VCTSpecialReport"];
@@ -459,9 +460,9 @@ namespace VCTWebApp
 
                     Session["VCTSpecialReport"] = dtFinal;
                     lblRecords.Text = "Total Records : " + dtFinal.Rows.Count;
-                    CommonHelper.BindGrid(GridView1, dtFinal);
-                    //GridView1.DataSource = dt0;
-                    //GridView1.DataBind();
+                    CommonHelper.BindGrid(gvUserMaster, dtFinal);
+                    //gvUserMaster.DataSource = dt0;
+                    //gvUserMaster.DataBind();
 
                 }
             }
@@ -718,7 +719,7 @@ namespace VCTWebApp
         string previousLastCategoryDate = "";
         string previousLastCategoryModel = "";
 
-        protected void GridView1_RowDataBound(object sender, GridViewRowEventArgs e)
+        protected void gvUserMaster_RowDataBound(object sender, GridViewRowEventArgs e)
         {
             if (e.Row.RowType == DataControlRowType.DataRow)
             {
@@ -729,8 +730,8 @@ namespace VCTWebApp
                 if (e.Row.RowIndex > 0)
                 {
                     // Get the previous row's category
-                    string previousCategoryDate = GridView1.Rows[e.Row.RowIndex - 1].Cells[1].Text;
-                    string previousCategoryModel = GridView1.Rows[e.Row.RowIndex - 1].Cells[0].Text;
+                    string previousCategoryDate = gvUserMaster.Rows[e.Row.RowIndex - 1].Cells[1].Text;
+                    string previousCategoryModel = gvUserMaster.Rows[e.Row.RowIndex - 1].Cells[0].Text;
                     // If the categories match, hide the current category cell
                     if (currentCategoryDate == previousCategoryDate || previousLastCategoryDate == currentCategoryDate)
                     {
@@ -742,7 +743,7 @@ namespace VCTWebApp
                     {
                         // Otherwise, set the rowspan for the previous row's cell
                         //GridView2.Rows[e.Row.RowIndex - 1].Cells[0].Attributes["rowspan"] =
-                        //  (Convert.ToInt32(GridView1.Rows[e.Row.RowIndex - 1].Cells[0].Attributes["rowspan"] ?? "1") + 1).ToString();
+                        //  (Convert.ToInt32(gvUserMaster.Rows[e.Row.RowIndex - 1].Cells[0].Attributes["rowspan"] ?? "1") + 1).ToString();
                     }
                     if (currentCategoryModel == previousCategoryModel || previousLastCategoryModel == currentCategoryModel)
                     {

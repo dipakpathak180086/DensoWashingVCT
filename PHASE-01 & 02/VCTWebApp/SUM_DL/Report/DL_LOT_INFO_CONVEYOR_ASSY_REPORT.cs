@@ -18,7 +18,6 @@ namespace SUM_DL
             try
             {
                 SqlParameter[] parma = {
-                                        new SqlParameter("@TYPE",obj.DbType),
                                         new SqlParameter("@LINE",obj.Line),
                                         new SqlParameter("@STATION",obj.Station),
                                         new SqlParameter("@FROM_DATE",obj.FromDate),

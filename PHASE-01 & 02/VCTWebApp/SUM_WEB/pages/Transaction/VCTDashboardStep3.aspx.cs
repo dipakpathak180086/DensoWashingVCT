@@ -312,6 +312,7 @@ namespace VCTWebApp
                 txtSerial.Text = string.Empty;
                 txtDate.Text = "";
                 UpdatePanel1.Update();
+                CommonHelper.BindGrid(gvUserMaster, null);
                 Response.Redirect("~/pages/Transaction/VCTDashboard.aspx");
             }
             catch (Exception ex)

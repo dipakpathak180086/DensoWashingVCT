@@ -161,7 +161,7 @@ namespace VCTWebApp
                 //lblChildPartName.Text = lblModelName.Text = "XXXXXXXXXXXX";
                 getLotNo = "";
                 ddlModel.SelectedIndex=ddlChildPart.SelectedIndex = 0;
-                
+                CommonHelper.BindGrid(gvUserMaster, null);
                 txtFromDate.Text=txtToDate.Text = "";
                 UpdatePanel1.Update();
             }
@@ -264,9 +264,9 @@ namespace VCTWebApp
                 if (gvUserMaster.Rows.Count > 0)
                 {
                     Response.Clear();
-                    DataTable dt = (DataTable)Session["VCTChildPartAssy"];
+                    DataTable dt = (DataTable)Session["VCTLotInfoChildReport"];
 
-                    objclsExportToCSV.ExportTOCSV(dt, "VCTChildPartAssyStep3.csv");
+                    objclsExportToCSV.ExportTOCSV(dt, "VCTLotInfoChildReport.csv");
                 }
                 else
                 {
@@ -325,6 +325,7 @@ namespace VCTWebApp
                     //lblModelName.Text = ddlModel.SelectedValue;
                    
                     _PopulatePart();
+                    UpdatePanel1.Update();
                 }
 
             }

@@ -26,16 +26,7 @@
             align-items: center;
         }
 
-        .loader {
-            border: 16px solid #f3f3f3;
-            border-radius: 50%;
-            border-top: 16px solid blue;
-            border-bottom: 16px solid blue;
-            width: 120px;
-            height: 120px;
-            -webkit-animation: spin 2s linear infinite;
-            animation: spin 2s linear infinite;
-        }
+      
 
         @-webkit-keyframes spin {
             0% {
@@ -64,7 +55,7 @@
     </div>
     <!-- Content Header (Page header) -->
     <section class="content-header">
-        <h1>Used Child Part Assy. Report
+        <h1>Lot Info. Conveyor Report
         </h1>
         <ol class="breadcrumb">
             <li>
@@ -110,7 +101,7 @@
                                 <td style="text-align: left; width: 200px">
                                     <div class="form-group has-feedback">
 
-                                       <%-- <asp:ListBox ID="lstConveyor" class="form-control" runat="server" SelectionMode="Multiple">
+                                        <%-- <asp:ListBox ID="lstConveyor" class="form-control" runat="server" SelectionMode="Multiple">
                                             <asp:ListItem Value="1">1</asp:ListItem>
                                             <asp:ListItem Value="2">2</asp:ListItem>
                                             <asp:ListItem Value="3">3</asp:ListItem>
@@ -119,14 +110,14 @@
                                             <asp:ListItem Value="6">6</asp:ListItem>
                                             <asp:ListItem Value="7">7</asp:ListItem>
                                         </asp:ListBox>--%>
-                                        <select id="lstConveyor" runat="server" style="width:100%;"  class="form-control" multiple="true">
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">5</option>
-                                            <option value="4">4</option>
-                                            <option value="5">5</option>
-                                            <option value="6">6</option>
-                                            <option value="7">7</option>
+                                        <select id="lstConveyor" runat="server" style="width: 100%;" class="form-control" multiple="true">
+                                            <option value="01">01</option>
+                                            <option value="02">02</option>
+                                            <option value="03">03</option>
+                                            <option value="04">04</option>
+                                            <option value="05">05</option>
+                                            <option value="06">06</option>
+                                            <option value="07">07</option>
                                         </select>
                                         <%--<span class="glyphicon glyphicon-download form-control-feedback"></span>--%>
                                     </div>
@@ -183,7 +174,7 @@
                                 <td colspan="6" align="center">
                                     <div id="loadingImg" class="loader" runat="server"></div>
                                     <asp:Button ID="btnShow" runat="server" CssClass="btn-lg"
-                                        TabIndex="8" Text="Backward Trace(Used Lot)" OnClientClick="return ValidEntry();" ValidationGroup="Save" OnClick="btnShow_Click" />&nbsp;
+                                        TabIndex="8" Text="Search" OnClientClick="return ValidEntry();" ValidationGroup="Save" OnClick="btnShow_Click" />&nbsp;
                                    
                             <asp:Button ID="btnReset" runat="server" CausesValidation="False" CssClass="btn-lg"
                                 OnClientClick="ClearFields();" TabIndex="8" ToolTip="Reset/Clear group master fields"
@@ -204,9 +195,9 @@
                             <asp:GridView ID="gvUserMaster" runat="server" FooterStyle-Wrap="false" HeaderStyle-HorizontalAlign="Center"
                                 RowStyle-HorizontalAlign="Center" AutoGenerateColumns="False" CssClass="mGrid"
                                 AlternatingRowStyle-CssClass="alt" AllowPaging="True"
-                                PageSize="10" PagerStyle-CssClass="pgr" DataKeyNames="ModelNo" OnPageIndexChanging="gvVCTDashboard_PageIndexChanging">
+                                PageSize="10" PagerStyle-CssClass="pgr" DataKeyNames="Line" OnPageIndexChanging="gvVCTDashboard_PageIndexChanging">
                                 <Columns>
-                                    <asp:BoundField HeaderText="Model Name" DataField="ModelName" HeaderStyle-HorizontalAlign="Left"
+                                    <asp:BoundField HeaderText="Line" DataField="Line" HeaderStyle-HorizontalAlign="Left"
                                         ItemStyle-HorizontalAlign="Left">
 
                                         <HeaderStyle HorizontalAlign="Left" />
@@ -214,59 +205,55 @@
                                     </asp:BoundField>
 
 
-                                    <asp:BoundField HeaderText="Model No" DataField="ModelNo" HeaderStyle-HorizontalAlign="Left"
+                                    <asp:BoundField HeaderText="Station" DataField="Station" HeaderStyle-HorizontalAlign="Left"
                                         ItemStyle-HorizontalAlign="Left">
 
                                         <HeaderStyle HorizontalAlign="Left" />
                                         <ItemStyle HorizontalAlign="Left" />
                                     </asp:BoundField>
 
-                                    <asp:BoundField HeaderText="Child Part No." DataField="ChildPartNo" HeaderStyle-HorizontalAlign="Left"
-                                        ItemStyle-HorizontalAlign="Left">
-                                        <HeaderStyle HorizontalAlign="Left" />
-                                        <ItemStyle HorizontalAlign="Left" />
-                                    </asp:BoundField>
-
-                                    <asp:BoundField HeaderText="Child Part Name" DataField="ChildPartName" HeaderStyle-HorizontalAlign="Left"
-                                        ItemStyle-HorizontalAlign="Left">
-                                        <HeaderStyle HorizontalAlign="Left" />
-                                        <ItemStyle HorizontalAlign="Left" />
-                                    </asp:BoundField>
-                                    <asp:BoundField HeaderText="Lot No." DataField="LotNo" HeaderStyle-HorizontalAlign="Left"
-                                        ItemStyle-HorizontalAlign="Left">
-                                        <HeaderStyle HorizontalAlign="Left" />
-                                        <ItemStyle HorizontalAlign="Left" />
-                                    </asp:BoundField>
-                                    <asp:BoundField HeaderText="Conveyor No" DataField="ConveyorNo" HeaderStyle-HorizontalAlign="Left"
-                                        ItemStyle-HorizontalAlign="Left">
-                                        <HeaderStyle HorizontalAlign="Left" />
-                                        <ItemStyle HorizontalAlign="Left" />
-                                    </asp:BoundField>
-                                    <asp:BoundField HeaderText="Shift" DataField="Shift" HeaderStyle-HorizontalAlign="Left"
-                                        ItemStyle-HorizontalAlign="Left">
-                                        <HeaderStyle HorizontalAlign="Left" />
-                                        <ItemStyle HorizontalAlign="Left" />
-                                    </asp:BoundField>
-                                    <asp:BoundField HeaderText="Production Date" DataField="ProductionDate" HeaderStyle-HorizontalAlign="Left"
-                                        ItemStyle-HorizontalAlign="Left">
-                                        <HeaderStyle HorizontalAlign="Left" />
-                                        <ItemStyle HorizontalAlign="Left" />
-                                    </asp:BoundField>
                                     <asp:BoundField HeaderText="Date" DataField="Date" HeaderStyle-HorizontalAlign="Left"
                                         ItemStyle-HorizontalAlign="Left">
                                         <HeaderStyle HorizontalAlign="Left" />
                                         <ItemStyle HorizontalAlign="Left" />
                                     </asp:BoundField>
+
                                     <asp:BoundField HeaderText="Time" DataField="Time" HeaderStyle-HorizontalAlign="Left"
                                         ItemStyle-HorizontalAlign="Left">
                                         <HeaderStyle HorizontalAlign="Left" />
                                         <ItemStyle HorizontalAlign="Left" />
                                     </asp:BoundField>
-                                    <asp:BoundField HeaderText="Tray Barcode" DataField="TrayBarcode" HeaderStyle-HorizontalAlign="Left"
+                                    <asp:BoundField HeaderText="ModelNo" DataField="ModelNo" HeaderStyle-HorizontalAlign="Left"
                                         ItemStyle-HorizontalAlign="Left">
                                         <HeaderStyle HorizontalAlign="Left" />
                                         <ItemStyle HorizontalAlign="Left" />
                                     </asp:BoundField>
+                                    <asp:BoundField HeaderText="ModelName" DataField="ModelName" HeaderStyle-HorizontalAlign="Left"
+                                        ItemStyle-HorizontalAlign="Left">
+                                        <HeaderStyle HorizontalAlign="Left" />
+                                        <ItemStyle HorizontalAlign="Left" />
+                                    </asp:BoundField>
+                                    <asp:BoundField HeaderText="ChildPartNo" DataField="ChildPartNo" HeaderStyle-HorizontalAlign="Left"
+                                        ItemStyle-HorizontalAlign="Left">
+                                        <HeaderStyle HorizontalAlign="Left" />
+                                        <ItemStyle HorizontalAlign="Left" />
+                                    </asp:BoundField>
+                                    <asp:BoundField HeaderText="ChildPartName" DataField="ChildPartName" HeaderStyle-HorizontalAlign="Left"
+                                        ItemStyle-HorizontalAlign="Left">
+                                        <HeaderStyle HorizontalAlign="Left" />
+                                        <ItemStyle HorizontalAlign="Left" />
+                                    </asp:BoundField>
+                                    <asp:BoundField HeaderText="LotNo" DataField="LotNo" HeaderStyle-HorizontalAlign="Left"
+                                        ItemStyle-HorizontalAlign="Left">
+                                        <HeaderStyle HorizontalAlign="Left" />
+                                        <ItemStyle HorizontalAlign="Left" />
+                                    </asp:BoundField>
+                                    <asp:BoundField HeaderText="TrayID" DataField="TrayID" HeaderStyle-HorizontalAlign="Left"
+                                        ItemStyle-HorizontalAlign="Left">
+                                        <HeaderStyle HorizontalAlign="Left" />
+                                        <ItemStyle HorizontalAlign="Left" />
+                                    </asp:BoundField>
+
 
                                 </Columns>
                                 <FooterStyle Wrap="False" />
@@ -292,31 +279,63 @@
         </div>
     </div>
     <script language="javascript" type="text/javascript">
-        $(document).ready(function () {
-            $('#ContentPlaceHolder1_lstConveyor').select2({
-                placeholder: "Select Station No.", // Placeholder text
-                allowClear: true // Allow clearing the selection      
+        //$(document).ready(function () {
+        //    $('#ContentPlaceHolder1_lstConveyor').select2({
+        //        placeholder: "Select Station No.", // Placeholder text
+        //        allowClear: true // Allow clearing the selection      
+        //    });
+        //});
+        function initSelect2() {
+            var ddl = $('#ContentPlaceHolder1_lstConveyor');
+
+            if (ddl.data('select2')) {
+                ddl.select2('destroy'); // reset if already initialized
+            }
+
+            ddl.select2({
+                placeholder: "Select Station No.",
+                allowClear: true
             });
+
+            ddl.off('change').on('change', function () {
+                __doPostBack('ContentPlaceHolder1$lstConveyor', '');
+            });
+            $('#ContentPlaceHolder1_txtFromDate').datetimepicker({
+                format: 'Y-m-d H:i',
+                formatTime: 'H:i',
+                timepicker: true,
+                step: 30
+            });
+            $('#ContentPlaceHolder1_txtToDate').datetimepicker({
+                format: 'Y-m-d H:i',
+                formatTime: 'H:i',
+                timepicker: true,
+                step: 30
+            });
+        }
+
+        // Run on first load
+        $(document).ready(function () {
+            initSelect2();
         });
-        $('#ContentPlaceHolder1_txtFromDate').datetimepicker({
-            format: 'Y-m-d H:i',
-            formatTime: 'H:i',
-            timepicker: true,
-            step: 30
-        });
-        $('#ContentPlaceHolder1_txtToDate').datetimepicker({
-            format: 'Y-m-d H:i',
-            formatTime: 'H:i',
-            timepicker: true,
-            step: 30
-        });
+
+        // If you use UpdatePanel (partial postback), re-run after async requests
+        if (typeof (Sys) !== "undefined") {
+            Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function () {
+                initSelect2();
+            });
+        }
+
+
+
+
         function ClearFields() {
 
         }
 
         function ValidEntry() {
             var station = document.getElementById('<%= ddlLine.ClientID %>').value;
-           
+
             var date = document.getElementById('<%= txtFromDate.ClientID %>').value;
             var serial = document.getElementById('<%= txtToDate.ClientID %>').value;
 
@@ -326,7 +345,7 @@
                 document.getElementById("<%=ddlLine.ClientID%>").focus();
                 return false;
             }
-            
+
             else if (date === "") {
                 ShowMessage("Please Select From date", Warning);
                 document.getElementById("<%=txtFromDate.ClientID%>").focus();
@@ -351,5 +370,31 @@
 
 
 
+    </script>
+    <script type="text/javascript">
+        function pageLoad(sender, args) {
+            if (args.get_isPartialLoad()) {
+                initCalendar(); // your datepicker init function
+            }
+        }
+
+        function initCalendar() {
+            $('#ContentPlaceHolder1_txtFromDate').datetimepicker({
+                format: 'Y-m-d',
+                formatTime: 'H:i',
+                timepicker: false,
+                step: 30
+            });
+            $('#ContentPlaceHolder1_txtToDate').datetimepicker({
+                format: 'Y-m-d',
+                formatTime: 'H:i',
+                timepicker: false,
+                step: 30
+            });
+        }
+
+        $(document).ready(function () {
+            initCalendar();
+        });
     </script>
 </asp:Content>

@@ -950,7 +950,6 @@
     <Content Include="assets\plugins\switchery\switchery.min.js" />
     <Content Include="bin\AjaxControlToolkit.dll" />
     <Content Include="bin\Microsoft.Office.Interop.Word.dll" />
-    <Content Include="bootstrap-multiselect.css" />
     <Content Include="BootstrapAlertMessage.css" />
     <Content Include="BootstrapAlertMessage.js" />
     <Content Include="bootstrap\css\bootstrap.css" />
@@ -979,14 +978,10 @@
     <Content Include="Default.aspx" />
     <Content Include="dist\css\AdminLTE.css" />
     <Content Include="dist\css\AdminLTE.min.css" />
-    <Content Include="dist\css\bootstrap-multiselect.css" />
-    <Content Include="dist\css\bootstrap-multiselect.min.css" />
     <Content Include="dist\css\bootstrap.min.css" />
     <Content Include="dist\css\CalendarControl.css" />
     <Content Include="dist\css\font-awesome.min.css" />
     <Content Include="dist\css\ionicons.min.css" />
-    <Content Include="dist\css\select2-bootstrap-5-theme.min.css" />
-    <Content Include="dist\css\select2.min.css" />
     <Content Include="dist\css\skins\skin-black.css" />
     <Content Include="dist\css\skins\skin-black.min.css" />
     <Content Include="dist\css\skins\skin-blue.css" />
@@ -1032,13 +1027,6 @@
     <Content Include="dist\img\UpdateProgress.gif" />
     <Content Include="dist\css\jquery.datetimepicker.css" />
     <Content Include="dist\img\Verified.png" />
-    <Content Include="dist\js\bootstrap-multiselect.js" />
-    <Content Include="dist\js\bootstrap-multiselect.min.js" />
-    <Content Include="dist\js\jquery.multiselect.min.js" />
-    <Content Include="dist\js\select2-custom.js" />
-    <Content Include="dist\js\select2.min.js" />
-    <Content Include="dist\js\Sumomultiselect.min.js" />
-    <Content Include="dist\js\bootstrap.bundle.min.js" />
     <Content Include="dist\js\jquery.datetimepicker.js" />
     <Content Include="dist\js\jquery.js" />
     <Content Include="dist\js\app.js" />
@@ -1097,12 +1085,8 @@
     <Content Include="pages\Report\VCTAllPerformanceDataReport.aspx" />
     <Content Include="pages\Report\VCTLotEntryReport.aspx" />
     <Content Include="pages\Report\VCTLogReport.aspx" />
-    <Content Include="pages\Report\VCTLotInfoConveyorReport.aspx" />
     <Content Include="pages\Report\VCTPerformanceReport.aspx" />
     <Content Include="pages\Report\VCTSpecialReport.aspx" />
-    <Content Include="pages\Report\VCTLotInfoChildReport.aspx" />
-    <Content Include="pages\Report\VCTUsedChildPartAssyReport.aspx" />
-    <Content Include="pages\Transaction\VCTDashboardStep3.aspx" />
     <Content Include="pages\Transaction\VCTDashboard.aspx" />
     <Content Include="pages\Transaction\VCTSupLotBackwardTrace.aspx" />
     <Content Include="pages\Transaction\VCTDashboardBackwardTrace.aspx" />
@@ -1604,7 +1588,6 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="bootstrap-multiselect.min.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -1692,13 +1675,6 @@
     <Compile Include="pages\Report\VCTLogReport.aspx.designer.cs">
       <DependentUpon>VCTLogReport.aspx</DependentUpon>
     </Compile>
-    <Compile Include="pages\Report\VCTLotInfoConveyorReport.aspx.cs">
-      <DependentUpon>VCTLotInfoConveyorReport.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="pages\Report\VCTLotInfoConveyorReport.aspx.designer.cs">
-      <DependentUpon>VCTLotInfoConveyorReport.aspx</DependentUpon>
-    </Compile>
     <Compile Include="pages\Report\VCTPerformanceReport.aspx.cs">
       <DependentUpon>VCTPerformanceReport.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1712,27 +1688,6 @@
     </Compile>
     <Compile Include="pages\Report\VCTSpecialReport.aspx.designer.cs">
       <DependentUpon>VCTSpecialReport.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="pages\Report\VCTLotInfoChildReport.aspx.cs">
-      <DependentUpon>VCTLotInfoChildReport.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="pages\Report\VCTLotInfoChildReport.aspx.designer.cs">
-      <DependentUpon>VCTLotInfoChildReport.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="pages\Report\VCTUsedChildPartAssyReport.aspx.cs">
-      <DependentUpon>VCTUsedChildPartAssyReport.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="pages\Report\VCTUsedChildPartAssyReport.aspx.designer.cs">
-      <DependentUpon>VCTUsedChildPartAssyReport.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="pages\Transaction\VCTDashboardStep3.aspx.cs">
-      <DependentUpon>VCTDashboardStep3.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="pages\Transaction\VCTDashboardStep3.aspx.designer.cs">
-      <DependentUpon>VCTDashboardStep3.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\Transaction\VCTDashboard.aspx.cs">
       <DependentUpon>VCTDashboard.aspx</DependentUpon>
@@ -1834,7 +1789,6 @@
     <Content Include="assets\plugins\sources\libCompiler\conf\stat_depr" />
     <Content Include="assets\plugins\sources\libCompiler\conf\stat_js" />
     <Content Include="assets\plugins\sources\libCompiler\lib_compiler.php" />
-    <Content Include=".vs\VCTWebApp.csproj.dtbcache.json" />
     <None Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <None Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <None Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
@@ -1872,7 +1826,6 @@
     <Content Include="JSFiles\bootstrap.js.map" />
     <Content Include="JSFiles\bootstrap.min.js.map" />
     <Content Include="JSFiles\bootstrap.min.css.map" />
-    <Content Include="dist\js\jquery-3.6.0.min.js" />
     <None Include="packages.config" />
     <None Include="plugins\ckeditor\CHANGES.md" />
     <None Include="plugins\ckeditor\LICENSE.md" />

@@ -261,7 +261,7 @@ namespace VCTWebApp
                 ddlModel.SelectedIndex = 0;
                 txtEnterLot.Text = string.Empty;
                 UpdatePanel1.Update();
-
+                CommonHelper.BindGrid(dgvDtl, null);
                 hidID.Value = string.Empty;
                 UpdatePanel1.Update();
             }

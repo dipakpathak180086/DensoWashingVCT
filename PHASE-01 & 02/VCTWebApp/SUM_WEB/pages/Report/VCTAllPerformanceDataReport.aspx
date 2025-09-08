@@ -20,7 +20,9 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+    <div id="loadingOverlay" runat="server" class="overlay-loader">
+        <div class="loader"></div>
+    </div>
     <div class="col-xs-12">
         <div class="messagealert col-md-6" id="alert_container"></div>
     </div>
@@ -123,10 +125,10 @@
                             <tr>
                                 <td colspan="6" align="center">
                                     <asp:Button ID="btnShow" runat="server" CssClass="btn-lg"
-                                        TabIndex="8" Text="Search" OnClientClick="return ValidEntry();" ValidationGroup="Save" OnClick="btnShow_Click" />&nbsp;
+                                        TabIndex="8" Text="Search" OnClientClick="return ShowLoader();" ValidationGroup="Save" OnClick="btnShow_Click" />&nbsp;
                                   
                             <asp:Button ID="btnReset" runat="server" CausesValidation="False" CssClass="btn-lg"
-                                OnClientClick="ClearFields();" TabIndex="8" ToolTip="Reset/Clear group master fields"
+                                OnClientClick="if(ClearFields()){ return return true; } else { return true; }" TabIndex="8" ToolTip="Reset/Clear group master fields"
                                 Text="Reset" OnClick="btnReset_Click" />&nbsp;
                                         <asp:Button ID="btnExport" runat="server" TabIndex="10" CssClass="btn-lg"
                                             ToolTip="Export data into excel file" Text="Export" CausesValidation="false"
@@ -340,5 +342,47 @@
             }
             return true;
         }
+        function ShowLoader() {
+
+            document.getElementById("<%=loadingOverlay.ClientID%>").style.display = "flex";
+            return true;
+        }
+        // 🔹 Hide loader when UpdatePanel completes
+        Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function () {
+            document.getElementById("<%=loadingOverlay.ClientID%>").style.display = "none";
+        });
+        window.onload = function () {
+            document.getElementById("<%=loadingOverlay.ClientID%>").style.display = "none";
+        };
+        function ValidateAndShowLoader() {
+            ShowLoader();        // always show
+            return ValidEntry(); // only allow postback if valid
+        }
+    </script>
+    <script type="text/javascript">
+        function pageLoad(sender, args) {
+            if (args.get_isPartialLoad()) {
+                initCalendar(); // your datepicker init function
+            }
+        }
+
+        function initCalendar() {
+            $('#ContentPlaceHolder1_txtFromDate').datetimepicker({
+                format: 'Y-m-d',
+                formatTime: 'H:i',
+                timepicker: false,
+                step: 30
+            });
+            $('#ContentPlaceHolder1_txtToDate').datetimepicker({
+                format: 'Y-m-d',
+                formatTime: 'H:i',
+                timepicker: false,
+                step: 30
+            });
+        }
+
+        $(document).ready(function () {
+            initCalendar();
+        });
     </script>
 </asp:Content>

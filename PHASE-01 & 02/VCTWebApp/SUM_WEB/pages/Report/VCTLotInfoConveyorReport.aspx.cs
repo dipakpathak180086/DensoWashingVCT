@@ -4,6 +4,7 @@ using SUM_PL;
 using System;
 using System.Configuration;
 using System.Data;
+using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading;
 using System.Web.UI;
@@ -114,7 +115,13 @@ namespace VCTWebApp
                 PL_LOT_INFO_CONVEYOR_ASSY_REPORT plobj = new PL_LOT_INFO_CONVEYOR_ASSY_REPORT();
                 plobj.DbType = "REPORT";
                 plobj.Line = ddlLine.SelectedValue.Trim();
-                plobj.Station = lstConveyor.DataTextField;
+                string selectedStations = string.Join(",",
+    lstConveyor.Items.Cast<ListItem>()
+        .Where(li => li.Selected)
+        .Select(li => li.Value));
+
+                // Assign to your object
+                plobj.Station = selectedStations;
                 plobj.FromDate = txtFromDate.Text;
                 plobj.ToDate = txtToDate.Text;
                 DataTable DT = blobj.ShowDetails(plobj);
@@ -123,7 +130,7 @@ namespace VCTWebApp
 
                     DivShow.Visible = true;
                     CommonHelper.BindGrid(gvUserMaster, DT);
-                    Session["VCTLotInfoChildReport"] = DT;
+                    Session["VCTLotInfoConveyorReport"] = DT;
                     lblRecords.Text = "No. of Records: " + DT.Rows.Count.ToString();
                     UpdatePanel1.Update();
                 }
@@ -159,8 +166,8 @@ namespace VCTWebApp
             {
                 //lblChildPartName.Text = lblModelName.Text = "XXXXXXXXXXXX";
                 getLotNo = "";
-               // ddlStation.SelectedIndex=ddlChildPart.SelectedIndex = 0;
-                
+                // ddlStation.SelectedIndex=ddlChildPart.SelectedIndex = 0;
+                CommonHelper.BindGrid(gvUserMaster, null);
                 txtFromDate.Text=txtToDate.Text = "";
                 UpdatePanel1.Update();
             }
@@ -187,13 +194,17 @@ namespace VCTWebApp
 
                     return result = false;
                 }
-                //if (ddlStation.SelectedIndex == 0)
-                //{
-                //    ScriptManager.RegisterStartupScript(this, GetType(), "showalert", "alert('Please Select Model');", true);
-                //    // ShowMessageWithUpdatePanel("Please Select Model", MessageType.Error);
+                var selectedValues = lstConveyor.Items.Cast<ListItem>()
+           .Where(li => li.Selected)
+           .Select(li => li.Value)
+           .ToList();
+                if (selectedValues.Count == 0)
+                {
+                    ScriptManager.RegisterStartupScript(this, GetType(), "showalert", "alert('Please Select Station');", true);
+                    // ShowMessageWithUpdatePanel("Please Select Model", MessageType.Error);
 
-                //    return result = false;
-                //}
+                    return result = false;
+                }
                 //if (ddlChildPart.SelectedIndex == 0)
                 //{
                 //    ScriptManager.RegisterStartupScript(this, GetType(), "showalert", "alert('Please Select Child Part');", true);
@@ -263,9 +274,9 @@ namespace VCTWebApp
                 if (gvUserMaster.Rows.Count > 0)
                 {
                     Response.Clear();
-                    DataTable dt = (DataTable)Session["VCTChildPartAssy"];
+                    DataTable dt = (DataTable)Session["VCTLotInfoConveyorReport"];
 
-                    objclsExportToCSV.ExportTOCSV(dt, "VCTChildPartAssyStep3.csv");
+                    objclsExportToCSV.ExportTOCSV(dt, "VCTLotInfoConveyorReport.csv");
                 }
                 else
                 {

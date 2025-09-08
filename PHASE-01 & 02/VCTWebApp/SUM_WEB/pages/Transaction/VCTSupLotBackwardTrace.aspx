@@ -20,7 +20,9 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+    <div id="loadingOverlay" runat="server" class="overlay-loader">
+        <div class="loader"></div>
+    </div>
     <div class="col-xs-12">
         <div class="messagealert col-md-6" id="alert_container"></div>
     </div>
@@ -128,8 +130,8 @@
         </div>--%>
                                 </td>
                                 <td style="text-align: left; width: 200px">
-                                    <asp:TextBox autocomplete="off" ID="txtEnterLot"  class="form-control" runat="server" ToolTip="Enter Lot" placeholder="Enter Lot"
-                                        ValidationGroup="Submit" TabIndex="1" ></asp:TextBox>
+                                    <asp:TextBox autocomplete="off" ID="txtEnterLot" class="form-control" runat="server" ToolTip="Enter Lot" placeholder="Enter Lot"
+                                        ValidationGroup="Submit" TabIndex="1"></asp:TextBox>
                                 </td>
                                 <td style="text-align: right; width: 200px"><span style="color: Red;"></td>
                                 <td style="text-align: center; width: 10px">
@@ -145,7 +147,7 @@
                             <tr>
                                 <td colspan="6" align="center">
                                     <asp:Button ID="btnShowNG" runat="server" CssClass="btn-lg"
-                                        TabIndex="8" Text="Foward Trace(FG Serial No. Data)" OnClientClick="return ValidEntry();" ValidationGroup="Save" OnClick="btnShowNG_Click" />&nbsp;
+                                        TabIndex="8" Text="Foward Trace(FG Serial No. Data)" OnClientClick="return ShowLoader();" ValidationGroup="Save" OnClick="btnShowNG_Click" />&nbsp;
                                    
                                     <asp:HiddenField ID="hidID" runat="server" />
                                     <asp:Button ID="btnExport" runat="server" CssClass="btn-lg"
@@ -240,6 +242,22 @@
                 return false;
             }
             return true;
+        }
+        function ShowLoader() {
+
+            document.getElementById("<%=loadingOverlay.ClientID%>").style.display = "flex";
+            return true;
+        }
+        // 🔹 Hide loader when UpdatePanel completes
+        Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function () {
+            document.getElementById("<%=loadingOverlay.ClientID%>").style.display = "none";
+        });
+        window.onload = function () {
+            document.getElementById("<%=loadingOverlay.ClientID%>").style.display = "none";
+        };
+        function ValidateAndShowLoader() {
+            ShowLoader();        // always show
+            return ValidEntry(); // only allow postback if valid
         }
     </script>
 </asp:Content>

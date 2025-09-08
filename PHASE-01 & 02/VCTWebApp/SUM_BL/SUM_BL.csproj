@@ -69,6 +69,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\BL_TRAY_REPORT.cs" />
+    <Compile Include="Report\BL_DIRECT_LOT_INFO_REPORT.cs" />
     <Compile Include="Report\BL_LOT_INFO_CONVEYOR_ASSY_REPORT.cs" />
     <Compile Include="Report\BL_LOT_INFO_CHILD_ASSY_REPORT.cs" />
     <Compile Include="Report\BL_CHILD_PART_ASSY_REPORT.cs" />

@@ -212,7 +212,7 @@ namespace VCTWebApp
             {
                 getLotNo = "";
                 lblModel.Text = lblChildPart.Text = lblDate.Text = lblChildPartName.Text = lblSerial.Text = lblModelName.Text = "XXXXXXXXXXXX";
-
+                CommonHelper.BindGrid(dgvDtl, null);
                 hidID.Value = string.Empty;
                 UpdatePanel1.Update();
             }

@@ -222,7 +222,15 @@ a {
     background-color: transparent;
     background-image: none;
     padding: 15px 15px;
-    font-family: Verdana
+    font-family: Verdana;
+    /*added below for side menu icon*/ 
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
 }
 
     .main-header .sidebar-toggle:before {

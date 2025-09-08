@@ -24,16 +24,7 @@
             align-items: center;
         }
 
-        .loader {
-            border: 16px solid #f3f3f3;
-            border-radius: 50%;
-            border-top: 16px solid blue;
-            border-bottom: 16px solid blue;
-            width: 120px;
-            height: 120px;
-            -webkit-animation: spin 2s linear infinite;
-            animation: spin 2s linear infinite;
-        }
+       
 
         @-webkit-keyframes spin {
             0% {
@@ -53,23 +44,26 @@
             100% {
                 transform: rotate(360deg);
             }
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+    <div id="loadingOverlay" runat="server" class="overlay-loader">
+        <div class="loader"></div>
+    </div>
     <div class="col-xs-12">
         <div class="messagealert col-md-6" id="alert_container"></div>
     </div>
     <!-- Content Header (Page header) -->
     <section class="content-header">
-        <h1>Used Child Part Assy. Report
+        <h1>Lot Info. Model Child Part Report
         </h1>
         <ol class="breadcrumb">
             <li>
                 <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Default.aspx"> <i class="fa fa-dashboard"></i> Home
                 </asp:HyperLink>
             </li>
-            <li><a href="#">Used Child Part Assy. Report</a></li>
+            <li><a href="#">Lot Info. Model Child Part Report</a></li>
         </ol>
     </section>
     <div class="col-xs-12">
@@ -102,7 +96,7 @@
                                         CssClass="validation"></asp:RequiredFieldValidator>
 
                                 </td>
-                                  <td style="text-align: right; width: 200px"><span style="color: Red;"></span>
+                                <td style="text-align: right; width: 200px"><span style="color: Red;"></span>
                                 </td>
                                 <td style="text-align: center; width: 10px"></td>
 
@@ -110,7 +104,7 @@
                                     <div class="form-group has-feedback">
                                     </div>
                                 </td>
-                                
+
                             </tr>
                             <tr>
                                 <td style="text-align: right; width: 200px">Model <span style="color: Red;">*</span>
@@ -139,7 +133,7 @@
                                 <td style="text-align: left; width: 200px">
                                     <div class="form-group has-feedback">
 
-                                        <asp:DropDownList ID="ddlChildPart" ToolTip="Select Child Part" class="form-control" AutoPostBack="true"  ValidationGroup="Submit" runat="server" TabIndex="3">
+                                        <asp:DropDownList ID="ddlChildPart" ToolTip="Select Child Part" class="form-control" AutoPostBack="true" ValidationGroup="Submit" runat="server" TabIndex="3">
                                         </asp:DropDownList>
                                         <span class="glyphicon glyphicon-download form-control-feedback"></span>
                                     </div>
@@ -148,10 +142,10 @@
                                         CssClass="validation"></asp:RequiredFieldValidator>
 
                                 </td>
-                                
+
                             </tr>
 
-                           <tr>
+                            <tr>
                                 <td style="text-align: right; width: 200px">From Date <span style="color: Red;">*
                                 </td>
                                 <td style="text-align: center; width: 10px">:
@@ -160,11 +154,11 @@
                                     </div>--%>
                                 </td>
                                 <td style="text-align: left; width: 200px">
-                                    <asp:TextBox 
-                                        ID="txtFromDate" 
-                                        runat="server" 
-                                        ValidationGroup="Submit" 
-                                        TabIndex="6" 
+                                    <asp:TextBox
+                                        ID="txtFromDate"
+                                        runat="server"
+                                        ValidationGroup="Submit"
+                                        TabIndex="6"
                                         class="form-control"
                                         autocomplete="off"
                                         placeholder="Select From Date and Time">
@@ -179,15 +173,15 @@
     </div>--%>
                                 </td>
                                 <td style="text-align: left; width: 200px">
-                                        <asp:TextBox 
-                                            ID="txtToDate" 
-                                            runat="server" 
-                                            ValidationGroup="Submit" 
-                                            TabIndex="7" 
-                                            class="form-control"
-                                            autocomplete="off"
-                                            placeholder="Select To Date and Time">
-                                        </asp:TextBox>
+                                    <asp:TextBox
+                                        ID="txtToDate"
+                                        runat="server"
+                                        ValidationGroup="Submit"
+                                        TabIndex="7"
+                                        class="form-control"
+                                        autocomplete="off"
+                                        placeholder="Select To Date and Time">
+                                    </asp:TextBox>
 
                                 </td>
                             </tr>
@@ -197,10 +191,10 @@
                                 <td colspan="6" align="center">
                                     <div id="loadingImg" class="loader" runat="server"></div>
                                     <asp:Button ID="btnShow" runat="server" CssClass="btn-lg"
-                                        TabIndex="8" Text="Backward Trace(Used Lot)" OnClientClick="return ValidEntry();" ValidationGroup="Save" OnClick="btnShow_Click" />&nbsp;
+                                        TabIndex="8" Text="Search" OnClientClick="return ShowLoader();" ValidationGroup="Save" OnClick="btnShow_Click" />&nbsp;
                                    
                             <asp:Button ID="btnReset" runat="server" CausesValidation="False" CssClass="btn-lg"
-                                OnClientClick="ClearFields();" TabIndex="8" ToolTip="Reset/Clear group master fields"
+                                OnClientClick="if(ClearFields()){ return return true; } else { return true; }" TabIndex="8" ToolTip="Reset/Clear group master fields"
                                 Text="Reset" OnClick="btnReset_Click" />&nbsp;
                                     <asp:Button ID="btnExport" runat="server" CssClass="btn-lg"
                                         TabIndex="8" Text="Export" ValidationGroup="Save" OnClick="btnExport_Click" />&nbsp;
@@ -226,7 +220,7 @@
                                         <HeaderStyle HorizontalAlign="Left" />
                                         <ItemStyle HorizontalAlign="Left" />
                                     </asp:BoundField>
-                              
+
 
                                     <asp:BoundField HeaderText="Model No" DataField="ModelNo" HeaderStyle-HorizontalAlign="Left"
                                         ItemStyle-HorizontalAlign="Left">
@@ -240,7 +234,7 @@
                                         <HeaderStyle HorizontalAlign="Left" />
                                         <ItemStyle HorizontalAlign="Left" />
                                     </asp:BoundField>
-                                   
+
                                     <asp:BoundField HeaderText="Child Part Name" DataField="ChildPartName" HeaderStyle-HorizontalAlign="Left"
                                         ItemStyle-HorizontalAlign="Left">
                                         <HeaderStyle HorizontalAlign="Left" />
@@ -256,7 +250,7 @@
                                         <HeaderStyle HorizontalAlign="Left" />
                                         <ItemStyle HorizontalAlign="Left" />
                                     </asp:BoundField>
-                                          <asp:BoundField HeaderText="Shift" DataField="Shift" HeaderStyle-HorizontalAlign="Left"
+                                    <asp:BoundField HeaderText="Shift" DataField="Shift" HeaderStyle-HorizontalAlign="Left"
                                         ItemStyle-HorizontalAlign="Left">
                                         <HeaderStyle HorizontalAlign="Left" />
                                         <ItemStyle HorizontalAlign="Left" />
@@ -266,12 +260,12 @@
                                         <HeaderStyle HorizontalAlign="Left" />
                                         <ItemStyle HorizontalAlign="Left" />
                                     </asp:BoundField>
-                                     <asp:BoundField HeaderText="Date" DataField="Date" HeaderStyle-HorizontalAlign="Left"
+                                    <asp:BoundField HeaderText="Date" DataField="Date" HeaderStyle-HorizontalAlign="Left"
                                         ItemStyle-HorizontalAlign="Left">
                                         <HeaderStyle HorizontalAlign="Left" />
                                         <ItemStyle HorizontalAlign="Left" />
                                     </asp:BoundField>
-                                     <asp:BoundField HeaderText="Time" DataField="Time" HeaderStyle-HorizontalAlign="Left"
+                                    <asp:BoundField HeaderText="Time" DataField="Time" HeaderStyle-HorizontalAlign="Left"
                                         ItemStyle-HorizontalAlign="Left">
                                         <HeaderStyle HorizontalAlign="Left" />
                                         <ItemStyle HorizontalAlign="Left" />
@@ -281,7 +275,7 @@
                                         <HeaderStyle HorizontalAlign="Left" />
                                         <ItemStyle HorizontalAlign="Left" />
                                     </asp:BoundField>
-                                   
+
                                 </Columns>
                                 <FooterStyle Wrap="False" />
                                 <HeaderStyle HorizontalAlign="Center" />
@@ -308,7 +302,7 @@
         </div>
     </div>
     <script language="javascript" type="text/javascript">
-       $('#ContentPlaceHolder1_txtFromDate').datetimepicker({
+        $('#ContentPlaceHolder1_txtFromDate').datetimepicker({
             format: 'Y-m-d H:i',
             formatTime: 'H:i',
             timepicker: true,
@@ -362,5 +356,47 @@
             }
             return true;
         }
+        function ShowLoader() {
+
+            document.getElementById("<%=loadingOverlay.ClientID%>").style.display = "flex";
+            return true;
+        }
+        // 🔹 Hide loader when UpdatePanel completes
+        Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function () {
+            document.getElementById("<%=loadingOverlay.ClientID%>").style.display = "none";
+        });
+        window.onload = function () {
+            document.getElementById("<%=loadingOverlay.ClientID%>").style.display = "none";
+        };
+        function ValidateAndShowLoader() {
+            ShowLoader();        // always show
+            return ValidEntry(); // only allow postback if valid
+        }
+    </script>
+    <script type="text/javascript">
+        function pageLoad(sender, args) {
+            if (args.get_isPartialLoad()) {
+                initCalendar(); // your datepicker init function
+            }
+        }
+
+        function initCalendar() {
+            $('#ContentPlaceHolder1_txtFromDate').datetimepicker({
+                format: 'Y-m-d H:i',
+                formatTime: 'H:i',
+                timepicker: true,
+                step: 30
+            });
+            $('#ContentPlaceHolder1_txtToDate').datetimepicker({
+                format: 'Y-m-d H:i',
+                formatTime: 'H:i',
+                timepicker: true,
+                step: 30
+            });
+        }
+
+        $(document).ready(function () {
+            initCalendar();
+        });
     </script>
 </asp:Content>

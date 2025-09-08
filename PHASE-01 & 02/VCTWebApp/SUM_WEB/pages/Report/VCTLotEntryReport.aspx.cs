@@ -249,6 +249,7 @@ namespace VCTWebApp
                 ddlLine.SelectedIndex = 0;
                 ddlModel.SelectedIndex = 0;
                 txtFromDate.Text = txtToDate.Text = string.Empty;
+                CommonHelper.BindGrid(gvUserMaster, null);
                 UpdatePanel1.Update();
             }
             catch (Exception ex)

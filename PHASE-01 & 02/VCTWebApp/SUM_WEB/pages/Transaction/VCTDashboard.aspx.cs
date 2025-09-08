@@ -295,6 +295,7 @@ namespace VCTWebApp
                 ddlModel.SelectedIndex = 0;
                 txtSerial.Text = string.Empty;
                 txtDate.Text = "";
+                CommonHelper.BindGrid(gvUserMaster, null);
                 UpdatePanel1.Update();
                 Response.Redirect("~/pages/Transaction/VCTDashboard.aspx");
             }
