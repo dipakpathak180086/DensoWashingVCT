@@ -2787,31 +2787,31 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/08/2024 15:04:34</publishTime>
     </File>
     <File Include="bin/SUM_BL.dll">
-      <publishTime>09/08/2025 17:30:39</publishTime>
+      <publishTime>09/08/2025 18:24:43</publishTime>
     </File>
     <File Include="bin/SUM_BL.pdb">
-      <publishTime>09/08/2025 17:30:39</publishTime>
+      <publishTime>09/08/2025 18:24:43</publishTime>
     </File>
     <File Include="bin/SUM_COMMON.dll">
-      <publishTime>09/08/2025 17:30:39</publishTime>
+      <publishTime>09/08/2025 18:24:43</publishTime>
     </File>
     <File Include="bin/SUM_COMMON.pdb">
-      <publishTime>09/08/2025 17:30:39</publishTime>
+      <publishTime>09/08/2025 18:24:43</publishTime>
     </File>
     <File Include="bin/SUM_DL.dll">
-      <publishTime>09/08/2025 17:30:39</publishTime>
+      <publishTime>09/08/2025 18:24:43</publishTime>
     </File>
     <File Include="bin/SUM_DL.dll.config">
       <publishTime>10/08/2024 15:01:50</publishTime>
     </File>
     <File Include="bin/SUM_DL.pdb">
-      <publishTime>09/08/2025 17:30:39</publishTime>
+      <publishTime>09/08/2025 18:24:43</publishTime>
     </File>
     <File Include="bin/SUM_PL.dll">
-      <publishTime>09/08/2025 17:30:39</publishTime>
+      <publishTime>09/08/2025 18:24:43</publishTime>
     </File>
     <File Include="bin/SUM_PL.pdb">
-      <publishTime>09/08/2025 17:30:39</publishTime>
+      <publishTime>09/08/2025 18:24:43</publishTime>
     </File>
     <File Include="bin/SUM_WEB.dll">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -2820,16 +2820,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/VCTWebApp.dll">
-      <publishTime>09/08/2025 17:30:52</publishTime>
+      <publishTime>09/08/2025 18:25:01</publishTime>
     </File>
     <File Include="bin/VCTWebApp.pdb">
-      <publishTime>09/08/2025 17:30:52</publishTime>
+      <publishTime>09/08/2025 18:25:01</publishTime>
     </File>
     <File Include="bin/zxing.dll">
       <publishTime>10/08/2024 15:01:10</publishTime>
     </File>
     <File Include="bin/zxing.presentation.dll">
       <publishTime>10/08/2024 15:01:10</publishTime>
+    </File>
+    <File Include="bootstrap-multiselect.css">
+      <publishTime>09/03/2025 15:27:36</publishTime>
+    </File>
+    <File Include="bootstrap-multiselect.min.js">
+      <publishTime>09/03/2025 15:27:17</publishTime>
     </File>
     <File Include="bootstrap/css/bootstrap.css">
       <publishTime>10/08/2024 15:04:50</publishTime>
@@ -2966,7 +2972,34 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="dist/css/AdminLTE.min.css">
       <publishTime>09/05/2025 12:48:06</publishTime>
     </File>
+    <File Include="dist/css/bootstrap-multiselect.css">
+      <publishTime>09/03/2025 15:58:38</publishTime>
+    </File>
+    <File Include="dist/css/bootstrap-multiselect.min.css">
+      <publishTime>09/03/2025 15:58:38</publishTime>
+    </File>
+    <File Include="dist/css/bootstrap-theme.css">
+      <publishTime>10/08/2024 15:04:56</publishTime>
+    </File>
+    <File Include="dist/css/bootstrap-theme.css.map">
+      <publishTime>10/08/2024 15:04:56</publishTime>
+    </File>
+    <File Include="dist/css/bootstrap-theme.min.css">
+      <publishTime>10/08/2024 15:04:58</publishTime>
+    </File>
+    <File Include="dist/css/bootstrap-theme.min.css.map">
+      <publishTime>10/08/2024 15:04:58</publishTime>
+    </File>
+    <File Include="dist/css/bootstrap.css">
+      <publishTime>10/08/2024 15:04:56</publishTime>
+    </File>
+    <File Include="dist/css/bootstrap.css.map">
+      <publishTime>10/08/2024 15:04:56</publishTime>
+    </File>
     <File Include="dist/css/bootstrap.min.css">
+      <publishTime>10/08/2024 15:04:56</publishTime>
+    </File>
+    <File Include="dist/css/bootstrap.min.css.map">
       <publishTime>10/08/2024 15:04:56</publishTime>
     </File>
     <File Include="dist/css/CalendarControl.css">
@@ -2980,6 +3013,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="dist/css/jquery.datetimepicker.css">
       <publishTime>10/08/2024 15:04:58</publishTime>
+    </File>
+    <File Include="dist/css/loader.css">
+      <publishTime>09/05/2025 15:32:09</publishTime>
+    </File>
+    <File Include="dist/css/select2-bootstrap-5-theme.min.css">
+      <publishTime>09/03/2025 17:15:06</publishTime>
+    </File>
+    <File Include="dist/css/select2.min.css">
+      <publishTime>09/03/2025 17:13:46</publishTime>
     </File>
     <File Include="dist/css/skins/skin-black.css">
       <publishTime>10/08/2024 15:04:58</publishTime>
@@ -3083,11 +3125,20 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="dist/img/default-50x50.gif">
       <publishTime>10/08/2024 15:05:02</publishTime>
     </File>
+    <File Include="dist/img/deleteGrid.png">
+      <publishTime>10/08/2024 15:05:02</publishTime>
+    </File>
+    <File Include="dist/img/Denso-logo.png">
+      <publishTime>10/08/2024 15:05:04</publishTime>
+    </File>
     <File Include="dist/img/DNH.png">
       <publishTime>04/12/2019 17:14:36</publishTime>
     </File>
     <File Include="dist/img/DNH_LOGO.jpg">
       <publishTime>04/12/2019 17:20:54</publishTime>
+    </File>
+    <File Include="dist/img/editGrid.png">
+      <publishTime>10/08/2024 15:05:04</publishTime>
     </File>
     <File Include="dist/img/Export.jpg">
       <publishTime>10/08/2024 15:05:04</publishTime>
@@ -3149,6 +3200,18 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="dist/js/app.min.js">
       <publishTime>10/08/2024 15:05:06</publishTime>
     </File>
+    <File Include="dist/js/bootstrap-multiselect.js">
+      <publishTime>09/03/2025 15:59:01</publishTime>
+    </File>
+    <File Include="dist/js/bootstrap-multiselect.min.js">
+      <publishTime>09/03/2025 16:12:38</publishTime>
+    </File>
+    <File Include="dist/js/bootstrap.bundle.min.js">
+      <publishTime>09/03/2025 12:55:23</publishTime>
+    </File>
+    <File Include="dist/js/bootstrap.js">
+      <publishTime>10/08/2024 15:05:06</publishTime>
+    </File>
     <File Include="dist/js/bootstrap.min.js">
       <publishTime>10/08/2024 15:05:06</publishTime>
     </File>
@@ -3160,6 +3223,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="dist/js/html5shiv.js">
       <publishTime>10/08/2024 15:05:06</publishTime>
+    </File>
+    <File Include="dist/js/jquery-3.6.0.min.js">
+      <publishTime>09/03/2025 12:53:56</publishTime>
     </File>
     <File Include="dist/js/jquery-ui.min.js">
       <publishTime>10/08/2024 15:05:08</publishTime>
@@ -3173,10 +3239,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="dist/js/jquery.min.js">
       <publishTime>10/08/2024 15:05:06</publishTime>
     </File>
+    <File Include="dist/js/jquery.multiselect.min.js">
+      <publishTime>09/03/2025 15:33:26</publishTime>
+    </File>
     <File Include="dist/js/jquery.qrcode-0.6.0.min.js">
       <publishTime>10/08/2024 15:05:06</publishTime>
     </File>
     <File Include="dist/js/JSCommon.js">
+      <publishTime>10/08/2024 15:05:08</publishTime>
+    </File>
+    <File Include="dist/js/npm.js">
       <publishTime>10/08/2024 15:05:08</publishTime>
     </File>
     <File Include="dist/js/pace.min.js">
@@ -3193,6 +3265,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="dist/js/respond.min.js">
       <publishTime>10/08/2024 15:05:08</publishTime>
+    </File>
+    <File Include="dist/js/select2-custom.js">
+      <publishTime>09/03/2025 17:24:29</publishTime>
+    </File>
+    <File Include="dist/js/select2.min.js">
+      <publishTime>09/03/2025 17:14:04</publishTime>
+    </File>
+    <File Include="dist/js/Sumomultiselect.min.js">
+      <publishTime>09/03/2025 14:54:22</publishTime>
     </File>
     <File Include="dll/64/SATOPrinterAPI.dll">
       <publishTime>10/08/2024 15:05:12</publishTime>
@@ -3353,17 +3434,32 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="pages/Report/VCTAllPerformanceDataReport.aspx">
       <publishTime>09/05/2025 16:19:04</publishTime>
     </File>
+    <File Include="pages/Report/VCTDirectLotInfoReport.aspx">
+      <publishTime>09/05/2025 17:17:43</publishTime>
+    </File>
     <File Include="pages/Report/VCTLogReport.aspx">
       <publishTime>09/05/2025 16:31:27</publishTime>
     </File>
     <File Include="pages/Report/VCTLotEntryReport.aspx">
       <publishTime>09/05/2025 17:17:43</publishTime>
     </File>
+    <File Include="pages/Report/VCTLotInfoChildReport.aspx">
+      <publishTime>09/05/2025 17:17:43</publishTime>
+    </File>
+    <File Include="pages/Report/VCTLotInfoConveyorReport.aspx">
+      <publishTime>09/05/2025 17:17:42</publishTime>
+    </File>
     <File Include="pages/Report/VCTPerformanceReport.aspx">
       <publishTime>09/05/2025 15:38:57</publishTime>
     </File>
     <File Include="pages/Report/VCTSpecialReport.aspx">
       <publishTime>09/05/2025 17:34:02</publishTime>
+    </File>
+    <File Include="pages/Report/VCTTrayReport.aspx">
+      <publishTime>09/08/2025 16:29:52</publishTime>
+    </File>
+    <File Include="pages/Report/VCTUsedChildPartAssyReport.aspx">
+      <publishTime>09/05/2025 17:23:56</publishTime>
     </File>
     <File Include="pages/Settings/CONFIG_SETTINGS.aspx">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -3388,6 +3484,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="pages/Transaction/VCTDashboardForwardTrace.aspx">
       <publishTime>10/08/2024 15:09:44</publishTime>
+    </File>
+    <File Include="pages/Transaction/VCTDashboardStep3.aspx">
+      <publishTime>09/08/2025 14:23:13</publishTime>
     </File>
     <File Include="pages/Transaction/VCTSupLotBackwardTrace.aspx">
       <publishTime>09/05/2025 16:34:42</publishTime>

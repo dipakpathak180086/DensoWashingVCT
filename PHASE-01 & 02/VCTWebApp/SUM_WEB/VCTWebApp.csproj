@@ -950,6 +950,8 @@
     <Content Include="assets\plugins\switchery\switchery.min.js" />
     <Content Include="bin\AjaxControlToolkit.dll" />
     <Content Include="bin\Microsoft.Office.Interop.Word.dll" />
+    <Content Include="bootstrap-multiselect.css" />
+    <Content Include="bootstrap-multiselect.min.js" />
     <Content Include="BootstrapAlertMessage.css" />
     <Content Include="BootstrapAlertMessage.js" />
     <Content Include="bootstrap\css\bootstrap.css" />
@@ -978,10 +980,18 @@
     <Content Include="Default.aspx" />
     <Content Include="dist\css\AdminLTE.css" />
     <Content Include="dist\css\AdminLTE.min.css" />
+    <Content Include="dist\css\bootstrap-multiselect.css" />
+    <Content Include="dist\css\bootstrap-multiselect.min.css" />
+    <Content Include="dist\css\bootstrap-theme.css" />
+    <Content Include="dist\css\bootstrap-theme.min.css" />
+    <Content Include="dist\css\bootstrap.css" />
     <Content Include="dist\css\bootstrap.min.css" />
     <Content Include="dist\css\CalendarControl.css" />
     <Content Include="dist\css\font-awesome.min.css" />
     <Content Include="dist\css\ionicons.min.css" />
+    <Content Include="dist\css\loader.css" />
+    <Content Include="dist\css\select2-bootstrap-5-theme.min.css" />
+    <Content Include="dist\css\select2.min.css" />
     <Content Include="dist\css\skins\skin-black.css" />
     <Content Include="dist\css\skins\skin-black.min.css" />
     <Content Include="dist\css\skins\skin-blue.css" />
@@ -1008,6 +1018,9 @@
     <Content Include="dist\img\boxed-bg.png" />
     <Content Include="dist\img\Cal.png" />
     <Content Include="dist\img\Calendar.png" />
+    <Content Include="dist\img\deleteGrid.png" />
+    <Content Include="dist\img\Denso-logo.png" />
+    <Content Include="dist\img\editGrid.png" />
     <Content Include="dist\img\Export.jpg" />
     <Content Include="dist\img\iconfinder_Save_1493294.png" />
     <Content Include="dist\img\NotLibSystem.png" />
@@ -1027,6 +1040,11 @@
     <Content Include="dist\img\UpdateProgress.gif" />
     <Content Include="dist\css\jquery.datetimepicker.css" />
     <Content Include="dist\img\Verified.png" />
+    <Content Include="dist\js\bootstrap-multiselect.js" />
+    <Content Include="dist\js\bootstrap-multiselect.min.js" />
+    <Content Include="dist\js\bootstrap.bundle.min.js" />
+    <Content Include="dist\js\bootstrap.js" />
+    <Content Include="dist\js\jquery-3.6.0.min.js" />
     <Content Include="dist\js\jquery.datetimepicker.js" />
     <Content Include="dist\js\jquery.js" />
     <Content Include="dist\js\app.js" />
@@ -1037,8 +1055,10 @@
     <Content Include="dist\js\html5shiv.js" />
     <Content Include="dist\js\jquery-ui.min.js" />
     <Content Include="dist\js\jquery.min.js" />
+    <Content Include="dist\js\jquery.multiselect.min.js" />
     <Content Include="dist\js\jquery.qrcode-0.6.0.min.js" />
     <Content Include="dist\js\JSCommon.js" />
+    <Content Include="dist\js\npm.js" />
     <Content Include="dist\js\pace.min.js" />
     <Content Include="dist\js\pages\dashboard.js" />
     <Content Include="dist\js\pages\dashboard2.js" />
@@ -1047,6 +1067,9 @@
     <EmbeddedResource Include="dll\SATOPrinterAPI.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
+    <Content Include="dist\js\select2-custom.js" />
+    <Content Include="dist\js\select2.min.js" />
+    <Content Include="dist\js\Sumomultiselect.min.js" />
     <Content Include="dll\64\SATOPrinterAPI.dll" />
     <Content Include="Global.asax" />
     <Content Include="Images\Denso-logo.png" />
@@ -1083,11 +1106,17 @@
     <Content Include="pages\Master\UserManagment\GroupRights.aspx" />
     <Content Include="pages\Master\UserManagment\UserMaster.aspx" />
     <Content Include="pages\Report\VCTAllPerformanceDataReport.aspx" />
+    <Content Include="pages\Report\VCTDirectLotInfoReport.aspx" />
     <Content Include="pages\Report\VCTLotEntryReport.aspx" />
     <Content Include="pages\Report\VCTLogReport.aspx" />
+    <Content Include="pages\Report\VCTLotInfoChildReport.aspx" />
+    <Content Include="pages\Report\VCTLotInfoConveyorReport.aspx" />
     <Content Include="pages\Report\VCTPerformanceReport.aspx" />
     <Content Include="pages\Report\VCTSpecialReport.aspx" />
+    <Content Include="pages\Report\VCTTrayReport.aspx" />
+    <Content Include="pages\Report\VCTUsedChildPartAssyReport.aspx" />
     <Content Include="pages\Transaction\VCTDashboard.aspx" />
+    <Content Include="pages\Transaction\VCTDashboardStep3.aspx" />
     <Content Include="pages\Transaction\VCTSupLotBackwardTrace.aspx" />
     <Content Include="pages\Transaction\VCTDashboardBackwardTrace.aspx" />
     <Content Include="pages\Transaction\VCTDashboardForwardTrace.aspx" />
@@ -1661,6 +1690,13 @@
     <Compile Include="pages\Report\VCTAllPerformanceDataReport.aspx.designer.cs">
       <DependentUpon>VCTAllPerformanceDataReport.aspx</DependentUpon>
     </Compile>
+    <Compile Include="pages\Report\VCTDirectLotInfoReport.aspx.cs">
+      <DependentUpon>VCTDirectLotInfoReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\Report\VCTDirectLotInfoReport.aspx.designer.cs">
+      <DependentUpon>VCTDirectLotInfoReport.aspx</DependentUpon>
+    </Compile>
     <Compile Include="pages\Report\VCTLotEntryReport.aspx.cs">
       <DependentUpon>VCTLotEntryReport.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1674,6 +1710,20 @@
     </Compile>
     <Compile Include="pages\Report\VCTLogReport.aspx.designer.cs">
       <DependentUpon>VCTLogReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\Report\VCTLotInfoChildReport.aspx.cs">
+      <DependentUpon>VCTLotInfoChildReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\Report\VCTLotInfoChildReport.aspx.designer.cs">
+      <DependentUpon>VCTLotInfoChildReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\Report\VCTLotInfoConveyorReport.aspx.cs">
+      <DependentUpon>VCTLotInfoConveyorReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\Report\VCTLotInfoConveyorReport.aspx.designer.cs">
+      <DependentUpon>VCTLotInfoConveyorReport.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\Report\VCTPerformanceReport.aspx.cs">
       <DependentUpon>VCTPerformanceReport.aspx</DependentUpon>
@@ -1689,12 +1739,33 @@
     <Compile Include="pages\Report\VCTSpecialReport.aspx.designer.cs">
       <DependentUpon>VCTSpecialReport.aspx</DependentUpon>
     </Compile>
+    <Compile Include="pages\Report\VCTTrayReport.aspx.cs">
+      <DependentUpon>VCTTrayReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\Report\VCTTrayReport.aspx.designer.cs">
+      <DependentUpon>VCTTrayReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\Report\VCTUsedChildPartAssyReport.aspx.cs">
+      <DependentUpon>VCTUsedChildPartAssyReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\Report\VCTUsedChildPartAssyReport.aspx.designer.cs">
+      <DependentUpon>VCTUsedChildPartAssyReport.aspx</DependentUpon>
+    </Compile>
     <Compile Include="pages\Transaction\VCTDashboard.aspx.cs">
       <DependentUpon>VCTDashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="pages\Transaction\VCTDashboard.aspx.designer.cs">
       <DependentUpon>VCTDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\Transaction\VCTDashboardStep3.aspx.cs">
+      <DependentUpon>VCTDashboardStep3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\Transaction\VCTDashboardStep3.aspx.designer.cs">
+      <DependentUpon>VCTDashboardStep3.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\Transaction\VCTSupLotBackwardTrace.aspx.cs">
       <DependentUpon>VCTSupLotBackwardTrace.aspx</DependentUpon>
@@ -1809,6 +1880,10 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="dist\css\bootstrap-theme.css.map" />
+    <Content Include="dist\css\bootstrap-theme.min.css.map" />
+    <Content Include="dist\css\bootstrap.css.map" />
+    <Content Include="dist\css\bootstrap.min.css.map" />
     <None Include="dist\fonts\fontawesome-webfont.eot" />
     <None Include="dist\fonts\fontawesome-webfont.ttf" />
     <None Include="dist\fonts\fontawesome-webfont.woff" />
